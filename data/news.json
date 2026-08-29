@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-08-29T11:01:46.476Z",
+  "generatedAt": "2026-08-29T17:43:43.420Z",
   "failures": [],
   "articles": [
+    {
+      "id": "tgg-3912b2d09e9e37c5",
+      "title": "GTA 6: The Police are Smarter Than Ever | Deep Dive",
+      "category": "News",
+      "credibility": "À vérifier",
+      "source": "TGG",
+      "sourceId": "tgg",
+      "sourceTier": "B",
+      "sourceScore": 75,
+      "url": "https://www.youtube.com/watch?v=tVwNy3xV-4c",
+      "date": "2026-08-29",
+      "summary": "Nouvelle publication détectée depuis TGG. Ouvrir la source pour vérifier les détails.",
+      "favorite": false,
+      "collectedAt": "2026-08-29T17:43:42.783Z"
+    },
     {
       "id": "tgg-d0055851c3a4a451",
       "title": "GTA 6 New Details (Exclusive) - 80 hour Story, Map Size, Frame Rate, Drive-Thrus & More!",
