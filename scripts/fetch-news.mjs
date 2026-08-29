@@ -91,7 +91,7 @@ const failures = [];
 for (const source of sourcesDoc.sources.filter((item) => item.feedUrl)) {
   try {
     const response = await fetch(source.feedUrl, {
-      headers: { "user-agent": "GTA6-Watch/1.0 (+https://github.com/)" },
+      headers: { "user-agent": "GTA-6-Watch/1.0 (+https://github.com/)" },
       signal: AbortSignal.timeout(20000),
     });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -150,9 +150,9 @@ const sorted = [...events.values()]
 const unchanged = JSON.stringify(previous.articles || []) === JSON.stringify(sorted)
   && JSON.stringify(previous.failures || []) === JSON.stringify(failures);
 if (unchanged) {
-  console.log(`GTA6 Watch: aucun changement (${sorted.length} articles).`);
+  console.log(`GTA 6 Watch: aucun changement (${sorted.length} articles).`);
   process.exit(0);
 }
 
 await fs.writeFile(outputPath, `${JSON.stringify({ generatedAt: new Date().toISOString(), failures, articles: sorted }, null, 2)}\n`);
-console.log(`GTA6 Watch: ${sorted.length} articles, ${failures.length} source failures.`);
+console.log(`GTA 6 Watch: ${sorted.length} articles, ${failures.length} source failures.`);

@@ -1,0 +1,20 @@
+{
+  "name": "GTA 6 Watch",
+  "short_name": "GTA6 Watch",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0A12",
+  "theme_color": "#0A0A12",
+  "icons": [
+    {
+      "src": "/assets/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

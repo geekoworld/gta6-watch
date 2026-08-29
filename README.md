@@ -1,4 +1,4 @@
-# GTA6 Watch
+# GTA 6 Watch
 
 Tableau de veille GTA 6 conçu pour centraliser les actualités, qualifier leur provenance et ouvrir rapidement les sources d’origine.
 
@@ -33,7 +33,7 @@ Le niveau qualifie la provenance générale, pas automatiquement chaque affirmat
 2. Envoyer tous les fichiers de ce dossier à la racine de la branche `main`.
 3. Dans **Settings → Pages**, choisir **GitHub Actions** comme source de publication.
 4. Ouvrir **Actions → Update GTA 6 news → Run workflow** pour lancer une première collecte.
-5. Le workflow **Deploy GTA6 Watch to Pages** publiera ensuite le site.
+5. Le workflow **Deploy GTA 6 Watch to Pages** publiera ensuite le site.
 
 L’adresse finale aura généralement cette forme :
 

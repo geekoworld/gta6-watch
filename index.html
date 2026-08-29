@@ -3,9 +3,23 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>GTA6 Watch — Source-qualified news monitoring</title>
-<meta name="description" content="GTA6 Watch brings GTA 6 news together and rates official, specialist and community sources.">
-<meta name="theme-color" content="#0A0A12">
+<title>GTA 6 Watch — News, Rumors, Leaks &amp; Analysis</title>
+<meta name="description" content="Track the latest GTA 6 news, rumors, leaks, official Rockstar updates and analysis — updated hourly.">
+<link rel="canonical" href="https://gta6-watch.xyz/">
+<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="./assets/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="./assets/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" sizes="180x180">
+<link rel="manifest" href="./site.webmanifest">
+<meta name="theme-color" content="#0A0A12" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#F5F1EF" media="(prefers-color-scheme: light)">
+<meta property="og:title" content="GTA 6 Watch — News, Rumors, Leaks &amp; Analysis">
+<meta property="og:description" content="Track the latest GTA 6 news, rumors, leaks, official Rockstar updates and analysis — updated hourly.">
+<meta property="og:url" content="https://gta6-watch.xyz/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GTA 6 Watch">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"GTA 6 Watch","url":"https://gta6-watch.xyz/","description":"Track the latest GTA 6 news, rumors, leaks, official Rockstar updates and analysis — updated hourly."}</script>
 <style>
   :root, [data-theme="dark"] {
     color-scheme:dark;
@@ -109,7 +123,7 @@
 </style>
 </head>
 <body>
-<div id="root"><noscript><div class="boot-error">JavaScript must be enabled to use GTA6 Watch.</div></noscript></div>
+<div id="root"><noscript><div class="boot-error">JavaScript must be enabled to use GTA 6 Watch.</div></noscript></div>
 
 <script>
 /**
@@ -1937,8 +1951,8 @@ const SOURCES = [{
 }];
 const I18N = {
   en: {
-    pageTitle: "GTA6 Watch — Source-qualified news monitoring",
-    pageDescription: "GTA6 Watch brings GTA 6 news together and rates official, specialist and community sources.",
+    pageTitle: "GTA 6 Watch — News, Rumors, Leaks & Analysis",
+    pageDescription: "Track the latest GTA 6 news, rumors, leaks, official Rockstar updates and analysis — updated hourly.",
     categories: {
       all: "Dashboard",
       News: "News",
@@ -2056,8 +2070,8 @@ const I18N = {
     dbCategories: ["Characters", "Vehicles", "Weapons", "Businesses", "Factions", "Missions", "Properties", "Activities", "Easter eggs", "Collectibles", "Cheats", "Trophies / Achievements"]
   },
   fr: {
-    pageTitle: "GTA6 Watch — Veille et qualification des sources",
-    pageDescription: "GTA6 Watch centralise les actualités GTA 6 et qualifie les sources officielles, spécialisées et communautaires.",
+    pageTitle: "GTA 6 Watch — Veille et qualification des sources",
+    pageDescription: "GTA 6 Watch centralise les actualités GTA 6 et qualifie les sources officielles, spécialisées et communautaires.",
     categories: {
       all: "Tableau de bord",
       News: "Actualités",
@@ -3070,12 +3084,7 @@ function GTA6Watch() {
     safeStorageSet(LS_LANGUAGE, "en");
     document.documentElement.lang = language;
     document.documentElement.dataset.theme = theme;
-    document.title = copy.pageTitle;
-    const description = document.querySelector('meta[name="description"]');
-    if (description) description.setAttribute("content", copy.pageDescription);
-    const themeColor = document.querySelector('meta[name="theme-color"]');
-    if (themeColor) themeColor.setAttribute("content", theme === "light" ? "#F5F1EF" : "#0A0A12");
-  }, [language, theme, copy]);
+  }, [language, theme]);
 
   useEffect(() => {
     if (!window.fetch || window.location.protocol === "file:") return;
@@ -3334,7 +3343,7 @@ function GTA6Watch() {
 ReactDOM.createRoot(document.getElementById("root")).render(/*#__PURE__*/React.createElement(GTA6Watch, null));
 } catch (error) {
   console.error(error);
-  document.getElementById("root").innerHTML = '<div class="boot-error"><strong>GTA6 Watch could not start.</strong><br>Reload the page. If the issue persists, check the browser console.</div>';
+  document.getElementById("root").innerHTML = '<div class="boot-error"><strong>GTA 6 Watch could not start.</strong><br>Reload the page. If the issue persists, check the browser console.</div>';
 }
 </script>
 </body>
