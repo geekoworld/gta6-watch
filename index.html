@@ -1,37 +1,116 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>GTA6 Watch — Veille et qualification des sources</title>
-<meta name="description" content="GTA6 Watch centralise les actualités GTA 6 et qualifie leurs sources officielles, spécialisées et communautaires.">
+<title>GTA6 Watch — Source-qualified news monitoring</title>
+<meta name="description" content="GTA6 Watch brings GTA 6 news together and rates official, specialist and community sources.">
 <meta name="theme-color" content="#0A0A12">
 <style>
-  :root {
-    --bg:#0A0A12; --bg-elev:#111120; --bg-card:#161628; --border:#26263D; --border-soft:#1D1D30;
-    --text:#F3F1FB; --text-muted:#8E8CA8; --pink:#FF2E88; --cyan:#19E8D0; --purple:#8B5CF6;
-    --gold:#FFC94A; --green:#34D399; --red:#FF5C5C;
+  :root, [data-theme="dark"] {
+    color-scheme:dark;
+    --bg:#0A0A12; --bg-elev:#111120; --bg-card:#171729; --sidebar:#10101D;
+    --border:#2C2C45; --border-soft:#222238; --text:#F6F4FB; --text-muted:#A19DB8;
+    --pink:#FF2E88; --cyan:#19E8D0; --purple:#9A6BFF; --gold:#FFC94A; --green:#42DDA5; --red:#FF6868;
+    --shadow:0 16px 42px rgba(0,0,0,.24); --card-hover:#1B1B30; --focus:#7CEDE1;
   }
-  * { box-sizing: border-box; }
+  [data-theme="light"] {
+    color-scheme:light;
+    --bg:#F5F1EF; --bg-elev:#EEE9E8; --bg-card:#FFFFFF; --sidebar:#FBF8F7;
+    --border:#D9D0D6; --border-soft:#E7E0E4; --text:#241E2B; --text-muted:#675E72;
+    --pink:#D81769; --cyan:#087D76; --purple:#7044C5; --gold:#8B5B00; --green:#087C58; --red:#C53A45;
+    --shadow:0 14px 36px rgba(50,35,50,.10); --card-hover:#FFF9FC; --focus:#087D76;
+  }
+  * { box-sizing:border-box; }
   html, body { margin:0; padding:0; background:var(--bg); color:var(--text); font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; }
+  body { min-width:320px; }
+  h1, h2, h3, p { margin-top:0; }
   #root { min-height:100vh; }
+  .app-shell { width:100%; height:100vh; height:100dvh; display:flex; overflow:hidden; background:var(--bg); }
   ::-webkit-scrollbar { width:8px; height:8px; }
   ::-webkit-scrollbar-thumb { background:var(--border); border-radius:8px; }
-  .font-display { font-family:Impact,'Arial Narrow',ui-sans-serif,sans-serif; letter-spacing:0.03em; }
+  .font-display { font-family:Impact,'Arial Narrow',ui-sans-serif,sans-serif; letter-spacing:.035em; }
   .font-mono { font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace; }
-  .g6w-sunset { background:linear-gradient(90deg,var(--pink),var(--purple) 50%,var(--cyan)); }
+  .g6w-sunset { background:linear-gradient(90deg,var(--pink),var(--purple) 52%,var(--cyan)); }
   input, select, textarea, button { font:inherit; }
-  @keyframes spin { to { transform:rotate(360deg); } }
-  .spin { animation: spin 0.8s linear infinite; display:inline-block; }
+  input::placeholder, textarea::placeholder { color:var(--text-muted); opacity:.78; }
+  select option { color:var(--text); background:var(--bg-card); }
+  button, a, input, select, textarea { -webkit-tap-highlight-color:transparent; }
+  button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline:2px solid var(--focus) !important; outline-offset:2px; }
+  .sidebar { width:232px; flex:0 0 232px; min-height:0; position:relative; display:flex; flex-direction:column; background:var(--sidebar); border-right:1px solid var(--border); z-index:20; }
+  .sidebar-accent { height:3px; flex:0 0 3px; }
+  .sidebar-header { min-height:136px; padding:12px 14px 10px; display:flex; align-items:center; justify-content:center; }
+  .brand-logo { display:block; width:100%; height:112px; object-fit:contain; border-radius:12px; background:#07070B; }
+  .mobile-menu-toggle { display:none; width:42px; height:42px; border:1px solid var(--border); border-radius:10px; color:var(--text); background:var(--bg-card); cursor:pointer; font-size:21px; }
+  .sidebar-menu { min-height:0; flex:1; display:flex; flex-direction:column; }
+  .sidebar-nav { min-height:0; flex:1; padding:2px 10px 10px; overflow-y:auto; }
+  .nav-label { min-width:0; display:flex; align-items:center; gap:8px; }
+  .nav-dot { width:6px; height:6px; flex:0 0 6px; display:inline-block; border-radius:99px; }
+  .nav-count { font-size:10.5px; color:var(--text-muted); }
+  .sidebar-footer { padding:12px 14px 14px; display:flex; flex-direction:column; gap:8px; border-top:1px solid var(--border-soft); }
+  .secondary-action, .quiet-action { width:100%; border-radius:9px; cursor:pointer; font-weight:700; }
+  .secondary-action { padding:10px 8px; border:1px solid var(--border); color:var(--text); background:var(--bg-card); font-size:13px; }
+  .quiet-action { padding:8px; border:1px solid var(--border-soft); color:var(--text-muted); background:transparent; font-size:11.5px; }
+  .secondary-action:hover, .quiet-action:hover { border-color:var(--purple); color:var(--text); }
+  .main-panel { min-width:0; min-height:0; flex:1; display:flex; flex-direction:column; }
+  .topbar { min-height:58px; padding:10px 22px; display:flex; align-items:center; justify-content:space-between; gap:16px; border-bottom:1px solid var(--border-soft); background:var(--bg); }
+  .update-meta { display:flex; align-items:center; gap:8px; color:var(--text-muted); font-size:11px; white-space:nowrap; }
+  .live-dot { width:7px; height:7px; border-radius:99px; background:var(--cyan); box-shadow:0 0 0 3px color-mix(in srgb,var(--cyan) 18%,transparent); }
+  .topbar-controls { display:flex; align-items:center; gap:8px; }
+  .language-switch { display:flex; padding:2px; border:1px solid var(--border); border-radius:9px; background:var(--bg-elev); }
+  .language-switch button { min-width:34px; padding:6px 8px; border:0; border-radius:6px; color:var(--text-muted); background:transparent; cursor:pointer; font-size:11px; font-weight:800; }
+  .language-switch button.active { color:#FFF; background:var(--purple); }
+  .theme-toggle { width:36px; height:36px; border:1px solid var(--border); border-radius:9px; color:var(--text); background:var(--bg-elev); cursor:pointer; font-size:18px; line-height:1; }
+  .theme-toggle:hover { border-color:var(--cyan); }
+  .filterbar { padding:14px 22px; display:flex; align-items:center; gap:12px; flex-wrap:wrap; border-bottom:1px solid var(--border-soft); background:var(--bg); }
+  .search-wrap { position:relative; min-width:190px; flex:1 1 280px; }
+  .search-icon { position:absolute; left:12px; top:50%; transform:translateY(-50%); color:var(--text-muted); font-size:18px; pointer-events:none; }
+  .filter-actions { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+  .review-filter { padding:8px 12px; border:1px solid var(--border); border-radius:8px; color:var(--text-muted); background:var(--bg-elev); cursor:pointer; font-size:12.5px; font-weight:700; }
+  .review-filter:hover, .review-filter.active { color:var(--gold); border-color:var(--gold); }
+  .feed-scroll, .view-scroll { min-height:0; flex:1; overflow-y:auto; padding:22px; }
+  .article-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:15px; }
+  .article-card { transition:border-color .14s ease,background-color .14s ease,transform .14s ease,box-shadow .14s ease; }
+  .article-card:hover { transform:translateY(-1px); border-color:color-mix(in srgb,var(--purple) 58%,var(--border)); background:var(--card-hover) !important; box-shadow:0 10px 24px rgba(0,0,0,.08); }
+  .source-card { transition:border-color .14s ease,background-color .14s ease,transform .14s ease; }
+  .source-card:hover { transform:translateY(-1px); border-color:var(--cyan) !important; background:var(--card-hover) !important; }
+  .empty-state { color:var(--text-muted); font-size:13.5px; text-align:center; padding:64px 12px; }
   .boot-error { max-width:720px; margin:64px auto; padding:24px; border:1px solid var(--red); border-radius:12px; background:var(--bg-card); line-height:1.6; }
-  @media (max-width: 720px) {
-    #root > div { flex-direction:column; }
-    #root > div > div:first-child { width:100% !important; max-height:44vh; border-right:0 !important; border-bottom:1px solid var(--border); }
+  @media (max-width:720px) {
+    .app-shell { flex-direction:column; }
+    .sidebar { width:100%; height:64px; flex:0 0 64px; border-right:0; border-bottom:1px solid var(--border); }
+    .sidebar-accent { position:absolute; inset:0 0 auto; height:3px; }
+    .sidebar-header { min-height:64px; height:64px; padding:7px 14px 5px; justify-content:space-between; }
+    .brand-logo { width:126px; height:50px; border-radius:8px; }
+    .mobile-menu-toggle { display:block; }
+    .sidebar-menu { display:none; position:fixed; top:64px; left:0; right:0; max-height:calc(100dvh - 64px); background:var(--sidebar); border-bottom:1px solid var(--border); box-shadow:var(--shadow); z-index:70; }
+    .sidebar.open .sidebar-menu { display:flex; }
+    .sidebar-nav { padding:12px 14px 6px; }
+    .sidebar-footer { padding:10px 14px 14px; }
+    .main-panel { flex:1; min-height:0; }
+    .topbar { min-height:54px; padding:8px 14px; }
+    .update-meta { gap:6px; font-size:9.5px; }
+    .topbar-controls { gap:6px; }
+    .language-switch button { min-width:31px; padding:5px 6px; }
+    .theme-toggle { width:34px; height:34px; }
+    .filterbar { padding:10px 14px; gap:9px; }
+    .search-wrap { flex-basis:100%; }
+    .filter-actions { width:100%; }
+    .filter-actions select { flex:1; min-width:0; }
+    .feed-scroll, .view-scroll { padding:16px 14px; }
+    .article-grid { grid-template-columns:1fr; gap:12px; }
+  }
+  @media (max-width:380px) {
+    .update-meta span[aria-hidden="true"], .update-meta .live-dot { display:none; }
+    .update-meta { max-width:112px; white-space:normal; line-height:1.25; }
+  }
+  @media (prefers-reduced-motion:reduce) {
+    .article-card, .source-card { transition:none; }
   }
 </style>
 </head>
 <body>
-<div id="root"><noscript><div class="boot-error">JavaScript doit être activé pour utiliser GTA6 Watch.</div></noscript></div>
+<div id="root"><noscript><div class="boot-error">JavaScript must be enabled to use GTA6 Watch.</div></noscript></div>
 
 <script>
 /**
@@ -349,31 +428,9 @@ const {
 /* ------------------------------------------------------------------ */
 /* Config                                                               */
 /* ------------------------------------------------------------------ */
-const CATEGORIES = [{
-  id: "all",
-  label: "Dashboard"
-}, {
-  id: "News",
-  label: "News"
-}, {
-  id: "Actualités",
-  label: "Actualités"
-}, {
-  id: "Rumeurs",
-  label: "Rumeurs"
-}, {
-  id: "Leaks",
-  label: "Leaks"
-}, {
-  id: "Guides",
-  label: "Guides / Solutions"
-}, {
-  id: "Analyses",
-  label: "Analyses"
-}, {
-  id: "Rockstar",
-  label: "Rockstar / GTA Online"
-}];
+const CATEGORIES = ["all", "News", "Rumeurs", "Leaks", "Guides", "Analyses", "Rockstar"];
+const NEWS_CATEGORIES = new Set(["News", "Actualités"]);
+const categoryMatches = (value, filter) => filter === "News" ? NEWS_CATEGORIES.has(value) : value === filter;
 const CREDIBILITY = {
   "Confirmé": {
     color: "var(--green)",
@@ -397,28 +454,6 @@ const CREDIBILITY = {
   }
 };
 const CRED_LIST = Object.keys(CREDIBILITY);
-const FORMATS = [{
-  id: "hook",
-  label: "Hook seul"
-}, {
-  id: "short",
-  label: "Short / TikTok / Reel (~30s)"
-}, {
-  id: "v45",
-  label: "Vidéo 30–45s"
-}, {
-  id: "v60",
-  label: "Vidéo 1 min"
-}, {
-  id: "detailed",
-  label: "Script détaillé"
-}, {
-  id: "seo",
-  label: "Titre YouTube + Description"
-}, {
-  id: "post",
-  label: "Tweet / Post"
-}];
 const SEED_ARTICLES = [{
   "id": "tgg-d0055851c3a4a451",
   "title": "GTA 6 New Details (Exclusive) - 80 hour Story, Map Size, Frame Rate, Drive-Thrus & More!",
@@ -1900,41 +1935,218 @@ const SOURCES = [{
   "monitoring": "Lien prioritaire",
   "note": "Agrégateur communautaire non officiel malgré son nom ; aucune confirmation sans source primaire."
 }];
-const SOURCE_POLICIES = {
-  "A": "Source officielle. Peut confirmer uniquement ce qu’elle publie directement.",
-  "B": "Source spécialisée ou témoin direct. Vérifier l’article d’origine et rechercher une corroboration.",
-  "C": "Source de détection communautaire. Ne confirme jamais une information à elle seule."
+const I18N = {
+  en: {
+    pageTitle: "GTA6 Watch — Source-qualified news monitoring",
+    pageDescription: "GTA6 Watch brings GTA 6 news together and rates official, specialist and community sources.",
+    categories: {
+      all: "Dashboard",
+      News: "News",
+      Rumeurs: "Rumors",
+      Leaks: "Leaks",
+      Guides: "Guides / Solutions",
+      Analyses: "Analysis",
+      Rockstar: "Rockstar / GTA Online"
+    },
+    credibility: {
+      "Confirmé": "Confirmed",
+      "Probable": "Probable",
+      "Rumeur": "Rumor",
+      "Leak": "Leak",
+      "À vérifier": "Needs verification"
+    },
+    watch: "Watch",
+    comingSoon: "Coming soon",
+    followedSources: "Followed sources",
+    database: "GTA 6 Database",
+    interactiveMap: "Interactive Map",
+    addInfo: "Add an item",
+    configuredSources: "sources configured",
+    updatedHourly: "Updated hourly",
+    articles: "articles",
+    searchInfo: "Search news and reports...",
+    allCredibility: "All credibility levels",
+    reviewQueue: "Review queue",
+    noFilterResults: "No items match these filters.",
+    newPublicationFallback: "New publication detected from {source}. Open the source to verify the details.",
+    newInfo: "New item",
+    title: "Title",
+    titlePlaceholder: "Example: Rockstar confirms...",
+    category: "Category",
+    credibilityLabel: "Credibility",
+    source: "Source",
+    sourcePlaceholder: "Example: GTA BOOM",
+    date: "Date",
+    sourceUrl: "Source URL (optional)",
+    summary: "Summary",
+    summaryPlaceholder: "The key takeaways in two or three sentences...",
+    addToDatabase: "Add to database",
+    close: "Close",
+    provenance: "Provenance",
+    sourceMissing: "Source not provided",
+    open: "Open",
+    sourceRule: "Source rule",
+    removeReview: "Remove from review queue",
+    addReview: "Add to review queue",
+    deleteInfo: "Delete this item",
+    viewSource: "View",
+    sourcesTitle: "Followed sources",
+    sourcesIntro: "Editorial registry of GTA 6 sources. The tier rates the source, not every claim it makes.",
+    sourcesCount: "sources",
+    feedsCount: "automatic feeds",
+    sourceTier: "Source",
+    searchSource: "Search sources...",
+    all: "All",
+    tier: "Tier",
+    noSourceResults: "No sources match this search.",
+    mapTitle: "Interactive Map",
+    mapLock: "Unlocks when the game launches",
+    mapIntro: "The structure is ready. Once GTA 6 launches, this section will provide a clickable Leonida map with the filters below.",
+    mapPreview: "Map preview — waiting for Leonida data",
+    databaseTitle: "GTA 6 Database",
+    databaseLock: "Built progressively",
+    databaseIntro: "A structured knowledge base separate from the news feed, to be expanded as details are officially confirmed.",
+    entries: "entries",
+    menuOpen: "Open navigation menu",
+    menuClose: "Close navigation menu",
+    language: "Language",
+    switchLight: "Switch to light theme",
+    switchDark: "Switch to dark theme",
+    darkTheme: "Dark theme",
+    lightTheme: "Light theme",
+    policies: {
+      A: "Official source. It can only confirm information it publishes directly.",
+      B: "Specialist source or direct witness. Check the original item and seek corroboration.",
+      C: "Community discovery source. It never confirms information on its own."
+    },
+    sourceTypes: {
+      "Site officiel": "Official website",
+      "YouTube officiel": "Official YouTube",
+      "X officiel": "Official X",
+      "Site spécialisé": "Specialist website",
+      "YouTube": "YouTube",
+      "X — agrégateur": "X — aggregator",
+      "X — communauté": "X — community"
+    },
+    monitoring: {
+      "Lien prioritaire": "Priority link",
+      "Flux automatique": "Automatic feed"
+    },
+    sourceNotes: {
+      "rockstar-newswire": "Primary reference for Rockstar announcements, trailers, dates and updates.",
+      "rockstar-youtube": "Official videos and live streams. Only content explicitly shown or stated is confirmed.",
+      "rockstar-x": "Official channel for announcements and reminders. X automation requires a dedicated API.",
+      "take-two-ir": "Primary reference for financial results, release windows and corporate statements.",
+      "gtavice": "Useful GTA VI aggregator that frequently links to original publications and interviews.",
+      "gtaboom": "Useful secondary monitoring source. Always open the article and check its primary source.",
+      "tgg": "May be a direct witness at Rockstar previews; otherwise treat as secondary commentary.",
+      "igrandtheftauto": "Long-running GTA resource for guides and context; verify new announcements at the source.",
+      "gta-vi-oclock": "Specialist video analysis; trace claims back to the primary source before confirming.",
+      "ghilliemaster": "Useful GTA creator for trends and analysis; never use alone as confirmation.",
+      "the-professional": "General GTA creator and useful editorial signal; external verification is required.",
+      "gta6intel": "Fast topic discovery. Require a primary link or a second independent source.",
+      "gta6videos": "Community video monitoring. Useful for spotting a topic, not for confirming it alone.",
+      "gta6wire": "Community discovery source; verify every claim and media item.",
+      "gtavi-countdown": "Very responsive to trends and countdowns; always corroborate its information.",
+      "sciencebruh": "Community signal and analysis; require the original evidence before publication.",
+      "gta6newswire": "Unofficial community aggregator despite its name; nothing is confirmed without a primary source."
+    },
+    mapFilters: [["📍", "Missions"], ["🚗", "Vehicles"], ["🔫", "Weapons"], ["💰", "Money"], ["🏠", "Properties"], ["🥚", "Easter Eggs"], ["📦", "Collectibles"], ["🏪", "Shops"], ["⭐", "Points of interest"]],
+    dbCategories: ["Characters", "Vehicles", "Weapons", "Businesses", "Factions", "Missions", "Properties", "Activities", "Easter eggs", "Collectibles", "Cheats", "Trophies / Achievements"]
+  },
+  fr: {
+    pageTitle: "GTA6 Watch — Veille et qualification des sources",
+    pageDescription: "GTA6 Watch centralise les actualités GTA 6 et qualifie les sources officielles, spécialisées et communautaires.",
+    categories: {
+      all: "Tableau de bord",
+      News: "Actualités",
+      Rumeurs: "Rumeurs",
+      Leaks: "Leaks",
+      Guides: "Guides / Solutions",
+      Analyses: "Analyses",
+      Rockstar: "Rockstar / GTA Online"
+    },
+    credibility: {
+      "Confirmé": "Confirmé",
+      "Probable": "Probable",
+      "Rumeur": "Rumeur",
+      "Leak": "Leak",
+      "À vérifier": "À vérifier"
+    },
+    watch: "Veille",
+    comingSoon: "À venir",
+    followedSources: "Sources suivies",
+    database: "GTA 6 Database",
+    interactiveMap: "Carte interactive",
+    addInfo: "Ajouter une info",
+    configuredSources: "sources configurées",
+    updatedHourly: "Mis à jour chaque heure",
+    articles: "articles",
+    searchInfo: "Rechercher une info...",
+    allCredibility: "Toute crédibilité",
+    reviewQueue: "À traiter",
+    noFilterResults: "Aucune info ne correspond à ces filtres.",
+    newPublicationFallback: "Nouvelle publication détectée depuis {source}. Ouvrir la source pour vérifier les détails.",
+    newInfo: "Nouvelle info",
+    title: "Titre",
+    titlePlaceholder: "Exemple : Rockstar confirme...",
+    category: "Catégorie",
+    credibilityLabel: "Crédibilité",
+    source: "Source",
+    sourcePlaceholder: "Exemple : GTA BOOM",
+    date: "Date",
+    sourceUrl: "URL source (optionnel)",
+    summary: "Résumé",
+    summaryPlaceholder: "Ce qu’il faut retenir, en deux ou trois phrases...",
+    addToDatabase: "Ajouter à la base",
+    close: "Fermer",
+    provenance: "Provenance",
+    sourceMissing: "Source non renseignée",
+    open: "Ouvrir",
+    sourceRule: "Règle source",
+    removeReview: "Retirer des éléments à traiter",
+    addReview: "Ajouter aux éléments à traiter",
+    deleteInfo: "Supprimer l’information",
+    viewSource: "Source",
+    sourcesTitle: "Sources suivies",
+    sourcesIntro: "Registre éditorial des sources GTA 6. Le niveau qualifie la source, pas automatiquement chacune de ses affirmations.",
+    sourcesCount: "sources",
+    feedsCount: "flux automatiques",
+    sourceTier: "Source",
+    searchSource: "Rechercher une source...",
+    all: "Toutes",
+    tier: "Tier",
+    noSourceResults: "Aucune source ne correspond à cette recherche.",
+    mapTitle: "Carte interactive",
+    mapLock: "Débloquée à la sortie du jeu",
+    mapIntro: "L’architecture est prête. Une fois GTA 6 sorti, cette section proposera une carte cliquable de Leonida avec les filtres ci-dessous.",
+    mapPreview: "Aperçu de carte — en attente des données Leonida",
+    databaseTitle: "GTA 6 Database",
+    databaseLock: "À enrichir progressivement",
+    databaseIntro: "Une base de connaissance structurée, indépendante du fil d’actualité, à enrichir au fil des confirmations officielles.",
+    entries: "entrées",
+    menuOpen: "Ouvrir le menu de navigation",
+    menuClose: "Fermer le menu de navigation",
+    language: "Langue",
+    switchLight: "Activer le thème clair",
+    switchDark: "Activer le thème sombre",
+    darkTheme: "Thème sombre",
+    lightTheme: "Thème clair",
+    policies: {
+      A: "Source officielle. Peut confirmer uniquement ce qu’elle publie directement.",
+      B: "Source spécialisée ou témoin direct. Vérifier l’article d’origine et rechercher une corroboration.",
+      C: "Source de détection communautaire. Ne confirme jamais une information à elle seule."
+    },
+    sourceTypes: {},
+    monitoring: {},
+    sourceNotes: Object.fromEntries(SOURCES.map(source => [source.id, source.note])),
+    mapFilters: [["📍", "Missions"], ["🚗", "Véhicules"], ["🔫", "Armes"], ["💰", "Argent"], ["🏠", "Propriétés"], ["🥚", "Easter Eggs"], ["📦", "Collectibles"], ["🏪", "Boutiques"], ["⭐", "Points d’intérêt"]],
+    dbCategories: ["Personnages", "Véhicules", "Armes", "Entreprises", "Factions", "Missions", "Propriétés", "Activités", "Easter eggs", "Collectibles", "Cheats", "Trophées / Succès"]
+  }
 };
-const MAP_FILTERS = [{
-  label: "Missions",
-  icon: "📍"
-}, {
-  label: "Véhicules",
-  icon: "🚗"
-}, {
-  label: "Armes",
-  icon: "🔫"
-}, {
-  label: "Argent",
-  icon: "💰"
-}, {
-  label: "Propriétés",
-  icon: "🏠"
-}, {
-  label: "Easter Eggs",
-  icon: "🥚"
-}, {
-  label: "Collectibles",
-  icon: "📦"
-}, {
-  label: "Boutiques",
-  icon: "🏪"
-}, {
-  label: "Points d'intérêt",
-  icon: "⭐"
-}];
-const DB_CATEGORIES = ["Personnages", "Véhicules", "Armes", "Entreprises", "Factions", "Missions", "Propriétés", "Activités", "Easter eggs", "Collectibles", "Cheats", "Trophées / Succès"];
 const LS_ARTICLES = "gta6watch_articles_v4";
+const LS_LANGUAGE = "gta6watch_language";
+const LS_THEME = "gta6watch_theme";
 function safeStorageGet(key) {
   try {
     return window.localStorage ? window.localStorage.getItem(key) : null;
@@ -1951,12 +2163,19 @@ function safeStorageSet(key, value) {
     return false;
   }
 }
+function summaryLabel(summary, source, copy) {
+  if (/^Nouvelle publication détectée depuis .+\. Ouvrir la source pour vérifier les détails\.$/.test(String(summary || ""))) {
+    return copy.newPublicationFallback.replace("{source}", source || copy.sourceMissing);
+  }
+  return summary;
+}
 
 /* ------------------------------------------------------------------ */
 /* Small UI atoms                                                       */
 /* ------------------------------------------------------------------ */
 function CredBadge({
-  level
+  level,
+  copy
 }) {
   const cfg = CREDIBILITY[level] || CREDIBILITY["À vérifier"];
   return /*#__PURE__*/React.createElement("span", {
@@ -1973,7 +2192,7 @@ function CredBadge({
       border: `1px solid ${cfg.color}55`,
       whiteSpace: "nowrap"
     }
-  }, /*#__PURE__*/React.createElement("span", null, cfg.icon), level);
+  }, /*#__PURE__*/React.createElement("span", null, cfg.icon), copy.credibility[level] || copy.credibility["À vérifier"]);
 }
 function CategoryPill({
   children
@@ -2025,7 +2244,8 @@ function Field({
 /* ------------------------------------------------------------------ */
 function AddArticleModal({
   onClose,
-  onAdd
+  onAdd,
+  copy
 }) {
   const [form, setForm] = useState({
     title: "",
@@ -2077,8 +2297,9 @@ function AddArticleModal({
     style: {
       fontSize: 26
     }
-  }, "NOUVELLE INFO"), /*#__PURE__*/React.createElement("button", {
+  }, copy.newInfo.toUpperCase()), /*#__PURE__*/React.createElement("button", {
     onClick: onClose,
+    "aria-label": copy.close,
     style: {
       color: "var(--text-muted)",
       background: "none",
@@ -2087,11 +2308,11 @@ function AddArticleModal({
       fontSize: 20
     }
   }, "×")), /*#__PURE__*/React.createElement(Field, {
-    label: "Titre"
+    label: copy.title
   }, /*#__PURE__*/React.createElement("input", {
     value: form.title,
     onChange: set("title"),
-    placeholder: "Ex : Rockstar confirme...",
+    placeholder: copy.titlePlaceholder,
     style: inputStyle
   })), /*#__PURE__*/React.createElement("div", {
     style: {
@@ -2100,57 +2321,57 @@ function AddArticleModal({
       gap: 12
     }
   }, /*#__PURE__*/React.createElement(Field, {
-    label: "Catégorie"
+    label: copy.category
   }, /*#__PURE__*/React.createElement("select", {
     value: form.category,
     onChange: set("category"),
     style: inputStyle
-  }, CATEGORIES.filter(c => c.id !== "all").map(c => /*#__PURE__*/React.createElement("option", {
-    key: c.id,
-    value: c.id
-  }, c.label)))), /*#__PURE__*/React.createElement(Field, {
-    label: "Crédibilité"
+  }, CATEGORIES.filter(category => category !== "all").map(category => /*#__PURE__*/React.createElement("option", {
+    key: category,
+    value: category
+  }, copy.categories[category])))), /*#__PURE__*/React.createElement(Field, {
+    label: copy.credibilityLabel
   }, /*#__PURE__*/React.createElement("select", {
     value: form.credibility,
     onChange: set("credibility"),
     style: inputStyle
-  }, CRED_LIST.map(c => /*#__PURE__*/React.createElement("option", {
-    key: c,
-    value: c
-  }, c))))), /*#__PURE__*/React.createElement("div", {
+  }, CRED_LIST.map(level => /*#__PURE__*/React.createElement("option", {
+    key: level,
+    value: level
+  }, copy.credibility[level]))))), /*#__PURE__*/React.createElement("div", {
     style: {
       display: "grid",
       gridTemplateColumns: "1fr 1fr",
       gap: 12
     }
   }, /*#__PURE__*/React.createElement(Field, {
-    label: "Source"
+    label: copy.source
   }, /*#__PURE__*/React.createElement("input", {
     value: form.source,
     onChange: set("source"),
-    placeholder: "Ex : GTA BOOM",
+    placeholder: copy.sourcePlaceholder,
     style: inputStyle
   })), /*#__PURE__*/React.createElement(Field, {
-    label: "Date"
+    label: copy.date
   }, /*#__PURE__*/React.createElement("input", {
     type: "date",
     value: form.date,
     onChange: set("date"),
     style: inputStyle
   }))), /*#__PURE__*/React.createElement(Field, {
-    label: "URL source (optionnel)"
+    label: copy.sourceUrl
   }, /*#__PURE__*/React.createElement("input", {
     value: form.url,
     onChange: set("url"),
     placeholder: "https://...",
     style: inputStyle
   })), /*#__PURE__*/React.createElement(Field, {
-    label: "Résumé"
+    label: copy.summary
   }, /*#__PURE__*/React.createElement("textarea", {
     value: form.summary,
     onChange: set("summary"),
     rows: 4,
-    placeholder: "Ce qu'il faut retenir, en 2-3 phrases...",
+    placeholder: copy.summaryPlaceholder,
     style: {
       ...inputStyle,
       resize: "vertical"
@@ -2174,7 +2395,7 @@ function AddArticleModal({
       cursor: canSave ? "pointer" : "not-allowed",
       fontSize: 14
     }
-  }, "Ajouter à la base")));
+  }, copy.addToDatabase)));
 }
 
 /* ------------------------------------------------------------------ */
@@ -2184,7 +2405,8 @@ function ArticleDrawer({
   article,
   onClose,
   onToggleFavorite,
-  onDelete
+  onDelete,
+  copy
 }) {
   const sourceCfg = SOURCES.find(source => source.id === article.sourceId) || SOURCES.find(source => source.name.toLowerCase() === String(article.source || "").toLowerCase());
   const tierColor = sourceCfg?.tier === "A" ? "var(--green)" : sourceCfg?.tier === "B" ? "var(--cyan)" : "var(--gold)";
@@ -2236,8 +2458,9 @@ function ArticleDrawer({
       flexWrap: "wrap"
     }
   }, /*#__PURE__*/React.createElement(CredBadge, {
-    level: article.credibility
-  }), /*#__PURE__*/React.createElement(CategoryPill, null, article.category), sourceCfg && /*#__PURE__*/React.createElement("span", {
+    level: article.credibility,
+    copy: copy
+  }), /*#__PURE__*/React.createElement(CategoryPill, null, copy.categories[NEWS_CATEGORIES.has(article.category) ? "News" : article.category] || article.category), sourceCfg && /*#__PURE__*/React.createElement("span", {
     style: {
       fontSize: 11,
       fontWeight: 800,
@@ -2246,9 +2469,9 @@ function ArticleDrawer({
       borderRadius: 999,
       padding: "2px 8px"
     }
-  }, "SOURCE ", sourceCfg.tier, " · ", sourceCfg.score, "/100")), /*#__PURE__*/React.createElement("button", {
+  }, copy.sourceTier.toUpperCase(), " ", sourceCfg.tier, " · ", sourceCfg.score, "/100")), /*#__PURE__*/React.createElement("button", {
     onClick: onClose,
-    "aria-label": "Fermer",
+    "aria-label": copy.close,
     style: {
       color: "var(--text-muted)",
       background: "none",
@@ -2270,7 +2493,7 @@ function ArticleDrawer({
       marginTop: 10,
       lineHeight: 1.65
     }
-  }, article.summary)), /*#__PURE__*/React.createElement("div", {
+  }, summaryLabel(article.summary, article.source, copy))), /*#__PURE__*/React.createElement("div", {
     style: {
       padding: "20px 22px"
     }
@@ -2283,7 +2506,7 @@ function ArticleDrawer({
       letterSpacing: "0.08em",
       marginBottom: 10
     }
-  }, "Provenance"), /*#__PURE__*/React.createElement("div", {
+  }, copy.provenance), /*#__PURE__*/React.createElement("div", {
     style: {
       background: "var(--bg-elev)",
       border: "1px solid var(--border-soft)",
@@ -2302,7 +2525,7 @@ function ArticleDrawer({
       fontSize: 15,
       fontWeight: 800
     }
-  }, sourceCfg?.name || article.source || "Source non renseignée"), /*#__PURE__*/React.createElement("div", {
+  }, sourceCfg?.name || article.source || copy.sourceMissing), /*#__PURE__*/React.createElement("div", {
     className: "font-mono",
     style: {
       fontSize: 11,
@@ -2322,14 +2545,14 @@ function ArticleDrawer({
       fontSize: 12,
       fontWeight: 800
     }
-  }, "Ouvrir ↗")), sourceCfg && /*#__PURE__*/React.createElement("p", {
+  }, copy.open, " ↗")), sourceCfg && /*#__PURE__*/React.createElement("p", {
     style: {
       fontSize: 12.5,
       color: "var(--text-muted)",
       lineHeight: 1.6,
       margin: "14px 0 0"
     }
-  }, sourceCfg.note)), /*#__PURE__*/React.createElement("div", {
+  }, copy.sourceNotes[sourceCfg.id] || sourceCfg.note)), /*#__PURE__*/React.createElement("div", {
     style: {
       marginTop: 14,
       padding: 14,
@@ -2343,7 +2566,7 @@ function ArticleDrawer({
     style: {
       color: tierColor
     }
-  }, "Règle Source ", sourceCfg?.tier || "C", " :"), " ", SOURCE_POLICIES[sourceCfg?.tier || "C"]), /*#__PURE__*/React.createElement("div", {
+  }, copy.sourceRule, " ", sourceCfg?.tier || "C", ":"), " ", copy.policies[sourceCfg?.tier || "C"]), /*#__PURE__*/React.createElement("div", {
     style: {
       display: "flex",
       gap: 8,
@@ -2361,9 +2584,9 @@ function ArticleDrawer({
       cursor: "pointer",
       fontWeight: 700
     }
-  }, article.favorite ? "★ À traiter" : "☆ Ajouter à traiter"), /*#__PURE__*/React.createElement("button", {
+  }, article.favorite ? `★ ${copy.removeReview}` : `☆ ${copy.addReview}`), /*#__PURE__*/React.createElement("button", {
     onClick: () => onDelete(article.id),
-    "aria-label": "Supprimer l'information",
+    "aria-label": copy.deleteInfo,
     style: {
       padding: "10px 12px",
       borderRadius: 8,
@@ -2381,10 +2604,12 @@ function ArticleDrawer({
 function ArticleCard({
   a,
   onOpen,
-  onToggleFavorite
+  onToggleFavorite,
+  copy
 }) {
   const cfg = CREDIBILITY[a.credibility] || CREDIBILITY["À vérifier"];
   return /*#__PURE__*/React.createElement("div", {
+    className: "article-card",
     onClick: () => onOpen(a.id),
     style: {
       background: "var(--bg-card)",
@@ -2418,8 +2643,10 @@ function ArticleCard({
       flexWrap: "wrap"
     }
   }, /*#__PURE__*/React.createElement(CredBadge, {
-    level: a.credibility
-  }), /*#__PURE__*/React.createElement(CategoryPill, null, a.category)), /*#__PURE__*/React.createElement("button", {
+    level: a.credibility,
+    copy: copy
+  }), /*#__PURE__*/React.createElement(CategoryPill, null, copy.categories[NEWS_CATEGORIES.has(a.category) ? "News" : a.category] || a.category)), /*#__PURE__*/React.createElement("button", {
+    "aria-label": a.favorite ? copy.removeReview : copy.addReview,
     onClick: e => {
       e.stopPropagation();
       onToggleFavorite(a.id);
@@ -2450,7 +2677,7 @@ function ArticleCard({
       WebkitBoxOrient: "vertical",
       overflow: "hidden"
     }
-  }, a.summary), /*#__PURE__*/React.createElement("div", {
+  }, summaryLabel(a.summary, a.source, copy)), /*#__PURE__*/React.createElement("div", {
     style: {
       display: "flex",
       alignItems: "center",
@@ -2468,13 +2695,15 @@ function ArticleCard({
       fontWeight: 700,
       color: "var(--pink)"
     }
-  }, "Source ›")));
+  }, copy.viewSource, " ›")));
 }
 
 /* ------------------------------------------------------------------ */
 /* Source registry                                                     */
 /* ------------------------------------------------------------------ */
-function SourcesView() {
+function SourcesView({
+  copy
+}) {
   const [tier, setTier] = useState("all");
   const [query, setQuery] = useState("");
   const shown = SOURCES.filter(source => {
@@ -2497,7 +2726,7 @@ function SourcesView() {
     style: {
       fontSize: 28
     }
-  }, "SOURCES SUIVIES"), /*#__PURE__*/React.createElement("p", {
+  }, copy.sourcesTitle.toUpperCase()), /*#__PURE__*/React.createElement("p", {
     style: {
       color: "var(--text-muted)",
       fontSize: 13.5,
@@ -2505,7 +2734,7 @@ function SourcesView() {
       lineHeight: 1.6,
       marginTop: 5
     }
-  }, "Registre éditorial des sources GTA 6. Le niveau qualifie la source, pas automatiquement chacune de ses affirmations.")), /*#__PURE__*/React.createElement("div", {
+  }, copy.sourcesIntro)), /*#__PURE__*/React.createElement("div", {
     className: "font-mono",
     style: {
       color: "var(--cyan)",
@@ -2514,7 +2743,7 @@ function SourcesView() {
       borderRadius: 999,
       padding: "8px 12px"
     }
-  }, SOURCES.length, " sources · ", SOURCES.filter(s => s.feedUrl).length, " flux auto")), /*#__PURE__*/React.createElement("div", {
+  }, SOURCES.length, " ", copy.sourcesCount, " · ", SOURCES.filter(s => s.feedUrl).length, " ", copy.feedsCount)), /*#__PURE__*/React.createElement("div", {
     style: {
       display: "grid",
       gridTemplateColumns: "repeat(auto-fit,minmax(210px,1fr))",
@@ -2536,13 +2765,13 @@ function SourcesView() {
       fontWeight: 900,
       marginBottom: 5
     }
-  }, "SOURCE ", value), /*#__PURE__*/React.createElement("div", {
+  }, copy.sourceTier.toUpperCase(), " ", value), /*#__PURE__*/React.createElement("div", {
     style: {
       color: "var(--text-muted)",
       fontSize: 11.5,
       lineHeight: 1.5
     }
-  }, SOURCE_POLICIES[value])))), /*#__PURE__*/React.createElement("div", {
+  }, copy.policies[value])))), /*#__PURE__*/React.createElement("div", {
     style: {
       display: "flex",
       gap: 8,
@@ -2552,7 +2781,8 @@ function SourcesView() {
   }, /*#__PURE__*/React.createElement("input", {
     value: query,
     onChange: e => setQuery(e.target.value),
-    placeholder: "Rechercher une source...",
+    placeholder: copy.searchSource,
+    "aria-label": copy.searchSource,
     style: {
       ...inputStyle,
       maxWidth: 320
@@ -2569,13 +2799,16 @@ function SourcesView() {
       cursor: "pointer",
       fontWeight: 700
     }
-  }, value === "all" ? "Toutes" : `Tier ${value}`))), /*#__PURE__*/React.createElement("div", {
+  }, value === "all" ? copy.all : `${copy.tier} ${value}`))), shown.length === 0 ? /*#__PURE__*/React.createElement("div", {
+    className: "empty-state"
+  }, copy.noSourceResults) : /*#__PURE__*/React.createElement("div", {
     style: {
       display: "grid",
       gridTemplateColumns: "repeat(auto-fill,minmax(290px,1fr))",
       gap: 12
     }
   }, shown.map(source => /*#__PURE__*/React.createElement("a", {
+    className: "source-card",
     key: source.id,
     href: source.url,
     target: "_blank",
@@ -2606,7 +2839,7 @@ function SourcesView() {
       color: "var(--text-muted)",
       marginTop: 3
     }
-  }, source.type)), /*#__PURE__*/React.createElement("span", {
+  }, copy.sourceTypes[source.type] || source.type)), /*#__PURE__*/React.createElement("span", {
     style: {
       color: tierColor(source.tier),
       border: `1px solid ${tierColor(source.tier)}55`,
@@ -2623,7 +2856,7 @@ function SourcesView() {
       lineHeight: 1.55,
       margin: "12px 0"
     }
-  }, source.note), /*#__PURE__*/React.createElement("div", {
+  }, copy.sourceNotes[source.id] || source.note), /*#__PURE__*/React.createElement("div", {
     style: {
       display: "flex",
       justifyContent: "space-between",
@@ -2633,19 +2866,20 @@ function SourcesView() {
     style: {
       color: source.feedUrl ? "var(--green)" : "var(--gold)"
     }
-  }, source.monitoring), /*#__PURE__*/React.createElement("span", {
+  }, copy.monitoring[source.monitoring] || source.monitoring), /*#__PURE__*/React.createElement("span", {
     style: {
       color: "var(--pink)",
       fontWeight: 800
     }
-  }, "Ouvrir ↗"))))));
+  }, copy.open, " ↗"))))));
 }
 
 /* ------------------------------------------------------------------ */
 /* Coming soon                                                          */
 /* ------------------------------------------------------------------ */
 function ComingSoon({
-  kind
+  kind,
+  copy
 }) {
   const lockPill = {
     display: "inline-flex",
@@ -2673,9 +2907,9 @@ function ComingSoon({
       style: {
         fontSize: 26
       }
-    }, "CARTE INTERACTIVE"), /*#__PURE__*/React.createElement("span", {
+    }, copy.mapTitle.toUpperCase()), /*#__PURE__*/React.createElement("span", {
       style: lockPill
-    }, "🔒 Débloquée à la sortie du jeu")), /*#__PURE__*/React.createElement("p", {
+    }, "🔒 ", copy.mapLock)), /*#__PURE__*/React.createElement("p", {
       style: {
         color: "var(--text-muted)",
         fontSize: 13.5,
@@ -2683,14 +2917,14 @@ function ComingSoon({
         lineHeight: 1.6,
         marginBottom: 20
       }
-    }, "L'architecture est déjà prête : une fois GTA 6 sorti, cet onglet affichera une carte cliquable façon MapGenie avec les filtres ci-dessous."), /*#__PURE__*/React.createElement("div", {
+    }, copy.mapIntro), /*#__PURE__*/React.createElement("div", {
       style: {
         display: "flex",
         flexWrap: "wrap",
         gap: 8
       }
-    }, MAP_FILTERS.map(f => /*#__PURE__*/React.createElement("div", {
-      key: f.label,
+    }, copy.mapFilters.map(([icon, label]) => /*#__PURE__*/React.createElement("div", {
+      key: label,
       style: {
         display: "flex",
         alignItems: "center",
@@ -2702,7 +2936,7 @@ function ComingSoon({
         fontSize: 13,
         background: "var(--bg-card)"
       }
-    }, /*#__PURE__*/React.createElement("span", null, f.icon), f.label))), /*#__PURE__*/React.createElement("div", {
+    }, /*#__PURE__*/React.createElement("span", null, icon), label))), /*#__PURE__*/React.createElement("div", {
       style: {
         marginTop: 24,
         borderRadius: 14,
@@ -2715,7 +2949,7 @@ function ComingSoon({
         color: "var(--text-muted)",
         fontSize: 13
       }
-    }, "Aperçu de carte — en attente des données Leonida"));
+    }, copy.mapPreview));
   }
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
     style: {
@@ -2729,9 +2963,9 @@ function ComingSoon({
     style: {
       fontSize: 26
     }
-  }, "GTA 6 DATABASE"), /*#__PURE__*/React.createElement("span", {
+  }, copy.databaseTitle.toUpperCase()), /*#__PURE__*/React.createElement("span", {
     style: lockPill
-  }, "🔒 À enrichir progressivement")), /*#__PURE__*/React.createElement("p", {
+  }, "🔒 ", copy.databaseLock)), /*#__PURE__*/React.createElement("p", {
     style: {
       color: "var(--text-muted)",
       fontSize: 13.5,
@@ -2739,13 +2973,13 @@ function ComingSoon({
       lineHeight: 1.6,
       marginBottom: 20
     }
-  }, "Base de connaissance structurée, indépendante du fil d'actualité. À remplir au fur et à mesure des confirmations officielles."), /*#__PURE__*/React.createElement("div", {
+  }, copy.databaseIntro), /*#__PURE__*/React.createElement("div", {
     style: {
       display: "grid",
       gridTemplateColumns: "repeat(auto-fill,minmax(150px,1fr))",
       gap: 10
     }
-  }, DB_CATEGORIES.map(c => /*#__PURE__*/React.createElement("div", {
+  }, copy.dbCategories.map(c => /*#__PURE__*/React.createElement("div", {
     key: c,
     style: {
       padding: "16px 14px",
@@ -2764,7 +2998,7 @@ function ComingSoon({
       fontSize: 11.5,
       color: "var(--text-muted)"
     }
-  }, "0 entrée")))));
+  }, "0 ", copy.entries)))));
 }
 
 /* ------------------------------------------------------------------ */
@@ -2786,6 +3020,21 @@ function GTA6Watch() {
   const [showAdd, setShowAdd] = useState(false);
   const [view, setView] = useState("feed");
   const [favOnly, setFavOnly] = useState(false);
+  const [language, setLanguage] = useState(() => safeStorageGet(LS_LANGUAGE) === "fr" ? "fr" : "en");
+  const [theme, setTheme] = useState(() => safeStorageGet(LS_THEME) === "light" ? "light" : "dark");
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const copy = I18N[language];
+
+  useEffect(() => {
+    document.documentElement.lang = language;
+    document.documentElement.dataset.theme = theme;
+    document.title = copy.pageTitle;
+    const description = document.querySelector('meta[name="description"]');
+    if (description) description.setAttribute("content", copy.pageDescription);
+    const themeColor = document.querySelector('meta[name="theme-color"]');
+    if (themeColor) themeColor.setAttribute("content", theme === "light" ? "#F5F1EF" : "#0A0A12");
+  }, [language, theme, copy]);
+
   useEffect(() => {
     if (!window.fetch || window.location.protocol === "file:") return;
     let cancelled = false;
@@ -2819,9 +3068,23 @@ function GTA6Watch() {
     persist([a, ...articles]);
     setShowAdd(false);
   };
+  const changeLanguage = nextLanguage => {
+    setLanguage(nextLanguage);
+    safeStorageSet(LS_LANGUAGE, nextLanguage);
+  };
+  const toggleTheme = () => {
+    const nextTheme = theme === "dark" ? "light" : "dark";
+    setTheme(nextTheme);
+    safeStorageSet(LS_THEME, nextTheme);
+  };
+  const navigate = (nextView, category) => {
+    setView(nextView);
+    if (category) setActiveCategory(category);
+    setMobileMenuOpen(false);
+  };
   const filtered = useMemo(() => {
     return articles.filter(a => {
-      if (activeCategory !== "all" && a.category !== activeCategory) return false;
+      if (activeCategory !== "all" && !categoryMatches(a.category, activeCategory)) return false;
       if (credFilter !== "all" && a.credibility !== credFilter) return false;
       if (favOnly && !a.favorite) return false;
       if (search.trim()) {
@@ -2835,8 +3098,8 @@ function GTA6Watch() {
     const c = {
       all: articles.length
     };
-    CATEGORIES.forEach(cat => {
-      if (cat.id !== "all") c[cat.id] = articles.filter(a => a.category === cat.id).length;
+    CATEGORIES.forEach(category => {
+      if (category !== "all") c[category] = articles.filter(a => categoryMatches(a.category, category)).length;
     });
     return c;
   }, [articles]);
@@ -2857,198 +3120,131 @@ function GTA6Watch() {
     fontWeight: active ? 700 : 500,
     textAlign: "left"
   });
+  const sectionLabelStyle = {
+    margin: "16px 10px 8px",
+    fontSize: 10.5,
+    fontWeight: 800,
+    color: "var(--text-muted)",
+    textTransform: "uppercase",
+    letterSpacing: "0.09em"
+  };
+
   return /*#__PURE__*/React.createElement("div", {
-    style: {
-      minHeight: "100vh",
-      display: "flex"
-    }
+    className: "app-shell"
+  }, /*#__PURE__*/React.createElement("aside", {
+    className: `sidebar${mobileMenuOpen ? " open" : ""}`
   }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      width: 216,
-      flexShrink: 0,
-      background: "var(--bg-elev)",
-      borderRight: "1px solid var(--border)",
-      display: "flex",
-      flexDirection: "column"
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "g6w-sunset",
-    style: {
-      height: 3
-    }
+    className: "g6w-sunset sidebar-accent"
   }), /*#__PURE__*/React.createElement("div", {
-    style: {
-      padding: "20px 18px 14px"
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "font-display",
-    style: {
-      fontSize: 26,
-      lineHeight: 1,
-      background: "linear-gradient(90deg,var(--pink),var(--cyan))",
-      WebkitBackgroundClip: "text",
-      color: "transparent"
-    }
-  }, "GTA6 WATCH"), /*#__PURE__*/React.createElement("div", {
-    className: "font-mono",
-    style: {
-      fontSize: 10,
-      color: "var(--text-muted)",
-      marginTop: 4,
-      letterSpacing: "0.06em"
-    }
-  }, "VEILLE · SOURCES · QUALIFICATION")), /*#__PURE__*/React.createElement("div", {
-    style: {
-      padding: "0 10px",
-      flex: 1,
-      overflowY: "auto"
-    }
-  }, CATEGORIES.map(c => {
-    const active = view === "feed" && activeCategory === c.id;
+    className: "sidebar-header"
+  }, /*#__PURE__*/React.createElement("img", {
+    className: "brand-logo",
+    src: "./assets/gta6-watch-logo.png",
+    alt: "GTA 6 Watch"
+  }), /*#__PURE__*/React.createElement("button", {
+    className: "mobile-menu-toggle",
+    type: "button",
+    onClick: () => setMobileMenuOpen(open => !open),
+    "aria-expanded": mobileMenuOpen,
+    "aria-label": mobileMenuOpen ? copy.menuClose : copy.menuOpen
+  }, mobileMenuOpen ? "×" : "☰")), /*#__PURE__*/React.createElement("div", {
+    className: "sidebar-menu"
+  }, /*#__PURE__*/React.createElement("nav", {
+    className: "sidebar-nav",
+    "aria-label": copy.watch
+  }, CATEGORIES.map(category => {
+    const active = view === "feed" && activeCategory === category;
     return /*#__PURE__*/React.createElement("button", {
-      key: c.id,
-      onClick: () => {
-        setView("feed");
-        setActiveCategory(c.id);
-      },
+      key: category,
+      onClick: () => navigate("feed", category),
       style: {
         ...navBtnStyle(active),
         justifyContent: "space-between"
       }
     }, /*#__PURE__*/React.createElement("span", {
-      style: {
-        display: "flex",
-        alignItems: "center",
-        gap: 8
-      }
+      className: "nav-label"
     }, /*#__PURE__*/React.createElement("span", {
+      className: "nav-dot",
       style: {
-        width: 6,
-        height: 6,
-        borderRadius: 99,
-        background: active ? "var(--pink)" : "var(--border)",
-        display: "inline-block"
+        background: active ? "var(--pink)" : "var(--border)"
       }
-    }), c.label), c.id !== "all" && /*#__PURE__*/React.createElement("span", {
-      className: "font-mono",
-      style: {
-        fontSize: 10.5,
-        color: "var(--text-muted)"
-      }
-    }, counts[c.id] || 0));
+    }), copy.categories[category]), category !== "all" && /*#__PURE__*/React.createElement("span", {
+      className: "font-mono nav-count"
+    }, counts[category] || 0));
   }), /*#__PURE__*/React.createElement("div", {
-    style: {
-      margin: "14px 10px 8px",
-      fontSize: 10.5,
-      fontWeight: 700,
-      color: "var(--text-muted)",
-      textTransform: "uppercase",
-      letterSpacing: "0.08em"
-    }
-  }, "Veille"), /*#__PURE__*/React.createElement("button", {
-    onClick: () => setView("sources"),
+    style: sectionLabelStyle
+  }, copy.watch), /*#__PURE__*/React.createElement("button", {
+    onClick: () => navigate("sources"),
     style: navBtnStyle(view === "sources")
-  }, "📡 Sources suivies"), /*#__PURE__*/React.createElement("div", {
-    style: {
-      margin: "14px 10px 8px",
-      fontSize: 10.5,
-      fontWeight: 700,
-      color: "var(--text-muted)",
-      textTransform: "uppercase",
-      letterSpacing: "0.08em"
-    }
-  }, "À venir"), /*#__PURE__*/React.createElement("button", {
-    onClick: () => setView("db"),
+  }, "📡 ", copy.followedSources), /*#__PURE__*/React.createElement("div", {
+    style: sectionLabelStyle
+  }, copy.comingSoon), /*#__PURE__*/React.createElement("button", {
+    onClick: () => navigate("db"),
     style: navBtnStyle(view === "db")
-  }, "🗄️ GTA 6 Database"), /*#__PURE__*/React.createElement("button", {
-    onClick: () => setView("map"),
+  }, "🗄️ ", copy.database), /*#__PURE__*/React.createElement("button", {
+    onClick: () => navigate("map"),
     style: navBtnStyle(view === "map")
-  }, "🗺️ Carte interactive")), /*#__PURE__*/React.createElement("div", {
-    style: {
-      padding: 14,
-      display: "flex",
-      flexDirection: "column",
-      gap: 8
-    }
+  }, "🗺️ ", copy.interactiveMap)), /*#__PURE__*/React.createElement("div", {
+    className: "sidebar-footer"
   }, /*#__PURE__*/React.createElement("button", {
-    onClick: () => setShowAdd(true),
-    style: {
-      width: "100%",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      gap: 6,
-      padding: "10px 0",
-      borderRadius: 9,
-      border: "1px solid var(--border)",
-      background: "var(--bg-card)",
-      color: "var(--text)",
-      fontWeight: 700,
-      fontSize: 13,
-      cursor: "pointer"
+    className: "secondary-action",
+    onClick: () => {
+      setShowAdd(true);
+      setMobileMenuOpen(false);
     }
-  }, "+ Ajouter une info"), /*#__PURE__*/React.createElement("button", {
-    onClick: () => setView("sources"),
-    style: {
-      width: "100%",
-      padding: "8px 0",
-      borderRadius: 9,
-      border: "1px solid var(--border-soft)",
-      background: "transparent",
-      color: "var(--text-muted)",
-      fontWeight: 600,
-      fontSize: 11.5,
-      cursor: "pointer"
-    }
-  }, "📡 ", SOURCES.length, " sources configurées"))), /*#__PURE__*/React.createElement("div", {
-    style: {
-      flex: 1,
-      display: "flex",
-      flexDirection: "column",
-      minWidth: 0
-    }
-  }, view === "feed" && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
-    style: {
-      padding: "16px 22px",
-      borderBottom: "1px solid var(--border-soft)",
-      display: "flex",
-      gap: 12,
-      alignItems: "center",
-      flexWrap: "wrap"
-    }
+  }, "+ ", copy.addInfo), /*#__PURE__*/React.createElement("button", {
+    className: "quiet-action",
+    onClick: () => navigate("sources")
+  }, "📡 ", SOURCES.length, " ", copy.configuredSources)))), /*#__PURE__*/React.createElement("main", {
+    className: "main-panel"
+  }, /*#__PURE__*/React.createElement("header", {
+    className: "topbar"
   }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      position: "relative",
-      flex: "1 1 220px",
-      minWidth: 180
-    }
+    className: "update-meta font-mono"
   }, /*#__PURE__*/React.createElement("span", {
-    style: {
-      position: "absolute",
-      left: 11,
-      top: "50%",
-      transform: "translateY(-50%)",
-      color: "var(--text-muted)",
-      fontSize: 13
-    }
-  }, "🔍"), /*#__PURE__*/React.createElement("input", {
+    className: "live-dot"
+  }), copy.updatedHourly, /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true"
+  }, "·"), articles.length, " ", copy.articles), /*#__PURE__*/React.createElement("div", {
+    className: "topbar-controls"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "language-switch",
+    role: "group",
+    "aria-label": copy.language
+  }, ["en", "fr"].map(option => /*#__PURE__*/React.createElement("button", {
+    key: option,
+    type: "button",
+    className: language === option ? "active" : "",
+    onClick: () => changeLanguage(option),
+    "aria-pressed": language === option
+  }, option.toUpperCase()))), /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    className: "theme-toggle",
+    onClick: toggleTheme,
+    "aria-label": theme === "dark" ? copy.switchLight : copy.switchDark,
+    title: theme === "dark" ? copy.switchLight : copy.switchDark
+  }, theme === "dark" ? "☀" : "☾"))), view === "feed" && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
+    className: "filterbar"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "search-wrap"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "search-icon",
+    "aria-hidden": "true"
+  }, "⌕"), /*#__PURE__*/React.createElement("input", {
     value: search,
     onChange: e => setSearch(e.target.value),
-    placeholder: "Rechercher une info...",
+    placeholder: copy.searchInfo,
+    "aria-label": copy.searchInfo,
     style: {
       ...inputStyle,
-      paddingLeft: 32
+      paddingLeft: 34
     }
   })), /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: "flex",
-      alignItems: "center",
-      gap: 6,
-      flexWrap: "wrap"
-    }
+    className: "filter-actions"
   }, /*#__PURE__*/React.createElement("select", {
     value: credFilter,
     onChange: e => setCredFilter(e.target.value),
+    "aria-label": copy.credibilityLabel,
     style: {
       ...inputStyle,
       width: "auto",
@@ -3056,81 +3252,56 @@ function GTA6Watch() {
     }
   }, /*#__PURE__*/React.createElement("option", {
     value: "all"
-  }, "Toute crédibilité"), CRED_LIST.map(c => /*#__PURE__*/React.createElement("option", {
-    key: c,
-    value: c
-  }, c))), /*#__PURE__*/React.createElement("button", {
-    onClick: () => setFavOnly(v => !v),
-    style: {
-      display: "flex",
-      alignItems: "center",
-      gap: 5,
-      padding: "8px 12px",
-      borderRadius: 8,
-      cursor: "pointer",
-      border: `1px solid ${favOnly ? "var(--gold)" : "var(--border)"}`,
-      background: favOnly ? "rgba(255,201,74,0.10)" : "var(--bg-elev)",
-      color: favOnly ? "var(--gold)" : "var(--text-muted)",
-      fontSize: 12.5,
-      fontWeight: 600
-    }
-  }, favOnly ? "★" : "☆", " À traiter"))), /*#__PURE__*/React.createElement("div", {
-    style: {
-      flex: 1,
-      overflowY: "auto",
-      padding: 22
-    }
+  }, copy.allCredibility), CRED_LIST.map(level => /*#__PURE__*/React.createElement("option", {
+    key: level,
+    value: level
+  }, copy.credibility[level]))), /*#__PURE__*/React.createElement("button", {
+    className: `review-filter${favOnly ? " active" : ""}`,
+    onClick: () => setFavOnly(value => !value),
+    "aria-pressed": favOnly
+  }, favOnly ? "★" : "☆", " ", copy.reviewQueue))), /*#__PURE__*/React.createElement("section", {
+    className: "feed-scroll",
+    "aria-live": "polite"
   }, filtered.length === 0 ? /*#__PURE__*/React.createElement("div", {
-    style: {
-      color: "var(--text-muted)",
-      fontSize: 13.5,
-      textAlign: "center",
-      padding: "60px 0"
-    }
-  }, "Aucune info ne correspond à ces filtres.") : /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: "grid",
-      gridTemplateColumns: "repeat(auto-fill,minmax(280px,1fr))",
-      gap: 14
-    }
-  }, filtered.map(a => /*#__PURE__*/React.createElement(ArticleCard, {
-    key: a.id,
-    a: a,
+    className: "empty-state"
+  }, copy.noFilterResults) : /*#__PURE__*/React.createElement("div", {
+    className: "article-grid"
+  }, filtered.map(article => /*#__PURE__*/React.createElement(ArticleCard, {
+    key: article.id,
+    a: article,
     onOpen: setSelectedId,
-    onToggleFavorite: toggleFavorite
-  }))))), view === "sources" && /*#__PURE__*/React.createElement("div", {
-    style: {
-      padding: 22,
-      overflowY: "auto"
-    }
-  }, /*#__PURE__*/React.createElement(SourcesView, null)), view === "map" && /*#__PURE__*/React.createElement("div", {
-    style: {
-      padding: 22,
-      overflowY: "auto"
-    }
+    onToggleFavorite: toggleFavorite,
+    copy: copy
+  }))))), view === "sources" && /*#__PURE__*/React.createElement("section", {
+    className: "view-scroll"
+  }, /*#__PURE__*/React.createElement(SourcesView, {
+    copy: copy
+  })), view === "map" && /*#__PURE__*/React.createElement("section", {
+    className: "view-scroll"
   }, /*#__PURE__*/React.createElement(ComingSoon, {
-    kind: "map"
-  })), view === "db" && /*#__PURE__*/React.createElement("div", {
-    style: {
-      padding: 22,
-      overflowY: "auto"
-    }
+    kind: "map",
+    copy: copy
+  })), view === "db" && /*#__PURE__*/React.createElement("section", {
+    className: "view-scroll"
   }, /*#__PURE__*/React.createElement(ComingSoon, {
-    kind: "db"
+    kind: "db",
+    copy: copy
   }))), selected && /*#__PURE__*/React.createElement(ArticleDrawer, {
     article: selected,
     onClose: () => setSelectedId(null),
     onToggleFavorite: toggleFavorite,
-    onDelete: deleteArticle
+    onDelete: deleteArticle,
+    copy: copy
   }), showAdd && /*#__PURE__*/React.createElement(AddArticleModal, {
     onClose: () => setShowAdd(false),
-    onAdd: addArticle
+    onAdd: addArticle,
+    copy: copy
   }));
 }
 ReactDOM.createRoot(document.getElementById("root")).render(/*#__PURE__*/React.createElement(GTA6Watch, null));
 } catch (error) {
   console.error(error);
-  document.getElementById("root").innerHTML = '<div class="boot-error"><strong>GTA6 Watch n’a pas pu démarrer.</strong><br>Recharge la page. Si le problème persiste, consulte la console du navigateur.</div>';
+  document.getElementById("root").innerHTML = '<div class="boot-error"><strong>GTA6 Watch could not start.</strong><br>Reload the page. If the issue persists, check the browser console.</div>';
 }
 </script>
 </body>
