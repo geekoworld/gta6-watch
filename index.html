@@ -40,7 +40,7 @@
   .sidebar { width:232px; flex:0 0 232px; min-height:0; position:relative; display:flex; flex-direction:column; background:var(--sidebar); border-right:1px solid var(--border); z-index:20; }
   .sidebar-accent { height:3px; flex:0 0 3px; }
   .sidebar-header { min-height:136px; padding:12px 14px 10px; display:flex; align-items:center; justify-content:center; }
-  .brand-logo { display:block; width:100%; height:112px; object-fit:contain; border-radius:12px; background:#07070B; }
+  .brand-logo { display:block; width:100%; height:112px; object-fit:contain; background:transparent; filter:drop-shadow(0 3px 6px rgba(0,0,0,.24)); }
   .mobile-menu-toggle { display:none; width:42px; height:42px; border:1px solid var(--border); border-radius:10px; color:var(--text); background:var(--bg-card); cursor:pointer; font-size:21px; }
   .sidebar-menu { min-height:0; flex:1; display:flex; flex-direction:column; }
   .sidebar-nav { min-height:0; flex:1; padding:2px 10px 10px; overflow-y:auto; }
@@ -81,7 +81,7 @@
     .sidebar { width:100%; height:64px; flex:0 0 64px; border-right:0; border-bottom:1px solid var(--border); }
     .sidebar-accent { position:absolute; inset:0 0 auto; height:3px; }
     .sidebar-header { min-height:64px; height:64px; padding:7px 14px 5px; justify-content:space-between; }
-    .brand-logo { width:126px; height:50px; border-radius:8px; }
+    .brand-logo { width:126px; height:50px; }
     .mobile-menu-toggle { display:block; }
     .sidebar-menu { display:none; position:fixed; top:64px; left:0; right:0; max-height:calc(100dvh - 64px); background:var(--sidebar); border-bottom:1px solid var(--border); box-shadow:var(--shadow); z-index:70; }
     .sidebar.open .sidebar-menu { display:flex; }
@@ -2169,6 +2169,16 @@ function summaryLabel(summary, source, copy) {
   }
   return summary;
 }
+function articleText(article, language) {
+  const translation = article?.translations?.[language];
+  return {
+    title: translation?.title || article.title || "",
+    summary: translation?.summary || article.summary || ""
+  };
+}
+function articleSearchText(article) {
+  return [article.title, article.summary, article.source, article.translations?.en?.title, article.translations?.en?.summary, article.translations?.fr?.title, article.translations?.fr?.summary].filter(Boolean).join(" ").toLowerCase();
+}
 
 /* ------------------------------------------------------------------ */
 /* Small UI atoms                                                       */
@@ -2406,8 +2416,10 @@ function ArticleDrawer({
   onClose,
   onToggleFavorite,
   onDelete,
-  copy
+  copy,
+  language
 }) {
+  const displayed = articleText(article, language);
   const sourceCfg = SOURCES.find(source => source.id === article.sourceId) || SOURCES.find(source => source.name.toLowerCase() === String(article.source || "").toLowerCase());
   const tierColor = sourceCfg?.tier === "A" ? "var(--green)" : sourceCfg?.tier === "B" ? "var(--cyan)" : "var(--gold)";
   return /*#__PURE__*/React.createElement("div", {
@@ -2486,14 +2498,14 @@ function ArticleDrawer({
       marginTop: 14,
       lineHeight: 1.35
     }
-  }, article.title), /*#__PURE__*/React.createElement("p", {
+  }, displayed.title), /*#__PURE__*/React.createElement("p", {
     style: {
       fontSize: 13.5,
       color: "var(--text-muted)",
       marginTop: 10,
       lineHeight: 1.65
     }
-  }, summaryLabel(article.summary, article.source, copy))), /*#__PURE__*/React.createElement("div", {
+  }, summaryLabel(displayed.summary, article.source, copy))), /*#__PURE__*/React.createElement("div", {
     style: {
       padding: "20px 22px"
     }
@@ -2605,9 +2617,11 @@ function ArticleCard({
   a,
   onOpen,
   onToggleFavorite,
-  copy
+  copy,
+  language
 }) {
   const cfg = CREDIBILITY[a.credibility] || CREDIBILITY["À vérifier"];
+  const displayed = articleText(a, language);
   return /*#__PURE__*/React.createElement("div", {
     className: "article-card",
     onClick: () => onOpen(a.id),
@@ -2666,7 +2680,7 @@ function ArticleCard({
       lineHeight: 1.4,
       marginBottom: 8
     }
-  }, a.title), /*#__PURE__*/React.createElement("p", {
+  }, displayed.title), /*#__PURE__*/React.createElement("p", {
     style: {
       fontSize: 12.5,
       color: "var(--text-muted)",
@@ -2677,7 +2691,7 @@ function ArticleCard({
       WebkitBoxOrient: "vertical",
       overflow: "hidden"
     }
-  }, summaryLabel(a.summary, a.source, copy)), /*#__PURE__*/React.createElement("div", {
+  }, summaryLabel(displayed.summary, a.source, copy)), /*#__PURE__*/React.createElement("div", {
     style: {
       display: "flex",
       alignItems: "center",
@@ -3043,9 +3057,13 @@ function GTA6Watch() {
     }).then(response => response.ok ? response.json() : Promise.reject(new Error(`HTTP ${response.status}`))).then(payload => {
       if (cancelled || !Array.isArray(payload.articles)) return;
       setArticles(current => {
-        const merged = new Map();
-        [...payload.articles, ...current].forEach(article => merged.set(article.id, article));
-        return [...merged.values()];
+        const localById = new Map(current.map(article => [article.id, article]));
+        const refreshed = payload.articles.map(article => {
+          const local = localById.get(article.id);
+          localById.delete(article.id);
+          return local ? { ...article, favorite: local.favorite ?? article.favorite } : article;
+        });
+        return [...refreshed, ...localById.values()];
       });
     }).catch(() => {});
     return () => {
@@ -3089,7 +3107,7 @@ function GTA6Watch() {
       if (favOnly && !a.favorite) return false;
       if (search.trim()) {
         const q = search.toLowerCase();
-        if (!a.title.toLowerCase().includes(q) && !a.summary.toLowerCase().includes(q) && !a.source.toLowerCase().includes(q)) return false;
+        if (!articleSearchText(a).includes(q)) return false;
       }
       return true;
     }).sort((x, y) => String(y.date).localeCompare(String(x.date)) || (Number(y.sourceScore) || 0) - (Number(x.sourceScore) || 0));
@@ -3271,7 +3289,8 @@ function GTA6Watch() {
     a: article,
     onOpen: setSelectedId,
     onToggleFavorite: toggleFavorite,
-    copy: copy
+    copy: copy,
+    language: language
   }))))), view === "sources" && /*#__PURE__*/React.createElement("section", {
     className: "view-scroll"
   }, /*#__PURE__*/React.createElement(SourcesView, {
@@ -3291,7 +3310,8 @@ function GTA6Watch() {
     onClose: () => setSelectedId(null),
     onToggleFavorite: toggleFavorite,
     onDelete: deleteArticle,
-    copy: copy
+    copy: copy,
+    language: language
   }), showAdd && /*#__PURE__*/React.createElement(AddArticleModal, {
     onClose: () => setShowAdd(false),
     onAdd: addArticle,

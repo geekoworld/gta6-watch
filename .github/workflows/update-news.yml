@@ -21,6 +21,8 @@ jobs:
           node-version: 22
 
       - name: Collect news
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: node scripts/fetch-news.mjs
 
       - name: Detect news changes
