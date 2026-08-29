@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-29",
+  "policy": {
+    "A": "Source officielle. Peut confirmer uniquement ce qu’elle publie directement.",
+    "B": "Source spécialisée ou témoin direct. Vérifier l’article d’origine et rechercher une corroboration.",
+    "C": "Source de détection communautaire. Ne confirme jamais une information à elle seule."
+  },
+  "sources": [
+    {
+      "id": "rockstar-newswire",
+      "name": "Rockstar Newswire",
+      "type": "Site officiel",
+      "tier": "A",
+      "score": 100,
+      "url": "https://www.rockstargames.com/newswire",
+      "defaultStatus": "Confirmé",
+      "monitoring": "Lien prioritaire",
+      "note": "Référence primaire pour les annonces, bandes-annonces, dates et correctifs Rockstar."
+    },
+    {
+      "id": "rockstar-youtube",
+      "name": "Rockstar Games — YouTube",
+      "type": "YouTube officiel",
+      "tier": "A",
+      "score": 100,
+      "url": "https://www.youtube.com/@RockstarGames",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6VcWc1rAoWdBCM0JxrRQ3A",
+      "defaultStatus": "Confirmé",
+      "monitoring": "Flux automatique",
+      "note": "Vidéos et directs officiels. Seul le contenu explicitement montré ou déclaré est confirmé."
+    },
+    {
+      "id": "rockstar-x",
+      "name": "Rockstar Games — X",
+      "type": "X officiel",
+      "tier": "A",
+      "score": 100,
+      "url": "https://x.com/RockstarGames",
+      "defaultStatus": "Confirmé",
+      "monitoring": "Lien prioritaire",
+      "note": "Canal officiel pour annonces et rappels. L’automatisation X nécessite une API dédiée."
+    },
+    {
+      "id": "take-two-ir",
+      "name": "Take-Two Investor Relations",
+      "type": "Site officiel",
+      "tier": "A",
+      "score": 98,
+      "url": "https://www.take2games.com/ir",
+      "defaultStatus": "Confirmé",
+      "monitoring": "Lien prioritaire",
+      "note": "Référence primaire pour résultats financiers, fenêtres de sortie et déclarations corporate."
+    },
+    {
+      "id": "gtavice",
+      "name": "GTAVice.net",
+      "type": "Site spécialisé",
+      "tier": "B",
+      "score": 82,
+      "url": "https://www.gtavice.net/",
+      "defaultStatus": "À vérifier",
+      "monitoring": "Lien prioritaire",
+      "note": "Bon agrégateur GTA VI avec renvoi fréquent vers les publications et interviews d’origine."
+    },
+    {
+      "id": "gtaboom",
+      "name": "GTA BOOM",
+      "type": "Site spécialisé",
+      "tier": "B",
+      "score": 80,
+      "url": "https://www.gtaboom.com/",
+      "feedUrl": "https://www.gtaboom.com/feed.xml",
+      "defaultStatus": "À vérifier",
+      "monitoring": "Flux automatique",
+      "note": "Source secondaire utile pour la veille. Toujours ouvrir l’article et contrôler sa source primaire."
+    },
+    {
+      "id": "tgg",
+      "name": "TGG",
+      "type": "YouTube",
+      "tier": "B",
+      "score": 75,
+      "url": "https://www.youtube.com/@TGG_",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC72PuhDwKtZ5MikpGNhPAtA",
+      "defaultStatus": "À vérifier",
+      "monitoring": "Flux automatique",
+      "note": "Peut être témoin direct lors de previews Rockstar ; sinon traiter comme commentaire secondaire."
+    },
+    {
+      "id": "igrandtheftauto",
+      "name": "iGrandTheftAuto.com",
+      "type": "Site spécialisé",
+      "tier": "B",
+      "score": 72,
+      "url": "https://www.igrandtheftauto.com/",
+      "defaultStatus": "À vérifier",
+      "monitoring": "Lien prioritaire",
+      "note": "Ressource GTA historique, utile pour guides et contexte ; vérifier les nouvelles annonces à la source."
+    },
+    {
+      "id": "gta-vi-oclock",
+      "name": "GTA VI O’Clock",
+      "type": "YouTube",
+      "tier": "B",
+      "score": 70,
+      "url": "https://www.youtube.com/@GTAVI-oclock",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCFiHjGyrJux8Rt4e6mUPU-w",
+      "defaultStatus": "À vérifier",
+      "monitoring": "Flux automatique",
+      "note": "Analyse vidéo spécialisée ; remonter à la source primaire avant de confirmer."
+    },
+    {
+      "id": "ghilliemaster",
+      "name": "GhillieMaster",
+      "type": "YouTube",
+      "tier": "C",
+      "score": 68,
+      "url": "https://www.youtube.com/@GhillieMaster",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC1PhTs67PPip_Ys0_xmk8Bg",
+      "defaultStatus": "À vérifier",
+      "monitoring": "Flux automatique",
+      "note": "Créateur GTA utile pour tendances et analyses ; ne pas utiliser seul comme confirmation."
+    },
+    {
+      "id": "the-professional",
+      "name": "TheProfessional",
+      "type": "YouTube",
+      "tier": "C",
+      "score": 66,
+      "url": "https://www.youtube.com/@theprofessional155",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC1NzF95Dk5tXCNdDFmyq9aQ",
+      "defaultStatus": "À vérifier",
+      "monitoring": "Flux automatique",
+      "note": "Créateur GTA généraliste ; bon signal éditorial, mais vérification externe obligatoire."
+    },
+    {
+      "id": "gta6intel",
+      "name": "@GTA6Intel",
+      "type": "X — agrégateur",
+      "tier": "C",
+      "score": 65,
+      "url": "https://x.com/GTA6Intel",
+      "defaultStatus": "À vérifier",
+      "monitoring": "Lien prioritaire",
+      "note": "Détection rapide de sujets. Exiger un lien primaire ou une seconde source indépendante."
+    },
+    {
+      "id": "gta6videos",
+      "name": "GTA6Videos",
+      "type": "YouTube",
+      "tier": "C",
+      "score": 62,
+      "url": "https://www.youtube.com/@GTA6Videos_",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVXv-s3F4oQ9t1ui88j9FQg",
+      "defaultStatus": "À vérifier",
+      "monitoring": "Flux automatique",
+      "note": "Veille vidéo communautaire. Utile pour repérer un sujet, pas pour le confirmer seul."
+    },
+    {
+      "id": "gta6wire",
+      "name": "@GTA6Wire",
+      "type": "X — agrégateur",
+      "tier": "C",
+      "score": 62,
+      "url": "https://x.com/GTA6Wire",
+      "defaultStatus": "À vérifier",
+      "monitoring": "Lien prioritaire",
+      "note": "Source de découverte communautaire ; vérifier chaque affirmation et média."
+    },
+    {
+      "id": "gtavi-countdown",
+      "name": "@GTAVI_Countdown",
+      "type": "X — agrégateur",
+      "tier": "C",
+      "score": 60,
+      "url": "https://x.com/GTAVI_Countdown",
+      "defaultStatus": "À vérifier",
+      "monitoring": "Lien prioritaire",
+      "note": "Très réactif pour les tendances et comptes à rebours ; toujours corroborer les informations."
+    },
+    {
+      "id": "sciencebruh",
+      "name": "@ScienceBruh_",
+      "type": "X — communauté",
+      "tier": "C",
+      "score": 60,
+      "url": "https://x.com/ScienceBruh_",
+      "defaultStatus": "À vérifier",
+      "monitoring": "Lien prioritaire",
+      "note": "Signal communautaire et analyse ; exiger les éléments d’origine avant publication."
+    },
+    {
+      "id": "gta6newswire",
+      "name": "@GTA6Newswire",
+      "type": "X — agrégateur",
+      "tier": "C",
+      "score": 58,
+      "url": "https://x.com/GTA6Newswire",
+      "defaultStatus": "À vérifier",
+      "monitoring": "Lien prioritaire",
+      "note": "Agrégateur communautaire non officiel malgré son nom ; aucune confirmation sans source primaire."
+    }
+  ]
+}

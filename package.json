@@ -1,0 +1,12 @@
+{
+  "name": "gta6-watch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Veille éditoriale GTA 6 avec qualification des sources",
+  "scripts": {
+    "fetch": "node scripts/fetch-news.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
