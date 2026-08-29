@@ -4,9 +4,7 @@
   "private": true,
   "description": "Veille éditoriale GTA 6 avec qualification des sources",
   "scripts": {
-    "fetch": "node scripts/fetch-news.mjs",
-    "translate:existing": "node scripts/fetch-news.mjs --translate-existing",
-    "translate:estimate": "node scripts/fetch-news.mjs --translate-existing --dry-run"
+    "fetch": "node scripts/fetch-news.mjs"
   },
   "engines": {
     "node": ">=22"
