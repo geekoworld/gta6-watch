@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T05:23:36.754Z",
+  "generatedAt": "2026-08-30T11:53:46.933Z",
   "failures": [],
   "articles": [
     {
@@ -16,6 +16,21 @@
       "summary": "Digital Foundry expects Grand Theft Auto VI to run at 30 FPS on current consoles, saying its CPU heavy simulation makes 60 FPS extremely unlikely.",
       "favorite": false,
       "collectedAt": "2026-08-30T05:23:36.226Z"
+    },
+    {
+      "id": "tgg-297fbae2fcc612c6",
+      "title": "GTA 6: Vehicles Work Differently Now | Exclusive Deep Dive",
+      "category": "News",
+      "credibility": "À vérifier",
+      "source": "TGG",
+      "sourceId": "tgg",
+      "sourceTier": "B",
+      "sourceScore": 75,
+      "url": "https://www.youtube.com/watch?v=5PEKC28azRU",
+      "date": "2026-08-30",
+      "summary": "0:00 – Intro Chapter 1 – 0:48 – Stealing Cars & Vehicle Security Chapter 2 – 4:07 – Fences & Vehicle Security (Trackers) Chapter 3 – 6:30 – Car & Vehicle Customization Chapter 4 – 9:18 – Fuel & EV Charging Chapter 5 – 11:28 – How Driving Actually Feels Chapter 6 – 13:36 – Storage, Recovery & Destruction",
+      "favorite": false,
+      "collectedAt": "2026-08-30T11:53:46.032Z"
     },
     {
       "id": "tgg-3912b2d09e9e37c5",
