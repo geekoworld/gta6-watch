@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-08-29T17:43:43.420Z",
+  "generatedAt": "2026-08-30T05:23:36.754Z",
   "failures": [],
   "articles": [
+    {
+      "id": "gtaboom-be9fcd4d876b7409",
+      "title": "GTA 6 at 30 FPS May be the Price of the \"Most Impressive Game\" Digital Foundry Has Ever Seen",
+      "category": "News",
+      "credibility": "À vérifier",
+      "source": "GTA BOOM",
+      "sourceId": "gtaboom",
+      "sourceTier": "B",
+      "sourceScore": 80,
+      "url": "https://www.gtaboom.com/gta-6-at-30-fps-may-be-the-price-of-the-most-impressive-game-digital-foundry-has-ever-seen-785a",
+      "date": "2026-08-30",
+      "summary": "Digital Foundry expects Grand Theft Auto VI to run at 30 FPS on current consoles, saying its CPU heavy simulation makes 60 FPS extremely unlikely.",
+      "favorite": false,
+      "collectedAt": "2026-08-30T05:23:36.226Z"
+    },
     {
       "id": "tgg-3912b2d09e9e37c5",
       "title": "GTA 6: The Police are Smarter Than Ever | Deep Dive",
