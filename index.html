@@ -2186,6 +2186,46 @@ function summaryLabel(summary, source, copy) {
   }
   return summary;
 }
+function editorialBrief(article, displayed, language) {
+  const source = article.source || "the source";
+  const isFrench = language === "fr";
+  const ledes = isFrench ? {
+    "Confirmé": `Cette mise à jour provient de ${source}. Les éléments ci-dessous reflètent ce que la source a publié directement.`,
+    "Rumeur": `${source} relaie une information autour de GTA 6. Elle reste non confirmée et doit être lue comme une rumeur.`,
+    "Leak": `Cette publication évoque du contenu présumé non publié. Chaque détail doit être traité avec prudence en attendant une confirmation officielle.`,
+    "Probable": `${source} a repéré un nouveau développement autour de GTA 6. C’est un élément de contexte utile, mais pas une confirmation officielle.`,
+    "À vérifier": `${source} a publié une nouvelle information à suivre. Elle demande encore à être vérifiée avant d’être considérée comme établie.`
+  } : {
+    "Confirmé": `This update comes from ${source}. The details below reflect what the source has published directly.`,
+    "Rumeur": `${source} is reporting a GTA 6 claim. It remains unconfirmed and should be read as a rumor.`,
+    "Leak": `This report concerns alleged unreleased material. Treat every detail with caution until it is officially addressed.`,
+    "Probable": `${source} has highlighted a new GTA 6 development. It is useful context, but not an official confirmation.`,
+    "À vérifier": `${source} has published a new item worth tracking. It still needs verification before it can be treated as established.`
+  };
+  const category = article.category || "News";
+  const why = isFrench ? {
+    Rockstar: "Les annonces, bandes-annonces et informations de sortie officielles sont les éléments clés à surveiller ici.",
+    Rumeurs: "Il faut attendre une source primaire ou une corroboration indépendante avant de présenter cette information comme un fait.",
+    Leaks: "Cette information ne doit pas être présentée comme confirmée ; elle sert uniquement de piste à vérifier.",
+    Guides: "La valeur pratique de ce guide dépend du contenu source et pourra évoluer avec de nouvelles informations officielles.",
+    Analyses: "Il s’agit d’une lecture des éléments disponibles, et non d’un nouveau fait confirmé.",
+    News: "La source originale reste le meilleur endroit pour lire le contexte complet et suivre les éventuelles mises à jour."
+  } : {
+    Rockstar: "Official announcements, trailers, and release information are the key details to watch here.",
+    Rumeurs: "Look for a primary source or independent corroboration before treating this claim as established.",
+    Leaks: "This should not be presented as confirmed; it is a lead for further verification only.",
+    Guides: "The practical value of this guide depends on the source material and may evolve with new official information.",
+    Analyses: "This is an interpretation of available material, not a newly confirmed fact.",
+    News: "The original source remains the best place for full context and any follow-up."
+  };
+  return {
+    lede: ledes[article.credibility] || ledes["À vérifier"],
+    story: summaryLabel(displayed.summary, source, I18N[language] || I18N.en),
+    whyItMatters: why[category] || why.News,
+    storyLabel: isFrench ? "L’ESSENTIEL" : "THE STORY",
+    whyLabel: isFrench ? "POURQUOI C’EST IMPORTANT" : "WHY IT MATTERS"
+  };
+}
 function articleText(article, language) {
   if (!ARTICLE_TRANSLATIONS_ENABLED) return { title: article.title || "", summary: article.summary || "" };
   const translation = article?.translations?.[language];
@@ -2461,6 +2501,7 @@ function ArticleDrawer({
   language
 }) {
   const displayed = articleText(article, language);
+  const editorial = editorialBrief(article, displayed, language);
   const sourceCfg = SOURCES.find(source => source.id === article.sourceId) || SOURCES.find(source => source.name.toLowerCase() === String(article.source || "").toLowerCase());
   const tierColor = sourceCfg?.tier === "A" ? "var(--green)" : sourceCfg?.tier === "B" ? "var(--cyan)" : "var(--gold)";
   return /*#__PURE__*/React.createElement("div", {
@@ -2541,12 +2582,59 @@ function ArticleDrawer({
     }
   }, displayed.title), /*#__PURE__*/React.createElement("p", {
     style: {
+      fontSize: 14,
+      color: "var(--text)",
+      marginTop: 12,
+      lineHeight: 1.65,
+      fontWeight: 600
+    }
+  }, editorial.lede), /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 18,
+      padding: "14px 15px",
+      borderRadius: 10,
+      background: "var(--bg-elev)",
+      border: "1px solid var(--border-soft)"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: "var(--pink)",
+      fontSize: 10.5,
+      fontWeight: 900,
+      letterSpacing: "0.08em",
+      marginBottom: 8
+    }
+  }, editorial.storyLabel), /*#__PURE__*/React.createElement("p", {
+    style: {
       fontSize: 13.5,
       color: "var(--text-muted)",
-      marginTop: 10,
-      lineHeight: 1.65
+      lineHeight: 1.68,
+      margin: 0
     }
-  }, summaryLabel(displayed.summary, article.source, copy))), /*#__PURE__*/React.createElement("div", {
+  }, editorial.story)), /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 12,
+      padding: "12px 14px",
+      borderRadius: 10,
+      border: "1px solid var(--purple)",
+      background: "color-mix(in srgb,var(--purple) 9%,var(--bg-card))"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: "var(--cyan)",
+      fontSize: 10.5,
+      fontWeight: 900,
+      letterSpacing: "0.08em",
+      marginBottom: 6
+    }
+  }, editorial.whyLabel), /*#__PURE__*/React.createElement("p", {
+    style: {
+      fontSize: 12.5,
+      color: "var(--text-muted)",
+      lineHeight: 1.58,
+      margin: 0
+    }
+  }, editorial.whyItMatters))), /*#__PURE__*/React.createElement("div", {
     style: {
       padding: "20px 22px"
     }
