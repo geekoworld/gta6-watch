@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T21:01:28.252Z",
+  "generatedAt": "2026-08-31T21:53:49.637Z",
   "failures": [],
   "candidates": [
     {
@@ -3168,6 +3168,38 @@
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T21:01:28.252Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-42aed1ec6980ff5c",
+      "detectedAt": "2026-08-31T21:53:49.637Z",
+      "publishedAt": "2026-08-31T21:13:14.000Z",
+      "title": "No, Hollywood Is Not Panicking Over GTA 6, But Should It?",
+      "summary": "No studio, executive, or trade outlet has confirmed Hollywood panic over Grand Theft Auto VI. The Polymarket claim of a \"major impact\" is unsourced.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/no-hollywood-is-not-panicking-over-gta-6-but-should-it-2ef8",
+        "sourceUrlCanonical": "https://www.gtaboom.com/no-hollywood-is-not-panicking-over-gta-6-but-should-it-2ef8",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/0a/03/no-hollywood-is-not-panicking-over-gta-6-but-should-it.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/0a/03/no-hollywood-is-not-panicking-over-gta-6-but-should-it.jpg",
+        "externalId": "https://www.gtaboom.com/no-hollywood-is-not-panicking-over-gta-6-but-should-it-2ef8",
+        "platform": "WEB"
+      },
+      "contentHash": "6797d9941dc1adb6061c00f75963bc0e165691e7ca0b37c1d8c86223c4aece66",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T21:53:49.637Z"
         }
       ]
     }
