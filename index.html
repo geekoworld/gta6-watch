@@ -54,6 +54,7 @@
   .sidebar { width:232px; flex:0 0 232px; min-height:0; position:relative; display:flex; flex-direction:column; background:var(--sidebar); border-right:1px solid var(--border); z-index:20; }
   .sidebar-accent { height:3px; flex:0 0 3px; }
   .sidebar-header { min-height:136px; padding:12px 14px 10px; display:flex; align-items:center; justify-content:center; }
+  .brand-home { display:block; width:100%; padding:0; border:0; background:transparent; cursor:pointer; border-radius:10px; }
   .brand-logo { display:block; width:100%; height:112px; object-fit:contain; background:transparent; filter:drop-shadow(0 3px 6px rgba(0,0,0,.24)); }
   .mobile-menu-toggle { display:none; width:42px; height:42px; border:1px solid var(--border); border-radius:10px; color:var(--text); background:var(--bg-card); cursor:pointer; font-size:21px; }
   .sidebar-menu { min-height:0; flex:1; display:flex; flex-direction:column; }
@@ -3369,11 +3370,16 @@ function GTA6Watch() {
     className: "g6w-sunset sidebar-accent"
   }), /*#__PURE__*/React.createElement("div", {
     className: "sidebar-header"
+  }, /*#__PURE__*/React.createElement("button", {
+    className: "brand-home",
+    type: "button",
+    onClick: () => navigate("feed", "all"),
+    "aria-label": "Go to dashboard"
   }, /*#__PURE__*/React.createElement("img", {
     className: "brand-logo",
     src: "./assets/gta6-watch-logo.png",
     alt: "GTA 6 Watch"
-  }), /*#__PURE__*/React.createElement("button", {
+  })), /*#__PURE__*/React.createElement("button", {
     className: "mobile-menu-toggle",
     type: "button",
     onClick: () => setMobileMenuOpen(open => !open),
