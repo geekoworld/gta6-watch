@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-08-31T01:22:31.856Z",
+  "generatedAt": "2026-08-31T08:38:39.608Z",
   "failures": [],
   "articles": [
+    {
+      "id": "gtaboom-e7aa1499ed8fa4b9",
+      "title": "IO Interactive AI Programmer Says GTA 6 Crowds Are 10 Years Ahead",
+      "category": "News",
+      "credibility": "À vérifier",
+      "source": "GTA BOOM",
+      "sourceId": "gtaboom",
+      "sourceTier": "B",
+      "sourceScore": 80,
+      "url": "https://www.gtaboom.com/io-interactive-dev-explains-why-gta-6-crowds-are-years-ahead-of-everyone-else-8d8c",
+      "date": "2026-08-31",
+      "summary": "An IO Interactive AI programmer says Grand Theft Auto VI crowds run real NPC AI, not looped animations, calling it years ahead of the industry.",
+      "favorite": false,
+      "collectedAt": "2026-08-31T08:38:39.055Z"
+    },
+    {
+      "id": "tgg-9422a8f6771944ba",
+      "title": "GTA 6: Robberies, Economy & How Money Works Now | Exclusive Deep Dive",
+      "category": "News",
+      "credibility": "À vérifier",
+      "source": "TGG",
+      "sourceId": "tgg",
+      "sourceTier": "B",
+      "sourceScore": 75,
+      "url": "https://www.youtube.com/watch?v=CMXxuSmzXsk",
+      "date": "2026-08-31",
+      "summary": "Chapter 1 – 0:00 – How Money Used to Work Chapter 2 – 1:40 – The Three Money Types (That we know of) Chapter 3 – 2:08 – Robbery Tiers Chapter 4 – 5:54 – The Feet Pics Story Chapter 5 – 7:29 – Heists Chapter 6 – 8:09 – Fences Chapter 7 – 9:02 – Money is Tied to Story Chapter 8 – 10:31 – What You Can Spend Money On Chapter 9 – 11:53 – The GTA 5 Money Problem, Acknowledged",
+      "favorite": false,
+      "collectedAt": "2026-08-31T08:38:39.076Z"
+    },
     {
       "id": "gtaboom-be9fcd4d876b7409",
       "title": "Why Digital Foundry Thinks Even a GTA 6 PC Version Will Struggle to Hit 60 FPS",
