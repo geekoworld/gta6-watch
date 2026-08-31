@@ -2,20 +2,20 @@
 
 Tableau de veille GTA 6 conçu pour centraliser les actualités, qualifier leur provenance et ouvrir rapidement les sources d’origine.
 
-## Ce que contient cette version
+## Architecture actuelle
 
 - tableau de bord, recherche, catégories et favoris ;
 - ajout manuel d’une information ;
 - registre de 17 sources GTA classées A, B ou C ;
 - justification visible du niveau de chaque source ;
 - 7 flux publics automatiques : Rockstar Games, GTA BOOM et cinq chaînes YouTube ;
-- collecte horaire par GitHub Actions ;
-- déduplication par URL ;
-- filtrage GTA 6 ;
-- déploiement statique avec GitHub Pages ;
+- modèle canonique versionné dans `data/canonical-news.json` ;
+- projection publique statique générée dans `data/news.json` ;
+- validation locale et dans GitHub Actions avant publication ;
+- déploiement explicite vers GitHub Pages dans le workflow de publication ;
 - aucun secret ni clé API dans le navigateur.
 
-La fonction de génération de scripts et toute l’intégration Anthropic ont été supprimées.
+La fonction de génération de scripts et toute l’intégration Anthropic ont été supprimées. Cette version ne publie ni sur X ni via OpenClaw.
 
 ## Politique de qualification
 
@@ -27,13 +27,26 @@ La fonction de génération de scripts et toute l’intégration Anthropic ont �
 
 Le niveau qualifie la provenance générale, pas automatiquement chaque affirmation. Une vidéo YouTube officielle de Rockstar peut confirmer ce qu’elle montre ; un commentaire externe sur cette vidéo reste à vérifier.
 
+## Flux de données
+
+```text
+Objets canoniques approuvés
+→ validation (`npm run validate`)
+→ projection publique (`npm run build:feed`)
+→ validation du flux public
+→ commit éventuel de data/news.json
+→ déploiement GitHub Pages explicite
+```
+
+Les nouveaux objets restent privés du flux public tant que `publication.articlePublishedAt` vaut `null`. Les articles historiques déjà publics ont été migrés une seule fois pour préserver le site existant.
+
 ## Publication sur GitHub Pages
 
 1. Créer un dépôt GitHub, idéalement nommé `gta6-watch`.
 2. Envoyer tous les fichiers de ce dossier à la racine de la branche `main`.
 3. Dans **Settings → Pages**, choisir **GitHub Actions** comme source de publication.
-4. Ouvrir **Actions → Update GTA 6 news → Run workflow** pour lancer une première collecte.
-5. Le workflow **Deploy GTA 6 Watch to Pages** publiera ensuite le site.
+4. Ouvrir **Actions → Publish GTA 6 Watch → Run workflow** pour valider, générer et déployer le flux.
+5. Le même workflow publie explicitement GitHub Pages : il ne dépend pas d’une seconde exécution déclenchée par un commit de bot.
 
 L’adresse finale aura généralement cette forme :
 
@@ -41,17 +54,20 @@ L’adresse finale aura généralement cette forme :
 https://VOTRE-PSEUDO.github.io/gta6-watch/
 ```
 
-## Mise à jour automatique
+## Commandes locales
 
-Le fichier `scripts/fetch-news.mjs` lit les flux configurés dans `data/sources.json`. GitHub exécute ce collecteur chaque heure et ne crée un commit que si les données ont réellement changé.
+```bash
+npm run validate
+npm run build:feed
+node scripts/validate-content.mjs --public
+npm run verify
+```
+
+`scripts/fetch-news.mjs` reste disponible pour l’ancienne collecte RSS. Il ne fait plus partie du workflow de publication, car les nouvelles informations n’ont pas encore de mécanisme d’approbation canonique.
 
 Pour lancer la collecte localement :
 
-```bash
-npm run fetch
-```
-
-Le collecteur n’utilise aucune dépendance externe et nécessite Node.js 22 ou plus récent.
+Le projet n’utilise aucune dépendance npm externe et nécessite Node.js 22 ou plus récent.
 
 ## Limites connues
 
@@ -65,11 +81,26 @@ Le collecteur n’utilise aucune dépendance externe et nécessite Node.js 22 ou
 ```text
 index.html                         Application autonome
 data/sources.json                  Registre et qualification des sources
-data/news.json                     Actualités collectées
-scripts/fetch-news.mjs             Collecteur RSS/Atom
-.github/workflows/update-news.yml  Collecte horaire
-.github/workflows/deploy-pages.yml Publication GitHub Pages
+data/canonical-news.json           Registre canonique et preuves source
+data/news.json                     Projection publique compatible avec le frontend
+data/publication-log.json          Journal d’idempotence de publication
+data/rejected-or-held.json         Éléments rejetés ou en attente
+news.schema.json                   Contrat JSON du modèle canonique
+scripts/validate-content.mjs       Validation de contenu
+scripts/build-public-feed.mjs      Génération du flux public
+.github/workflows/update-news.yml  Validation, génération et publication Pages
+.github/workflows/deploy-pages.yml Déploiement manuel de secours
 ```
+
+## Récupération
+
+1. En cas d’échec de validation, GitHub Pages n’est pas déployé. Corriger les données canoniques, puis lancer `npm run verify`.
+2. En cas de mauvaise publication, restaurer le commit de données connu sain, relancer `npm run verify`, puis lancer **Publish GTA 6 Watch** manuellement.
+3. Ne jamais modifier `data/news.json` à la main : il est généré depuis `data/canonical-news.json`.
+
+## Protection recommandée de `main`
+
+À configurer manuellement dans GitHub : exiger une pull request avec revue avant fusion, exiger que la validation soit verte, bloquer les force-pushes et suppressions, et restreindre les modifications des workflows `.github/workflows/`. Ne pas donner de secrets à un workflow non revu.
 
 ## Sécurité éditoriale
 

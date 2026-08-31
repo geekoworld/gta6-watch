@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gta6-watch.xyz/schemas/news.schema.json",
+  "title": "GTA6 Watch canonical news",
+  "type": "object",
+  "required": ["version", "records"],
+  "additionalProperties": false,
+  "properties": {
+    "version": { "const": 1 },
+    "records": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/news" }
+    }
+  },
+  "$defs": {
+    "timestamp": { "type": "string", "format": "date-time" },
+    "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+    "source": {
+      "type": "object",
+      "required": ["sourceId", "sourceName", "sourceTier", "sourceUrlRaw", "sourceUrlCanonical", "externalId", "publishedAt"],
+      "additionalProperties": false,
+      "properties": {
+        "sourceId": { "type": "string", "minLength": 1 },
+        "sourceName": { "type": "string", "minLength": 1 },
+        "sourceTier": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "sourceUrlRaw": { "$ref": "#/$defs/url" },
+        "sourceUrlCanonical": { "$ref": "#/$defs/url" },
+        "externalId": { "type": "string" },
+        "publishedAt": { "$ref": "#/$defs/timestamp" }
+      }
+    },
+    "news": {
+      "type": "object",
+      "required": ["newsId", "title", "summary", "status", "confidence", "category", "publishedAt", "collectedAt", "updatedAt", "sources", "scores", "publication"],
+      "additionalProperties": false,
+      "properties": {
+        "newsId": { "type": "string", "pattern": "^gta6-[a-z0-9][a-z0-9-]{7,}$" },
+        "title": { "type": "string", "minLength": 4 },
+        "summary": { "type": "string", "minLength": 6 },
+        "status": { "enum": ["CONFIRMED", "RUMOR", "LEAK", "THEORY", "GUIDE"] },
+        "confidence": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "category": { "type": "string", "minLength": 1 },
+        "publishedAt": { "$ref": "#/$defs/timestamp" },
+        "collectedAt": { "$ref": "#/$defs/timestamp" },
+        "updatedAt": { "$ref": "#/$defs/timestamp" },
+        "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/source" } },
+        "scores": {
+          "type": "object",
+          "required": ["article", "x", "shorts"],
+          "additionalProperties": false,
+          "properties": {
+            "article": { "type": "integer", "minimum": 0, "maximum": 100 },
+            "x": { "type": "integer", "minimum": 0, "maximum": 100 },
+            "shorts": { "type": "integer", "minimum": 0, "maximum": 100 }
+          }
+        },
+        "publication": {
+          "type": "object",
+          "required": ["articlePublishedAt", "xPostId", "shortsQueueId"],
+          "additionalProperties": false,
+          "properties": {
+            "articlePublishedAt": { "anyOf": [{ "$ref": "#/$defs/timestamp" }, { "type": "null" }] },
+            "xPostId": { "type": ["string", "null"] },
+            "shortsQueueId": { "type": ["string", "null"] }
+          }
+        }
+      }
+    }
+  }
+}
