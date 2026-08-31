@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -21,6 +21,31 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate canonical content
+        run: node scripts/validate-content.mjs
+
+      - name: Build public news feed
+        run: node scripts/build-public-feed.mjs
+
+      - name: Validate public news feed
+        run: node scripts/validate-content.mjs --public
+
+      - name: Commit updated public feed
+        run: |
+          if git diff --quiet -- data/news.json; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          git commit -m "Build public GTA 6 news feed"
+          git push
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

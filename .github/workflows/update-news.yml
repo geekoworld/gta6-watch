@@ -1,4 +1,4 @@
-name: Publish GTA 6 Watch
+name: Collect GTA 6 candidates
 
 on:
   schedule:
@@ -7,11 +7,9 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
-  publish-news:
+  collect-candidates:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,42 +20,26 @@ jobs:
         with:
           node-version: 22
 
-      - name: Validate canonical content
-        run: node scripts/validate-content.mjs
+      - name: Collect candidates
+        run: node scripts/fetch-news.mjs
 
-      - name: Build public news feed
-        run: node scripts/build-public-feed.mjs
-
-      - name: Validate public news feed
-        run: node scripts/validate-content.mjs --public
+      - name: Validate candidates
+        run: node scripts/validate-content.mjs --candidates
 
       - name: Detect news changes
         id: changes
         run: |
-          if git diff --quiet -- data/news.json; then
+          if git diff --quiet -- data/candidates.json; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit updated news data
+      - name: Commit candidate queue
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json
-          git commit -m "Build public GTA 6 news feed"
+          git add data/candidates.json
+          git commit -m "Collect GTA 6 candidates"
           git push
-
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-
-      - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: .
-
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4

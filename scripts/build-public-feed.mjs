@@ -45,5 +45,13 @@ const articles = canonical.records
   .sort((a, b) => String(b.date).localeCompare(String(a.date)) || (Number(b.sourceScore) || 0) - (Number(a.sourceScore) || 0))
   .slice(0, 250);
 
+let previous = null;
+try {
+  previous = JSON.parse(await fs.readFile(outputPath, "utf8"));
+} catch {}
+if (previous && JSON.stringify(previous.articles) === JSON.stringify(articles) && JSON.stringify(previous.failures || []) === "[]") {
+  console.log(`Flux public inchangé: ${articles.length} articles publiés.`);
+  process.exit(0);
+}
 await fs.writeFile(outputPath, `${JSON.stringify({ generatedAt: new Date().toISOString(), failures: [], articles }, null, 2)}\n`);
 console.log(`Flux public généré: ${articles.length} articles publiés.`);

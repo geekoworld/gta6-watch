@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const STATUSES = new Set(["CONFIRMED", "RUMOR", "LEAK", "THEORY", "GUIDE"]);
+const REVIEW_STATES = new Set(["PENDING", "APPROVED", "REJECTED", "DUPLICATE"]);
 const SCORE_FIELDS = ["article", "x", "shorts"];
 
 async function readJson(relativePath) {
@@ -75,6 +76,38 @@ export function validateCanonicalDocument(document, schema) {
   return errors;
 }
 
+export function validateCandidatesDocument(document, schema) {
+  const errors = [];
+  if (!schema?.$defs?.candidate || schema?.$schema !== "https://json-schema.org/draft/2020-12/schema") errors.push("candidates.schema.json est absent ou incompatible.");
+  if (!document || document.version !== 1 || !Array.isArray(document.failures) || !Array.isArray(document.candidates)) return [...errors, "candidates.json doit contenir version: 1, failures: [] et candidates: []."];
+  if (document.generatedAt !== null && !isTimestamp(document.generatedAt)) errors.push("candidates.json.generatedAt doit être null ou une date ISO.");
+  const ids = new Set();
+  for (const [index, candidate] of document.candidates.entries()) {
+    const at = `candidates[${index}]`;
+    if (!requiredString(candidate.candidateId) || !/^candidate-[a-z0-9][a-z0-9-]{7,}$/.test(candidate.candidateId)) errors.push(`${at}.candidateId est invalide.`);
+    if (ids.has(candidate.candidateId)) errors.push(`${at}.candidateId est dupliqué: ${candidate.candidateId}.`);
+    ids.add(candidate.candidateId);
+    for (const field of ["detectedAt", "publishedAt"]) if (!isTimestamp(candidate[field])) errors.push(`${at}.${field} doit être une date ISO.`);
+    for (const field of ["title", "summary", "categorySuggested", "contentHash"]) if (!requiredString(candidate[field])) errors.push(`${at}.${field} est requis.`);
+    if (!STATUSES.has(candidate.statusSuggested)) errors.push(`${at}.statusSuggested est invalide.`);
+    if (typeof candidate.confidenceSuggested !== "number" || candidate.confidenceSuggested < 0 || candidate.confidenceSuggested > 1) errors.push(`${at}.confidenceSuggested doit être entre 0 et 1.`);
+    if (!REVIEW_STATES.has(candidate.reviewState)) errors.push(`${at}.reviewState est invalide.`);
+    if (candidate.reviewReason !== null && !requiredString(candidate.reviewReason)) errors.push(`${at}.reviewReason doit être null ou une chaîne non vide.`);
+    if (candidate.canonicalNewsId !== null && !requiredString(candidate.canonicalNewsId)) errors.push(`${at}.canonicalNewsId doit être null ou une chaîne non vide.`);
+    if (!/^[a-f0-9]{64}$/.test(candidate.contentHash || "")) errors.push(`${at}.contentHash doit être un SHA-256.`);
+    const source = candidate.source || {};
+    for (const field of ["sourceId", "sourceName", "platform"]) if (!requiredString(source[field])) errors.push(`${at}.source.${field} est requis.`);
+    if (typeof source.externalId !== "string") errors.push(`${at}.source.externalId est requis.`);
+    if (!boundedInteger(source.sourceTier)) errors.push(`${at}.source.sourceTier doit être un entier de 0 à 100.`);
+    for (const field of ["sourceUrlRaw", "sourceUrlCanonical"]) if (!validUrl(source[field])) errors.push(`${at}.source.${field} doit être une URL HTTP(S) sans identifiants.`);
+    if (!Array.isArray(candidate.reviewHistory) || candidate.reviewHistory.length === 0) errors.push(`${at}.reviewHistory doit conserver l'historique éditorial.`);
+    for (const [historyIndex, entry] of (candidate.reviewHistory || []).entries()) {
+      if (!REVIEW_STATES.has(entry.state) || !isTimestamp(entry.timestamp)) errors.push(`${at}.reviewHistory[${historyIndex}] est invalide.`);
+    }
+  }
+  return errors;
+}
+
 function validatePublicationLog(document) {
   const errors = [];
   if (!document || document.version !== 1 || !Array.isArray(document.entries)) return ["publication-log.json doit contenir version: 1 et entries: []."];
@@ -117,10 +150,14 @@ function validatePublicFeed(document) {
 
 async function main() {
   const publicOnly = process.argv.includes("--public");
+  const candidatesOnly = process.argv.includes("--candidates");
   const errors = publicOnly
     ? validatePublicFeed(await readJson("data/news.json"))
+    : candidatesOnly
+      ? validateCandidatesDocument(await readJson("data/candidates.json"), await readJson("candidates.schema.json"))
     : [
         ...validateCanonicalDocument(await readJson("data/canonical-news.json"), await readJson("news.schema.json")),
+        ...validateCandidatesDocument(await readJson("data/candidates.json"), await readJson("candidates.schema.json")),
         ...validatePublicationLog(await readJson("data/publication-log.json")),
         ...validateHoldList(await readJson("data/rejected-or-held.json"))
       ];
@@ -130,7 +167,7 @@ async function main() {
     process.exitCode = 1;
     return;
   }
-  console.log(publicOnly ? "Public feed validé." : "Modèle canonique validé.");
+  console.log(publicOnly ? "Public feed validé." : candidatesOnly ? "File de candidats validée." : "Modèle canonique et file de candidats validés.");
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => {

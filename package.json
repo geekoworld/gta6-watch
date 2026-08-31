@@ -5,6 +5,11 @@
   "description": "Veille éditoriale GTA 6 avec qualification des sources",
   "scripts": {
     "fetch": "node scripts/fetch-news.mjs",
+    "collect": "node scripts/fetch-news.mjs",
+    "candidates:validate": "node scripts/validate-content.mjs --candidates",
+    "candidate:approve": "node scripts/approve-candidate.mjs",
+    "candidate:reject": "node scripts/reject-candidate.mjs",
+    "test:candidates": "node scripts/test-candidate-pipeline.mjs",
     "validate": "node scripts/validate-content.mjs",
     "build:feed": "node scripts/build-public-feed.mjs",
     "verify": "npm run validate && npm run build:feed && node scripts/validate-content.mjs --public"

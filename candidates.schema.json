@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gta6-watch.xyz/schemas/candidates.schema.json",
+  "title": "GTA6 Watch candidates",
+  "type": "object",
+  "required": ["version", "generatedAt", "failures", "candidates"],
+  "additionalProperties": false,
+  "properties": {
+    "version": { "const": 1 },
+    "generatedAt": { "type": ["string", "null"] },
+    "failures": { "type": "array" },
+    "candidates": { "type": "array", "items": { "$ref": "#/$defs/candidate" } }
+  },
+  "$defs": {
+    "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+    "candidate": {
+      "type": "object",
+      "required": ["candidateId", "detectedAt", "publishedAt", "title", "summary", "statusSuggested", "confidenceSuggested", "categorySuggested", "source", "contentHash", "reviewState", "reviewReason", "canonicalNewsId", "reviewHistory"],
+      "additionalProperties": false,
+      "properties": {
+        "candidateId": { "type": "string", "pattern": "^candidate-[a-z0-9][a-z0-9-]{7,}$" },
+        "detectedAt": { "type": "string", "format": "date-time" },
+        "publishedAt": { "type": "string", "format": "date-time" },
+        "title": { "type": "string", "minLength": 4 },
+        "summary": { "type": "string", "minLength": 1 },
+        "statusSuggested": { "enum": ["CONFIRMED", "RUMOR", "LEAK", "THEORY", "GUIDE"] },
+        "confidenceSuggested": { "type": "number", "minimum": 0, "maximum": 1 },
+        "categorySuggested": { "type": "string", "minLength": 1 },
+        "source": {
+          "type": "object",
+          "required": ["sourceId", "sourceName", "sourceTier", "sourceUrlRaw", "sourceUrlCanonical", "externalId", "platform"],
+          "additionalProperties": false,
+          "properties": {
+            "sourceId": { "type": "string", "minLength": 1 },
+            "sourceName": { "type": "string", "minLength": 1 },
+            "sourceTier": { "type": "integer", "minimum": 0, "maximum": 100 },
+            "sourceUrlRaw": { "$ref": "#/$defs/url" },
+            "sourceUrlCanonical": { "$ref": "#/$defs/url" },
+            "externalId": { "type": "string" },
+            "platform": { "type": "string", "minLength": 1 }
+          }
+        },
+        "contentHash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "reviewState": { "enum": ["PENDING", "APPROVED", "REJECTED", "DUPLICATE"] },
+        "reviewReason": { "type": ["string", "null"] },
+        "canonicalNewsId": { "type": ["string", "null"] },
+        "reviewHistory": { "type": "array", "minItems": 1 }
+      }
+    }
+  }
+}
