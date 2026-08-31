@@ -2585,7 +2585,6 @@ function ArticleDrawer({
   article,
   onClose,
   onToggleFavorite,
-  onDelete,
   copy,
   language
 }) {
@@ -2817,18 +2816,7 @@ function ArticleDrawer({
       cursor: "pointer",
       fontWeight: 700
     }
-  }, article.favorite ? `★ ${copy.removeReview}` : `☆ ${copy.addReview}`), /*#__PURE__*/React.createElement("button", {
-    onClick: () => onDelete(article.id),
-    "aria-label": copy.deleteInfo,
-    style: {
-      padding: "10px 12px",
-      borderRadius: 8,
-      border: "1px solid var(--border)",
-      background: "transparent",
-      color: "var(--text-muted)",
-      cursor: "pointer"
-    }
-  }, "🗑")))));
+  }, article.favorite ? `★ ${copy.removeReview}` : `☆ ${copy.addReview}`)))));
 }
 
 /* ------------------------------------------------------------------ */
@@ -3297,10 +3285,6 @@ function GTA6Watch() {
     ...a,
     favorite: !a.favorite
   } : a));
-  const deleteArticle = id => {
-    persist(articles.filter(a => a.id !== id));
-    setSelectedId(null);
-  };
   const addArticle = a => {
     persist([a, ...articles]);
     setShowAdd(false);
@@ -3518,7 +3502,6 @@ function GTA6Watch() {
     article: selected,
     onClose: () => setSelectedId(null),
     onToggleFavorite: toggleFavorite,
-    onDelete: deleteArticle,
     copy: copy,
     language: language
   }), showAdd && /*#__PURE__*/React.createElement(AddArticleModal, {
