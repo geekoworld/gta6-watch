@@ -1,6 +1,2947 @@
 {
   "version": 1,
-  "generatedAt": null,
+  "generatedAt": "2026-08-31T20:28:19.776Z",
   "failures": [],
-  "candidates": []
+  "candidates": [
+    {
+      "candidateId": "candidate-rockstar-youtube-0b4b414ff3149da6",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-28T01:01:30.000Z",
+      "title": "Grand Theft Auto VI: An Extended Look — Now Playing",
+      "summary": "#GrandTheftAutoVI #GTAVI",
+      "statusSuggested": "CONFIRMED",
+      "confidenceSuggested": 1,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "rockstar-youtube",
+        "sourceName": "Rockstar Games — YouTube",
+        "sourceTier": 100,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/MJOrsRRa9GM",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/MJOrsRRa9GM",
+        "externalId": "yt:video:MJOrsRRa9GM",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "96f1f5c39a2c7d813fa01bc287c8a417c152a36055f80fe24c9a717a5cf8867d",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-rockstar-youtube-33cffcfba79cf440",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-28T01:01:28.000Z",
+      "title": "Grand Theft Auto VI: An Extended Look — Now Playing",
+      "summary": "#GrandTheftAutoVI #GTAVI",
+      "statusSuggested": "CONFIRMED",
+      "confidenceSuggested": 1,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "rockstar-youtube",
+        "sourceName": "Rockstar Games — YouTube",
+        "sourceTier": 100,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/53C6gUqRpK4",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/53C6gUqRpK4",
+        "externalId": "yt:video:53C6gUqRpK4",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "21d189632c3896110402e18b348328e41d2f92f2fd1f4282fdd73d400f6e2e34",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-rockstar-youtube-4e0403bd89b60f10",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-28T01:01:24.000Z",
+      "title": "Grand Theft Auto VI: An Extended Look — Now Playing",
+      "summary": "#GrandTheftAutoVI #GTAVI",
+      "statusSuggested": "CONFIRMED",
+      "confidenceSuggested": 1,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "rockstar-youtube",
+        "sourceName": "Rockstar Games — YouTube",
+        "sourceTier": 100,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/mAfR_ybf5WM",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/mAfR_ybf5WM",
+        "externalId": "yt:video:mAfR_ybf5WM",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "c5cb06c8a18ce09d76681021167f289be138f386ea784ad9cd050646bcf39c8e",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-rockstar-youtube-3eccc44c326f8997",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-28T01:01:21.000Z",
+      "title": "Grand Theft Auto VI: An Extended Look — Now Playing",
+      "summary": "#GrandTheftAutoVI #GTAVI",
+      "statusSuggested": "CONFIRMED",
+      "confidenceSuggested": 1,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "rockstar-youtube",
+        "sourceName": "Rockstar Games — YouTube",
+        "sourceTier": 100,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/L-9NI3mHZVo",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/L-9NI3mHZVo",
+        "externalId": "yt:video:L-9NI3mHZVo",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "296b9094f4dd53c5e0e0cac236ba31047ff3acdd3fabefde0d4a218eb1f0e255",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-rockstar-youtube-2982b9ed686ff84d",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-28T01:01:18.000Z",
+      "title": "Grand Theft Auto VI: An Extended Look — Now Playing",
+      "summary": "#GrandTheftAutoVI #GTAVI",
+      "statusSuggested": "CONFIRMED",
+      "confidenceSuggested": 1,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "rockstar-youtube",
+        "sourceName": "Rockstar Games — YouTube",
+        "sourceTier": 100,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/GVTE_MuInQg",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/GVTE_MuInQg",
+        "externalId": "yt:video:GVTE_MuInQg",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "fadd491ad68b93708bbd6b119149337487cd659826a1ad1712e18dc512c3e5e4",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-rockstar-youtube-67716fad78c23bb9",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-28T01:01:15.000Z",
+      "title": "Grand Theft Auto VI: An Extended Look — Now Playing",
+      "summary": "#GrandTheftAutoVI #GTAVI",
+      "statusSuggested": "CONFIRMED",
+      "confidenceSuggested": 1,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "rockstar-youtube",
+        "sourceName": "Rockstar Games — YouTube",
+        "sourceTier": 100,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/Xzxv75FjMJk",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/Xzxv75FjMJk",
+        "externalId": "yt:video:Xzxv75FjMJk",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "fe7fad80086876dcc5b960146be93c7e39d92b590890895a836af8f44eb9e818",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-rockstar-youtube-95e04c5b689c56e9",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-28T01:00:48.000Z",
+      "title": "Grand Theft Auto VI: An Extended Look",
+      "summary": "Captured entirely from in-game footage on PlayStation 5, this extended look at the next Grand Theft Auto showcases the biggest, most immersive evolution of the series yet. Grand Theft Auto VI plays best on PlayStation 5. Coming November 19.",
+      "statusSuggested": "CONFIRMED",
+      "confidenceSuggested": 1,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "rockstar-youtube",
+        "sourceName": "Rockstar Games — YouTube",
+        "sourceTier": 100,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=tJbzMqJGH4k",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=tJbzMqJGH4k",
+        "externalId": "yt:video:tJbzMqJGH4k",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "4dbd113c355c1971bceae0da8b683fee872b3f194479d7f7cb01d92e3859b2fb",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-rockstar-youtube-c541629e6e8c4a9d",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-06T12:09:13.000Z",
+      "title": "Grand Theft Auto VI: An Extended Look Coming August 27",
+      "summary": "Grand Theft Auto VI: An Extended Look will premiere on Netflix Thursday, August 27 at 3 p.m. ET and will also launch on the official Rockstar Games YouTube channel and the Grand Theft Auto VI site at 9 p.m. ET on August 27. https://netflix.com/GTAVI Grand Theft Auto VI is coming November 19 to PlayStation 5 and XBOX Series X|S. Visit https://www.rockstargames.com/VI to pre-order now.",
+      "statusSuggested": "CONFIRMED",
+      "confidenceSuggested": 1,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "rockstar-youtube",
+        "sourceName": "Rockstar Games — YouTube",
+        "sourceTier": 100,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/YmzCydc4qOk",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/YmzCydc4qOk",
+        "externalId": "yt:video:YmzCydc4qOk",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "377d9b53e38a533e4be788332fc6f28e93cfcf3e3622f6121b0f36084a2f3009",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-rockstar-youtube-ffb407b2ac2ee3ab",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-06T12:00:25.000Z",
+      "title": "Grand Theft Auto VI: An Extended Look Coming August 27",
+      "summary": "Grand Theft Auto VI: An Extended Look will premiere on Netflix Thursday, August 27 at 3 p.m. ET and will also launch on the official Rockstar Games YouTube channel and the Grand Theft Auto VI site at 9 p.m. ET on August 27. https://netflix.com/GTAVI Grand Theft Auto VI is coming November 19 to PlayStation 5 and XBOX Series X|S. Visit https://www.rockstargames.com/VI to pre-order now.",
+      "statusSuggested": "CONFIRMED",
+      "confidenceSuggested": 1,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "rockstar-youtube",
+        "sourceName": "Rockstar Games — YouTube",
+        "sourceTier": 100,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=qq76pQsI1iw",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=qq76pQsI1iw",
+        "externalId": "yt:video:qq76pQsI1iw",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "e97ad206c664f42abf3918f700773689ba576fcc52cce6224f50a5b55f34e886",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-rockstar-youtube-70e80ba9d2ebea16",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-06-18T13:04:25.000Z",
+      "title": "Grand Theft Auto VI: Official Cover Art Reveal",
+      "summary": "Pre-orders for Grand Theft Auto VI will officially begin on June 25 on digital storefronts and at other select retailers. Check out the official cover art, also available as downloadable artwork at rockstargames.com/VI",
+      "statusSuggested": "CONFIRMED",
+      "confidenceSuggested": 1,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "rockstar-youtube",
+        "sourceName": "Rockstar Games — YouTube",
+        "sourceTier": 100,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/INjHGpMRjRA",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/INjHGpMRjRA",
+        "externalId": "yt:video:INjHGpMRjRA",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "65386a6f66e20dde3a92283f3dcd33ec147ff30154b38aaaa745b16b3056e3e0",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-rockstar-youtube-f23c589c5d987a6b",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-06-18T13:03:29.000Z",
+      "title": "Grand Theft Auto VI: Official Cover Art Reveal",
+      "summary": "Pre-orders for Grand Theft Auto VI will officially begin on June 25 on digital storefronts and at other select retailers. Check out the official cover art, also available as downloadable artwork at rockstargames.com/VI",
+      "statusSuggested": "CONFIRMED",
+      "confidenceSuggested": 1,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "rockstar-youtube",
+        "sourceName": "Rockstar Games — YouTube",
+        "sourceTier": 100,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=EiQEBYDox_k",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=EiQEBYDox_k",
+        "externalId": "yt:video:EiQEBYDox_k",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "6a479ac1288a9f90af4c4673a93b76aa6b0d85dc31f0a187af1000607bc2d0af",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-7bf74fbc62be2e76",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-31T14:12:00.000Z",
+      "title": "GTA 6 Pre-Orders Surged Over 570% After Extended Look Premiere",
+      "summary": "Estimated Grand Theft Auto VI pre orders jumped about 572% around the Netflix trailer, with PlayStation up 606% versus Xbox's 127%, per Sensor Tower.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/gta-6-pre-orders-surged-over-570-after-extended-look-premiere-2444",
+        "sourceUrlCanonical": "https://www.gtaboom.com/gta-6-pre-orders-surged-over-570-after-extended-look-premiere-2444",
+        "externalId": "https://www.gtaboom.com/gta-6-pre-orders-surged-over-570-after-extended-look-premiere-2444",
+        "platform": "WEB"
+      },
+      "contentHash": "e31a6b9746d04fefbf0578a10eb670101af29047806f485433090692bca3465f",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-a2106792c628045f",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-31T09:36:00.000Z",
+      "title": "Miami-Dade Says GTA 6 Could Be a 'Unique Opportunity to Generate Revenue' for the County",
+      "summary": "Miami-Dade's mayor's office says Rockstar Games' extensive Vice City marketing pitch is a potential money-maker awaiting approval.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/miami-dade-says-gta-6-could-be-a-unique-opportunity-to-generate-revenue-for-the-county-822e",
+        "sourceUrlCanonical": "https://www.gtaboom.com/miami-dade-says-gta-6-could-be-a-unique-opportunity-to-generate-revenue-for-the-county-822e",
+        "externalId": "https://www.gtaboom.com/miami-dade-says-gta-6-could-be-a-unique-opportunity-to-generate-revenue-for-the-county-822e",
+        "platform": "WEB"
+      },
+      "contentHash": "035620be2f6e9d9cddd76316c192bbdadebd6e37dde19a641949bd693291a5af",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-9146be4392f81066",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-31T01:59:00.000Z",
+      "title": "IO Interactive AI Programmer Says GTA 6 Crowds Are 10 Years Ahead",
+      "summary": "An IO Interactive AI programmer says Grand Theft Auto VI crowds run real NPC AI, not looped animations, calling it years ahead of the industry.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/io-interactive-dev-explains-why-gta-6-crowds-are-years-ahead-of-everyone-else-8d8c",
+        "sourceUrlCanonical": "https://www.gtaboom.com/io-interactive-dev-explains-why-gta-6-crowds-are-years-ahead-of-everyone-else-8d8c",
+        "externalId": "https://www.gtaboom.com/io-interactive-dev-explains-why-gta-6-crowds-are-years-ahead-of-everyone-else-8d8c",
+        "platform": "WEB"
+      },
+      "contentHash": "ec43f0e61b54876832510fa32049187d6515b8a0e149d0ddf10c6b8738376d1e",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-5b7f54088baae1cf",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-30T00:21:00.000Z",
+      "title": "Why Digital Foundry Thinks Even a GTA 6 PC Version Will Struggle to Hit 60 FPS",
+      "summary": "Digital Foundry expects Grand Theft Auto VI to run at 30 FPS on consoles, saying its CPU heavy simulation makes 60 FPS extremely unlikely, even on PC.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/gta-6-at-30-fps-may-be-the-price-of-the-most-impressive-game-digital-foundry-has-ever-seen-785a",
+        "sourceUrlCanonical": "https://www.gtaboom.com/gta-6-at-30-fps-may-be-the-price-of-the-most-impressive-game-digital-foundry-has-ever-seen-785a",
+        "externalId": "https://www.gtaboom.com/gta-6-at-30-fps-may-be-the-price-of-the-most-impressive-game-digital-foundry-has-ever-seen-785a",
+        "platform": "WEB"
+      },
+      "contentHash": "99962a0bb15e1008978a2be7bc21b42eabb1ad48c3ac4bd75fd89cc3ffe57dd6",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-e9a6dff6fdeb876b",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-28T17:28:00.000Z",
+      "title": "Rockstar North Dev Says GTA 6 Console Builds Currently Run at 30 FPS",
+      "summary": "Rockstar North's Rob Nelson says current console builds of Grand Theft Auto VI run at 30 FPS, with no 60 FPS mode confirmed yet.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/rockstar-dev-says-gta-6-is-currently-running-at-30-fps-on-consoles-3895",
+        "sourceUrlCanonical": "https://www.gtaboom.com/rockstar-dev-says-gta-6-is-currently-running-at-30-fps-on-consoles-3895",
+        "externalId": "https://www.gtaboom.com/rockstar-dev-says-gta-6-is-currently-running-at-30-fps-on-consoles-3895",
+        "platform": "WEB"
+      },
+      "contentHash": "6aa61b6fa3e0a360b91cf2dfedc091b5ea0fa728ca456be035ec951fd7d7232b",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-f3242954836a793c",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-28T12:06:00.000Z",
+      "title": "GTA 6's Reported 80 Hour Run Compared With GTA 5 and Red Dead Redemption 2",
+      "summary": "Grand Theft Auto VI leads Rockstar's mainline games at roughly 80 hours for the main story, ahead of Red Dead Redemption 2 at 50 to 51 hours.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Rumeurs",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/every-mainline-gta-and-red-dead-ranked-based-on-playthrough-length-981b",
+        "sourceUrlCanonical": "https://www.gtaboom.com/every-mainline-gta-and-red-dead-ranked-based-on-playthrough-length-981b",
+        "externalId": "https://www.gtaboom.com/every-mainline-gta-and-red-dead-ranked-based-on-playthrough-length-981b",
+        "platform": "WEB"
+      },
+      "contentHash": "31019aaecce76aa22f4d4b0e7060ad79f7ceb7ac8d0594093f91791cade1afbb",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-50ad969584e7c25f",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-28T10:38:00.000Z",
+      "title": "Rockstar Developer Says His GTA 6 Playthrough Ran About 80 Hours",
+      "summary": "80 hours to play, a Vice City twice the old size, a map three times Red Dead's. GTA 6 is shaping up to be the biggest thing Rockstar has ever built.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/a-full-gta-6-playthrough-took-this-rockstar-dev-about-80-hours-ae3c",
+        "sourceUrlCanonical": "https://www.gtaboom.com/a-full-gta-6-playthrough-took-this-rockstar-dev-about-80-hours-ae3c",
+        "externalId": "https://www.gtaboom.com/a-full-gta-6-playthrough-took-this-rockstar-dev-about-80-hours-ae3c",
+        "platform": "WEB"
+      },
+      "contentHash": "43f206d5ffe369a54bdb338ff0812b50b79f94a62280f2d843124798ba49a672",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-7257151acab87b96",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-28T07:09:16.000Z",
+      "title": "48 GTA 6 Extended Look Screenshots in 4K From Rockstar's Reveal",
+      "summary": "See 48 selected 4K frames from GTA VI: An Extended Look, including Jason and Lucia, robberies, police chases, nightlife and activities across Leonida.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/gta-6-extended-look-4k-gameplay-screenshots-aacb",
+        "sourceUrlCanonical": "https://www.gtaboom.com/gta-6-extended-look-4k-gameplay-screenshots-aacb",
+        "externalId": "https://www.gtaboom.com/gta-6-extended-look-4k-gameplay-screenshots-aacb",
+        "platform": "WEB"
+      },
+      "contentHash": "b0b157aa5690f90d42d17f908e3cf3889d3beb4469a933a04333d98fe1ae5146",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-7ec42525a2902499",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-27T22:44:00.000Z",
+      "title": "How Player Choices Shape Jason and Lucia's Romance in GTA 6",
+      "summary": "Jason and Lucia's romance drives Grand Theft Auto VI, with player choices shaping how their relationship and shared story unfold.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/what-the-gta-6-extended-look-showed-about-lucia-and-jason-2b38",
+        "sourceUrlCanonical": "https://www.gtaboom.com/what-the-gta-6-extended-look-showed-about-lucia-and-jason-2b38",
+        "externalId": "https://www.gtaboom.com/what-the-gta-6-extended-look-showed-about-lucia-and-jason-2b38",
+        "platform": "WEB"
+      },
+      "contentHash": "7e6b5296a0f3fc963facc3bc36042c3a18b056f2d3c3dcde21783c30fc631dae",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-c77be963f69162f4",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-27T22:01:00.000Z",
+      "title": "GTA 6 Extended Look Confirms Character Swapping, Honor Track and Wanted System",
+      "summary": "Players can swap Jason and Lucia mid action and their choices feed a persistent honor track that shapes how NPCs and police react.",
+      "statusSuggested": "THEORY",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Analyses",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/what-the-gta-6-extended-look-confirmed-about-how-it-plays-69ba",
+        "sourceUrlCanonical": "https://www.gtaboom.com/what-the-gta-6-extended-look-confirmed-about-how-it-plays-69ba",
+        "externalId": "https://www.gtaboom.com/what-the-gta-6-extended-look-confirmed-about-how-it-plays-69ba",
+        "platform": "WEB"
+      },
+      "contentHash": "ec534dd4bd8531db189f437d28bc93a20a005c73720ec56a1948bd2a26bc0bd0",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-5e2f522d57bc53aa",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-27T21:15:00.000Z",
+      "title": "GTA 6 Extended Look Shows 20 Free Roam Activity Categories",
+      "summary": "GTA 6: An Extended Look confirms scuba diving, jet skis, dirt biking, base jumping, and reactive nightlife as Leonida free roam activities.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/free-roam-activities-in-leonida-confirmed-by-the-gta-6-extended-look-8ec2",
+        "sourceUrlCanonical": "https://www.gtaboom.com/free-roam-activities-in-leonida-confirmed-by-the-gta-6-extended-look-8ec2",
+        "externalId": "https://www.gtaboom.com/free-roam-activities-in-leonida-confirmed-by-the-gta-6-extended-look-8ec2",
+        "platform": "WEB"
+      },
+      "contentHash": "88b3e2846cc2157dd473170ce2014b1e2375e9132c7688d54acbbd249c14821e",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-0c530d1beffbc9dd",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-27T20:06:00.000Z",
+      "title": "How Our GTA 6 Extended Look Predictions Held Up",
+      "summary": "Nine of ten GTA 6 Extended Look predictions landed exactly, including no PC launch, November 19 holding, and a roughly 26 minute runtime.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/how-our-gta-6-extended-look-predictions-held-up-dd94",
+        "sourceUrlCanonical": "https://www.gtaboom.com/how-our-gta-6-extended-look-predictions-held-up-dd94",
+        "externalId": "https://www.gtaboom.com/how-our-gta-6-extended-look-predictions-held-up-dd94",
+        "platform": "WEB"
+      },
+      "contentHash": "f0101da4eca2efd2406491c617f1f39a4f633181790df6fe2646002308a283ab",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-878ab53246d8f57a",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-27T16:06:00.000Z",
+      "title": "Rockstar Reportedly Pitched Six Miami Dade Vice City Sites for GTA 6",
+      "summary": "Rockstar pitched Miami Dade on turning its airport and PortMiami into real Vice City installations for GTA 6.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Rumeurs",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/rockstar-pitched-miami-dade-on-turning-its-airport-and-port-into-vice-city-for-gta-6-bb1c",
+        "sourceUrlCanonical": "https://www.gtaboom.com/rockstar-pitched-miami-dade-on-turning-its-airport-and-port-into-vice-city-for-gta-6-bb1c",
+        "externalId": "https://www.gtaboom.com/rockstar-pitched-miami-dade-on-turning-its-airport-and-port-into-vice-city-for-gta-6-bb1c",
+        "platform": "WEB"
+      },
+      "contentHash": "9d1c031189dd20b3f72cc0a9b17ef96c5f9135cb33808c520ef13ca04fde7165",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-d3342fe9b22d23b5",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-27T15:18:00.000Z",
+      "title": "GTA 6 Netflix Extended Look Runs About 26 Minutes, Shot Entirely on PS5",
+      "summary": "Netflix lists the Grand Theft Auto VI: An Extended Look at about 26 minutes, filmed entirely from PS5 gameplay footage.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/gta-6-on-netflix-is-about-26-minutes-long-and-was-captured-on-ps5-4448",
+        "sourceUrlCanonical": "https://www.gtaboom.com/gta-6-on-netflix-is-about-26-minutes-long-and-was-captured-on-ps5-4448",
+        "externalId": "https://www.gtaboom.com/gta-6-on-netflix-is-about-26-minutes-long-and-was-captured-on-ps5-4448",
+        "platform": "WEB"
+      },
+      "contentHash": "94ec38ac41e84cfbdece65fc06908f3bac89e1c02ab50908be7225c5c372dd25",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-37955f425e4b983d",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-27T10:46:00.000Z",
+      "title": "Our Predictions for the GTA 6 Extended Look on Netflix",
+      "summary": "We predict the Grand Theft Auto VI Extended Look on Netflix will show real gameplay of Jason and Lucia, with high confidence.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/our-gta-6-extended-look-predictions-fa06",
+        "sourceUrlCanonical": "https://www.gtaboom.com/our-gta-6-extended-look-predictions-fa06",
+        "externalId": "https://www.gtaboom.com/our-gta-6-extended-look-predictions-fa06",
+        "platform": "WEB"
+      },
+      "contentHash": "d8a5f75bb98dcdbce0068c45cb3153ebd5206f81f70b7f3499b278cf7259d9ce",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-cb1f059c4b5b8613",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-27T10:11:00.000Z",
+      "title": "Rockstar Clarifies What Creators Can and Cannot Do With the GTA 6 Extended Look",
+      "summary": "Rockstar says creators can react to and livestream the GTA 6 Extended Look with commentary, but reposting the raw unedited video is not allowed.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/rockstar-cleared-creators-to-react-to-and-livestream-the-gta-6-extended-look-with-one-catch-151a",
+        "sourceUrlCanonical": "https://www.gtaboom.com/rockstar-cleared-creators-to-react-to-and-livestream-the-gta-6-extended-look-with-one-catch-151a",
+        "externalId": "https://www.gtaboom.com/rockstar-cleared-creators-to-react-to-and-livestream-the-gta-6-extended-look-with-one-catch-151a",
+        "platform": "WEB"
+      },
+      "contentHash": "d7e89b59e50b3bde9c6226dfd4c481bc8bbfe1bbb7cfbe0283b9e4721d8c428c",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-bc9cfdc683e1310e",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-26T22:15:00.000Z",
+      "title": "Everything to Know Before the GTA 6 Extended Look",
+      "summary": "This is the Grand Theft Auto VI: An Extended Look start time in your time zone, how to watch, when it reaches YouTube, and what to expect",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/everything-to-know-before-the-gta-6-extended-look-18cf",
+        "sourceUrlCanonical": "https://www.gtaboom.com/everything-to-know-before-the-gta-6-extended-look-18cf",
+        "externalId": "https://www.gtaboom.com/everything-to-know-before-the-gta-6-extended-look-18cf",
+        "platform": "WEB"
+      },
+      "contentHash": "498d7a490f6e9d25d154bb38b38cac786055292a2e8bda2997ba4b6310ca061f",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-653e9205e90443e2",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-26T21:31:00.000Z",
+      "title": "YouTubers TGG and El Rubius Confirm Hands Off GTA 6 Previews at Rockstar North",
+      "summary": "Several YouTubers, including TGG, El Rubius, Davy Jones, and Mike ShowSha, confirm private, hands off Grand Theft Auto VI previews at Rockstar North.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/creators-confirm-a-hands-off-gta-6-preview-at-rockstar-north-with-coverage-after-the-extended-look-d9cb",
+        "sourceUrlCanonical": "https://www.gtaboom.com/creators-confirm-a-hands-off-gta-6-preview-at-rockstar-north-with-coverage-after-the-extended-look-d9cb",
+        "externalId": "https://www.gtaboom.com/creators-confirm-a-hands-off-gta-6-preview-at-rockstar-north-with-coverage-after-the-extended-look-d9cb",
+        "platform": "WEB"
+      },
+      "contentHash": "c1fa113b8d15f66148bd1cc4fd0e32258109cbf8e443a5b0ca69b7851fbd669e",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-8a97719cc4611ce8",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-26T21:01:00.000Z",
+      "title": "New Official GTA 6 Screenshots and Cover Art Arrive via Dazed Magazine",
+      "summary": "Dazed magazine's autumn cover pairs Jason and Lucia with new official Grand Theft Auto VI screenshots from Rockstar, styled as a fashion editorial.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/new-official-gta-6-screenshots-and-cover-art-arrive-via-dazed-magazine-d96d",
+        "sourceUrlCanonical": "https://www.gtaboom.com/new-official-gta-6-screenshots-and-cover-art-arrive-via-dazed-magazine-d96d",
+        "externalId": "https://www.gtaboom.com/new-official-gta-6-screenshots-and-cover-art-arrive-via-dazed-magazine-d96d",
+        "platform": "WEB"
+      },
+      "contentHash": "48c4ac23de140266f70a89e5c062ee24e09089b1a8eda7fa452e42db7ef03e90",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-55afa9b0b49c9848",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-26T20:39:00.000Z",
+      "title": "How GTA 6 Adds Consequences Through NPCs, Police and Story Choices",
+      "summary": "Rockstar told Dazed that Grand Theft Auto VI trades consequence free rampages for reactive NPCs, police, and lasting story choices.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/dazed-deep-dive-reveals-how-gta-6-trades-chaos-for-immersion-eab3",
+        "sourceUrlCanonical": "https://www.gtaboom.com/dazed-deep-dive-reveals-how-gta-6-trades-chaos-for-immersion-eab3",
+        "externalId": "https://www.gtaboom.com/dazed-deep-dive-reveals-how-gta-6-trades-chaos-for-immersion-eab3",
+        "platform": "WEB"
+      },
+      "contentHash": "9261b8a4ba396f49d75e4df698d157bf63e373cd16168cbaf86e93cd11a5112b",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-64dca5c1cad83cf1",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-26T18:54:00.000Z",
+      "title": "Rockstar Games GTA 6 Statement Emphasizes Progress, Spoilers and Gratitude",
+      "summary": "Rockstar's August 26 statement calls Grand Theft Auto VI \"nearly there\" and keeps the November 19, 2026 launch date unchanged despite the leaks.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/rockstar-games-emphasizes-these-three-things-in-its-latest-gta-6-statement-24b4",
+        "sourceUrlCanonical": "https://www.gtaboom.com/rockstar-games-emphasizes-these-three-things-in-its-latest-gta-6-statement-24b4",
+        "externalId": "https://www.gtaboom.com/rockstar-games-emphasizes-these-three-things-in-its-latest-gta-6-statement-24b4",
+        "platform": "WEB"
+      },
+      "contentHash": "bf5b6640f4fd42e413763a2c355e196c8b639911c5d0125aa02df497d2ccd53b",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-faa411a389df5244",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-26T13:01:00.000Z",
+      "title": "Rockstar Addresses GTA 6 Leaks and Confirms November 19, 2026 Release Date",
+      "summary": "Rockstar calls the leaked Grand Theft Auto VI footage heartbreaking but confirms the November 19, 2026 launch on PS5 and Xbox Series X/S is unchanged.",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/gta-6-leaks-rockstar-games-response-6f60",
+        "sourceUrlCanonical": "https://www.gtaboom.com/gta-6-leaks-rockstar-games-response-6f60",
+        "externalId": "https://www.gtaboom.com/gta-6-leaks-rockstar-games-response-6f60",
+        "platform": "WEB"
+      },
+      "contentHash": "47b362ab54474da5245ca9fbc715cfccd07cf8ac3db45fb239da0e13a3f8f5c7",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-6b4a1301cfb1c9ee",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-26T07:41:00.000Z",
+      "title": "Someone Already Recreated the GTA 6 Wanted System in GTA V",
+      "summary": "A mod called VI Wanted System brings Grand Theft Auto VI's description based police chase into Grand Theft Auto V now.",
+      "statusSuggested": "THEORY",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Analyses",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/someone-already-recreated-the-gta-6-wanted-system-in-gta-v-e1e2",
+        "sourceUrlCanonical": "https://www.gtaboom.com/someone-already-recreated-the-gta-6-wanted-system-in-gta-v-e1e2",
+        "externalId": "https://www.gtaboom.com/someone-already-recreated-the-gta-6-wanted-system-in-gta-v-e1e2",
+        "platform": "WEB"
+      },
+      "contentHash": "63f04ba4a61ec940df79f4b699f15e0d90f0caae269535cefe14b5126e7cd0d6",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-49556464489fa0ec",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-26T07:08:00.000Z",
+      "title": "Netflix's Three-Word Bio Change Is Rockstar's Loudest Answer to the Leaks",
+      "summary": "Rockstar is not delaying the Netflix premiere or November 19 launch of Grand Theft Auto VI despite the CyberLeek footage leaks.",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/netflixs-three-word-bio-change-is-rockstars-loudest-answer-to-the-leaks-2bd1",
+        "sourceUrlCanonical": "https://www.gtaboom.com/netflixs-three-word-bio-change-is-rockstars-loudest-answer-to-the-leaks-2bd1",
+        "externalId": "https://www.gtaboom.com/netflixs-three-word-bio-change-is-rockstars-loudest-answer-to-the-leaks-2bd1",
+        "platform": "WEB"
+      },
+      "contentHash": "8c85db0a79d2030177222893bab0cade4de4753113de0d3edcc829343cbc64f8",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-e141745d6e5f6cab",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-26T01:10:00.000Z",
+      "title": "NBA 2K27 Trailer Teases Possible GTA 6 Crossover With Season 3",
+      "summary": "A NBA 2K27 Season 3 trailer teases GTA VI style visuals and a Rockstar arcade cabinet, but no crossover is confirmed by Rockstar or 2K.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/nba-2k27-just-teased-a-gta-6-crossover-season-12f6",
+        "sourceUrlCanonical": "https://www.gtaboom.com/nba-2k27-just-teased-a-gta-6-crossover-season-12f6",
+        "externalId": "https://www.gtaboom.com/nba-2k27-just-teased-a-gta-6-crossover-season-12f6",
+        "platform": "WEB"
+      },
+      "contentHash": "c1354c9c0ec70e8c9274d9d549c2af49396b406d791a437ae293608fb6352cc8",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-6065015bb8cb12df",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-23T18:19:00.000Z",
+      "title": "BBC Walks Back Unverified GTA 6 Leak Claims",
+      "summary": "No confirmed ultimatum, dead man's switch, or 30 minute runtime exists behind recent GTA 6 leak claims that outlets have since retracted.",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/two-outlets-just-walked-back-on-their-gta-6-claims-c2b8",
+        "sourceUrlCanonical": "https://www.gtaboom.com/two-outlets-just-walked-back-on-their-gta-6-claims-c2b8",
+        "externalId": "https://www.gtaboom.com/two-outlets-just-walked-back-on-their-gta-6-claims-c2b8",
+        "platform": "WEB"
+      },
+      "contentHash": "ed96f5a364a963ebb969b5a406d5919054b2a682f2bad42868a52ef16c38f28b",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-19b7087b9e9a9a31",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-31T07:25:39.000Z",
+      "title": "GTA 6: Robberies, Economy & How Money Works Now | Exclusive Deep Dive",
+      "summary": "Chapter 1 – 0:00 – How Money Used to Work Chapter 2 – 1:40 – The Three Money Types (That we know of) Chapter 3 – 2:08 – Types of robberies Chapter 4 – 5:54 – The Feet Pics Story Chapter 5 – 7:29 – Heists Chapter 6 – 8:09 – Fences Chapter 7 – 9:02 – Money is Tied to Story Chapter 8 – 10:31 – What You Can Spend Money On Chapter 9 – 11:53 – The GTA 5 Money Problem, Acknowledged Get 10% off all GamerSupps products with this link - https://gamersupps.gg/tgg My Headset: https://amzn.to/3CJgcBZ My Mouse: https://amzn.to/4",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=CMXxuSmzXsk",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=CMXxuSmzXsk",
+        "externalId": "yt:video:CMXxuSmzXsk",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "f6a822297abdf91ec61c98d44def5af07a912ca6cedb0163a57283d482ff3ed8",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-58471a8604ccdb6e",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-30T07:12:44.000Z",
+      "title": "GTA 6: Vehicles Work Differently Now | Exclusive Deep Dive",
+      "summary": "0:00 – Intro Chapter 1 – 0:48 – Stealing Cars & Vehicle Security Chapter 2 – 4:07 – Fences & Vehicle Security (Trackers) Chapter 3 – 6:30 – Car & Vehicle Customization Chapter 4 – 9:18 – Fuel & EV Charging Chapter 5 – 11:28 – How Driving Actually Feels Chapter 6 – 13:36 – Storage, Recovery & Destruction Get 10% off all GamerSupps products with this link - https://gamersupps.gg/tgg My Headset: https://amzn.to/3CJgcBZ My Mouse: https://amzn.to/4ibs3cf My Keyboard: https://amzn.to/3Os5fHr My Console: https://amzn.to/3",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=5PEKC28azRU",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=5PEKC28azRU",
+        "externalId": "yt:video:5PEKC28azRU",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "59644e35e095aa2d041498732a0b3b5f108a51f1920b36baa395b5028d9edc3c",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-660784e693e352e3",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-29T12:32:23.000Z",
+      "title": "GTA 6: The Police are Smarter Than Ever | Deep Dive",
+      "summary": "Get 10% off all GamerSupps products with this link - https://gamersupps.gg/tgg Did you shower today? Use Cheeky, the best soap in the world: https://usecheeky.com/pages/tgg My Headset: https://amzn.to/3CJgcBZ My Mouse: https://amzn.to/4ibs3cf My Keyboard: https://amzn.to/3Os5fHr My Console: https://amzn.to/3Zfofhw My GPU: https://amzn.to/49noX0C Twitch: https://www.twitch.tv/tgg_gta Instagram: https://www.instagram.com/tee_gee_gee/ Join our Discord for help with Business Sales & Heists: https://discord.com/invite/g",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=tVwNy3xV-4c",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=tVwNy3xV-4c",
+        "externalId": "yt:video:tVwNy3xV-4c",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "c36daeac27ace8646ca47224fb22d1b91ad6e4072e3c01d77a615ebc3fecab2c",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-0eab07ba0b3ae6d4",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-29T06:24:07.000Z",
+      "title": "GTA 6 New Details (Exclusive) - 80 hour Story, Map Size, Frame Rate, Drive-Thrus & More!",
+      "summary": "0:00 – Intro 0:51 – Story length 1:47 – Map size 2:37 – Map shape 3:08 – Frame rate 3:41 – HUD/minimap correction 3:59 – HUD customization 5:14 – Weather 5:32 – Drive-thrus 5:58 – Restaurants 6:31 – Fast travel 7:26 – Groceries 8:10 – Streamer mode 8:31 – Editor mode 9:08 – Cinematic mode 9:36 – First person 9:56 – The zoo 10:24 – The phone 11:15 – Phone apps 12:31 – Hair growth 12:56 – NPC interactions 13:32 – NPC gameplay story 14:38 – NPC density 15:08 – NPC reactions 15:39 – What's coming this week 16:04 – Outr",
+      "statusSuggested": "THEORY",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "Analyses",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=bxqc5rB1So0",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=bxqc5rB1So0",
+        "externalId": "yt:video:bxqc5rB1So0",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "69c3d08e3c367a3acd140f9af4ac84c312017d998a3a6705e1ea7d3069a9ad31",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-c137c55bb6b55b02",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-29T01:27:51.000Z",
+      "title": "Answering Your GTA 6 Questions & Preparing a Police System Video for Later!",
+      "summary": "Twitch: https://www.twitch.tv/tgg_gta Get Official (Signed by the Voice Actors) GTA 5 Merch: https://tidd.ly/49654es Get SIGNED merch from GTA voice actors: https://tidd.ly/49654es My Headset: https://amzn.to/3CJgcBZ My Mouse: https://amzn.to/4ibs3cf My Keyboard: https://amzn.to/3Os5fHr My Console: https://amzn.to/3Zfofhw My GPU: https://amzn.to/49noX0C Twitch: https://www.twitch.tv/tgg_gta Instagram: https://www.instagram.com/tee_gee_gee/ Tips/Donos: https://streamlabs.com/tggyt Join our Discord for help with Busi",
+      "statusSuggested": "THEORY",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "Analyses",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=UrnhDGdUIdQ",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=UrnhDGdUIdQ",
+        "externalId": "yt:video:UrnhDGdUIdQ",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "51ee8d1aa39bd6deeb67a8aa73ad0c47947b776bb7df1c15df342e3f5b1db7f7",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-48c6ca15884c082a",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-28T10:23:38.000Z",
+      "title": "GTA 6: Every New Gameplay Feature & Mechanic YOU MISSED",
+      "summary": "0:00 – Intro 0:23 – What makes this breakdown different (Rob Nelson quotes/context) 0:59 – Opening mission & Booby Ike 1:17 – In-game \"cutscenes\" (Red Dead 2 style transitions) — Rob Nelson quote 2:00 – NPC interaction system (Red Dead 2 carryover) 3:02 – Criminal Profile system explained — Rob Nelson quotes 4:22 – Meeting Raymond / drug operation setup 4:38 – First gunplay: auto-aim removed, health & focus bars 6:09 – Hit markers explained (white/yellow/red) 6:47 – Shoulder switch, kill cams, crash cams (toggleabl",
+      "statusSuggested": "THEORY",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "Analyses",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=4Z_4yqWGRjQ",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=4Z_4yqWGRjQ",
+        "externalId": "yt:video:4Z_4yqWGRjQ",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "e04cdca47de1c12b3f8ad4c96316cde9db516580c8d7c8974af750a3d72d361e",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-eba5e4832a0af36f",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-28T00:15:35.000Z",
+      "title": "My Initial Un-Edited Reaction to Seeing GTA 6 Early",
+      "summary": "Get 10% off all GamerSupps products with this link - https://gamersupps.gg/tgg Did you shower today? Use Cheeky, the best soap in the world: https://usecheeky.com/pages/tgg My Headset: https://amzn.to/3CJgcBZ My Mouse: https://amzn.to/4ibs3cf My Keyboard: https://amzn.to/3Os5fHr My Console: https://amzn.to/3Zfofhw My GPU: https://amzn.to/49noX0C Twitch: https://www.twitch.tv/tgg_gta Instagram: https://www.instagram.com/tee_gee_gee/ Join our Discord for help with Business Sales & Heists: https://discord.com/invite/g",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=HlYJaZCurGU",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=HlYJaZCurGU",
+        "externalId": "yt:video:HlYJaZCurGU",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "6fface64e36ccd07f3a98b65b62cc7c98d8ee9e08739c1a1ebdb921d62d80478",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-af49ee7d6d8af6f8",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-28T00:11:05.000Z",
+      "title": "GTA 6: EXTENDED LOOK - LIVE REACTION & BREAKDOWN! (I Was Invited to Rockstar)",
+      "summary": "Twitch: https://www.twitch.tv/tgg_gta Get Official (Signed by the Voice Actors) GTA 5 Merch: https://tidd.ly/49654es Get SIGNED merch from GTA voice actors: https://tidd.ly/49654es My Headset: https://amzn.to/3CJgcBZ My Mouse: https://amzn.to/4ibs3cf My Keyboard: https://amzn.to/3Os5fHr My Console: https://amzn.to/3Zfofhw My GPU: https://amzn.to/49noX0C Twitch: https://www.twitch.tv/tgg_gta Instagram: https://www.instagram.com/tee_gee_gee/ Tips/Donos: https://streamlabs.com/tggyt Join our Discord for help with Busi",
+      "statusSuggested": "THEORY",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "Analyses",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=BTfzszKgRKc",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=BTfzszKgRKc",
+        "externalId": "yt:video:BTfzszKgRKc",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "a0f777abbc055d29db61c71471ec0a7eb1517cc596ee65894284f25894e3359a",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-b2eacc73e798d5ec",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-27T19:30:30.000Z",
+      "title": "I Saw 3 Hours of GTA 6 at Rockstar North - First Impressions (Exclusive Info)",
+      "summary": "0:00 Yes, This is Real 1:20 Inside Rockstar North 2:51 The Big Takeaway 5:29 Criminal Profile (Not Honor) 7:59 Relationships 8:52 Map size 9:45 HUD & Focus 11:28 Money & Economy 12:18 Driving & Vehicles 13:15 Police 16:21 How the Phone Works 17:21 Side Activities My Headset: https://amzn.to/3CJgcBZ My Mouse: https://amzn.to/4ibs3cf My Keyboard: https://amzn.to/3Os5fHr My Console: https://amzn.to/3Zfofhw My GPU: https://amzn.to/49noX0C Twitch: https://www.twitch.tv/tgg_gta Instagram: https://www.instagram.com/tee_ge",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=Mfx1B_LBSV0",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=Mfx1B_LBSV0",
+        "externalId": "yt:video:Mfx1B_LBSV0",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "65332871d1164f266caa55840a935f7e9eb9b5181d313676eab9370e8a122844",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-083e449d89a280d0",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-26T20:31:35.000Z",
+      "title": "Rockstar Officially RESPONDS To GTA 6 Leaks + GTA Online Weekly Update",
+      "summary": "Get 10% off all GamerSupps products with this link - https://gamersupps.gg/tgg Did you shower today? Use Cheeky, the best soap in the world: https://usecheeky.com/pages/tgg My Headset: https://amzn.to/3CJgcBZ My Mouse: https://amzn.to/4ibs3cf My Keyboard: https://amzn.to/3Os5fHr My Console: https://amzn.to/3Zfofhw My GPU: https://amzn.to/49noX0C Twitch: https://www.twitch.tv/tgg_gta Instagram: https://www.instagram.com/tee_gee_gee/ Join our Discord for help with Business Sales & Heists: https://discord.com/invite/g",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=qKTM_N55Vek",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=qKTM_N55Vek",
+        "externalId": "yt:video:qKTM_N55Vek",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "d0e3d5eaf82ad0ac9379ad4af272679e3111eeb3650e4b9722fad5fc21a6a36c",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-7d135653706f9043",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-26T17:39:18.000Z",
+      "title": "GTA 6: NEW SCREENSHOTS, INTERVIEWS & MORE JUST DROPPED",
+      "summary": "Twitch: https://www.twitch.tv/tgg_gta Get Official (Signed by the Voice Actors) GTA 5 Merch: https://tidd.ly/49654es Get SIGNED merch from GTA voice actors: https://tidd.ly/49654es My Headset: https://amzn.to/3CJgcBZ My Mouse: https://amzn.to/4ibs3cf My Keyboard: https://amzn.to/3Os5fHr My Console: https://amzn.to/3Zfofhw My GPU: https://amzn.to/49noX0C Twitch: https://www.twitch.tv/tgg_gta Instagram: https://www.instagram.com/tee_gee_gee/ Tips/Donos: https://streamlabs.com/tggyt Join our Discord for help with Busi",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=5Jz-Y0AB4CU",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=5Jz-Y0AB4CU",
+        "externalId": "yt:video:5Jz-Y0AB4CU",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "5952240bdfadc6af5247d10fefd6497d81cc4cb42cf7fa0a8db23f46773dd7c0",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-420df4e03a610fd5",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-26T12:00:19.000Z",
+      "title": "I Was Invited to Rockstar North (GTA 6)",
+      "summary": "GTA 6 My Headset: https://amzn.to/3CJgcBZ My Mouse: https://amzn.to/4ibs3cf My Keyboard: https://amzn.to/3Os5fHr My Console: https://amzn.to/3Zfofhw My GPU: https://amzn.to/49noX0C Twitch: https://www.twitch.tv/tgg_gta Instagram: https://www.instagram.com/tee_gee_gee/ Join our Discord for help with Business Sales & Heists: https://discord.com/invite/gorillagang Follow me on Twitter/X: https://twitter.com/TGGonYT Grand Theft Auto 5. GTA 5. GTA 6",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=9DHrgR7Lbxw",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=9DHrgR7Lbxw",
+        "externalId": "yt:video:9DHrgR7Lbxw",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "ad9fbd61394fde298055919a448724772435feb02d93378eeb5b9791f7085b7c",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-03f3c523cf1e6cab",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-21T06:59:29.000Z",
+      "title": "Rockstar, It's Time to Talk About GTA Online...",
+      "summary": "Get 10% off all GamerSupps products with this link - https://gamersupps.gg/tgg Did you shower today? Use Cheeky, the best soap in the world: https://usecheeky.com/pages/tgg My Headset: https://amzn.to/3CJgcBZ My Mouse: https://amzn.to/4ibs3cf My Keyboard: https://amzn.to/3Os5fHr My Console: https://amzn.to/3Zfofhw My GPU: https://amzn.to/49noX0C Twitch: https://www.twitch.tv/tgg_gta Instagram: https://www.instagram.com/tee_gee_gee/ Join our Discord for help with Business Sales & Heists: https://discord.com/invite/g",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=LtWxfVou2ik",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=LtWxfVou2ik",
+        "externalId": "yt:video:LtWxfVou2ik",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "668a45b9e914b46273ab03e9198f3eff379ec8de10875982400b9a28fe26137e",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-508a5344652893fa",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-19T20:09:40.000Z",
+      "title": "NEW CAR, 5X MONEY, DISCOUNTS & FREE STUFF - GTA ONLINE WEEKLY UPDATE",
+      "summary": "Get 10% off all GamerSupps products with this link - https://gamersupps.gg/tgg Did you shower today? Use Cheeky, the best soap in the world: https://usecheeky.com/pages/tgg My Headset: https://amzn.to/3CJgcBZ My Mouse: https://amzn.to/4ibs3cf My Keyboard: https://amzn.to/3Os5fHr My Console: https://amzn.to/3Zfofhw My GPU: https://amzn.to/49noX0C Twitch: https://www.twitch.tv/tgg_gta Instagram: https://www.instagram.com/tee_gee_gee/ Join our Discord for help with Business Sales & Heists: https://discord.com/invite/g",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=JuNsXd_V-BM",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=JuNsXd_V-BM",
+        "externalId": "yt:video:JuNsXd_V-BM",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "c39d77f627f0e6832bcc9b510caed8d01546f2a35dad88ff6adb269f8e0b6831",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-701aba7f09e2c841",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-19T18:34:10.000Z",
+      "title": "IMPORTANT: More GTA 6 Leaks are Online, Including Story Cutscenes",
+      "summary": "Get 10% off all GamerSupps products with this link - https://gamersupps.gg/tgg Did you shower today? Use Cheeky, the best soap in the world: https://usecheeky.com/pages/tgg My Headset: https://amzn.to/3CJgcBZ My Mouse: https://amzn.to/4ibs3cf My Keyboard: https://amzn.to/3Os5fHr My Console: https://amzn.to/3Zfofhw My GPU: https://amzn.to/49noX0C Twitch: https://www.twitch.tv/tgg_gta Instagram: https://www.instagram.com/tee_gee_gee/ Join our Discord for help with Business Sales & Heists: https://discord.com/invite/g",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=LDiswTpdbMQ",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=LDiswTpdbMQ",
+        "externalId": "yt:video:LDiswTpdbMQ",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "a969c5c00329ddb377d82202305e363d976f98deb5f4e7cdf62973fdb69deea8",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta-vi-oclock-0ab1791be1469859",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-27T23:58:29.000Z",
+      "title": "Our LIVE REACTION to the GTA 6 Netflix Preview - GTA VI O'clock",
+      "summary": "🚨 Our LIVE reactions to the GTA 6 Netflix Extended Preview! 🚨 On this special episode of GTA VI O’clock, James Jarvis and Dan Dawkins watch the entire GTA 6 Netflix Extended Preview from beginning to end - and give their initial, unfiltered reactions as everything unfolds. 📺 We watch it all! From the very first second to the final reveal 😱 Our instant reactions! What surprised us, what stood out, and what we weren't expecting 🔎 First impressions and things we spotted. The details we just couldn't ignore Watch ",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.7,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gta-vi-oclock",
+        "sourceName": "GTA VI O’Clock",
+        "sourceTier": 70,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=ls__BqL09QM",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=ls__BqL09QM",
+        "externalId": "yt:video:ls__BqL09QM",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "0a171b0904322e12682eaa197aa4fa459b8f120d3ba00b7208b89e284d8ddab6",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta-vi-oclock-249e9892b673f1d6",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-26T17:00:09.000Z",
+      "title": "GTA 6 Netflix Extended Look: How To Join Us TOMORROW - GTA VI O'clock - Episode 138",
+      "summary": "🚨 A quick GTA VI O’clock reminder! 🚨 There’s not long to wait now! Tomorrow, Thursday August 27 at 3pm ET / 8pm BST, the GTA VI Netflix An Extended Look special finally arrives, and James Jarvis and Dan Dawkins will be bringing you their reactions as soon as it airs. 👀 Expect plenty of new details! We get our first proper look at what’s next for GTA 6. We’ll be back with our full reaction after it airs tomorrow! So make sure you’re subscribed and join us for the next episode of GTA VI O’clock!",
+      "statusSuggested": "GUIDE",
+      "confidenceSuggested": 0.7,
+      "categorySuggested": "Guides",
+      "source": {
+        "sourceId": "gta-vi-oclock",
+        "sourceName": "GTA VI O’Clock",
+        "sourceTier": 70,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=6GoMlEZUgLU",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=6GoMlEZUgLU",
+        "externalId": "yt:video:6GoMlEZUgLU",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "9cf888abacbb6ab9757379b5ba8541bb25df19c3d1b8b2cb1ac00686d2bf277f",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta-vi-oclock-9e93ffb835b9282b",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-23T17:00:29.000Z",
+      "title": "Seeing Tom Cruise on the toilet = watching the GTA 6 leaks",
+      "summary": "Dan and JJ discuss gameplay details potentially revealed by the recent GTA 6 leaks.",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.7,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "gta-vi-oclock",
+        "sourceName": "GTA VI O’Clock",
+        "sourceTier": 70,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/ndZqqx1hN7o",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/ndZqqx1hN7o",
+        "externalId": "yt:video:ndZqqx1hN7o",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "18e0e4fd37b6e7f6150532450ac807abde6e1677302dd943be44abe39a026470",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta-vi-oclock-2b9c342cd2e0dd46",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-22T17:00:33.000Z",
+      "title": "Should we trust the GTA 6 leaker?",
+      "summary": "Dan and JJ discuss gameplay details potentially revealed by the recent GTA 6 leaks.",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.7,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "gta-vi-oclock",
+        "sourceName": "GTA VI O’Clock",
+        "sourceTier": 70,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/-KRez-fROgM",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/-KRez-fROgM",
+        "externalId": "yt:video:-KRez-fROgM",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "5ab1f5d14dc64cc36d2384c39a741553af17e4d2894227ee15a90a34a25bb1e7",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta-vi-oclock-cae3ef90d2ff7691",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-21T17:00:39.000Z",
+      "title": "Have the GTA 6 leaks confirmed a karma system?",
+      "summary": "Dan and JJ discuss gameplay details potentially revealed by the recent GTA 6 leaks.",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.7,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "gta-vi-oclock",
+        "sourceName": "GTA VI O’Clock",
+        "sourceTier": 70,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/TDMUpphGxGI",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/TDMUpphGxGI",
+        "externalId": "yt:video:TDMUpphGxGI",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "0bd288105de3542de6fe8ebdec3033f40836d5414e626be02306f7f4b44daa08",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta-vi-oclock-8b2ba17a686feabd",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-20T17:00:16.000Z",
+      "title": "JJ has officially WON this argument.",
+      "summary": "Dan and JJ discuss gameplay details potentially revealed by the recent GTA 6 leaks.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.7,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "gta-vi-oclock",
+        "sourceName": "GTA VI O’Clock",
+        "sourceTier": 70,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/TUPZx80x4Yg",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/TUPZx80x4Yg",
+        "externalId": "yt:video:TUPZx80x4Yg",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "72b8ab115d8825ece5776ed1e8d340cbec97bf96e9828b6472c1132371e980b3",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta-vi-oclock-797f646a3debeefd",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-19T17:21:51.000Z",
+      "title": "New GTA 6 Leaks! Our Honest Reaction - GTA VI O'clock - Episode 137",
+      "summary": "🚨 It’s happened again - NEW GTA 6 leaks! 🚨 On this week’s GTA VI O’clock, James Jarvis and Dan Dawkins dive into the Netflix Extended Look, the future of GTA Online, and an emergency recording to cover THOSE leaks. 📺 Will the Netflix Extended Look leak? Could Rockstar’s next big GTA 6 showcase escape into the wild early? 🌐 The unexpected timeline for GTA Online 2.0 When could the next generation of GTA Online actually arrive? 🔥 Next week, everything changes Just 8 days until the Netflix Extended Look! 💦 Plus,",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.7,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "gta-vi-oclock",
+        "sourceName": "GTA VI O’Clock",
+        "sourceTier": 70,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=HGm0zw6Fz1U",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=HGm0zw6Fz1U",
+        "externalId": "yt:video:HGm0zw6Fz1U",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "010fbd921d8cedd1bcb44daebe6692714d657ccf8f1454ce1eb4ab6e073033c7",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta-vi-oclock-e8c95e33f0b30d44",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-15T17:00:14.000Z",
+      "title": "Can you guess which version of GTA 6 has been pre-ordered the most?",
+      "summary": "James Jarvis and Dan Dawkins take a closer look at pre-order figures.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.7,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gta-vi-oclock",
+        "sourceName": "GTA VI O’Clock",
+        "sourceTier": 70,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/FxLYXmNXY_Y",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/FxLYXmNXY_Y",
+        "externalId": "yt:video:FxLYXmNXY_Y",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "38f3fec7de0ad2dd569b0c6817eecc6c1244eb4fd718e3195d798a66c6ca3614",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta-vi-oclock-9d442f89d666242d",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-14T17:00:37.000Z",
+      "title": "Did you spot these SECRET details in the new GTA VI artwork?",
+      "summary": "James Jarvis and Dan Dawkins take a closer look at the new GTA VI artwork.",
+      "statusSuggested": "THEORY",
+      "confidenceSuggested": 0.7,
+      "categorySuggested": "Analyses",
+      "source": {
+        "sourceId": "gta-vi-oclock",
+        "sourceName": "GTA VI O’Clock",
+        "sourceTier": 70,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/S5e0IX1oiqE",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/S5e0IX1oiqE",
+        "externalId": "yt:video:S5e0IX1oiqE",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "0c79724dd4b54747d48564ace9863ac888b5dedc4a5b4f82391ed0e67352e0c7",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta-vi-oclock-39135e204fc024f1",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-13T17:00:35.000Z",
+      "title": "JJ thinks the GTA 6 Netflix extended look will be a TRUE CRIME DOC.",
+      "summary": "James Jarvis has a wild theory for what the GTA VI Netflix special will be...",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.7,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gta-vi-oclock",
+        "sourceName": "GTA VI O’Clock",
+        "sourceTier": 70,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/fH4nRXPejyc",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/fH4nRXPejyc",
+        "externalId": "yt:video:fH4nRXPejyc",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "7f2b7a0795f114f00e4b6cd68bffc8b85e447452401eca8f25f284c07789c1bf",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta-vi-oclock-7148109f6751c485",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-12T17:29:55.000Z",
+      "title": "GTA 6 Partners with Netflix - GTA VI O'clock - Episode 136",
+      "summary": "🚨 GTA 6 is officially entering the final stretch - and there’s A LOT to talk about 🚨 On this week’s GTA VI O’clock, James Jarvis and Dan Dawkins break down the biggest developments surrounding Rockstar’s long-awaited blockbuster, including major news from Take-Two and a surprising new partnership. 📈 The biggest news from the investor call: surprising pre-order revelations! 📺 GTA 6 partners with Netflix: what exactly will we see on Aug 27th? ⏳ Just 99 days to go until release: GTA 6 is officially on the home str",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.7,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gta-vi-oclock",
+        "sourceName": "GTA VI O’Clock",
+        "sourceTier": 70,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=kdV3buPrOeE",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=kdV3buPrOeE",
+        "externalId": "yt:video:kdV3buPrOeE",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "7a8f8ba5c1dd3a3d6dd15f73611262e9576438b0f93ad5b9ddc1592b4d5f63c5",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta-vi-oclock-29bd85f54b0e1390",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-05T17:02:55.000Z",
+      "title": "The Hidden Location NO ONE Noticed - GTA VI O'clock - Episode 135",
+      "summary": "🚨 The location NO ONE is talking about 🚨 On this week’s GTA VI O’clock, James Jarvis and Dan Dawkins uncover a location that’s been hiding in plain sight, take a closer look at GTA 6’s fake brands, and explore whether cruise ships could play a much bigger role than fans expect. 🗺️ The hidden location nobody noticed... 🛍️ Bootleg brands in GTA 6 - could we ever see REAL brands in GTA 6? 🛳️ Cruising USA - could cruise ships become one of GTA 6's biggest and most exciting new locations? Hidden secrets, Rockstar d",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.7,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gta-vi-oclock",
+        "sourceName": "GTA VI O’Clock",
+        "sourceTier": 70,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=MPaLStJU3E4",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=MPaLStJU3E4",
+        "externalId": "yt:video:MPaLStJU3E4",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "89d6e53dd94efe814d1daa14a024258fc1a0e16c21037b7eb0b1df888690f6ca",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta-vi-oclock-956d897188a96680",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-07-29T17:00:05.000Z",
+      "title": "Exploring GTA 6's NPC System - GTA VI O'clock - Episode 134",
+      "summary": "In this episode episode of GTA VI O’clock JJ is riding the meat horse solo but is here to dive into the crystal ball of trailer 3 dates, discuss how GTA 6's NPC might work and offer some thoughts on how will Jason and Lucia interact ‘off mission’. GTA 6 o’clock is the world's most in-depth and best connected GTA 6 show. Bringing you all the hottest info, rumours and speculation about GTA 6 and Rockstar games every Wednesday at 6pm. Insights, speculation, and all the latest GTA 6 discussion - it's all here on this w",
+      "statusSuggested": "THEORY",
+      "confidenceSuggested": 0.7,
+      "categorySuggested": "Analyses",
+      "source": {
+        "sourceId": "gta-vi-oclock",
+        "sourceName": "GTA VI O’Clock",
+        "sourceTier": 70,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=im522Mex0pg",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=im522Mex0pg",
+        "externalId": "yt:video:im522Mex0pg",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "58bb21dd130832953e078ed0196662c4a222681d0e06ce91fa90828c91ef73c0",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta-vi-oclock-be3af30fc62b6f10",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-07-22T17:00:31.000Z",
+      "title": "The Four Corners of GTA 6's Map - GTA VI O'clock - Episode 133",
+      "summary": "In this episode episode of GTA VI O’clock. JJ and DD discuss: The Road to Launch and what’s to come. What we’ve seen from the edges of the map….so far and what an expanded wanted system could mean for GTA 6 GTA 6 o’clock is the world's most in-depth and best connected GTA 6 show. Bringing you all the hottest info, rumours and speculation about GTA 6 and Rockstar games every Wednesday at 6pm. Insights, speculation, and all the latest GTA 6 discussion - it's all here on this week's GTA VI O’clock. 00:00 - GTA 6 O'Clo",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.7,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gta-vi-oclock",
+        "sourceName": "GTA VI O’Clock",
+        "sourceTier": 70,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=2atPVgn6FYE",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=2atPVgn6FYE",
+        "externalId": "yt:video:2atPVgn6FYE",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "921fe379fbef417ec241c8508f017c3f683a5e92c453778f38687c92db80d202",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-ghilliemaster-82ebe73a54f9875c",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-31T17:00:39.000Z",
+      "title": "GTA 6 Online NOT Releasing For 2 YEARS!? (Let's Discuss)",
+      "summary": "There has been a lot of discussion surrounding the next iteration of GTA Online and when it might release. I give my take on the situation and talk about when I think GTA 6 Online will launch. 🔒 Get 3 Months of the #1 rated VPN for FREE by using my referral link: https://www.expressvpn.com/ghilliemaster 📌 CONTACT ME Twitter: https://twitter.com/GhillieYT Discord: https://discord.gg/yH9GrNk Xbox Gamertag: R8 Ghillie Sources: https://www.forbes.com/sites/paultassi/2026/08/29/why-rockstar-has-said-nothing-about-gta-",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.68,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "ghilliemaster",
+        "sourceName": "GhillieMaster",
+        "sourceTier": 68,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=PjN3yDWdwCs",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=PjN3yDWdwCs",
+        "externalId": "yt:video:PjN3yDWdwCs",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "af553357839e03685f2815fc2ba6dabce56dd61810a783bcc7d085d25683c393",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-ghilliemaster-3c5cbe13c54714f3",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-30T17:00:28.000Z",
+      "title": "30+ Details You Missed in The GTA 6 Gameplay Extended Look! (IN DEPTH BREAKDOWN)",
+      "summary": "My in depth breakdown of the brand new GTA 6 Gameplay Extended Look. Discussing everything that I noticed, my thoughts, and more! 🔒 Get 3 Months of the #1 rated VPN for FREE by using my referral link: https://www.expressvpn.com/ghilliemaster 📌 CONTACT ME Twitter: https://twitter.com/GhillieYT Discord: https://discord.gg/yH9GrNk Xbox Gamertag: R8 Ghillie Business Inquiries: business.ghilliemaster@gmail.com 🥇 Become a member here to get some exclusive perks: https://www.youtube.com/channel/UC1PhTs67PPip_Ys0_xmk8Bg",
+      "statusSuggested": "THEORY",
+      "confidenceSuggested": 0.68,
+      "categorySuggested": "Analyses",
+      "source": {
+        "sourceId": "ghilliemaster",
+        "sourceName": "GhillieMaster",
+        "sourceTier": 68,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=YmRIzRuXWaw",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=YmRIzRuXWaw",
+        "externalId": "yt:video:YmRIzRuXWaw",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "0812dc49c2fbe3f32f456664efafcb717f522ee98d7b45dd46eed4c098faa31c",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-ghilliemaster-ae290cbf3ef6e01a",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-28T17:00:24.000Z",
+      "title": "BRAND NEW GTA 6 Gameplay Systems Explained! (Criminal Profiles, Wanted Level Changes, and Much More)",
+      "summary": "Yesterday, tons of media outlets released their experiences with a hands on preview of Grand Theft Auto VI last month. A lot of new gameplay systems were shown off and in this video I explain all of the new changes that will deeply alter how you experience GTA. 🔒 Get 3 Months of the #1 rated VPN for FREE by using my referral link: https://www.expressvpn.com/ghilliemaster Sources: TGG: https://youtu.be/Mfx1B_LBSV0?is=agUFXp4HxuSumbZu IGN: https://www.ign.com/articles/gta-6-exclusive-preview NYT: https://www.nytimes",
+      "statusSuggested": "THEORY",
+      "confidenceSuggested": 0.68,
+      "categorySuggested": "Analyses",
+      "source": {
+        "sourceId": "ghilliemaster",
+        "sourceName": "GhillieMaster",
+        "sourceTier": 68,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=MrVSp3vTAiY",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=MrVSp3vTAiY",
+        "externalId": "yt:video:MrVSp3vTAiY",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "96514909353b01b54c7136583d5764973369388678a63c1ef4f4b3cefcd37b0f",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-ghilliemaster-af6a9eaec378e280",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-28T04:41:45.000Z",
+      "title": "GTA 6 EXTENDED LOOK DISCUSSION AND ANALYSIS!",
+      "summary": "🥇 Become a member here to get some exclusive perks: https://www.youtube.com/channel/UC1PhTs67PPip_Ys0_xmk8Bg/join 📌 CONTACT ME Twitter: https://twitter.com/GhillieYT Xbox Gamertag: R8 Ghillie Discord: ​https://discord.gg/ghilliemaster 5️⃣ TOP 5 SUBMISSION INSTRUCTIONS 1. Upload UNEDITED clip to YouTube as Unlisted 2. Email the video link to Ghillietopcommunityplays@gmail.com along with a line saying \"I give GhillieMaster permission to use this clip in a video...\" with the subject line containing the theme of the ",
+      "statusSuggested": "THEORY",
+      "confidenceSuggested": 0.68,
+      "categorySuggested": "Analyses",
+      "source": {
+        "sourceId": "ghilliemaster",
+        "sourceName": "GhillieMaster",
+        "sourceTier": 68,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=ur91dK2zJwA",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=ur91dK2zJwA",
+        "externalId": "yt:video:ur91dK2zJwA",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "b8294f92bb65aa2b04b550b3487f809344fdc8dfd55f7446baeecabcb2482a71",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-ghilliemaster-9aed3e5deda95608",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-27T07:06:32.000Z",
+      "title": "GTA 6 Extended Look TOMORROW WOOOOO!",
+      "summary": "🥇 Become a member here to get some exclusive perks: https://www.youtube.com/channel/UC1PhTs67PPip_Ys0_xmk8Bg/join 📌 CONTACT ME Twitter: https://twitter.com/GhillieYT Xbox Gamertag: R8 Ghillie Discord: ​https://discord.gg/ghilliemaster 5️⃣ TOP 5 SUBMISSION INSTRUCTIONS 1. Upload UNEDITED clip to YouTube as Unlisted 2. Email the video link to Ghillietopcommunityplays@gmail.com along with a line saying \"I give GhillieMaster permission to use this clip in a video...\" with the subject line containing the theme of the ",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.68,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "ghilliemaster",
+        "sourceName": "GhillieMaster",
+        "sourceTier": 68,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=Fqt1o4pUe90",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=Fqt1o4pUe90",
+        "externalId": "yt:video:Fqt1o4pUe90",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "7eb670e5d24a5413a2a195ce7b18feae80c04b99aed31d92d24554d9a5e5ab56",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-ghilliemaster-fe2ad84de91655c8",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-26T21:13:44.000Z",
+      "title": "Rockstar Has Responded to The GTA 6 Leaks! (NEW OFFICIAL Info and Screenshots)",
+      "summary": "Rockstar has finally responded to the recent GTA 6 gameplay leaks situation! I go over the details of all of the information regarding the response, a new dev interview, and more in this video 🔒 Get 3 Months of the #1 rated VPN for FREE by using my referral link: https://www.expressvpn.com/ghilliemaster Dazed GTA 6 Article: https://www.dazeddigital.com/life-culture/article/70859/1/gta-6-grand-theft-auto-vi-rockstar-exclusive-deep-dive-game-unparalleled-world 📌 CONTACT ME Twitter: https://twitter.com/GhillieYT Dis",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.68,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "ghilliemaster",
+        "sourceName": "GhillieMaster",
+        "sourceTier": 68,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=0CtncGBVFl8",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=0CtncGBVFl8",
+        "externalId": "yt:video:0CtncGBVFl8",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "b641b66216e84ec469c311aa9ba68596341ec7ed88caa8bf8b4d38a693c227b5",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-ghilliemaster-97f721e68fd5c332",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-25T21:13:33.000Z",
+      "title": "THE BEST LOOKING GTA 6 LEAKS YET! (I Am Blown Away)",
+      "summary": "3 more GTA 6 gameplay leaks have been come and I cannot believe this game is real the graphics are insane! 🔒 Get 3 Months of the #1 rated VPN for FREE by using my referral link: https://www.expressvpn.com/ghilliemaster 📌 CONTACT ME Twitter: https://twitter.com/GhillieYT Discord: https://discord.gg/yH9GrNk Xbox Gamertag: R8 Ghillie Business Inquiries: business.ghilliemaster@gmail.com 🥇 Become a member here to get some exclusive perks: https://www.youtube.com/channel/UC1PhTs67PPip_Ys0_xmk8Bg/join 5️⃣ TOP 5 SUBMISS",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.68,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "ghilliemaster",
+        "sourceName": "GhillieMaster",
+        "sourceTier": 68,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=aqJt2ZLaibc",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=aqJt2ZLaibc",
+        "externalId": "yt:video:aqJt2ZLaibc",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "5bdc43d739216e92babc0e494ef007b4949ecaf8abc337387351ea853f1aa41f",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-ghilliemaster-c160d308d4c7b40b",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-24T20:25:17.000Z",
+      "title": "The GTA 6 Leaks Are Approaching DANGEROUS Territory",
+      "summary": "The 11th GTA 6 gameplay leak has dropped, with footage of a nudist colony. The situation might be getting VERY bad in the next few days. 🔒 Get 3 Months of the #1 rated VPN for FREE by using my referral link: https://www.expressvpn.com/ghilliemaster 📌 CONTACT ME Twitter: https://twitter.com/GhillieYT Discord: https://discord.gg/yH9GrNk Xbox Gamertag: R8 Ghillie Business Inquiries: business.ghilliemaster@gmail.com 🥇 Become a member here to get some exclusive perks: https://www.youtube.com/channel/UC1PhTs67PPip_Ys0",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.68,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "ghilliemaster",
+        "sourceName": "GhillieMaster",
+        "sourceTier": 68,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=ed498zCmUG0",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=ed498zCmUG0",
+        "externalId": "yt:video:ed498zCmUG0",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "60afb1cb1939c39b83018b924a49fb015a3652683e31ed3f191dc3e6352367a1",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-the-professional-7ad85832d2d2417c",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-29T10:45:37.000Z",
+      "title": "Late Night Stream Reading Comments And Discussing GTA 6 Gameplay",
+      "summary": "Me playing GTA 4 Buy An E-Win Gaming Chair Use the code \"TP\" for 30% off. E-Win Gaming Chairs https://tidd.ly/4nDRiWo Become a Channel Member:https://www.youtube.com/channel/UC1NzF95Dk5tXCNdDFmyq9aQ/join Support me on Patreon: https://www.patreon.com/TheProfessional1994 Follow me on Twitter: https://twitter.com/Patrick21611",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.66,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "the-professional",
+        "sourceName": "TheProfessional",
+        "sourceTier": 66,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=tJOXT8h7kKc",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=tJOXT8h7kKc",
+        "externalId": "yt:video:tJOXT8h7kKc",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "110c43ea929127c68027464c8e00188d73a3520119c634156a9e8e85e47c6050",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-the-professional-1d08baec641e5436",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-29T02:44:11.000Z",
+      "title": "Everything I Noticed In The GTA 6 Gameplay Reveal",
+      "summary": "Me giving a full breakdown of the GTA 6 gameplay reveal. 0:00 Intro 1:35 This Guy Is From Trailer 2 3:00 The Street Gang Is San 4 San 4:20 GTA 6 's New Honor System 7:10 Jason And Lucia Are Working For Boobie Ike 8:50 Corrupt Cops Are Coming 9:45 Unique AK47 10:55 These Corrupt Cops Were In Trailer 2 11:32 New Main Antagonist? 12:05 Jason Is Not An Undercover Cop 13:00 New Shooting Style 13:45 Custom Shotgun 14:50 You Can Wound Enemies 16:00 Slow Motion Kills 16:22 Enemies Carry Custom Guns 16:43 Why The Villains A",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.66,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "the-professional",
+        "sourceName": "TheProfessional",
+        "sourceTier": 66,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=9wlruCyWqWI",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=9wlruCyWqWI",
+        "externalId": "yt:video:9wlruCyWqWI",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "e84044d3173314e5d2ab17b73e92a920be3902922c5acef7bcfd28cd12ffe350",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-the-professional-8863424f887181e3",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-28T02:25:33.000Z",
+      "title": "GTA 6 Hacker Moves $270,000 In Trading Fees To Other Crypto Accounts And Goes Silent Today",
+      "summary": "Me talking about the GTA 6 hacker moving $270,000 to other crypto accounts and going silent today as his coin crashes. 0:00 Today is The First Day The Hacker is Silent 2:33 GTA 6 Hacker Moves $270,000 In Traders Fees 3:50 Hacker's Memecoin Is Crashing 6:13 Why I Think The Hacker Was Lying About GTA 6 Being Unfinished 8:22 The Crypto The Hacker Transfered To Articles:https://www.coindesk.com/business/2026/08/27/gta-6-leaker-cashes-out-of-his-own-memecoin-hours-before-rockstar-s-gameplay-reveal https://wolfsgamingblo",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.66,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "the-professional",
+        "sourceName": "TheProfessional",
+        "sourceTier": 66,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=5K92JMeEJdU",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=5K92JMeEJdU",
+        "externalId": "yt:video:5K92JMeEJdU",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "91b428223fcca2ecc8f54b71d748a4a7a279dbb00dd0bd89d91aedd94b1285bf",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-the-professional-ae0e8ee1d2d1b759",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-27T22:57:55.000Z",
+      "title": "GTA 6 Netflix Reveal Reaction And Breakdown!",
+      "summary": "Me reacting to the GTA 6 reveal on Netflix. Buy An E-Win Gaming Chair Use the code \"TP\" for 30% off. E-Win Gaming Chairs https://tidd.ly/4nDRiWo Become a Channel Member:https://www.youtube.com/channel/UC1NzF95Dk5tXCNdDFmyq9aQ/join Support me on Patreon: https://www.patreon.com/TheProfessional1994 Follow me on Twitter: https://twitter.com/Patrick21611",
+      "statusSuggested": "THEORY",
+      "confidenceSuggested": 0.66,
+      "categorySuggested": "Analyses",
+      "source": {
+        "sourceId": "the-professional",
+        "sourceName": "TheProfessional",
+        "sourceTier": 66,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=6LkG0IZ7I1A",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=6LkG0IZ7I1A",
+        "externalId": "yt:video:6LkG0IZ7I1A",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "6b027eef990e1c9dd8d1412233ac07731d6c6ff7cee8d069088294ec760d5041",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-the-professional-76afd356afc58bc6",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-27T00:11:53.000Z",
+      "title": "GTA 6 Hacker Posts Lucia Spoiler Claiming Game Is Unfinished Buggy And Rockstar Finally Responds",
+      "summary": "Me reacting to all the recent news with GTA 6 including Rockstar responding and the hacker leaking the Lucia spoiler. Rockstar's response:https://x.com/RockstarGames/status/2092574304571433078 https://www.facebook.com/photo/?fbid=1628474435302701&set=an-extraordinary-rumor-circulating-online-claims-rockstar-games-reached-out-to-v 0:00 Intro 3:20 Rockstar Responds To The Hacking Situation 6:10 Why I Think Rockstar Took So Long To Respond 6:43 Theres No Proof Cyberleek Has Been Caught Its Fake 11:30 No Russia Is Not ",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.66,
+      "categorySuggested": "Rumeurs",
+      "source": {
+        "sourceId": "the-professional",
+        "sourceName": "TheProfessional",
+        "sourceTier": 66,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=bnOSwyFXiv0",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=bnOSwyFXiv0",
+        "externalId": "yt:video:bnOSwyFXiv0",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "8564e47aaf618736deb41524b91091ebbefdaec07e753fb5930efa4e6bed67e2",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-the-professional-9a21230a25669e81",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-26T04:28:07.000Z",
+      "title": "Troll Protests Outside Rockstar HQ For Cyberleeks And Hacker Posts 3 More Clips",
+      "summary": "Me reacting to the news of 3 new leaks and some creepy guy protesting outside Rockstar's HQ. 0:00 Intro 2:00 Man Protests Outside Rockstar HQ 4:00 Reacting To The Video 7:10 Funny Sign In Leaked GTA 6 Gameplay 8:40 You Can Open Trunks In GTA 6 9:18 Fishing Is In GTA 6 9:30 Cyberleek Mocks Rockstar With Video Game Store 11:40 You Can Have Phone Cases In GTA 6 12:30 When You Don't Have Enough Money Store Items Are Red 12:55 Cyberleek's Message 13:35 The Clubs In GTA 6 Are Amazing 15:00 The Beach Scene In GTA 6 Is Gam",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.66,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "the-professional",
+        "sourceName": "TheProfessional",
+        "sourceTier": 66,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=RZDvOxFypq0",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=RZDvOxFypq0",
+        "externalId": "yt:video:RZDvOxFypq0",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "a1fea3cdcd346cff217607eb025d13796eed6f923e2feb5a124d25cd6c5dc27a",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-the-professional-d79b314328cdaf7c",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-25T06:08:24.000Z",
+      "title": "GTA 6 Hacker Threatens To Leak Lucia Spoilers And He Asks 10 People To Protest Outside Rockstar",
+      "summary": "Me reacting to this recent story on the GTA 6 hacker threatening to leak spoilers. 0:00 GTA Hacker Is Threatening To Leak Lucia Spoilers 6:30 My Thoughts On The Reddit Augusut 18th guy 9:20 Reacting To The Take Two Private Investigators Video 10:45 Why I Think The Reddit Guy Doesn't Know Cyberleek 13:45 Is The Video Real Or Fake? 18:54 The Reddit Video Guy's Crypto Posts 21:00 Why I Think The 2nd Reddit Video Might Be Fake 24:14 GTA 6 New Leak Video Today Thoughts Article:https://ixbt.games/en/news/2026/08/24/43008",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.66,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "the-professional",
+        "sourceName": "TheProfessional",
+        "sourceTier": 66,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=aQ9AFXLY6gw",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=aQ9AFXLY6gw",
+        "externalId": "yt:video:aQ9AFXLY6gw",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "203b3e3ee8fd5151e3df9b1117be0de650083978bdfa2214de2ec746a95367f8",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-the-professional-ebbf6b59cf8d4fef",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-24T07:57:31.000Z",
+      "title": "Discussing The GTA 6 Hacking Situation And Reading Comments!",
+      "summary": "Me playing GTA 4 on a Sunday. Buy An E-Win Gaming Chair Use the code \"TP\" for 30% off. E-Win Gaming Chairs https://tidd.ly/4nDRiWo Become a Channel Member:https://www.youtube.com/channel/UC1NzF95Dk5tXCNdDFmyq9aQ/join Support me on Patreon: https://www.patreon.com/TheProfessional1994 Follow me on Twitter: https://twitter.com/Patrick21611",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.66,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "the-professional",
+        "sourceName": "TheProfessional",
+        "sourceTier": 66,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=IJFTJNEJ5Yo",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=IJFTJNEJ5Yo",
+        "externalId": "yt:video:IJFTJNEJ5Yo",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "52a45afe9936f3ed4ff6ed07beacea5d00a7bc89f50a2b5892a802131e1129d8",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-the-professional-d075dd8f27b4f350",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-24T00:31:22.000Z",
+      "title": "GTA 6 Hacker's Website Is Back And He Burned $1 Million In His Crypto To Prove Hes Not Greedy",
+      "summary": "Me reacting to the recent news of the hacker's site being back. Article:https://www.thegamer.com/gta-6-eighth-leak-cyberleek-burns-1-million-crypto-coin/?utm_source=chatgpt.com Article:https://www.ign.com/articles/gta-6-leaker-releases-more-gameplay-videos-despite-rockstar-owner-take-twos-microsoft-and-discord-subpoenas 0:00 There Is So Much Misinformation Online 2:25 I Made A Mistake About One Of The GTA 6 Clips 4:10 Google Is Recommending My Videos For This News 4:38 The Hacker Posted 2 Leaks Today 7:18 Hacker's ",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.66,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "the-professional",
+        "sourceName": "TheProfessional",
+        "sourceTier": 66,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=XwcQecgxcNE",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=XwcQecgxcNE",
+        "externalId": "yt:video:XwcQecgxcNE",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "5875a4b5a493d38f9c7bcc5a4065689f78173e99c4fbcad2d83b1a87a300ddd1",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta6videos-ac9aee2078821ad8",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-28T12:00:37.000Z",
+      "title": "GTA 6 still has This Problem... 🥀",
+      "summary": "#gta6 #gta6trailer3 #gta6leaks #gta6leakedgameplay",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.62,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gta6videos",
+        "sourceName": "GTA6Videos",
+        "sourceTier": 62,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/pZT7T3jBgxw",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/pZT7T3jBgxw",
+        "externalId": "yt:video:pZT7T3jBgxw",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "e11d85ab858cc6874316d88350211bb9b84756f89a42ea208c67251d62c6d03d",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta6videos-d9dc101735eb49cd",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-27T20:22:05.000Z",
+      "title": "GTA 6 - New Trailer LIVE",
+      "summary": "Watch \"Grand Theft Auto VI: An Extended Look\" LIVE 6 hours earlier than the YouTube Release... #gta6 #gta6leaks #gta6leakedgameplay #gta6trailer3",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.62,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "gta6videos",
+        "sourceName": "GTA6Videos",
+        "sourceTier": 62,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=5EkeSxTQvDQ",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=5EkeSxTQvDQ",
+        "externalId": "yt:video:5EkeSxTQvDQ",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "e6380a3916b82216e822ba3fb4c3255f16ac2d7dd5f8e3cbc3550e3b7201e2c4",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta6videos-b8fbc60feae730ad",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-27T05:25:24.000Z",
+      "title": "LIVE - GTA 6 New Screenshots + More!",
+      "summary": "#gta6 #gta6leaks #gta6leakedgameplay #gta6trailer3",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.62,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gta6videos",
+        "sourceName": "GTA6Videos",
+        "sourceTier": 62,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=cMnBEhO3y78",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=cMnBEhO3y78",
+        "externalId": "yt:video:cMnBEhO3y78",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "eafa2cad5753ef4f47a9a7d5506a46eb45aacc1b4ea7842f811150e18674142c",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta6videos-246052b8038edb1c",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-26T14:00:37.000Z",
+      "title": "No More GTA 6 Leaks?",
+      "summary": "#gta6 #gta6trailer3 #gta6leaks #gta6leakedgameplay",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.62,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "gta6videos",
+        "sourceName": "GTA6Videos",
+        "sourceTier": 62,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/2aFsAxsGKSc",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/2aFsAxsGKSc",
+        "externalId": "yt:video:2aFsAxsGKSc",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "f27b8248a26272b14f21d4707453c39cdbc84eade0be98732909f583528db767",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta6videos-12d331eb0a48362c",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-25T13:30:26.000Z",
+      "title": "GTA 6 - 2026 Leaked Gamplay (All Details)",
+      "summary": "Every detail from the latest GTA 6 Leaked footage... --------------------------------------------------------------------------------------------- Get to know more about the game: - GTA VI File Doc = https://drive.google.com/file/d/1usHpd-r-dllDIlMj6rBWxCCLwy4SgRyM/view - GTA VI Mapping Project = https://vimap.saamexe.com/map --------------------------------------------------------------------------------------------- Leave a Rating if you enjoyed! Send a song you like to us! We will listen to it and might put it i",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.62,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "gta6videos",
+        "sourceName": "GTA6Videos",
+        "sourceTier": 62,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=zsI3c_Arzhs",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=zsI3c_Arzhs",
+        "externalId": "yt:video:zsI3c_Arzhs",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "f37a8389c12758c13d469cd1969d0c4465ce1dc031b0bb246c73dd0bfe09f7b2",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta6videos-a449f729bc7598b3",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-20T15:00:23.000Z",
+      "title": "GTA 6 Leaked AGAIN... (2026)",
+      "summary": "#gta6 #gta6trailer3 #gta6leaks #gta6leakedgameplay",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.62,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "gta6videos",
+        "sourceName": "GTA6Videos",
+        "sourceTier": 62,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/VhZJg31bpAo",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/VhZJg31bpAo",
+        "externalId": "yt:video:VhZJg31bpAo",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "07ecedceee8729b624b9bcc9d4b4843eeeab0b14322e1946f24c30b9c7701348",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta6videos-03c39296850215fd",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-18T13:30:20.000Z",
+      "title": "GTA 6 - Gameplay Video (Everything to Expect)",
+      "summary": "Here is what to expect in GTA VI: An Extended Look Gameplay Trailer / Video... --------------------------------------------------------------------------------------------- Get to know more about the game: - GTA VI File Doc = https://drive.google.com/file/d/1usHpd-r-dllDIlMj6rBWxCCLwy4SgRyM/view - GTA VI Mapping Project = https://vimap.saamexe.com/map --------------------------------------------------------------------------------------------- Leave a Rating if you enjoyed! Send a song you like to us! We will liste",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.62,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gta6videos",
+        "sourceName": "GTA6Videos",
+        "sourceTier": 62,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=nXfqss_4708",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=nXfqss_4708",
+        "externalId": "yt:video:nXfqss_4708",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "5f2a50b72c47ce7eab0d28a4465c7e8cb38a10b0382f778657a184550e110225",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta6videos-ab9a7f96fc3bbd26",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-15T15:00:32.000Z",
+      "title": "THIS is in GTA 6's Gameplay Trailer...",
+      "summary": "#gta6 #gta6trailer3 #gta6leaks #gta6leakedgameplay",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.62,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "gta6videos",
+        "sourceName": "GTA6Videos",
+        "sourceTier": 62,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/HFAG5eDIO7c",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/HFAG5eDIO7c",
+        "externalId": "yt:video:HFAG5eDIO7c",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "79b18e935ff35bc73efa3e111d3175d091a4dee74083e0223fa6e8e79c0da021",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta6videos-b6684c0373308b32",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-06T15:30:13.000Z",
+      "title": "GTA 6 - Official Trailer 3 Release",
+      "summary": "Rockstar revealed the Extended Look on Netflix and YouTube Premier... This is most likely a GTA 6 Trailer 3 replacement and will contain Official GTA 6 Gameplay... --------------------------------------------------------------------------------------------- Get to know more about the game: - GTA VI File Doc = https://drive.google.com/file/d/1usHpd-r-dllDIlMj6rBWxCCLwy4SgRyM/view - GTA VI Mapping Project = https://vimap.saamexe.com/map ---------------------------------------------------------------------------------",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.62,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "gta6videos",
+        "sourceName": "GTA6Videos",
+        "sourceTier": 62,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=HR_QbswNP78",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=HR_QbswNP78",
+        "externalId": "yt:video:HR_QbswNP78",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "7ebb1c99cbda8be72f22ee82cdfd6fab3a0625701d782a8113bfc13ecbf9eb79",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta6videos-ef7db3ec5e5e006f",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-06T15:00:17.000Z",
+      "title": "GTA 6 - Trailer 3 (Latest News)",
+      "summary": "#gta6 #gta6trailer3 #gta6leaks #gta6leakedgameplay",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.62,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "gta6videos",
+        "sourceName": "GTA6Videos",
+        "sourceTier": 62,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/mIQGqm222IE",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/mIQGqm222IE",
+        "externalId": "yt:video:mIQGqm222IE",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "e178bc49312b4e0445a9d35e1216afac56de6245da30828e2905227bfb7222e1",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta6videos-0b5ade658bf48fcf",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-08-02T14:00:05.000Z",
+      "title": "GTA 6 - Latest Map (August 2026)",
+      "summary": "Latest Map of GTA 6 (mapped from GTA 6 Leaks & Screenshots & Trailers) --------------------------------------------------------------------------------------------- Get to know more about the game: - GTA VI File Doc = https://drive.google.com/file/d/1usHpd-r-dllDIlMj6rBWxCCLwy4SgRyM/view - GTA VI Mapping Project = https://vimap.saamexe.com/map --------------------------------------------------------------------------------------------- Leave a Rating if you enjoyed! Send a song you like to us! We will listen to it ",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.62,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gta6videos",
+        "sourceName": "GTA6Videos",
+        "sourceTier": 62,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=TZRfFDcXMNY",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=TZRfFDcXMNY",
+        "externalId": "yt:video:TZRfFDcXMNY",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "847132d3af5023937dad7948dc5fcb0af78a59e5d5e0427619376ab209d9d635",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta6videos-1b9af84f6ec44d55",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-07-30T15:00:21.000Z",
+      "title": "GTA 6 Actor Leaked!",
+      "summary": "#gta6 #gta6trailer3 #gta6leaks #gta6leakedgameplay",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.62,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "gta6videos",
+        "sourceName": "GTA6Videos",
+        "sourceTier": 62,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/frUXDWwMNWU",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/frUXDWwMNWU",
+        "externalId": "yt:video:frUXDWwMNWU",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "5ae86327801020ff1f9643a735e7bf22d5f7f7aa6cf62873ee3d036a30c45ace",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta6videos-fcf43a3328b8480c",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-07-29T15:00:32.000Z",
+      "title": "GTA 6 - Mission Gameplay Leak",
+      "summary": "These are the first couple missions you will have with Jason (including store robberies and more...) --------------------------------------------------------------------------------------------- Get to know more about the game: - GTA VI File Doc = https://drive.google.com/file/d/1usHpd-r-dllDIlMj6rBWxCCLwy4SgRyM/view - GTA VI Mapping Project = https://vimap.saamexe.com/map --------------------------------------------------------------------------------------------- Leave a Rating if you enjoyed! Send a song you lik",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.62,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "gta6videos",
+        "sourceName": "GTA6Videos",
+        "sourceTier": 62,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=XWteHK1sBjU",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=XWteHK1sBjU",
+        "externalId": "yt:video:XWteHK1sBjU",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "1783644707c0ee844d872a17dcde50e96c0e2b4772d98718ec78bcf2dec627a1",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta6videos-9a1c426d7e8e2a24",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-07-28T15:00:27.000Z",
+      "title": "GTA 6 Delay!?",
+      "summary": "#gta6 #gta6trailer3 #gta6leaks #gta6leakedgameplay",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.62,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gta6videos",
+        "sourceName": "GTA6Videos",
+        "sourceTier": 62,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/d8isofmXMvI",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/d8isofmXMvI",
+        "externalId": "yt:video:d8isofmXMvI",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "3e4d3217bfcc729f1e7d5224f1127343dee7cbdb2c9f534fb3fdee2fdc963924",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta6videos-8e0c3c22f7b291de",
+      "detectedAt": "2026-08-31T20:28:19.776Z",
+      "publishedAt": "2026-07-27T15:00:35.000Z",
+      "title": "GTA 6 - Car Interiors (Gameplay Leak)",
+      "summary": "Every detail, feature and mechanic confirmed in GTA 6 leaked gameplay and official pre-order screenshots... --------------------------------------------------------------------------------------------- Get to know more about the game: - GTA VI File Doc = https://drive.google.com/file/d/1usHpd-r-dllDIlMj6rBWxCCLwy4SgRyM/view - GTA VI Mapping Project = https://vimap.saamexe.com/map --------------------------------------------------------------------------------------------- Leave a Rating if you enjoyed! Send a song ",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.62,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "gta6videos",
+        "sourceName": "GTA6Videos",
+        "sourceTier": 62,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=orE74ivEs9o",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=orE74ivEs9o",
+        "externalId": "yt:video:orE74ivEs9o",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "3a5ee053ceba38554b8a1cc752e6130809d06d32970d4b5933d99e5df1ce021a",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    }
+  ]
 }
