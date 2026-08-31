@@ -47,6 +47,18 @@ jobs:
           git commit -m "Build public GTA 6 news feed"
           git push
 
+      - name: Prepare public Pages artifact
+        run: |
+          mkdir -p .pages-artifact
+          rsync -a --delete \
+            --exclude '.git' \
+            --exclude '.pages-artifact' \
+            --exclude 'data/candidates.json' \
+            --exclude 'data/canonical-news.json' \
+            --exclude 'data/publication-log.json' \
+            --exclude 'data/rejected-or-held.json' \
+            ./ .pages-artifact/
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
         with:
@@ -55,7 +67,7 @@ jobs:
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: .
+          path: .pages-artifact
 
       - name: Deploy to GitHub Pages
         id: deployment

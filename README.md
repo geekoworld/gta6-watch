@@ -43,6 +43,8 @@ Flux surveillés
 
 Les nouveaux candidats restent privés tant qu’ils ne sont pas approuvés. Un objet canonique approuvé reste lui-même privé du flux public tant que `publication.articlePublishedAt` vaut `null`. Les articles historiques déjà publics ont été migrés une seule fois pour préserver le site existant.
 
+L’artefact GitHub Pages exclut `candidates.json`, le registre canonique, le journal de publication et les éléments rejetés/en attente : ils ne sont pas servis par `gta6-watch.xyz`. Le dépôt GitHub étant public, les candidats versionnés restent toutefois visibles aux personnes ayant accès au dépôt ; une confidentialité stricte exigerait un dépôt ou stockage privé, hors du périmètre statique actuel.
+
 ## Publication sur GitHub Pages
 
 1. Créer un dépôt GitHub, idéalement nommé `gta6-watch`.
