@@ -25,12 +25,16 @@ function atomLink(block) {
   const any = block.match(/<link\b[^>]*href=["']([^"']+)["']/i);
   return text((alternate || any || [])[1] || "");
 }
+function imageLink(block) {
+  const match = block.match(/<(?:media:thumbnail|media:content|itunes:image|enclosure)\b[^>]*(?:url|href)=["']([^"']+)["']/i);
+  return text(match?.[1] || "");
+}
 function parseFeed(xml) {
   const atom = [...xml.matchAll(/<entry\b[\s\S]*?<\/entry>/gi)].map((match) => match[0]);
-  if (atom.length) return atom.map((block) => ({ title: tag(block, "title"), url: atomLink(block), externalId: tag(block, "id"), date: tag(block, "published") || tag(block, "updated"), summary: tag(block, "media:description") || tag(block, "summary") || tag(block, "content") }));
+  if (atom.length) return atom.map((block) => ({ title: tag(block, "title"), url: atomLink(block), imageUrl: imageLink(block), externalId: tag(block, "id"), date: tag(block, "published") || tag(block, "updated"), summary: tag(block, "media:description") || tag(block, "summary") || tag(block, "content") }));
   return [...xml.matchAll(/<item\b[\s\S]*?<\/item>/gi)].map((match) => {
     const block = match[0];
-    return { title: tag(block, "title"), url: tag(block, "link") || tag(block, "guid"), externalId: tag(block, "guid"), date: tag(block, "pubDate") || tag(block, "dc:date"), summary: tag(block, "description") || tag(block, "content:encoded") };
+    return { title: tag(block, "title"), url: tag(block, "link") || tag(block, "guid"), imageUrl: imageLink(block), externalId: tag(block, "guid"), date: tag(block, "pubDate") || tag(block, "dc:date"), summary: tag(block, "description") || tag(block, "content:encoded") };
   });
 }
 function normalized(rawUrl) {
@@ -75,6 +79,7 @@ const candidates = [...(previous.candidates || [])];
 const known = new Set(candidates.map((candidate) => `${candidate.source.sourceId}|${candidate.source.externalId}|${candidate.source.sourceUrlCanonical}`));
 const failures = [];
 let added = 0;
+let enriched = 0;
 
 for (const source of sourcesDoc.sources.filter((item) => item.feedUrl)) {
   try {
@@ -85,9 +90,19 @@ for (const source of sourcesDoc.sources.filter((item) => item.feedUrl)) {
       if (!relevant.test(haystack) || !item.title || !item.url) continue;
       const sourceUrlRaw = item.url;
       const sourceUrlCanonical = normalized(sourceUrlRaw);
+      const imageUrlRaw = item.imageUrl || null;
+      const imageUrlCanonical = imageUrlRaw ? normalized(imageUrlRaw) : null;
       const externalId = item.externalId || sourceUrlCanonical;
       const dedupeKey = `${source.id}|${externalId}|${sourceUrlCanonical}`;
-      if (known.has(dedupeKey)) continue;
+      if (known.has(dedupeKey)) {
+        const existing = candidates.find((candidate) => `${candidate.source.sourceId}|${candidate.source.externalId}|${candidate.source.sourceUrlCanonical}` === dedupeKey);
+        if (existing && imageUrlRaw && !existing.source.imageUrlRaw) {
+          existing.source.imageUrlRaw = imageUrlRaw;
+          existing.source.imageUrlCanonical = imageUrlCanonical;
+          enriched += 1;
+        }
+        continue;
+      }
       const categorySuggested = categoryFor(item.title);
       const summary = text(item.summary).slice(0, 520) || `New publication detected from ${source.name}. Open the source to verify the details.`;
       const contentHash = sha(`${item.title}\n${summary}\n${sourceUrlCanonical}`);
@@ -101,7 +116,7 @@ for (const source of sourcesDoc.sources.filter((item) => item.feedUrl)) {
         statusSuggested: statusFor(source, categorySuggested),
         confidenceSuggested: Math.max(0, Math.min(1, Number(source.score || 0) / 100)),
         categorySuggested,
-        source: { sourceId: source.id, sourceName: source.name, sourceTier: Number(source.score || 0), sourceUrlRaw, sourceUrlCanonical, externalId, platform: platformFor(source) },
+        source: { sourceId: source.id, sourceName: source.name, sourceTier: Number(source.score || 0), sourceUrlRaw, sourceUrlCanonical, ...(imageUrlRaw ? { imageUrlRaw, imageUrlCanonical } : {}), externalId, platform: platformFor(source) },
         contentHash,
         reviewState: "PENDING",
         reviewReason: null,
@@ -122,4 +137,4 @@ if (!dataChanged) {
   process.exit(0);
 }
 await fs.writeFile(outputPath, `${JSON.stringify({ version: 1, generatedAt: detectedAt, failures, candidates }, null, 2)}\n`);
-console.log(`GTA 6 Watch: ${added} new candidates, ${candidates.length} total, ${failures.length} source failures.`);
+console.log(`GTA 6 Watch: ${added} new candidates, ${enriched} illustrations added, ${candidates.length} total, ${failures.length} source failures.`);

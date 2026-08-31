@@ -10,7 +10,7 @@ const temp = await fs.mkdtemp(path.join(os.tmpdir(), "gta6-watch-candidates-"));
 const dataDir = path.join(temp, "data");
 await fs.mkdir(dataDir);
 const now = "2026-08-31T12:00:00.000Z";
-const feedUrl = `data:text/xml,${encodeURIComponent("<?xml version=\"1.0\"?><rss><channel><item><title>GTA 6 official test update</title><link>https://example.com/test?utm_source=fixture</link><guid>fixture-1</guid><pubDate>Sun, 31 Aug 2026 12:00:00 GMT</pubDate><description>Controlled GTA VI fixture.</description></item></channel></rss>")}`;
+const feedUrl = `data:text/xml,${encodeURIComponent("<?xml version=\"1.0\"?><rss><channel><item><title>GTA 6 official test update</title><link>https://example.com/test?utm_source=fixture</link><guid>fixture-1</guid><media:thumbnail url=\"https://images.example.com/test.jpg?utm_source=fixture\"/><pubDate>Sun, 31 Aug 2026 12:00:00 GMT</pubDate><description>Controlled GTA VI fixture.</description></item></channel></rss>")}`;
 const sourcesPath = path.join(temp, "sources.json");
 const collectedPath = path.join(temp, "collected.json");
 await fs.writeFile(sourcesPath, JSON.stringify({ sources: [{ id: "fixture-source", name: "Fixture Source", type: "Site officiel", tier: "A", score: 100, feedUrl }] }));
@@ -21,9 +21,11 @@ const collected = JSON.parse(await fs.readFile(collectedPath, "utf8"));
 assert.equal(collected.candidates.length, 1, "exact duplicate candidates must be skipped");
 assert.equal(collected.candidates[0].source.sourceUrlRaw, "https://example.com/test?utm_source=fixture");
 assert.equal(collected.candidates[0].source.sourceUrlCanonical, "https://example.com/test");
+assert.equal(collected.candidates[0].source.imageUrlRaw, "https://images.example.com/test.jpg?utm_source=fixture");
+assert.equal(collected.candidates[0].source.imageUrlCanonical, "https://images.example.com/test.jpg");
 const candidate = (id, url) => ({
   candidateId: id, detectedAt: now, publishedAt: now, title: "GTA 6 official test update", summary: "A controlled editorial test candidate.", statusSuggested: "CONFIRMED", confidenceSuggested: 1,
-  categorySuggested: "Rockstar", source: { sourceId: "test-source", sourceName: "Test Source", sourceTier: 100, sourceUrlRaw: url, sourceUrlCanonical: url, externalId: id, platform: "WEB" },
+  categorySuggested: "Rockstar", source: { sourceId: "test-source", sourceName: "Test Source", sourceTier: 100, sourceUrlRaw: url, sourceUrlCanonical: url, imageUrlRaw: "https://images.example.com/editorial.jpg", imageUrlCanonical: "https://images.example.com/editorial.jpg", externalId: id, platform: "WEB" },
   contentHash: "a".repeat(64), reviewState: "PENDING", reviewReason: null, canonicalNewsId: null, reviewHistory: [{ state: "PENDING", reason: null, timestamp: now }]
 });
 const candidates = { version: 1, generatedAt: now, failures: [], candidates: [candidate("candidate-test-00000001", "https://example.com/one"), candidate("candidate-test-00000002", "https://example.com/two"), candidate("candidate-test-00000003", "https://example.com/three"), candidate("candidate-test-00000004", "https://example.com/four")] };
@@ -52,4 +54,5 @@ assert.equal(result.candidates[2].reviewHistory.length, 2);
 assert.equal(result.candidates[3].reviewState, "REJECTED");
 assert.equal(result.candidates[3].reviewHistory.length, 2);
 assert.equal(output.records[0].sources[0].sourceUrlRaw, "https://example.com/one");
+assert.equal(output.records[0].sources[0].imageUrlCanonical, "https://images.example.com/editorial.jpg");
 console.log("Candidate creation, duplicate prevention, approval, optional publication, rejection, duplicate marking, canonical creation, and source preservation passed.");

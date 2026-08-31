@@ -2300,6 +2300,94 @@ function CategoryPill({
     }
   }, children);
 }
+function ArticleVisual({
+  article,
+  variant = "card"
+}) {
+  const [failed, setFailed] = useState(false);
+  const imageUrl = !failed && article.imageUrl ? article.imageUrl : null;
+  const isHero = variant === "hero";
+  const visualThemes = {
+    Rockstar: ["#3f1432", "#fc4b80", "#e6ab4c"],
+    Rumeurs: ["#382016", "#c9752d", "#f3d36a"],
+    Leaks: ["#142b42", "#176c9c", "#77e3f4"],
+    Guides: ["#17372f", "#208469", "#b0eb83"],
+    Analyses: ["#25204b", "#7655d8", "#c9b8ff"],
+    News: ["#192047", "#b2408a", "#69dbf0"]
+  };
+  const theme = visualThemes[article.category] || visualThemes.News;
+  const titleWeight = [...String(article.title || "")].reduce((total, char) => total + char.charCodeAt(0), 0) % 3;
+  const rotation = ["125deg", "145deg", "110deg"][titleWeight];
+  return /*#__PURE__*/React.createElement("div", {
+    "aria-label": imageUrl ? `Illustration for ${article.title}` : `GTA 6 Watch illustration for ${article.title}`,
+    style: {
+      position: "relative",
+      height: isHero ? 220 : 118,
+      overflow: "hidden",
+      borderRadius: isHero ? 12 : 9,
+      marginTop: isHero ? 16 : 12,
+      marginBottom: isHero ? 18 : 13,
+      background: `radial-gradient(circle at ${titleWeight === 0 ? "78% 20%" : titleWeight === 1 ? "22% 24%" : "70% 72%"},${theme[2]}99,transparent 38%),linear-gradient(${rotation},${theme[0]} 0%,${theme[1]} 58%,#10111f 130%)`,
+      border: "1px solid var(--border-soft)"
+    }
+  }, imageUrl && /*#__PURE__*/React.createElement("img", {
+    src: imageUrl,
+    alt: "",
+    loading: isHero ? "eager" : "lazy",
+    onError: () => setFailed(true),
+    style: {
+      position: "absolute",
+      inset: 0,
+      width: "100%",
+      height: "100%",
+      objectFit: "cover"
+    }
+  }), imageUrl && /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: "absolute",
+      inset: 0,
+      background: "linear-gradient(90deg,rgba(7,8,18,.38),rgba(7,8,18,.04) 58%,rgba(7,8,18,.28))"
+    }
+  }), !imageUrl && /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: "absolute",
+      inset: 0,
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "flex-end",
+      padding: isHero ? 20 : 14,
+      backgroundImage: `linear-gradient(${rotation},transparent 0%,${theme[2]}38 48%,transparent 49%,transparent 64%,${theme[1]}4d 65%,transparent 66%)`
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      color: "rgba(255,255,255,.86)",
+      fontSize: isHero ? 14 : 10.5,
+      letterSpacing: ".12em",
+      fontWeight: 900
+    }
+  }, "GTA 6 WATCH"), /*#__PURE__*/React.createElement("span", {
+    style: {
+      color: "rgba(255,255,255,.72)",
+      fontSize: isHero ? 12 : 10,
+      marginTop: 3,
+      fontWeight: 700
+    }
+  }, article.category || "News")), /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: "absolute",
+      top: 10,
+      left: 11,
+      padding: "4px 7px",
+      borderRadius: 999,
+      background: "rgba(8,9,20,.7)",
+      backdropFilter: "blur(8px)",
+      color: "#fff",
+      fontSize: 9.5,
+      fontWeight: 900,
+      letterSpacing: ".07em"
+    }
+  }, imageUrl ? "SOURCE IMAGE" : "GTA 6 WATCH"));
+}
 const inputStyle = {
   width: "100%",
   background: "var(--bg-elev)",
@@ -2580,7 +2668,10 @@ function ArticleDrawer({
       marginTop: 14,
       lineHeight: 1.35
     }
-  }, displayed.title), /*#__PURE__*/React.createElement("p", {
+  }, displayed.title), /*#__PURE__*/React.createElement(ArticleVisual, {
+    article: article,
+    variant: "hero"
+  }), /*#__PURE__*/React.createElement("p", {
     style: {
       fontSize: 14,
       color: "var(--text)",
@@ -2809,7 +2900,9 @@ function ArticleCard({
       lineHeight: 1.4,
       marginBottom: 8
     }
-  }, displayed.title), /*#__PURE__*/React.createElement("p", {
+  }, displayed.title), /*#__PURE__*/React.createElement(ArticleVisual, {
+    article: a
+  }), /*#__PURE__*/React.createElement("p", {
     style: {
       fontSize: 12.5,
       color: "var(--text-muted)",

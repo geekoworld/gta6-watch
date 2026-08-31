@@ -58,6 +58,7 @@ export function validateCanonicalDocument(document, schema) {
       for (const field of ["sourceId", "sourceName", "externalId"]) if (typeof source[field] !== "string") errors.push(`${sourceAt}.${field} est requis.`);
       if (!boundedInteger(source.sourceTier)) errors.push(`${sourceAt}.sourceTier doit être un entier de 0 à 100.`);
       for (const field of ["sourceUrlRaw", "sourceUrlCanonical"]) if (!validUrl(source[field])) errors.push(`${sourceAt}.${field} doit être une URL HTTP(S) sans identifiants.`);
+      for (const field of ["imageUrlRaw", "imageUrlCanonical"]) if (source[field] !== undefined && !validUrl(source[field])) errors.push(`${sourceAt}.${field} doit être une URL HTTP(S) sans identifiants.`);
       if (!isTimestamp(source.publishedAt)) errors.push(`${sourceAt}.publishedAt doit être une date ISO.`);
       const key = `${source.sourceId}|${source.externalId}|${source.sourceUrlRaw}`;
       if (evidence.has(key)) errors.push(`${sourceAt} duplique une preuve existante.`);
@@ -100,6 +101,7 @@ export function validateCandidatesDocument(document, schema) {
     if (typeof source.externalId !== "string") errors.push(`${at}.source.externalId est requis.`);
     if (!boundedInteger(source.sourceTier)) errors.push(`${at}.source.sourceTier doit être un entier de 0 à 100.`);
     for (const field of ["sourceUrlRaw", "sourceUrlCanonical"]) if (!validUrl(source[field])) errors.push(`${at}.source.${field} doit être une URL HTTP(S) sans identifiants.`);
+    for (const field of ["imageUrlRaw", "imageUrlCanonical"]) if (source[field] !== undefined && !validUrl(source[field])) errors.push(`${at}.source.${field} doit être une URL HTTP(S) sans identifiants.`);
     if (!Array.isArray(candidate.reviewHistory) || candidate.reviewHistory.length === 0) errors.push(`${at}.reviewHistory doit conserver l'historique éditorial.`);
     for (const [historyIndex, entry] of (candidate.reviewHistory || []).entries()) {
       if (!REVIEW_STATES.has(entry.state) || !isTimestamp(entry.timestamp)) errors.push(`${at}.reviewHistory[${historyIndex}] est invalide.`);

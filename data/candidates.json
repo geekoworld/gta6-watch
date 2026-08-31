@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T20:28:19.776Z",
+  "generatedAt": "2026-08-31T21:01:28.252Z",
   "failures": [],
   "candidates": [
     {
@@ -19,7 +19,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/MJOrsRRa9GM",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/MJOrsRRa9GM",
         "externalId": "yt:video:MJOrsRRa9GM",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/MJOrsRRa9GM?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/MJOrsRRa9GM?version=3"
       },
       "contentHash": "96f1f5c39a2c7d813fa01bc287c8a417c152a36055f80fe24c9a717a5cf8867d",
       "reviewState": "PENDING",
@@ -49,7 +51,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/53C6gUqRpK4",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/53C6gUqRpK4",
         "externalId": "yt:video:53C6gUqRpK4",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/53C6gUqRpK4?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/53C6gUqRpK4?version=3"
       },
       "contentHash": "21d189632c3896110402e18b348328e41d2f92f2fd1f4282fdd73d400f6e2e34",
       "reviewState": "PENDING",
@@ -79,7 +83,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/mAfR_ybf5WM",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/mAfR_ybf5WM",
         "externalId": "yt:video:mAfR_ybf5WM",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/mAfR_ybf5WM?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/mAfR_ybf5WM?version=3"
       },
       "contentHash": "c5cb06c8a18ce09d76681021167f289be138f386ea784ad9cd050646bcf39c8e",
       "reviewState": "PENDING",
@@ -109,7 +115,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/L-9NI3mHZVo",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/L-9NI3mHZVo",
         "externalId": "yt:video:L-9NI3mHZVo",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/L-9NI3mHZVo?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/L-9NI3mHZVo?version=3"
       },
       "contentHash": "296b9094f4dd53c5e0e0cac236ba31047ff3acdd3fabefde0d4a218eb1f0e255",
       "reviewState": "PENDING",
@@ -139,7 +147,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/GVTE_MuInQg",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/GVTE_MuInQg",
         "externalId": "yt:video:GVTE_MuInQg",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/GVTE_MuInQg?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/GVTE_MuInQg?version=3"
       },
       "contentHash": "fadd491ad68b93708bbd6b119149337487cd659826a1ad1712e18dc512c3e5e4",
       "reviewState": "PENDING",
@@ -169,7 +179,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/Xzxv75FjMJk",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/Xzxv75FjMJk",
         "externalId": "yt:video:Xzxv75FjMJk",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/Xzxv75FjMJk?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/Xzxv75FjMJk?version=3"
       },
       "contentHash": "fe7fad80086876dcc5b960146be93c7e39d92b590890895a836af8f44eb9e818",
       "reviewState": "PENDING",
@@ -199,7 +211,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=tJbzMqJGH4k",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=tJbzMqJGH4k",
         "externalId": "yt:video:tJbzMqJGH4k",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/tJbzMqJGH4k?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/tJbzMqJGH4k?version=3"
       },
       "contentHash": "4dbd113c355c1971bceae0da8b683fee872b3f194479d7f7cb01d92e3859b2fb",
       "reviewState": "PENDING",
@@ -229,7 +243,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/YmzCydc4qOk",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/YmzCydc4qOk",
         "externalId": "yt:video:YmzCydc4qOk",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/YmzCydc4qOk?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/YmzCydc4qOk?version=3"
       },
       "contentHash": "377d9b53e38a533e4be788332fc6f28e93cfcf3e3622f6121b0f36084a2f3009",
       "reviewState": "PENDING",
@@ -259,7 +275,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=qq76pQsI1iw",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=qq76pQsI1iw",
         "externalId": "yt:video:qq76pQsI1iw",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/qq76pQsI1iw?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/qq76pQsI1iw?version=3"
       },
       "contentHash": "e97ad206c664f42abf3918f700773689ba576fcc52cce6224f50a5b55f34e886",
       "reviewState": "PENDING",
@@ -289,7 +307,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/INjHGpMRjRA",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/INjHGpMRjRA",
         "externalId": "yt:video:INjHGpMRjRA",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/INjHGpMRjRA?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/INjHGpMRjRA?version=3"
       },
       "contentHash": "65386a6f66e20dde3a92283f3dcd33ec147ff30154b38aaaa745b16b3056e3e0",
       "reviewState": "PENDING",
@@ -319,7 +339,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=EiQEBYDox_k",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=EiQEBYDox_k",
         "externalId": "yt:video:EiQEBYDox_k",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/EiQEBYDox_k?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/EiQEBYDox_k?version=3"
       },
       "contentHash": "6a479ac1288a9f90af4c4673a93b76aa6b0d85dc31f0a187af1000607bc2d0af",
       "reviewState": "PENDING",
@@ -349,7 +371,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/gta-6-pre-orders-surged-over-570-after-extended-look-premiere-2444",
         "sourceUrlCanonical": "https://www.gtaboom.com/gta-6-pre-orders-surged-over-570-after-extended-look-premiere-2444",
         "externalId": "https://www.gtaboom.com/gta-6-pre-orders-surged-over-570-after-extended-look-premiere-2444",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/7f/38/gta-6-pre-orders-surged-over-570-after-extended-look-premiere.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/7f/38/gta-6-pre-orders-surged-over-570-after-extended-look-premiere.jpg"
       },
       "contentHash": "e31a6b9746d04fefbf0578a10eb670101af29047806f485433090692bca3465f",
       "reviewState": "PENDING",
@@ -379,7 +403,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/miami-dade-says-gta-6-could-be-a-unique-opportunity-to-generate-revenue-for-the-county-822e",
         "sourceUrlCanonical": "https://www.gtaboom.com/miami-dade-says-gta-6-could-be-a-unique-opportunity-to-generate-revenue-for-the-county-822e",
         "externalId": "https://www.gtaboom.com/miami-dade-says-gta-6-could-be-a-unique-opportunity-to-generate-revenue-for-the-county-822e",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/03/86/miami-dade-says-gta-6-could-be-a-unique-opportunity-to-generate-revenue-for-the-county.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/03/86/miami-dade-says-gta-6-could-be-a-unique-opportunity-to-generate-revenue-for-the-county.jpg"
       },
       "contentHash": "035620be2f6e9d9cddd76316c192bbdadebd6e37dde19a641949bd693291a5af",
       "reviewState": "PENDING",
@@ -409,7 +435,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/io-interactive-dev-explains-why-gta-6-crowds-are-years-ahead-of-everyone-else-8d8c",
         "sourceUrlCanonical": "https://www.gtaboom.com/io-interactive-dev-explains-why-gta-6-crowds-are-years-ahead-of-everyone-else-8d8c",
         "externalId": "https://www.gtaboom.com/io-interactive-dev-explains-why-gta-6-crowds-are-years-ahead-of-everyone-else-8d8c",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/22/08/io-interactive-dev-explains-why-gta-6-crowds-are-years-ahead-of-everyone-else.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/22/08/io-interactive-dev-explains-why-gta-6-crowds-are-years-ahead-of-everyone-else.jpg"
       },
       "contentHash": "ec43f0e61b54876832510fa32049187d6515b8a0e149d0ddf10c6b8738376d1e",
       "reviewState": "PENDING",
@@ -439,7 +467,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/gta-6-at-30-fps-may-be-the-price-of-the-most-impressive-game-digital-foundry-has-ever-seen-785a",
         "sourceUrlCanonical": "https://www.gtaboom.com/gta-6-at-30-fps-may-be-the-price-of-the-most-impressive-game-digital-foundry-has-ever-seen-785a",
         "externalId": "https://www.gtaboom.com/gta-6-at-30-fps-may-be-the-price-of-the-most-impressive-game-digital-foundry-has-ever-seen-785a",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/cf/84/gta-6-at-30-fps-may-be-the-price-of-the-most-impressive-game-digital-foundry-has-ever-seen.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/cf/84/gta-6-at-30-fps-may-be-the-price-of-the-most-impressive-game-digital-foundry-has-ever-seen.jpg"
       },
       "contentHash": "99962a0bb15e1008978a2be7bc21b42eabb1ad48c3ac4bd75fd89cc3ffe57dd6",
       "reviewState": "PENDING",
@@ -469,7 +499,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/rockstar-dev-says-gta-6-is-currently-running-at-30-fps-on-consoles-3895",
         "sourceUrlCanonical": "https://www.gtaboom.com/rockstar-dev-says-gta-6-is-currently-running-at-30-fps-on-consoles-3895",
         "externalId": "https://www.gtaboom.com/rockstar-dev-says-gta-6-is-currently-running-at-30-fps-on-consoles-3895",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/ff/65/rockstar-dev-says-gta-6-is-currently-running-at-30-fps-on-consoles.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/ff/65/rockstar-dev-says-gta-6-is-currently-running-at-30-fps-on-consoles.jpg"
       },
       "contentHash": "6aa61b6fa3e0a360b91cf2dfedc091b5ea0fa728ca456be035ec951fd7d7232b",
       "reviewState": "PENDING",
@@ -499,7 +531,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/every-mainline-gta-and-red-dead-ranked-based-on-playthrough-length-981b",
         "sourceUrlCanonical": "https://www.gtaboom.com/every-mainline-gta-and-red-dead-ranked-based-on-playthrough-length-981b",
         "externalId": "https://www.gtaboom.com/every-mainline-gta-and-red-dead-ranked-based-on-playthrough-length-981b",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/b9/4e/every-mainline-gta-and-red-dead-ranked-based-on-playthrough-length.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/b9/4e/every-mainline-gta-and-red-dead-ranked-based-on-playthrough-length.jpg"
       },
       "contentHash": "31019aaecce76aa22f4d4b0e7060ad79f7ceb7ac8d0594093f91791cade1afbb",
       "reviewState": "PENDING",
@@ -529,7 +563,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/a-full-gta-6-playthrough-took-this-rockstar-dev-about-80-hours-ae3c",
         "sourceUrlCanonical": "https://www.gtaboom.com/a-full-gta-6-playthrough-took-this-rockstar-dev-about-80-hours-ae3c",
         "externalId": "https://www.gtaboom.com/a-full-gta-6-playthrough-took-this-rockstar-dev-about-80-hours-ae3c",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/13/e0/a-full-gta-6-playthrough-took-this-rockstar-dev-about-80-hours.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/13/e0/a-full-gta-6-playthrough-took-this-rockstar-dev-about-80-hours.jpg"
       },
       "contentHash": "43f206d5ffe369a54bdb338ff0812b50b79f94a62280f2d843124798ba49a672",
       "reviewState": "PENDING",
@@ -559,7 +595,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/gta-6-extended-look-4k-gameplay-screenshots-aacb",
         "sourceUrlCanonical": "https://www.gtaboom.com/gta-6-extended-look-4k-gameplay-screenshots-aacb",
         "externalId": "https://www.gtaboom.com/gta-6-extended-look-4k-gameplay-screenshots-aacb",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/9a/7e/frame_000228.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/9a/7e/frame_000228.jpg"
       },
       "contentHash": "b0b157aa5690f90d42d17f908e3cf3889d3beb4469a933a04333d98fe1ae5146",
       "reviewState": "PENDING",
@@ -589,7 +627,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/what-the-gta-6-extended-look-showed-about-lucia-and-jason-2b38",
         "sourceUrlCanonical": "https://www.gtaboom.com/what-the-gta-6-extended-look-showed-about-lucia-and-jason-2b38",
         "externalId": "https://www.gtaboom.com/what-the-gta-6-extended-look-showed-about-lucia-and-jason-2b38",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/5e/b3/what-the-gta-6-extended-look-showed-about-lucia-and-jason.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/5e/b3/what-the-gta-6-extended-look-showed-about-lucia-and-jason.jpg"
       },
       "contentHash": "7e6b5296a0f3fc963facc3bc36042c3a18b056f2d3c3dcde21783c30fc631dae",
       "reviewState": "PENDING",
@@ -619,7 +659,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/what-the-gta-6-extended-look-confirmed-about-how-it-plays-69ba",
         "sourceUrlCanonical": "https://www.gtaboom.com/what-the-gta-6-extended-look-confirmed-about-how-it-plays-69ba",
         "externalId": "https://www.gtaboom.com/what-the-gta-6-extended-look-confirmed-about-how-it-plays-69ba",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/08/e9/what-the-gta-6-extended-look-confirmed-about-how-it-plays.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/08/e9/what-the-gta-6-extended-look-confirmed-about-how-it-plays.jpg"
       },
       "contentHash": "ec534dd4bd8531db189f437d28bc93a20a005c73720ec56a1948bd2a26bc0bd0",
       "reviewState": "PENDING",
@@ -649,7 +691,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/free-roam-activities-in-leonida-confirmed-by-the-gta-6-extended-look-8ec2",
         "sourceUrlCanonical": "https://www.gtaboom.com/free-roam-activities-in-leonida-confirmed-by-the-gta-6-extended-look-8ec2",
         "externalId": "https://www.gtaboom.com/free-roam-activities-in-leonida-confirmed-by-the-gta-6-extended-look-8ec2",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/a9/8f/free-roam-activities-in-leonida-confirmed-by-the-gta-6-extended-look.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/a9/8f/free-roam-activities-in-leonida-confirmed-by-the-gta-6-extended-look.jpg"
       },
       "contentHash": "88b3e2846cc2157dd473170ce2014b1e2375e9132c7688d54acbbd249c14821e",
       "reviewState": "PENDING",
@@ -679,7 +723,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/how-our-gta-6-extended-look-predictions-held-up-dd94",
         "sourceUrlCanonical": "https://www.gtaboom.com/how-our-gta-6-extended-look-predictions-held-up-dd94",
         "externalId": "https://www.gtaboom.com/how-our-gta-6-extended-look-predictions-held-up-dd94",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/97/5b/how-our-gta-6-extended-look-predictions-held-up.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/97/5b/how-our-gta-6-extended-look-predictions-held-up.jpg"
       },
       "contentHash": "f0101da4eca2efd2406491c617f1f39a4f633181790df6fe2646002308a283ab",
       "reviewState": "PENDING",
@@ -709,7 +755,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/rockstar-pitched-miami-dade-on-turning-its-airport-and-port-into-vice-city-for-gta-6-bb1c",
         "sourceUrlCanonical": "https://www.gtaboom.com/rockstar-pitched-miami-dade-on-turning-its-airport-and-port-into-vice-city-for-gta-6-bb1c",
         "externalId": "https://www.gtaboom.com/rockstar-pitched-miami-dade-on-turning-its-airport-and-port-into-vice-city-for-gta-6-bb1c",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/d6/32/rockstar-pitched-miami-dade-on-turning-its-airport-and-port-into-vice-city-for-gta-6.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/d6/32/rockstar-pitched-miami-dade-on-turning-its-airport-and-port-into-vice-city-for-gta-6.jpg"
       },
       "contentHash": "9d1c031189dd20b3f72cc0a9b17ef96c5f9135cb33808c520ef13ca04fde7165",
       "reviewState": "PENDING",
@@ -739,7 +787,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/gta-6-on-netflix-is-about-26-minutes-long-and-was-captured-on-ps5-4448",
         "sourceUrlCanonical": "https://www.gtaboom.com/gta-6-on-netflix-is-about-26-minutes-long-and-was-captured-on-ps5-4448",
         "externalId": "https://www.gtaboom.com/gta-6-on-netflix-is-about-26-minutes-long-and-was-captured-on-ps5-4448",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/ac/f8/gta-6-on-netflix-is-about-26-minutes-long-and-was-captured-on-ps5.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/ac/f8/gta-6-on-netflix-is-about-26-minutes-long-and-was-captured-on-ps5.jpg"
       },
       "contentHash": "94ec38ac41e84cfbdece65fc06908f3bac89e1c02ab50908be7225c5c372dd25",
       "reviewState": "PENDING",
@@ -769,7 +819,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/our-gta-6-extended-look-predictions-fa06",
         "sourceUrlCanonical": "https://www.gtaboom.com/our-gta-6-extended-look-predictions-fa06",
         "externalId": "https://www.gtaboom.com/our-gta-6-extended-look-predictions-fa06",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/3b/ff/our-gta-6-extended-look-predictions.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/3b/ff/our-gta-6-extended-look-predictions.jpg"
       },
       "contentHash": "d8a5f75bb98dcdbce0068c45cb3153ebd5206f81f70b7f3499b278cf7259d9ce",
       "reviewState": "PENDING",
@@ -799,7 +851,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/rockstar-cleared-creators-to-react-to-and-livestream-the-gta-6-extended-look-with-one-catch-151a",
         "sourceUrlCanonical": "https://www.gtaboom.com/rockstar-cleared-creators-to-react-to-and-livestream-the-gta-6-extended-look-with-one-catch-151a",
         "externalId": "https://www.gtaboom.com/rockstar-cleared-creators-to-react-to-and-livestream-the-gta-6-extended-look-with-one-catch-151a",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/ec/87/rockstar-cleared-creators-to-react-to-and-livestream-the-gta-6-extended-look-with-one-catch.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/ec/87/rockstar-cleared-creators-to-react-to-and-livestream-the-gta-6-extended-look-with-one-catch.jpg"
       },
       "contentHash": "d7e89b59e50b3bde9c6226dfd4c481bc8bbfe1bbb7cfbe0283b9e4721d8c428c",
       "reviewState": "PENDING",
@@ -829,7 +883,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/everything-to-know-before-the-gta-6-extended-look-18cf",
         "sourceUrlCanonical": "https://www.gtaboom.com/everything-to-know-before-the-gta-6-extended-look-18cf",
         "externalId": "https://www.gtaboom.com/everything-to-know-before-the-gta-6-extended-look-18cf",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1672/media/images/65/93/everything-to-know-before-the-gta-6-extended-look.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1672/media/images/65/93/everything-to-know-before-the-gta-6-extended-look.jpg"
       },
       "contentHash": "498d7a490f6e9d25d154bb38b38cac786055292a2e8bda2997ba4b6310ca061f",
       "reviewState": "PENDING",
@@ -859,7 +915,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/creators-confirm-a-hands-off-gta-6-preview-at-rockstar-north-with-coverage-after-the-extended-look-d9cb",
         "sourceUrlCanonical": "https://www.gtaboom.com/creators-confirm-a-hands-off-gta-6-preview-at-rockstar-north-with-coverage-after-the-extended-look-d9cb",
         "externalId": "https://www.gtaboom.com/creators-confirm-a-hands-off-gta-6-preview-at-rockstar-north-with-coverage-after-the-extended-look-d9cb",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/79/6b/creators-confirm-a-hands-off-gta-6-preview-at-rockstar-north-with-coverage-after-the-extended-look.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/79/6b/creators-confirm-a-hands-off-gta-6-preview-at-rockstar-north-with-coverage-after-the-extended-look.jpg"
       },
       "contentHash": "c1fa113b8d15f66148bd1cc4fd0e32258109cbf8e443a5b0ca69b7851fbd669e",
       "reviewState": "PENDING",
@@ -889,7 +947,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/new-official-gta-6-screenshots-and-cover-art-arrive-via-dazed-magazine-d96d",
         "sourceUrlCanonical": "https://www.gtaboom.com/new-official-gta-6-screenshots-and-cover-art-arrive-via-dazed-magazine-d96d",
         "externalId": "https://www.gtaboom.com/new-official-gta-6-screenshots-and-cover-art-arrive-via-dazed-magazine-d96d",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/b3/cb/new-official-gta-6-screenshots-and-cover-art-arrive-via-dazed-magazine.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/b3/cb/new-official-gta-6-screenshots-and-cover-art-arrive-via-dazed-magazine.jpg"
       },
       "contentHash": "48c4ac23de140266f70a89e5c062ee24e09089b1a8eda7fa452e42db7ef03e90",
       "reviewState": "PENDING",
@@ -919,7 +979,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/dazed-deep-dive-reveals-how-gta-6-trades-chaos-for-immersion-eab3",
         "sourceUrlCanonical": "https://www.gtaboom.com/dazed-deep-dive-reveals-how-gta-6-trades-chaos-for-immersion-eab3",
         "externalId": "https://www.gtaboom.com/dazed-deep-dive-reveals-how-gta-6-trades-chaos-for-immersion-eab3",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/01/d1/dazed-deep-dive-reveals-how-gta-6-trades-chaos-for-immersion.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/01/d1/dazed-deep-dive-reveals-how-gta-6-trades-chaos-for-immersion.jpg"
       },
       "contentHash": "9261b8a4ba396f49d75e4df698d157bf63e373cd16168cbaf86e93cd11a5112b",
       "reviewState": "PENDING",
@@ -949,7 +1011,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/rockstar-games-emphasizes-these-three-things-in-its-latest-gta-6-statement-24b4",
         "sourceUrlCanonical": "https://www.gtaboom.com/rockstar-games-emphasizes-these-three-things-in-its-latest-gta-6-statement-24b4",
         "externalId": "https://www.gtaboom.com/rockstar-games-emphasizes-these-three-things-in-its-latest-gta-6-statement-24b4",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/04/fb/rockstar-games-emphasizes-these-three-things-in-its-latest-gta-6-statement.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/04/fb/rockstar-games-emphasizes-these-three-things-in-its-latest-gta-6-statement.jpg"
       },
       "contentHash": "bf5b6640f4fd42e413763a2c355e196c8b639911c5d0125aa02df497d2ccd53b",
       "reviewState": "PENDING",
@@ -979,7 +1043,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/gta-6-leaks-rockstar-games-response-6f60",
         "sourceUrlCanonical": "https://www.gtaboom.com/gta-6-leaks-rockstar-games-response-6f60",
         "externalId": "https://www.gtaboom.com/gta-6-leaks-rockstar-games-response-6f60",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/80/f2/gta-6-leaks-rockstar-games-response.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/80/f2/gta-6-leaks-rockstar-games-response.jpg"
       },
       "contentHash": "47b362ab54474da5245ca9fbc715cfccd07cf8ac3db45fb239da0e13a3f8f5c7",
       "reviewState": "PENDING",
@@ -1009,7 +1075,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/someone-already-recreated-the-gta-6-wanted-system-in-gta-v-e1e2",
         "sourceUrlCanonical": "https://www.gtaboom.com/someone-already-recreated-the-gta-6-wanted-system-in-gta-v-e1e2",
         "externalId": "https://www.gtaboom.com/someone-already-recreated-the-gta-6-wanted-system-in-gta-v-e1e2",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1360/media/images/9b/55/someone-already-recreated-the-gta-6-wanted-system-in-gta-v.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1360/media/images/9b/55/someone-already-recreated-the-gta-6-wanted-system-in-gta-v.jpg"
       },
       "contentHash": "63f04ba4a61ec940df79f4b699f15e0d90f0caae269535cefe14b5126e7cd0d6",
       "reviewState": "PENDING",
@@ -1039,7 +1107,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/netflixs-three-word-bio-change-is-rockstars-loudest-answer-to-the-leaks-2bd1",
         "sourceUrlCanonical": "https://www.gtaboom.com/netflixs-three-word-bio-change-is-rockstars-loudest-answer-to-the-leaks-2bd1",
         "externalId": "https://www.gtaboom.com/netflixs-three-word-bio-change-is-rockstars-loudest-answer-to-the-leaks-2bd1",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/d6/a1/netflixs-three-word-bio-change-is-rockstars-loudest-answer-to-the-leaks.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/d6/a1/netflixs-three-word-bio-change-is-rockstars-loudest-answer-to-the-leaks.jpg"
       },
       "contentHash": "8c85db0a79d2030177222893bab0cade4de4753113de0d3edcc829343cbc64f8",
       "reviewState": "PENDING",
@@ -1069,7 +1139,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/nba-2k27-just-teased-a-gta-6-crossover-season-12f6",
         "sourceUrlCanonical": "https://www.gtaboom.com/nba-2k27-just-teased-a-gta-6-crossover-season-12f6",
         "externalId": "https://www.gtaboom.com/nba-2k27-just-teased-a-gta-6-crossover-season-12f6",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/dc/17/nba-2k27-just-teased-a-gta-6-crossover-season.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/dc/17/nba-2k27-just-teased-a-gta-6-crossover-season.jpg"
       },
       "contentHash": "c1354c9c0ec70e8c9274d9d549c2af49396b406d791a437ae293608fb6352cc8",
       "reviewState": "PENDING",
@@ -1099,7 +1171,9 @@
         "sourceUrlRaw": "https://www.gtaboom.com/two-outlets-just-walked-back-on-their-gta-6-claims-c2b8",
         "sourceUrlCanonical": "https://www.gtaboom.com/two-outlets-just-walked-back-on-their-gta-6-claims-c2b8",
         "externalId": "https://www.gtaboom.com/two-outlets-just-walked-back-on-their-gta-6-claims-c2b8",
-        "platform": "WEB"
+        "platform": "WEB",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1280/media/images/b4/b7/two-outlets-just-walked-back-on-their-gta-6-claims.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1280/media/images/b4/b7/two-outlets-just-walked-back-on-their-gta-6-claims.jpg"
       },
       "contentHash": "ed96f5a364a963ebb969b5a406d5919054b2a682f2bad42868a52ef16c38f28b",
       "reviewState": "PENDING",
@@ -1129,7 +1203,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=CMXxuSmzXsk",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=CMXxuSmzXsk",
         "externalId": "yt:video:CMXxuSmzXsk",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/CMXxuSmzXsk?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/CMXxuSmzXsk?version=3"
       },
       "contentHash": "f6a822297abdf91ec61c98d44def5af07a912ca6cedb0163a57283d482ff3ed8",
       "reviewState": "PENDING",
@@ -1159,7 +1235,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=5PEKC28azRU",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=5PEKC28azRU",
         "externalId": "yt:video:5PEKC28azRU",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/5PEKC28azRU?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/5PEKC28azRU?version=3"
       },
       "contentHash": "59644e35e095aa2d041498732a0b3b5f108a51f1920b36baa395b5028d9edc3c",
       "reviewState": "PENDING",
@@ -1189,7 +1267,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=tVwNy3xV-4c",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=tVwNy3xV-4c",
         "externalId": "yt:video:tVwNy3xV-4c",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/tVwNy3xV-4c?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/tVwNy3xV-4c?version=3"
       },
       "contentHash": "c36daeac27ace8646ca47224fb22d1b91ad6e4072e3c01d77a615ebc3fecab2c",
       "reviewState": "PENDING",
@@ -1219,7 +1299,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=bxqc5rB1So0",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=bxqc5rB1So0",
         "externalId": "yt:video:bxqc5rB1So0",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/bxqc5rB1So0?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/bxqc5rB1So0?version=3"
       },
       "contentHash": "69c3d08e3c367a3acd140f9af4ac84c312017d998a3a6705e1ea7d3069a9ad31",
       "reviewState": "PENDING",
@@ -1249,7 +1331,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=UrnhDGdUIdQ",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=UrnhDGdUIdQ",
         "externalId": "yt:video:UrnhDGdUIdQ",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/UrnhDGdUIdQ?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/UrnhDGdUIdQ?version=3"
       },
       "contentHash": "51ee8d1aa39bd6deeb67a8aa73ad0c47947b776bb7df1c15df342e3f5b1db7f7",
       "reviewState": "PENDING",
@@ -1279,7 +1363,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=4Z_4yqWGRjQ",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=4Z_4yqWGRjQ",
         "externalId": "yt:video:4Z_4yqWGRjQ",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/4Z_4yqWGRjQ?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/4Z_4yqWGRjQ?version=3"
       },
       "contentHash": "e04cdca47de1c12b3f8ad4c96316cde9db516580c8d7c8974af750a3d72d361e",
       "reviewState": "PENDING",
@@ -1309,7 +1395,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=HlYJaZCurGU",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=HlYJaZCurGU",
         "externalId": "yt:video:HlYJaZCurGU",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/HlYJaZCurGU?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/HlYJaZCurGU?version=3"
       },
       "contentHash": "6fface64e36ccd07f3a98b65b62cc7c98d8ee9e08739c1a1ebdb921d62d80478",
       "reviewState": "PENDING",
@@ -1339,7 +1427,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=BTfzszKgRKc",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=BTfzszKgRKc",
         "externalId": "yt:video:BTfzszKgRKc",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/BTfzszKgRKc?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/BTfzszKgRKc?version=3"
       },
       "contentHash": "a0f777abbc055d29db61c71471ec0a7eb1517cc596ee65894284f25894e3359a",
       "reviewState": "PENDING",
@@ -1369,7 +1459,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=Mfx1B_LBSV0",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=Mfx1B_LBSV0",
         "externalId": "yt:video:Mfx1B_LBSV0",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/Mfx1B_LBSV0?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/Mfx1B_LBSV0?version=3"
       },
       "contentHash": "65332871d1164f266caa55840a935f7e9eb9b5181d313676eab9370e8a122844",
       "reviewState": "PENDING",
@@ -1399,7 +1491,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=qKTM_N55Vek",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=qKTM_N55Vek",
         "externalId": "yt:video:qKTM_N55Vek",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/qKTM_N55Vek?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/qKTM_N55Vek?version=3"
       },
       "contentHash": "d0e3d5eaf82ad0ac9379ad4af272679e3111eeb3650e4b9722fad5fc21a6a36c",
       "reviewState": "PENDING",
@@ -1429,7 +1523,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=5Jz-Y0AB4CU",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=5Jz-Y0AB4CU",
         "externalId": "yt:video:5Jz-Y0AB4CU",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/5Jz-Y0AB4CU?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/5Jz-Y0AB4CU?version=3"
       },
       "contentHash": "5952240bdfadc6af5247d10fefd6497d81cc4cb42cf7fa0a8db23f46773dd7c0",
       "reviewState": "PENDING",
@@ -1459,7 +1555,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=9DHrgR7Lbxw",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=9DHrgR7Lbxw",
         "externalId": "yt:video:9DHrgR7Lbxw",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/9DHrgR7Lbxw?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/9DHrgR7Lbxw?version=3"
       },
       "contentHash": "ad9fbd61394fde298055919a448724772435feb02d93378eeb5b9791f7085b7c",
       "reviewState": "PENDING",
@@ -1489,7 +1587,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=LtWxfVou2ik",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=LtWxfVou2ik",
         "externalId": "yt:video:LtWxfVou2ik",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/LtWxfVou2ik?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/LtWxfVou2ik?version=3"
       },
       "contentHash": "668a45b9e914b46273ab03e9198f3eff379ec8de10875982400b9a28fe26137e",
       "reviewState": "PENDING",
@@ -1519,7 +1619,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=JuNsXd_V-BM",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=JuNsXd_V-BM",
         "externalId": "yt:video:JuNsXd_V-BM",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/JuNsXd_V-BM?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/JuNsXd_V-BM?version=3"
       },
       "contentHash": "c39d77f627f0e6832bcc9b510caed8d01546f2a35dad88ff6adb269f8e0b6831",
       "reviewState": "PENDING",
@@ -1549,7 +1651,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=LDiswTpdbMQ",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=LDiswTpdbMQ",
         "externalId": "yt:video:LDiswTpdbMQ",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/LDiswTpdbMQ?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/LDiswTpdbMQ?version=3"
       },
       "contentHash": "a969c5c00329ddb377d82202305e363d976f98deb5f4e7cdf62973fdb69deea8",
       "reviewState": "PENDING",
@@ -1579,7 +1683,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=ls__BqL09QM",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=ls__BqL09QM",
         "externalId": "yt:video:ls__BqL09QM",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/ls__BqL09QM?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/ls__BqL09QM?version=3"
       },
       "contentHash": "0a171b0904322e12682eaa197aa4fa459b8f120d3ba00b7208b89e284d8ddab6",
       "reviewState": "PENDING",
@@ -1609,7 +1715,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=6GoMlEZUgLU",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=6GoMlEZUgLU",
         "externalId": "yt:video:6GoMlEZUgLU",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/6GoMlEZUgLU?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/6GoMlEZUgLU?version=3"
       },
       "contentHash": "9cf888abacbb6ab9757379b5ba8541bb25df19c3d1b8b2cb1ac00686d2bf277f",
       "reviewState": "PENDING",
@@ -1639,7 +1747,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/ndZqqx1hN7o",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/ndZqqx1hN7o",
         "externalId": "yt:video:ndZqqx1hN7o",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/ndZqqx1hN7o?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/ndZqqx1hN7o?version=3"
       },
       "contentHash": "18e0e4fd37b6e7f6150532450ac807abde6e1677302dd943be44abe39a026470",
       "reviewState": "PENDING",
@@ -1669,7 +1779,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/-KRez-fROgM",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/-KRez-fROgM",
         "externalId": "yt:video:-KRez-fROgM",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/-KRez-fROgM?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/-KRez-fROgM?version=3"
       },
       "contentHash": "5ab1f5d14dc64cc36d2384c39a741553af17e4d2894227ee15a90a34a25bb1e7",
       "reviewState": "PENDING",
@@ -1699,7 +1811,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/TDMUpphGxGI",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/TDMUpphGxGI",
         "externalId": "yt:video:TDMUpphGxGI",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/TDMUpphGxGI?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/TDMUpphGxGI?version=3"
       },
       "contentHash": "0bd288105de3542de6fe8ebdec3033f40836d5414e626be02306f7f4b44daa08",
       "reviewState": "PENDING",
@@ -1729,7 +1843,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/TUPZx80x4Yg",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/TUPZx80x4Yg",
         "externalId": "yt:video:TUPZx80x4Yg",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/TUPZx80x4Yg?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/TUPZx80x4Yg?version=3"
       },
       "contentHash": "72b8ab115d8825ece5776ed1e8d340cbec97bf96e9828b6472c1132371e980b3",
       "reviewState": "PENDING",
@@ -1759,7 +1875,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=HGm0zw6Fz1U",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=HGm0zw6Fz1U",
         "externalId": "yt:video:HGm0zw6Fz1U",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/HGm0zw6Fz1U?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/HGm0zw6Fz1U?version=3"
       },
       "contentHash": "010fbd921d8cedd1bcb44daebe6692714d657ccf8f1454ce1eb4ab6e073033c7",
       "reviewState": "PENDING",
@@ -1789,7 +1907,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/FxLYXmNXY_Y",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/FxLYXmNXY_Y",
         "externalId": "yt:video:FxLYXmNXY_Y",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/FxLYXmNXY_Y?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/FxLYXmNXY_Y?version=3"
       },
       "contentHash": "38f3fec7de0ad2dd569b0c6817eecc6c1244eb4fd718e3195d798a66c6ca3614",
       "reviewState": "PENDING",
@@ -1819,7 +1939,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/S5e0IX1oiqE",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/S5e0IX1oiqE",
         "externalId": "yt:video:S5e0IX1oiqE",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/S5e0IX1oiqE?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/S5e0IX1oiqE?version=3"
       },
       "contentHash": "0c79724dd4b54747d48564ace9863ac888b5dedc4a5b4f82391ed0e67352e0c7",
       "reviewState": "PENDING",
@@ -1849,7 +1971,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/fH4nRXPejyc",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/fH4nRXPejyc",
         "externalId": "yt:video:fH4nRXPejyc",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/fH4nRXPejyc?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/fH4nRXPejyc?version=3"
       },
       "contentHash": "7f2b7a0795f114f00e4b6cd68bffc8b85e447452401eca8f25f284c07789c1bf",
       "reviewState": "PENDING",
@@ -1879,7 +2003,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=kdV3buPrOeE",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=kdV3buPrOeE",
         "externalId": "yt:video:kdV3buPrOeE",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/kdV3buPrOeE?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/kdV3buPrOeE?version=3"
       },
       "contentHash": "7a8f8ba5c1dd3a3d6dd15f73611262e9576438b0f93ad5b9ddc1592b4d5f63c5",
       "reviewState": "PENDING",
@@ -1909,7 +2035,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=MPaLStJU3E4",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=MPaLStJU3E4",
         "externalId": "yt:video:MPaLStJU3E4",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/MPaLStJU3E4?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/MPaLStJU3E4?version=3"
       },
       "contentHash": "89d6e53dd94efe814d1daa14a024258fc1a0e16c21037b7eb0b1df888690f6ca",
       "reviewState": "PENDING",
@@ -1939,7 +2067,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=im522Mex0pg",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=im522Mex0pg",
         "externalId": "yt:video:im522Mex0pg",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/im522Mex0pg?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/im522Mex0pg?version=3"
       },
       "contentHash": "58bb21dd130832953e078ed0196662c4a222681d0e06ce91fa90828c91ef73c0",
       "reviewState": "PENDING",
@@ -1969,7 +2099,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=2atPVgn6FYE",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=2atPVgn6FYE",
         "externalId": "yt:video:2atPVgn6FYE",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/2atPVgn6FYE?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/2atPVgn6FYE?version=3"
       },
       "contentHash": "921fe379fbef417ec241c8508f017c3f683a5e92c453778f38687c92db80d202",
       "reviewState": "PENDING",
@@ -1999,7 +2131,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=PjN3yDWdwCs",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=PjN3yDWdwCs",
         "externalId": "yt:video:PjN3yDWdwCs",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/PjN3yDWdwCs?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/PjN3yDWdwCs?version=3"
       },
       "contentHash": "af553357839e03685f2815fc2ba6dabce56dd61810a783bcc7d085d25683c393",
       "reviewState": "PENDING",
@@ -2029,7 +2163,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=YmRIzRuXWaw",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=YmRIzRuXWaw",
         "externalId": "yt:video:YmRIzRuXWaw",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/YmRIzRuXWaw?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/YmRIzRuXWaw?version=3"
       },
       "contentHash": "0812dc49c2fbe3f32f456664efafcb717f522ee98d7b45dd46eed4c098faa31c",
       "reviewState": "PENDING",
@@ -2059,7 +2195,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=MrVSp3vTAiY",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=MrVSp3vTAiY",
         "externalId": "yt:video:MrVSp3vTAiY",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/MrVSp3vTAiY?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/MrVSp3vTAiY?version=3"
       },
       "contentHash": "96514909353b01b54c7136583d5764973369388678a63c1ef4f4b3cefcd37b0f",
       "reviewState": "PENDING",
@@ -2089,7 +2227,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=ur91dK2zJwA",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=ur91dK2zJwA",
         "externalId": "yt:video:ur91dK2zJwA",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/ur91dK2zJwA?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/ur91dK2zJwA?version=3"
       },
       "contentHash": "b8294f92bb65aa2b04b550b3487f809344fdc8dfd55f7446baeecabcb2482a71",
       "reviewState": "PENDING",
@@ -2119,7 +2259,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=Fqt1o4pUe90",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=Fqt1o4pUe90",
         "externalId": "yt:video:Fqt1o4pUe90",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/Fqt1o4pUe90?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/Fqt1o4pUe90?version=3"
       },
       "contentHash": "7eb670e5d24a5413a2a195ce7b18feae80c04b99aed31d92d24554d9a5e5ab56",
       "reviewState": "PENDING",
@@ -2149,7 +2291,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=0CtncGBVFl8",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=0CtncGBVFl8",
         "externalId": "yt:video:0CtncGBVFl8",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/0CtncGBVFl8?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/0CtncGBVFl8?version=3"
       },
       "contentHash": "b641b66216e84ec469c311aa9ba68596341ec7ed88caa8bf8b4d38a693c227b5",
       "reviewState": "PENDING",
@@ -2179,7 +2323,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=aqJt2ZLaibc",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=aqJt2ZLaibc",
         "externalId": "yt:video:aqJt2ZLaibc",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/aqJt2ZLaibc?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/aqJt2ZLaibc?version=3"
       },
       "contentHash": "5bdc43d739216e92babc0e494ef007b4949ecaf8abc337387351ea853f1aa41f",
       "reviewState": "PENDING",
@@ -2209,7 +2355,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=ed498zCmUG0",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=ed498zCmUG0",
         "externalId": "yt:video:ed498zCmUG0",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/ed498zCmUG0?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/ed498zCmUG0?version=3"
       },
       "contentHash": "60afb1cb1939c39b83018b924a49fb015a3652683e31ed3f191dc3e6352367a1",
       "reviewState": "PENDING",
@@ -2239,7 +2387,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=tJOXT8h7kKc",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=tJOXT8h7kKc",
         "externalId": "yt:video:tJOXT8h7kKc",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/tJOXT8h7kKc?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/tJOXT8h7kKc?version=3"
       },
       "contentHash": "110c43ea929127c68027464c8e00188d73a3520119c634156a9e8e85e47c6050",
       "reviewState": "PENDING",
@@ -2269,7 +2419,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=9wlruCyWqWI",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=9wlruCyWqWI",
         "externalId": "yt:video:9wlruCyWqWI",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/9wlruCyWqWI?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/9wlruCyWqWI?version=3"
       },
       "contentHash": "e84044d3173314e5d2ab17b73e92a920be3902922c5acef7bcfd28cd12ffe350",
       "reviewState": "PENDING",
@@ -2299,7 +2451,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=5K92JMeEJdU",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=5K92JMeEJdU",
         "externalId": "yt:video:5K92JMeEJdU",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/5K92JMeEJdU?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/5K92JMeEJdU?version=3"
       },
       "contentHash": "91b428223fcca2ecc8f54b71d748a4a7a279dbb00dd0bd89d91aedd94b1285bf",
       "reviewState": "PENDING",
@@ -2329,7 +2483,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=6LkG0IZ7I1A",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=6LkG0IZ7I1A",
         "externalId": "yt:video:6LkG0IZ7I1A",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/6LkG0IZ7I1A?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/6LkG0IZ7I1A?version=3"
       },
       "contentHash": "6b027eef990e1c9dd8d1412233ac07731d6c6ff7cee8d069088294ec760d5041",
       "reviewState": "PENDING",
@@ -2359,7 +2515,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=bnOSwyFXiv0",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=bnOSwyFXiv0",
         "externalId": "yt:video:bnOSwyFXiv0",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/bnOSwyFXiv0?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/bnOSwyFXiv0?version=3"
       },
       "contentHash": "8564e47aaf618736deb41524b91091ebbefdaec07e753fb5930efa4e6bed67e2",
       "reviewState": "PENDING",
@@ -2389,7 +2547,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=RZDvOxFypq0",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=RZDvOxFypq0",
         "externalId": "yt:video:RZDvOxFypq0",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/RZDvOxFypq0?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/RZDvOxFypq0?version=3"
       },
       "contentHash": "a1fea3cdcd346cff217607eb025d13796eed6f923e2feb5a124d25cd6c5dc27a",
       "reviewState": "PENDING",
@@ -2419,7 +2579,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=aQ9AFXLY6gw",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=aQ9AFXLY6gw",
         "externalId": "yt:video:aQ9AFXLY6gw",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/aQ9AFXLY6gw?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/aQ9AFXLY6gw?version=3"
       },
       "contentHash": "203b3e3ee8fd5151e3df9b1117be0de650083978bdfa2214de2ec746a95367f8",
       "reviewState": "PENDING",
@@ -2449,7 +2611,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=IJFTJNEJ5Yo",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=IJFTJNEJ5Yo",
         "externalId": "yt:video:IJFTJNEJ5Yo",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/IJFTJNEJ5Yo?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/IJFTJNEJ5Yo?version=3"
       },
       "contentHash": "52a45afe9936f3ed4ff6ed07beacea5d00a7bc89f50a2b5892a802131e1129d8",
       "reviewState": "PENDING",
@@ -2479,7 +2643,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=XwcQecgxcNE",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=XwcQecgxcNE",
         "externalId": "yt:video:XwcQecgxcNE",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/XwcQecgxcNE?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/XwcQecgxcNE?version=3"
       },
       "contentHash": "5875a4b5a493d38f9c7bcc5a4065689f78173e99c4fbcad2d83b1a87a300ddd1",
       "reviewState": "PENDING",
@@ -2509,7 +2675,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/pZT7T3jBgxw",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/pZT7T3jBgxw",
         "externalId": "yt:video:pZT7T3jBgxw",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/pZT7T3jBgxw?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/pZT7T3jBgxw?version=3"
       },
       "contentHash": "e11d85ab858cc6874316d88350211bb9b84756f89a42ea208c67251d62c6d03d",
       "reviewState": "PENDING",
@@ -2539,7 +2707,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=5EkeSxTQvDQ",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=5EkeSxTQvDQ",
         "externalId": "yt:video:5EkeSxTQvDQ",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/5EkeSxTQvDQ?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/5EkeSxTQvDQ?version=3"
       },
       "contentHash": "e6380a3916b82216e822ba3fb4c3255f16ac2d7dd5f8e3cbc3550e3b7201e2c4",
       "reviewState": "PENDING",
@@ -2569,7 +2739,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=cMnBEhO3y78",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=cMnBEhO3y78",
         "externalId": "yt:video:cMnBEhO3y78",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/cMnBEhO3y78?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/cMnBEhO3y78?version=3"
       },
       "contentHash": "eafa2cad5753ef4f47a9a7d5506a46eb45aacc1b4ea7842f811150e18674142c",
       "reviewState": "PENDING",
@@ -2599,7 +2771,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/2aFsAxsGKSc",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/2aFsAxsGKSc",
         "externalId": "yt:video:2aFsAxsGKSc",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/2aFsAxsGKSc?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/2aFsAxsGKSc?version=3"
       },
       "contentHash": "f27b8248a26272b14f21d4707453c39cdbc84eade0be98732909f583528db767",
       "reviewState": "PENDING",
@@ -2629,7 +2803,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=zsI3c_Arzhs",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=zsI3c_Arzhs",
         "externalId": "yt:video:zsI3c_Arzhs",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/zsI3c_Arzhs?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/zsI3c_Arzhs?version=3"
       },
       "contentHash": "f37a8389c12758c13d469cd1969d0c4465ce1dc031b0bb246c73dd0bfe09f7b2",
       "reviewState": "PENDING",
@@ -2659,7 +2835,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/VhZJg31bpAo",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/VhZJg31bpAo",
         "externalId": "yt:video:VhZJg31bpAo",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/VhZJg31bpAo?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/VhZJg31bpAo?version=3"
       },
       "contentHash": "07ecedceee8729b624b9bcc9d4b4843eeeab0b14322e1946f24c30b9c7701348",
       "reviewState": "PENDING",
@@ -2689,7 +2867,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=nXfqss_4708",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=nXfqss_4708",
         "externalId": "yt:video:nXfqss_4708",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/nXfqss_4708?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/nXfqss_4708?version=3"
       },
       "contentHash": "5f2a50b72c47ce7eab0d28a4465c7e8cb38a10b0382f778657a184550e110225",
       "reviewState": "PENDING",
@@ -2719,7 +2899,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/HFAG5eDIO7c",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/HFAG5eDIO7c",
         "externalId": "yt:video:HFAG5eDIO7c",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/HFAG5eDIO7c?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/HFAG5eDIO7c?version=3"
       },
       "contentHash": "79b18e935ff35bc73efa3e111d3175d091a4dee74083e0223fa6e8e79c0da021",
       "reviewState": "PENDING",
@@ -2749,7 +2931,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=HR_QbswNP78",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=HR_QbswNP78",
         "externalId": "yt:video:HR_QbswNP78",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/HR_QbswNP78?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/HR_QbswNP78?version=3"
       },
       "contentHash": "7ebb1c99cbda8be72f22ee82cdfd6fab3a0625701d782a8113bfc13ecbf9eb79",
       "reviewState": "PENDING",
@@ -2779,7 +2963,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/mIQGqm222IE",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/mIQGqm222IE",
         "externalId": "yt:video:mIQGqm222IE",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/mIQGqm222IE?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/mIQGqm222IE?version=3"
       },
       "contentHash": "e178bc49312b4e0445a9d35e1216afac56de6245da30828e2905227bfb7222e1",
       "reviewState": "PENDING",
@@ -2809,7 +2995,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=TZRfFDcXMNY",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=TZRfFDcXMNY",
         "externalId": "yt:video:TZRfFDcXMNY",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/TZRfFDcXMNY?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/TZRfFDcXMNY?version=3"
       },
       "contentHash": "847132d3af5023937dad7948dc5fcb0af78a59e5d5e0427619376ab209d9d635",
       "reviewState": "PENDING",
@@ -2839,7 +3027,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/frUXDWwMNWU",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/frUXDWwMNWU",
         "externalId": "yt:video:frUXDWwMNWU",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/frUXDWwMNWU?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/frUXDWwMNWU?version=3"
       },
       "contentHash": "5ae86327801020ff1f9643a735e7bf22d5f7f7aa6cf62873ee3d036a30c45ace",
       "reviewState": "PENDING",
@@ -2869,7 +3059,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=XWteHK1sBjU",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=XWteHK1sBjU",
         "externalId": "yt:video:XWteHK1sBjU",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/XWteHK1sBjU?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/XWteHK1sBjU?version=3"
       },
       "contentHash": "1783644707c0ee844d872a17dcde50e96c0e2b4772d98718ec78bcf2dec627a1",
       "reviewState": "PENDING",
@@ -2899,7 +3091,9 @@
         "sourceUrlRaw": "https://www.youtube.com/shorts/d8isofmXMvI",
         "sourceUrlCanonical": "https://www.youtube.com/shorts/d8isofmXMvI",
         "externalId": "yt:video:d8isofmXMvI",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/d8isofmXMvI?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/d8isofmXMvI?version=3"
       },
       "contentHash": "3e4d3217bfcc729f1e7d5224f1127343dee7cbdb2c9f534fb3fdee2fdc963924",
       "reviewState": "PENDING",
@@ -2929,7 +3123,9 @@
         "sourceUrlRaw": "https://www.youtube.com/watch?v=orE74ivEs9o",
         "sourceUrlCanonical": "https://www.youtube.com/watch?v=orE74ivEs9o",
         "externalId": "yt:video:orE74ivEs9o",
-        "platform": "YOUTUBE"
+        "platform": "YOUTUBE",
+        "imageUrlRaw": "https://www.youtube.com/v/orE74ivEs9o?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/orE74ivEs9o?version=3"
       },
       "contentHash": "3a5ee053ceba38554b8a1cc752e6130809d06d32970d4b5933d99e5df1ce021a",
       "reviewState": "PENDING",
@@ -2940,6 +3136,38 @@
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T20:28:19.776Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-7397d28efe85ff68",
+      "detectedAt": "2026-08-31T21:01:28.252Z",
+      "publishedAt": "2026-08-31T20:36:56.000Z",
+      "title": "The PS5 Pro Is Sold Out Across the US Because of GTA 6",
+      "summary": "The PS5 Pro has sold out at major US retailers, with resellers charging up to $1,300 after the new Grand Theft Auto VI footage dropped.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/the-ps5-pro-is-sold-out-across-the-us-because-of-gta-6-20aa",
+        "sourceUrlCanonical": "https://www.gtaboom.com/the-ps5-pro-is-sold-out-across-the-us-because-of-gta-6-20aa",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/e9/4d/the-ps5-pro-is-sold-out-across-the-us-because-of-gta-6.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/e9/4d/the-ps5-pro-is-sold-out-across-the-us-because-of-gta-6.jpg",
+        "externalId": "https://www.gtaboom.com/the-ps5-pro-is-sold-out-across-the-us-because-of-gta-6-20aa",
+        "platform": "WEB"
+      },
+      "contentHash": "4c0e4b5ec86b31c07206f5869ecb4bdd8c17c2c8500dd2404864e7f6e8987f60",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-08-31T21:01:28.252Z"
         }
       ]
     }

@@ -12,6 +12,7 @@
     "test:candidates": "node scripts/test-candidate-pipeline.mjs",
     "validate": "node scripts/validate-content.mjs",
     "build:feed": "node scripts/build-public-feed.mjs",
+    "backfill:images": "node scripts/backfill-canonical-images.mjs",
     "verify": "npm run validate && npm run build:feed && node scripts/validate-content.mjs --public"
   },
   "engines": {

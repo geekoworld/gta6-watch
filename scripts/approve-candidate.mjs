@@ -25,6 +25,7 @@ const evidence = {
   sourceTier: candidate.source.sourceTier,
   sourceUrlRaw: candidate.source.sourceUrlRaw,
   sourceUrlCanonical: candidate.source.sourceUrlCanonical,
+  ...(candidate.source.imageUrlRaw ? { imageUrlRaw: candidate.source.imageUrlRaw, imageUrlCanonical: candidate.source.imageUrlCanonical } : {}),
   externalId: candidate.source.externalId,
   publishedAt: candidate.publishedAt
 };

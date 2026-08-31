@@ -36,6 +36,8 @@
             "sourceTier": { "type": "integer", "minimum": 0, "maximum": 100 },
             "sourceUrlRaw": { "$ref": "#/$defs/url" },
             "sourceUrlCanonical": { "$ref": "#/$defs/url" },
+            "imageUrlRaw": { "$ref": "#/$defs/url" },
+            "imageUrlCanonical": { "$ref": "#/$defs/url" },
             "externalId": { "type": "string" },
             "platform": { "type": "string", "minLength": 1 }
           }

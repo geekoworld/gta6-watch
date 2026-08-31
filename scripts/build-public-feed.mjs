@@ -36,6 +36,7 @@ const articles = canonical.records
       sourceTier: sourceTierLabel(primary.sourceTier),
       sourceScore: primary.sourceTier,
       url: primary.sourceUrlCanonical,
+      imageUrl: primary.imageUrlCanonical || null,
       date: record.publishedAt.slice(0, 10),
       summary: record.summary,
       favorite: false,
