@@ -8,7 +8,7 @@ Tableau de veille GTA 6 conçu pour centraliser les actualités, qualifier leur 
 - ajout manuel d’une information ;
 - registre de 17 sources GTA classées A, B ou C ;
 - justification visible du niveau de chaque source ;
-- 7 flux publics automatiques : Rockstar Games, GTA BOOM et cinq chaînes YouTube ;
+- 7 flux RSS/Atom automatiques qui alimentent une file éditoriale privée ;
 - modèle canonique versionné dans `data/canonical-news.json` ;
 - projection publique statique générée dans `data/news.json` ;
 - validation locale et dans GitHub Actions avant publication ;
@@ -30,7 +30,10 @@ Le niveau qualifie la provenance générale, pas automatiquement chaque affirmat
 ## Flux de données
 
 ```text
-Objets canoniques approuvés
+Flux surveillés
+→ `data/candidates.json` (jamais public automatiquement)
+→ approbation éditoriale
+→ objets canoniques
 → validation (`npm run validate`)
 → projection publique (`npm run build:feed`)
 → validation du flux public
@@ -38,7 +41,7 @@ Objets canoniques approuvés
 → déploiement GitHub Pages explicite
 ```
 
-Les nouveaux objets restent privés du flux public tant que `publication.articlePublishedAt` vaut `null`. Les articles historiques déjà publics ont été migrés une seule fois pour préserver le site existant.
+Les nouveaux candidats restent privés tant qu’ils ne sont pas approuvés. Un objet canonique approuvé reste lui-même privé du flux public tant que `publication.articlePublishedAt` vaut `null`. Les articles historiques déjà publics ont été migrés une seule fois pour préserver le site existant.
 
 ## Publication sur GitHub Pages
 
@@ -58,14 +61,17 @@ https://VOTRE-PSEUDO.github.io/gta6-watch/
 
 ```bash
 npm run validate
+npm run collect
+npm run candidates:validate
+npm run candidate:approve -- <candidateId>
+npm run candidate:approve -- <candidateId> --publish
+npm run candidate:reject -- <candidateId> REJECTED "raison"
 npm run build:feed
 node scripts/validate-content.mjs --public
 npm run verify
 ```
 
-`scripts/fetch-news.mjs` reste disponible pour l’ancienne collecte RSS. Il ne fait plus partie du workflow de publication, car les nouvelles informations n’ont pas encore de mécanisme d’approbation canonique.
-
-Pour lancer la collecte localement :
+`scripts/fetch-news.mjs` collecte les RSS/Atom dans `data/candidates.json`; il ne modifie jamais `data/news.json`. L’approbation est volontairement manuelle.
 
 Le projet n’utilise aucune dépendance npm externe et nécessite Node.js 22 ou plus récent.
 
@@ -82,14 +88,17 @@ Le projet n’utilise aucune dépendance npm externe et nécessite Node.js 22 ou
 index.html                         Application autonome
 data/sources.json                  Registre et qualification des sources
 data/canonical-news.json           Registre canonique et preuves source
+data/candidates.json               Découvertes en attente de revue
 data/news.json                     Projection publique compatible avec le frontend
 data/publication-log.json          Journal d’idempotence de publication
 data/rejected-or-held.json         Éléments rejetés ou en attente
 news.schema.json                   Contrat JSON du modèle canonique
 scripts/validate-content.mjs       Validation de contenu
+scripts/approve-candidate.mjs      Approbation manuelle d’un candidat
+scripts/reject-candidate.mjs       Rejet ou marquage de doublon
 scripts/build-public-feed.mjs      Génération du flux public
-.github/workflows/update-news.yml  Validation, génération et publication Pages
-.github/workflows/deploy-pages.yml Déploiement manuel de secours
+.github/workflows/update-news.yml  Collecte horaire des candidats uniquement
+.github/workflows/deploy-pages.yml Publication manuelle du flux et de Pages
 ```
 
 ## Récupération

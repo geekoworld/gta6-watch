@@ -16,6 +16,22 @@
 4. Les nouveaux objets ont `publication.articlePublishedAt: null` jusqu’à une approbation éditoriale explicite.
 5. Le flux public ne contient que les objets dont `articlePublishedAt` est renseigné.
 
+## Cycle de vie des candidats
+
+```text
+PENDING → APPROVED → (optionnellement) PUBLISHED
+PENDING → REJECTED
+PENDING → DUPLICATE
+```
+
+- **PENDING** — découverte collectée depuis une source surveillée ; elle n’est jamais publique.
+- **APPROVED** — un éditeur a créé ou enrichi un objet canonique. Sans `--publish`, elle reste privée.
+- **PUBLISHED** — état dérivé : l’objet canonique possède `publication.articlePublishedAt` après l’approbation explicite `--publish`.
+- **REJECTED** — découverte conservée avec une raison éditoriale ; elle n’est pas supprimée.
+- **DUPLICATE** — découverte conservée avec une raison et n’ouvre pas un second article.
+
+Chaque transition est ajoutée à `reviewHistory`. Les candidats conservent l’URL brute, l’URL canonique, l’identifiant externe et le hash de contenu de la détection.
+
 ## Règles de publication
 
 - Les sources A peuvent confirmer uniquement ce qu’elles déclarent directement.
@@ -23,6 +39,7 @@
 - Les sources C servent à détecter un sujet, jamais à le confirmer seules.
 - Les URLs, noms de sources, dates et identifiants externes doivent apparaître dans l’objet canonique avant publication.
 - Aucun post X, aucune automatisation OpenClaw, aucun upload Shorts n’est couvert par cette version.
+- La collecte horaire ne peut créer que des candidats `PENDING`. Elle ne peut ni approuver ni publier.
 
 ## Scores
 
