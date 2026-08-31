@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-08-31T08:38:39.608Z",
+  "generatedAt": "2026-08-31T17:03:52.093Z",
   "failures": [],
   "articles": [
+    {
+      "id": "gtaboom-f0c4a10b9bec70c1",
+      "title": "GTA 6 Pre-Orders Surged Over 570% After Extended Look Premiere",
+      "category": "News",
+      "credibility": "À vérifier",
+      "source": "GTA BOOM",
+      "sourceId": "gtaboom",
+      "sourceTier": "B",
+      "sourceScore": 80,
+      "url": "https://www.gtaboom.com/gta-6-pre-orders-surged-over-570-after-extended-look-premiere-2444",
+      "date": "2026-08-31",
+      "summary": "Estimated Grand Theft Auto VI pre orders jumped about 572% around the Netflix trailer, with PlayStation up 606% versus Xbox's 127%, per Sensor Tower.",
+      "favorite": false,
+      "collectedAt": "2026-08-31T17:03:51.560Z"
+    },
+    {
+      "id": "gtaboom-d618a4b988669779",
+      "title": "Miami-Dade Says GTA 6 Could Be a 'Unique Opportunity to Generate Revenue' for the County",
+      "category": "News",
+      "credibility": "À vérifier",
+      "source": "GTA BOOM",
+      "sourceId": "gtaboom",
+      "sourceTier": "B",
+      "sourceScore": 80,
+      "url": "https://www.gtaboom.com/miami-dade-says-gta-6-could-be-a-unique-opportunity-to-generate-revenue-for-the-county-822e",
+      "date": "2026-08-31",
+      "summary": "Miami-Dade's mayor's office says Rockstar Games' extensive Vice City marketing pitch is a potential money-maker awaiting approval.",
+      "favorite": false,
+      "collectedAt": "2026-08-31T17:03:51.560Z"
+    },
     {
       "id": "gtaboom-e7aa1499ed8fa4b9",
       "title": "IO Interactive AI Programmer Says GTA 6 Crowds Are 10 Years Ahead",
@@ -28,9 +58,24 @@
       "sourceScore": 75,
       "url": "https://www.youtube.com/watch?v=CMXxuSmzXsk",
       "date": "2026-08-31",
-      "summary": "Chapter 1 – 0:00 – How Money Used to Work Chapter 2 – 1:40 – The Three Money Types (That we know of) Chapter 3 – 2:08 – Robbery Tiers Chapter 4 – 5:54 – The Feet Pics Story Chapter 5 – 7:29 – Heists Chapter 6 – 8:09 – Fences Chapter 7 – 9:02 – Money is Tied to Story Chapter 8 – 10:31 – What You Can Spend Money On Chapter 9 – 11:53 – The GTA 5 Money Problem, Acknowledged",
+      "summary": "Chapter 1 – 0:00 – How Money Used to Work Chapter 2 – 1:40 – The Three Money Types (That we know of) Chapter 3 – 2:08 – Types of robberies Chapter 4 – 5:54 – The Feet Pics Story Chapter 5 – 7:29 – Heists Chapter 6 – 8:09 – Fences Chapter 7 – 9:02 – Money is Tied to Story Chapter 8 – 10:31 – What You Can Spend Money On Chapter 9 – 11:53 – The GTA 5 Money Problem, Acknowledged",
       "favorite": false,
       "collectedAt": "2026-08-31T08:38:39.076Z"
+    },
+    {
+      "id": "ghilliemaster-a83ca92f39e46f25",
+      "title": "GTA 6 Online NOT Releasing For 2 YEARS!? (Let's Discuss)",
+      "category": "News",
+      "credibility": "À vérifier",
+      "source": "GhillieMaster",
+      "sourceId": "ghilliemaster",
+      "sourceTier": "C",
+      "sourceScore": 68,
+      "url": "https://www.youtube.com/watch?v=PjN3yDWdwCs",
+      "date": "2026-08-31",
+      "summary": "There has been a lot of discussion surrounding the next iteration of GTA Online and when it might release. I give my take on the situation and talk about when I think GTA 6 Online will launch. 🔒",
+      "favorite": false,
+      "collectedAt": "2026-08-31T17:03:51.840Z"
     },
     {
       "id": "gtaboom-be9fcd4d876b7409",
