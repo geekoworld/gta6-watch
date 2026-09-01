@@ -63,6 +63,12 @@ L’adresse finale aura généralement cette forme :
 https://VOTRE-PSEUDO.github.io/gta6-watch/
 ```
 
+## SEO — phase 1
+
+Le site publie `robots.txt` et un `sitemap.xml` généré depuis les contenus publics. Les métadonnées canoniques, Open Graph, X et les données structurées `WebSite`/`Organization` sont incluses dans la page d’accueil. La procédure de validation Google Search Console et Bing se trouve dans [SEO_SETUP.md](SEO_SETUP.md).
+
+Le sitemap ne liste volontairement que les URLs réellement accessibles aujourd’hui. Les pages individuelles d’articles, et donc leurs entrées dédiées dans le sitemap, seront ajoutées dans la phase SEO suivante.
+
 ## Commandes locales
 
 ```bash

@@ -14,6 +14,8 @@
     "validate": "node scripts/validate-content.mjs",
     "build:feed": "node scripts/build-public-feed.mjs",
     "build:videos": "node scripts/build-video-news.mjs",
+    "build:sitemap": "node scripts/build-sitemap.mjs",
+    "seo:validate": "node scripts/validate-seo.mjs",
     "backfill:images": "node scripts/backfill-canonical-images.mjs",
     "verify": "npm run validate && npm run build:feed && node scripts/validate-content.mjs --public"
   },
