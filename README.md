@@ -9,6 +9,7 @@ Tableau de veille GTA 6 conçu pour centraliser les actualités, qualifier leur 
 - registre de 17 sources GTA classées A, B ou C ;
 - justification visible du niveau de chaque source ;
 - 7 flux RSS/Atom automatiques qui alimentent une file éditoriale privée ;
+- trois lots de publication éditoriale quotidiens pour les candidats éligibles ;
 - modèle canonique versionné dans `data/canonical-news.json` ;
 - projection publique statique générée dans `data/news.json` ;
 - validation locale et dans GitHub Actions avant publication ;
@@ -32,7 +33,7 @@ Le niveau qualifie la provenance générale, pas automatiquement chaque affirmat
 ```text
 Flux surveillés
 → `data/candidates.json` (jamais public automatiquement)
-→ approbation éditoriale
+→ revue éditoriale manuelle ou lot planifié soumis aux règles de source
 → objets canoniques
 → validation (`npm run validate`)
 → projection publique (`npm run build:feed`)
@@ -76,6 +77,8 @@ npm run verify
 ```
 
 `scripts/fetch-news.mjs` collecte les RSS/Atom dans `data/candidates.json`; il ne modifie jamais `data/news.json`. L’approbation est volontairement manuelle.
+
+`scripts/publish-approved-candidates.mjs` propose d’abord un aperçu sans effet (`npm run publish:batch`), puis peut publier le lot éligible avec `npm run publish:batch -- --publish`. Le workflow **Publish verified GTA 6 news** exécute ce lot à 08:00, 14:00 et 20:00 (heure d’été française), avec un maximum de 12 candidats par lot : sources A/B récentes, ou source C corroborée. Les leaks restent explicitement identifiés.
 
 Le projet n’utilise aucune dépendance npm externe et nécessite Node.js 22 ou plus récent.
 

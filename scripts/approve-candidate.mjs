@@ -9,6 +9,7 @@ const dataDir = process.env.GTA6_WATCH_DATA_DIR ? path.resolve(process.env.GTA6_
 const [candidateId, ...flags] = process.argv.slice(2);
 if (!candidateId || candidateId.startsWith("-")) throw new Error("Usage: node scripts/approve-candidate.mjs <candidateId> [--publish]");
 const publish = flags.includes("--publish");
+const automated = flags.includes("--automated");
 const candidatesPath = path.join(dataDir, "candidates.json");
 const canonicalPath = path.join(dataDir, "canonical-news.json");
 const [candidatesDoc, canonicalDoc] = await Promise.all([
@@ -71,8 +72,9 @@ if (!record) {
 
 candidate.reviewState = "APPROVED";
 const merged = record.sources.length > 1;
+const approvalMode = automated ? "Approved and published by scheduled editorial policy" : "Approved and published manually";
 candidate.reviewReason = publish
-  ? `Approved and published manually${merged ? "; merged into the existing topic." : "."}`
+  ? `${approvalMode}${merged ? "; merged into the existing topic." : "."}`
   : `Approved manually; not published${merged ? "; merged into the existing topic." : "."}`;
 candidate.canonicalNewsId = record.newsId;
 candidate.reviewHistory.push({ state: "APPROVED", reason: candidate.reviewReason, timestamp: now });

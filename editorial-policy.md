@@ -4,7 +4,7 @@
 
 - **CONFIRMED** — information directement publiée par une source primaire, ou corroborée selon une procédure éditoriale documentée.
 - **RUMOR** — information crédible mais non confirmée. L’article doit attribuer explicitement l’affirmation.
-- **LEAK** — contenu privé, non publié ou présumé obtenu sans autorisation. Il est placé en attente et ne sera jamais publié automatiquement.
+- **LEAK** — contenu privé, non publié ou présumé obtenu sans autorisation. Il est publié uniquement s’il est sourcé par une source A/B ou corroboré par des sources indépendantes ; il conserve obligatoirement le label **Leak**.
 - **THEORY** — analyse, prédiction ou interprétation. Elle ne doit jamais être formulée comme un fait.
 - **GUIDE** — information pratique et durable, distincte d’une actualité.
 
@@ -42,6 +42,7 @@ Chaque transition est ajoutée à `reviewHistory`. Les candidats conservent l’
 - Les URLs, noms de sources, dates et identifiants externes doivent apparaître dans l’objet canonique avant publication.
 - Aucun post X, aucune automatisation OpenClaw, aucun upload Shorts n’est couvert par cette version.
 - La collecte horaire ne peut créer que des candidats `PENDING`. Elle ne peut ni approuver ni publier.
+- Le lot éditorial planifié est exécuté trois fois par jour. Il publie au maximum 12 candidats récents par lot, provenant d’une source A/B, ou des sujets C corroborés indépendamment. Les leaks suivent la même exigence de source et restent visiblement étiquetés.
 
 ## Scores
 

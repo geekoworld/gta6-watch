@@ -41,7 +41,10 @@ export function topicSimilarity(leftTitle, rightTitle) {
 }
 
 export function sameTopic(left, right) {
-  if (!left || !right || left.categorySuggested && right.category && left.categorySuggested !== right.category) return false;
+  if (!left || !right) return false;
+  const leftCategory = left.categorySuggested || left.category;
+  const rightCategory = right.categorySuggested || right.category;
+  if (leftCategory && rightCategory && leftCategory !== rightCategory) return false;
   if (dateDistanceInDays(left.publishedAt, right.publishedAt) > 21) return false;
   const leftNormalized = normalizedTitle(left.title);
   const rightNormalized = normalizedTitle(right.title);
