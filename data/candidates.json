@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-01T01:17:51.726Z",
+  "generatedAt": "2026-09-01T07:48:56.412Z",
   "failures": [],
   "candidates": [
     {
@@ -3264,6 +3264,166 @@
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-01T01:17:51.726Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-b69b9a272fc8dfb7",
+      "detectedAt": "2026-09-01T07:48:56.412Z",
+      "publishedAt": "2026-09-01T04:39:00.000Z",
+      "title": "Helldivers 2 Updates Are Skipping November, and Fans Think It's Because of GTA 6",
+      "summary": "Arrowhead has not confirmed skipping November for GTA 6 but that has not stopped fans from speculating.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/helldivers-2-updates-are-skipping-november-and-fans-think-its-because-of-gta-6-9b00",
+        "sourceUrlCanonical": "https://www.gtaboom.com/helldivers-2-updates-are-skipping-november-and-fans-think-its-because-of-gta-6-9b00",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/5b/5e/helldivers-2-updates-are-skipping-november-and-fans-think-its-because-of-gta-6.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/5b/5e/helldivers-2-updates-are-skipping-november-and-fans-think-its-because-of-gta-6.jpg",
+        "externalId": "https://www.gtaboom.com/helldivers-2-updates-are-skipping-november-and-fans-think-its-because-of-gta-6-9b00",
+        "platform": "WEB"
+      },
+      "contentHash": "5870e282bacef05f8570933f2c119095cbee89cf15a98f8b226dc483fb8635f4",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-01T07:48:56.412Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-8a7cb615889f7448",
+      "detectedAt": "2026-09-01T07:48:56.412Z",
+      "publishedAt": "2026-09-01T04:04:00.000Z",
+      "title": "Take-Two Is Closing In on the GTA 6 Leaker, but It May Not Matter Anymore",
+      "summary": "Take Two has narrowed its GTA 6 leak probe to one or two identified people and wants the new subpoena sealed so they cannot delete evidence.",
+      "statusSuggested": "LEAK",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Leaks",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/take-two-is-closing-in-on-the-gta-6-leaker-but-it-may-not-matter-anymore-6db2",
+        "sourceUrlCanonical": "https://www.gtaboom.com/take-two-is-closing-in-on-the-gta-6-leaker-but-it-may-not-matter-anymore-6db2",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/8c/a6/take-two-is-closing-in-on-the-gta-6-leaker-but-it-may-not-matter-anymore.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/8c/a6/take-two-is-closing-in-on-the-gta-6-leaker-but-it-may-not-matter-anymore.jpg",
+        "externalId": "https://www.gtaboom.com/take-two-is-closing-in-on-the-gta-6-leaker-but-it-may-not-matter-anymore-6db2",
+        "platform": "WEB"
+      },
+      "contentHash": "350c07041d860370afbe93bd6b836d973f41421aeffb26ec1cde6cb8038d34df",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-01T07:48:56.412Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-fa808224c1dfcd3f",
+      "detectedAt": "2026-09-01T07:48:56.412Z",
+      "publishedAt": "2026-09-01T07:00:10.000Z",
+      "title": "GTA 6: Criminal Profile, Romance & How Your Relationship Works | Exclusive Deep Dive (New Info)",
+      "summary": "Get 10% off all GamerSupps products with this link - https://gamersupps.gg/tgg My Headset: https://amzn.to/3CJgcBZ My Mouse: https://amzn.to/4ibs3cf My Keyboard: https://amzn.to/3Os5fHr My Console: https://amzn.to/3Zfofhw My GPU: https://amzn.to/49noX0C Twitch: https://www.twitch.tv/tgg_gta Instagram: https://www.instagram.com/tee_gee_gee/ Join our Discord for help with Business Sales & Heists: https://discord.com/invite/gorillagang Follow me on Twitter/X: https://twitter.com/TGGonYT Grand Theft Auto 5. GTA 5. GTA ",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=33t4kUEBL5k",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=33t4kUEBL5k",
+        "imageUrlRaw": "https://www.youtube.com/v/33t4kUEBL5k?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/33t4kUEBL5k?version=3",
+        "externalId": "yt:video:33t4kUEBL5k",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "b5f8eac4a8710b3e02dd174059ccdbe737cf1c56fc7aa136928f4eaa6d5360fc",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-01T07:48:56.412Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-169ad8b0a05c71cd",
+      "detectedAt": "2026-09-01T07:48:56.412Z",
+      "publishedAt": "2026-09-01T02:14:03.000Z",
+      "title": "Finishing EVERY GTA Before GTA 6 - GTA III Part 1",
+      "summary": "Twitch: https://www.twitch.tv/tgg_gta Get Official (Signed by the Voice Actors) GTA 5 Merch: https://tidd.ly/49654es Get SIGNED merch from GTA voice actors: https://tidd.ly/49654es My Headset: https://amzn.to/3CJgcBZ My Mouse: https://amzn.to/4ibs3cf My Keyboard: https://amzn.to/3Os5fHr My Console: https://amzn.to/3Zfofhw My GPU: https://amzn.to/49noX0C Twitch: https://www.twitch.tv/tgg_gta Instagram: https://www.instagram.com/tee_gee_gee/ Tips/Donos: https://streamlabs.com/tggyt Join our Discord for help with Busi",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=p9tVhLud1tA",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=p9tVhLud1tA",
+        "imageUrlRaw": "https://www.youtube.com/v/p9tVhLud1tA?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/p9tVhLud1tA?version=3",
+        "externalId": "yt:video:p9tVhLud1tA",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "2aba01ac24bd3b501ba65a0997f98246b6e839c8bba273fbbbd7257e0effdfed",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-01T07:48:56.412Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-ghilliemaster-f9cb68ac3b6fd207",
+      "detectedAt": "2026-09-01T07:48:56.412Z",
+      "publishedAt": "2026-09-01T07:19:43.000Z",
+      "title": "GTA 6 IS 79 DAYS AWAY!",
+      "summary": "🥇 Become a member here to get some exclusive perks: https://www.youtube.com/channel/UC1PhTs67PPip_Ys0_xmk8Bg/join 📌 CONTACT ME Twitter: https://twitter.com/GhillieYT Xbox Gamertag: R8 Ghillie Discord: ​https://discord.gg/ghilliemaster 5️⃣ TOP 5 SUBMISSION INSTRUCTIONS 1. Upload UNEDITED clip to YouTube as Unlisted 2. Email the video link to Ghillietopcommunityplays@gmail.com along with a line saying \"I give GhillieMaster permission to use this clip in a video...\" with the subject line containing the theme of the ",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.68,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "ghilliemaster",
+        "sourceName": "GhillieMaster",
+        "sourceTier": 68,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=XWLMUeIRjko",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=XWLMUeIRjko",
+        "imageUrlRaw": "https://www.youtube.com/v/XWLMUeIRjko?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/XWLMUeIRjko?version=3",
+        "externalId": "yt:video:XWLMUeIRjko",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "9d0567164864c3bac91a79fe601173802fbbc11530ba1cd11b39784828a57f2c",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-01T07:48:56.412Z"
         }
       ]
     }
