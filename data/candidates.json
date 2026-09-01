@@ -24,14 +24,19 @@
         "imageUrlCanonical": "https://www.youtube.com/v/MJOrsRRa9GM?version=3"
       },
       "contentHash": "96f1f5c39a2c7d813fa01bc287c8a417c152a36055f80fe24c9a717a5cf8867d",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+      "canonicalNewsId": "gta6-legacy-rockstar-youtube-b6d01fcf5819db63",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T20:28:19.776Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+          "timestamp": "2026-09-01T16:13:19.222Z"
         }
       ]
     },
@@ -56,14 +61,19 @@
         "imageUrlCanonical": "https://www.youtube.com/v/53C6gUqRpK4?version=3"
       },
       "contentHash": "21d189632c3896110402e18b348328e41d2f92f2fd1f4282fdd73d400f6e2e34",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+      "canonicalNewsId": "gta6-legacy-rockstar-youtube-b6d01fcf5819db63",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T20:28:19.776Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+          "timestamp": "2026-09-01T16:13:19.178Z"
         }
       ]
     },
@@ -487,14 +497,19 @@
         "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/cf/84/gta-6-at-30-fps-may-be-the-price-of-the-most-impressive-game-digital-foundry-has-ever-seen.jpg"
       },
       "contentHash": "99962a0bb15e1008978a2be7bc21b42eabb1ad48c3ac4bd75fd89cc3ffe57dd6",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+      "canonicalNewsId": "gta6-legacy-gtaboom-be9fcd4d876b7409",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T20:28:19.776Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+          "timestamp": "2026-09-01T16:13:19.572Z"
         }
       ]
     },
@@ -519,14 +534,19 @@
         "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/ff/65/rockstar-dev-says-gta-6-is-currently-running-at-30-fps-on-consoles.jpg"
       },
       "contentHash": "6aa61b6fa3e0a360b91cf2dfedc091b5ea0fa728ca456be035ec951fd7d7232b",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+      "canonicalNewsId": "gta6-legacy-gtaboom-9c843dcbf1bc6c28",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T20:28:19.776Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+          "timestamp": "2026-09-01T16:13:19.420Z"
         }
       ]
     },
@@ -551,14 +571,19 @@
         "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/b9/4e/every-mainline-gta-and-red-dead-ranked-based-on-playthrough-length.jpg"
       },
       "contentHash": "31019aaecce76aa22f4d4b0e7060ad79f7ceb7ac8d0594093f91791cade1afbb",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+      "canonicalNewsId": "gta6-legacy-gtaboom-50a7f35bea733e6f",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T20:28:19.776Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+          "timestamp": "2026-09-01T16:13:19.382Z"
         }
       ]
     },
@@ -583,14 +608,19 @@
         "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/13/e0/a-full-gta-6-playthrough-took-this-rockstar-dev-about-80-hours.jpg"
       },
       "contentHash": "43f206d5ffe369a54bdb338ff0812b50b79f94a62280f2d843124798ba49a672",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+      "canonicalNewsId": "gta6-legacy-gtaboom-90dd7b9bb73192d7",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T20:28:19.776Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+          "timestamp": "2026-09-01T16:13:19.344Z"
         }
       ]
     },
@@ -615,14 +645,19 @@
         "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/9a/7e/frame_000228.jpg"
       },
       "contentHash": "b0b157aa5690f90d42d17f908e3cf3889d3beb4469a933a04333d98fe1ae5146",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+      "canonicalNewsId": "gta6-legacy-gtaboom-4a8f843f9c55893f",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T20:28:19.776Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+          "timestamp": "2026-09-01T16:13:19.263Z"
         }
       ]
     },
@@ -1260,14 +1295,19 @@
         "imageUrlCanonical": "https://www.youtube.com/v/5PEKC28azRU?version=3"
       },
       "contentHash": "59644e35e095aa2d041498732a0b3b5f108a51f1920b36baa395b5028d9edc3c",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+      "canonicalNewsId": "gta6-legacy-tgg-297fbae2fcc612c6",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T20:28:19.776Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+          "timestamp": "2026-09-01T16:13:19.610Z"
         }
       ]
     },
@@ -1292,14 +1332,19 @@
         "imageUrlCanonical": "https://www.youtube.com/v/tVwNy3xV-4c?version=3"
       },
       "contentHash": "c36daeac27ace8646ca47224fb22d1b91ad6e4072e3c01d77a615ebc3fecab2c",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+      "canonicalNewsId": "gta6-legacy-tgg-3912b2d09e9e37c5",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T20:28:19.776Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+          "timestamp": "2026-09-01T16:13:19.534Z"
         }
       ]
     },
@@ -1324,14 +1369,19 @@
         "imageUrlCanonical": "https://www.youtube.com/v/bxqc5rB1So0?version=3"
       },
       "contentHash": "69c3d08e3c367a3acd140f9af4ac84c312017d998a3a6705e1ea7d3069a9ad31",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+      "canonicalNewsId": "gta6-legacy-tgg-d0055851c3a4a451",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T20:28:19.776Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+          "timestamp": "2026-09-01T16:13:19.496Z"
         }
       ]
     },
@@ -1356,14 +1406,19 @@
         "imageUrlCanonical": "https://www.youtube.com/v/UrnhDGdUIdQ?version=3"
       },
       "contentHash": "51ee8d1aa39bd6deeb67a8aa73ad0c47947b776bb7df1c15df342e3f5b1db7f7",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+      "canonicalNewsId": "gta6-legacy-tgg-59680b8dd33c8ad2",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T20:28:19.776Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+          "timestamp": "2026-09-01T16:13:19.458Z"
         }
       ]
     },
@@ -1388,14 +1443,19 @@
         "imageUrlCanonical": "https://www.youtube.com/v/4Z_4yqWGRjQ?version=3"
       },
       "contentHash": "e04cdca47de1c12b3f8ad4c96316cde9db516580c8d7c8974af750a3d72d361e",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+      "canonicalNewsId": "gta6-legacy-tgg-9667920e4da4275f",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T20:28:19.776Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+          "timestamp": "2026-09-01T16:13:19.303Z"
         }
       ]
     },

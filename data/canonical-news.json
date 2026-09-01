@@ -224,7 +224,7 @@
       "category": "News",
       "publishedAt": "2026-08-30T12:00:00.000Z",
       "collectedAt": "2026-08-30T05:23:36.226Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T16:13:19.572Z",
       "sources": [
         {
           "sourceId": "gtaboom",
@@ -236,6 +236,17 @@
           "publishedAt": "2026-08-30T12:00:00.000Z",
           "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/cf/84/gta-6-at-30-fps-may-be-the-price-of-the-most-impressive-game-digital-foundry-has-ever-seen.jpg",
           "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/cf/84/gta-6-at-30-fps-may-be-the-price-of-the-most-impressive-game-digital-foundry-has-ever-seen.jpg"
+        },
+        {
+          "sourceId": "gtaboom",
+          "sourceName": "GTA BOOM",
+          "sourceTier": 80,
+          "sourceUrlRaw": "https://www.gtaboom.com/gta-6-at-30-fps-may-be-the-price-of-the-most-impressive-game-digital-foundry-has-ever-seen-785a",
+          "sourceUrlCanonical": "https://www.gtaboom.com/gta-6-at-30-fps-may-be-the-price-of-the-most-impressive-game-digital-foundry-has-ever-seen-785a",
+          "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/cf/84/gta-6-at-30-fps-may-be-the-price-of-the-most-impressive-game-digital-foundry-has-ever-seen.jpg",
+          "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/cf/84/gta-6-at-30-fps-may-be-the-price-of-the-most-impressive-game-digital-foundry-has-ever-seen.jpg",
+          "externalId": "https://www.gtaboom.com/gta-6-at-30-fps-may-be-the-price-of-the-most-impressive-game-digital-foundry-has-ever-seen-785a",
+          "publishedAt": "2026-08-30T00:21:00.000Z"
         }
       ],
       "scores": {
@@ -258,7 +269,7 @@
       "category": "News",
       "publishedAt": "2026-08-30T12:00:00.000Z",
       "collectedAt": "2026-08-30T11:53:46.032Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T16:13:19.610Z",
       "sources": [
         {
           "sourceId": "tgg",
@@ -270,6 +281,17 @@
           "publishedAt": "2026-08-30T12:00:00.000Z",
           "imageUrlRaw": "https://www.youtube.com/v/5PEKC28azRU?version=3",
           "imageUrlCanonical": "https://www.youtube.com/v/5PEKC28azRU?version=3"
+        },
+        {
+          "sourceId": "tgg",
+          "sourceName": "TGG",
+          "sourceTier": 75,
+          "sourceUrlRaw": "https://www.youtube.com/watch?v=5PEKC28azRU",
+          "sourceUrlCanonical": "https://www.youtube.com/watch?v=5PEKC28azRU",
+          "imageUrlRaw": "https://www.youtube.com/v/5PEKC28azRU?version=3",
+          "imageUrlCanonical": "https://www.youtube.com/v/5PEKC28azRU?version=3",
+          "externalId": "yt:video:5PEKC28azRU",
+          "publishedAt": "2026-08-30T07:12:44.000Z"
         }
       ],
       "scores": {
@@ -326,7 +348,7 @@
       "category": "News",
       "publishedAt": "2026-08-29T12:00:00.000Z",
       "collectedAt": "2026-08-29T17:43:42.783Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T16:13:19.534Z",
       "sources": [
         {
           "sourceId": "tgg",
@@ -338,6 +360,17 @@
           "publishedAt": "2026-08-29T12:00:00.000Z",
           "imageUrlRaw": "https://www.youtube.com/v/tVwNy3xV-4c?version=3",
           "imageUrlCanonical": "https://www.youtube.com/v/tVwNy3xV-4c?version=3"
+        },
+        {
+          "sourceId": "tgg",
+          "sourceName": "TGG",
+          "sourceTier": 75,
+          "sourceUrlRaw": "https://www.youtube.com/watch?v=tVwNy3xV-4c",
+          "sourceUrlCanonical": "https://www.youtube.com/watch?v=tVwNy3xV-4c",
+          "imageUrlRaw": "https://www.youtube.com/v/tVwNy3xV-4c?version=3",
+          "imageUrlCanonical": "https://www.youtube.com/v/tVwNy3xV-4c?version=3",
+          "externalId": "yt:video:tVwNy3xV-4c",
+          "publishedAt": "2026-08-29T12:32:23.000Z"
         }
       ],
       "scores": {
@@ -360,7 +393,7 @@
       "category": "Analyses",
       "publishedAt": "2026-08-29T12:00:00.000Z",
       "collectedAt": "2026-08-29T11:01:46.377Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T16:13:19.496Z",
       "sources": [
         {
           "sourceId": "tgg",
@@ -372,6 +405,17 @@
           "publishedAt": "2026-08-29T12:00:00.000Z",
           "imageUrlRaw": "https://www.youtube.com/v/bxqc5rB1So0?version=3",
           "imageUrlCanonical": "https://www.youtube.com/v/bxqc5rB1So0?version=3"
+        },
+        {
+          "sourceId": "tgg",
+          "sourceName": "TGG",
+          "sourceTier": 75,
+          "sourceUrlRaw": "https://www.youtube.com/watch?v=bxqc5rB1So0",
+          "sourceUrlCanonical": "https://www.youtube.com/watch?v=bxqc5rB1So0",
+          "imageUrlRaw": "https://www.youtube.com/v/bxqc5rB1So0?version=3",
+          "imageUrlCanonical": "https://www.youtube.com/v/bxqc5rB1So0?version=3",
+          "externalId": "yt:video:bxqc5rB1So0",
+          "publishedAt": "2026-08-29T06:24:07.000Z"
         }
       ],
       "scores": {
@@ -394,7 +438,7 @@
       "category": "Analyses",
       "publishedAt": "2026-08-29T12:00:00.000Z",
       "collectedAt": "2026-08-29T11:01:46.377Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T16:13:19.458Z",
       "sources": [
         {
           "sourceId": "tgg",
@@ -406,6 +450,17 @@
           "publishedAt": "2026-08-29T12:00:00.000Z",
           "imageUrlRaw": "https://www.youtube.com/v/UrnhDGdUIdQ?version=3",
           "imageUrlCanonical": "https://www.youtube.com/v/UrnhDGdUIdQ?version=3"
+        },
+        {
+          "sourceId": "tgg",
+          "sourceName": "TGG",
+          "sourceTier": 75,
+          "sourceUrlRaw": "https://www.youtube.com/watch?v=UrnhDGdUIdQ",
+          "sourceUrlCanonical": "https://www.youtube.com/watch?v=UrnhDGdUIdQ",
+          "imageUrlRaw": "https://www.youtube.com/v/UrnhDGdUIdQ?version=3",
+          "imageUrlCanonical": "https://www.youtube.com/v/UrnhDGdUIdQ?version=3",
+          "externalId": "yt:video:UrnhDGdUIdQ",
+          "publishedAt": "2026-08-29T01:27:51.000Z"
         }
       ],
       "scores": {
@@ -496,7 +551,7 @@
       "category": "News",
       "publishedAt": "2026-08-28T12:00:00.000Z",
       "collectedAt": "2026-08-29T11:01:46.069Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T16:13:19.222Z",
       "sources": [
         {
           "sourceId": "rockstar-youtube",
@@ -508,6 +563,28 @@
           "publishedAt": "2026-08-28T12:00:00.000Z",
           "imageUrlRaw": "https://www.youtube.com/v/MJOrsRRa9GM?version=3",
           "imageUrlCanonical": "https://www.youtube.com/v/MJOrsRRa9GM?version=3"
+        },
+        {
+          "sourceId": "rockstar-youtube",
+          "sourceName": "Rockstar Games — YouTube",
+          "sourceTier": 100,
+          "sourceUrlRaw": "https://www.youtube.com/shorts/53C6gUqRpK4",
+          "sourceUrlCanonical": "https://www.youtube.com/shorts/53C6gUqRpK4",
+          "imageUrlRaw": "https://www.youtube.com/v/53C6gUqRpK4?version=3",
+          "imageUrlCanonical": "https://www.youtube.com/v/53C6gUqRpK4?version=3",
+          "externalId": "yt:video:53C6gUqRpK4",
+          "publishedAt": "2026-08-28T01:01:28.000Z"
+        },
+        {
+          "sourceId": "rockstar-youtube",
+          "sourceName": "Rockstar Games — YouTube",
+          "sourceTier": 100,
+          "sourceUrlRaw": "https://www.youtube.com/shorts/MJOrsRRa9GM",
+          "sourceUrlCanonical": "https://www.youtube.com/shorts/MJOrsRRa9GM",
+          "imageUrlRaw": "https://www.youtube.com/v/MJOrsRRa9GM?version=3",
+          "imageUrlCanonical": "https://www.youtube.com/v/MJOrsRRa9GM?version=3",
+          "externalId": "yt:video:MJOrsRRa9GM",
+          "publishedAt": "2026-08-28T01:01:30.000Z"
         }
       ],
       "scores": {
@@ -564,7 +641,7 @@
       "category": "Rockstar",
       "publishedAt": "2026-08-28T12:00:00.000Z",
       "collectedAt": "2026-08-29T11:01:46.355Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T16:13:19.420Z",
       "sources": [
         {
           "sourceId": "gtaboom",
@@ -576,6 +653,17 @@
           "publishedAt": "2026-08-28T12:00:00.000Z",
           "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/ff/65/rockstar-dev-says-gta-6-is-currently-running-at-30-fps-on-consoles.jpg",
           "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/ff/65/rockstar-dev-says-gta-6-is-currently-running-at-30-fps-on-consoles.jpg"
+        },
+        {
+          "sourceId": "gtaboom",
+          "sourceName": "GTA BOOM",
+          "sourceTier": 80,
+          "sourceUrlRaw": "https://www.gtaboom.com/rockstar-dev-says-gta-6-is-currently-running-at-30-fps-on-consoles-3895",
+          "sourceUrlCanonical": "https://www.gtaboom.com/rockstar-dev-says-gta-6-is-currently-running-at-30-fps-on-consoles-3895",
+          "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/ff/65/rockstar-dev-says-gta-6-is-currently-running-at-30-fps-on-consoles.jpg",
+          "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/ff/65/rockstar-dev-says-gta-6-is-currently-running-at-30-fps-on-consoles.jpg",
+          "externalId": "https://www.gtaboom.com/rockstar-dev-says-gta-6-is-currently-running-at-30-fps-on-consoles-3895",
+          "publishedAt": "2026-08-28T17:28:00.000Z"
         }
       ],
       "scores": {
@@ -598,7 +686,7 @@
       "category": "Rumeurs",
       "publishedAt": "2026-08-28T12:00:00.000Z",
       "collectedAt": "2026-08-29T11:01:46.355Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T16:13:19.382Z",
       "sources": [
         {
           "sourceId": "gtaboom",
@@ -610,6 +698,17 @@
           "publishedAt": "2026-08-28T12:00:00.000Z",
           "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/b9/4e/every-mainline-gta-and-red-dead-ranked-based-on-playthrough-length.jpg",
           "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/b9/4e/every-mainline-gta-and-red-dead-ranked-based-on-playthrough-length.jpg"
+        },
+        {
+          "sourceId": "gtaboom",
+          "sourceName": "GTA BOOM",
+          "sourceTier": 80,
+          "sourceUrlRaw": "https://www.gtaboom.com/every-mainline-gta-and-red-dead-ranked-based-on-playthrough-length-981b",
+          "sourceUrlCanonical": "https://www.gtaboom.com/every-mainline-gta-and-red-dead-ranked-based-on-playthrough-length-981b",
+          "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/b9/4e/every-mainline-gta-and-red-dead-ranked-based-on-playthrough-length.jpg",
+          "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/b9/4e/every-mainline-gta-and-red-dead-ranked-based-on-playthrough-length.jpg",
+          "externalId": "https://www.gtaboom.com/every-mainline-gta-and-red-dead-ranked-based-on-playthrough-length-981b",
+          "publishedAt": "2026-08-28T12:06:00.000Z"
         }
       ],
       "scores": {
@@ -632,7 +731,7 @@
       "category": "Rockstar",
       "publishedAt": "2026-08-28T12:00:00.000Z",
       "collectedAt": "2026-08-29T11:01:46.355Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T16:13:19.344Z",
       "sources": [
         {
           "sourceId": "gtaboom",
@@ -644,6 +743,17 @@
           "publishedAt": "2026-08-28T12:00:00.000Z",
           "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/13/e0/a-full-gta-6-playthrough-took-this-rockstar-dev-about-80-hours.jpg",
           "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/13/e0/a-full-gta-6-playthrough-took-this-rockstar-dev-about-80-hours.jpg"
+        },
+        {
+          "sourceId": "gtaboom",
+          "sourceName": "GTA BOOM",
+          "sourceTier": 80,
+          "sourceUrlRaw": "https://www.gtaboom.com/a-full-gta-6-playthrough-took-this-rockstar-dev-about-80-hours-ae3c",
+          "sourceUrlCanonical": "https://www.gtaboom.com/a-full-gta-6-playthrough-took-this-rockstar-dev-about-80-hours-ae3c",
+          "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/13/e0/a-full-gta-6-playthrough-took-this-rockstar-dev-about-80-hours.jpg",
+          "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/13/e0/a-full-gta-6-playthrough-took-this-rockstar-dev-about-80-hours.jpg",
+          "externalId": "https://www.gtaboom.com/a-full-gta-6-playthrough-took-this-rockstar-dev-about-80-hours-ae3c",
+          "publishedAt": "2026-08-28T10:38:00.000Z"
         }
       ],
       "scores": {
@@ -666,7 +776,7 @@
       "category": "Rockstar",
       "publishedAt": "2026-08-28T12:00:00.000Z",
       "collectedAt": "2026-08-29T11:01:46.355Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T16:13:19.263Z",
       "sources": [
         {
           "sourceId": "gtaboom",
@@ -678,6 +788,17 @@
           "publishedAt": "2026-08-28T12:00:00.000Z",
           "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/9a/7e/frame_000228.jpg",
           "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/9a/7e/frame_000228.jpg"
+        },
+        {
+          "sourceId": "gtaboom",
+          "sourceName": "GTA BOOM",
+          "sourceTier": 80,
+          "sourceUrlRaw": "https://www.gtaboom.com/gta-6-extended-look-4k-gameplay-screenshots-aacb",
+          "sourceUrlCanonical": "https://www.gtaboom.com/gta-6-extended-look-4k-gameplay-screenshots-aacb",
+          "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/9a/7e/frame_000228.jpg",
+          "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/9a/7e/frame_000228.jpg",
+          "externalId": "https://www.gtaboom.com/gta-6-extended-look-4k-gameplay-screenshots-aacb",
+          "publishedAt": "2026-08-28T07:09:16.000Z"
         }
       ],
       "scores": {
@@ -700,7 +821,7 @@
       "category": "Analyses",
       "publishedAt": "2026-08-28T12:00:00.000Z",
       "collectedAt": "2026-08-29T11:01:46.378Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T16:13:19.303Z",
       "sources": [
         {
           "sourceId": "tgg",
@@ -712,6 +833,17 @@
           "publishedAt": "2026-08-28T12:00:00.000Z",
           "imageUrlRaw": "https://www.youtube.com/v/4Z_4yqWGRjQ?version=3",
           "imageUrlCanonical": "https://www.youtube.com/v/4Z_4yqWGRjQ?version=3"
+        },
+        {
+          "sourceId": "tgg",
+          "sourceName": "TGG",
+          "sourceTier": 75,
+          "sourceUrlRaw": "https://www.youtube.com/watch?v=4Z_4yqWGRjQ",
+          "sourceUrlCanonical": "https://www.youtube.com/watch?v=4Z_4yqWGRjQ",
+          "imageUrlRaw": "https://www.youtube.com/v/4Z_4yqWGRjQ?version=3",
+          "imageUrlCanonical": "https://www.youtube.com/v/4Z_4yqWGRjQ?version=3",
+          "externalId": "yt:video:4Z_4yqWGRjQ",
+          "publishedAt": "2026-08-28T10:23:38.000Z"
         }
       ],
       "scores": {

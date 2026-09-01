@@ -84,6 +84,83 @@
       "channel": "website",
       "status": "published",
       "createdAt": "2026-09-01T09:43:10.510Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-rockstar-youtube-b6d01fcf5819db63",
+      "newsId": "gta6-legacy-rockstar-youtube-b6d01fcf5819db63",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-29T11:01:46.069Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-gtaboom-be9fcd4d876b7409",
+      "newsId": "gta6-legacy-gtaboom-be9fcd4d876b7409",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-30T05:23:36.226Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-gtaboom-9c843dcbf1bc6c28",
+      "newsId": "gta6-legacy-gtaboom-9c843dcbf1bc6c28",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-29T11:01:46.355Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-gtaboom-50a7f35bea733e6f",
+      "newsId": "gta6-legacy-gtaboom-50a7f35bea733e6f",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-29T11:01:46.355Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-gtaboom-90dd7b9bb73192d7",
+      "newsId": "gta6-legacy-gtaboom-90dd7b9bb73192d7",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-29T11:01:46.355Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-gtaboom-4a8f843f9c55893f",
+      "newsId": "gta6-legacy-gtaboom-4a8f843f9c55893f",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-29T11:01:46.355Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-tgg-297fbae2fcc612c6",
+      "newsId": "gta6-legacy-tgg-297fbae2fcc612c6",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-30T11:53:46.032Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-tgg-3912b2d09e9e37c5",
+      "newsId": "gta6-legacy-tgg-3912b2d09e9e37c5",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-29T17:43:42.783Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-tgg-d0055851c3a4a451",
+      "newsId": "gta6-legacy-tgg-d0055851c3a4a451",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-29T11:01:46.377Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-tgg-59680b8dd33c8ad2",
+      "newsId": "gta6-legacy-tgg-59680b8dd33c8ad2",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-29T11:01:46.377Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-tgg-9667920e4da4275f",
+      "newsId": "gta6-legacy-tgg-9667920e4da4275f",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-29T11:01:46.378Z"
     }
   ]
 }
