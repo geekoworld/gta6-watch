@@ -376,14 +376,19 @@
         "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/7f/38/gta-6-pre-orders-surged-over-570-after-extended-look-premiere.jpg"
       },
       "contentHash": "e31a6b9746d04fefbf0578a10eb670101af29047806f485433090692bca3465f",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+      "canonicalNewsId": "gta6-legacy-gtaboom-f0c4a10b9bec70c1",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T20:28:19.776Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+          "timestamp": "2026-09-01T09:43:10.286Z"
         }
       ]
     },
@@ -408,14 +413,19 @@
         "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/03/86/miami-dade-says-gta-6-could-be-a-unique-opportunity-to-generate-revenue-for-the-county.jpg"
       },
       "contentHash": "035620be2f6e9d9cddd76316c192bbdadebd6e37dde19a641949bd693291a5af",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+      "canonicalNewsId": "gta6-legacy-gtaboom-d618a4b988669779",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T20:28:19.776Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+          "timestamp": "2026-09-01T09:43:10.243Z"
         }
       ]
     },
@@ -440,14 +450,19 @@
         "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/22/08/io-interactive-dev-explains-why-gta-6-crowds-are-years-ahead-of-everyone-else.jpg"
       },
       "contentHash": "ec43f0e61b54876832510fa32049187d6515b8a0e149d0ddf10c6b8738376d1e",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+      "canonicalNewsId": "gta6-legacy-gtaboom-e7aa1499ed8fa4b9",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T20:28:19.776Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+          "timestamp": "2026-09-01T09:43:10.151Z"
         }
       ]
     },
@@ -1208,14 +1223,19 @@
         "imageUrlCanonical": "https://www.youtube.com/v/CMXxuSmzXsk?version=3"
       },
       "contentHash": "f6a822297abdf91ec61c98d44def5af07a912ca6cedb0163a57283d482ff3ed8",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+      "canonicalNewsId": "gta6-legacy-tgg-9422a8f6771944ba",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T20:28:19.776Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy; merged into the existing topic.",
+          "timestamp": "2026-09-01T09:43:10.199Z"
         }
       ]
     },
@@ -3160,14 +3180,19 @@
         "platform": "WEB"
       },
       "contentHash": "4c0e4b5ec86b31c07206f5869ecb4bdd8c17c2c8500dd2404864e7f6e8987f60",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-fc636dedc577fb98049b",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T21:01:28.252Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-01T09:43:10.332Z"
         }
       ]
     },
@@ -3192,14 +3217,19 @@
         "platform": "WEB"
       },
       "contentHash": "6797d9941dc1adb6061c00f75963bc0e165691e7ca0b37c1d8c86223c4aece66",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-55424af5cf3d2c73c935",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T21:53:49.637Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-01T09:43:10.376Z"
         }
       ]
     },
@@ -3224,14 +3254,19 @@
         "platform": "WEB"
       },
       "contentHash": "2fb64e82873092cc80364b6ff10c845d57e231ab7a53bd914ceb618a9aac6b5e",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-20ac44b573a6db26560c",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-01T01:17:51.726Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-01T09:43:10.465Z"
         }
       ]
     },
@@ -3256,14 +3291,19 @@
         "platform": "WEB"
       },
       "contentHash": "580cec44ea59f01009315c4b32a210d6c281503c9113b35fb88c91e4284db94f",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-deb6d153324b4d10f458",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-01T01:17:51.726Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-01T09:43:10.420Z"
         }
       ]
     },
@@ -3288,14 +3328,19 @@
         "platform": "WEB"
       },
       "contentHash": "5870e282bacef05f8570933f2c119095cbee89cf15a98f8b226dc483fb8635f4",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-b4a33d89d2b0fa4c5812",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-01T07:48:56.412Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-01T09:43:10.600Z"
         }
       ]
     },
@@ -3320,14 +3365,19 @@
         "platform": "WEB"
       },
       "contentHash": "350c07041d860370afbe93bd6b836d973f41421aeffb26ec1cde6cb8038d34df",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-515d4057dffd87e73ba9",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-01T07:48:56.412Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-01T09:43:10.555Z"
         }
       ]
     },
@@ -3352,14 +3402,19 @@
         "platform": "YOUTUBE"
       },
       "contentHash": "b5f8eac4a8710b3e02dd174059ccdbe737cf1c56fc7aa136928f4eaa6d5360fc",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-76d714477361322f0ce9",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-01T07:48:56.412Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-01T09:43:10.650Z"
         }
       ]
     },
@@ -3384,14 +3439,19 @@
         "platform": "YOUTUBE"
       },
       "contentHash": "2aba01ac24bd3b501ba65a0997f98246b6e839c8bba273fbbbd7257e0effdfed",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-b44feae798fdee3a749b",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-01T07:48:56.412Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-01T09:43:10.510Z"
         }
       ]
     },
