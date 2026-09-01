@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-29",
+  "updatedAt": "2026-09-01",
   "policy": {
     "A": "Source officielle. Peut confirmer uniquement ce qu’elle publie directement.",
     "B": "Source spécialisée ou témoin direct. Vérifier l’article d’origine et rechercher une corroboration.",
@@ -40,6 +40,18 @@
       "defaultStatus": "Confirmé",
       "monitoring": "Lien prioritaire",
       "note": "Canal officiel pour annonces et rappels. L’automatisation X nécessite une API dédiée."
+    },
+    {
+      "id": "gta6-watch-youtube",
+      "name": "GTA 6 WATCH — YouTube",
+      "type": "YouTube",
+      "tier": "A",
+      "score": 100,
+      "url": "https://www.youtube.com/channel/UCSdn_zxiAWVXKb-F2gkCq3w/",
+      "videoFeedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSdn_zxiAWVXKb-F2gkCq3w",
+      "defaultStatus": "Confirmé",
+      "monitoring": "Flux vidéo",
+      "note": "Chaîne vidéo GTA 6 WATCH, affichée dans l’onglet Video. Ses vidéos ne sont pas réinjectées dans la file d’articles."
     },
     {
       "id": "take-two-ir",

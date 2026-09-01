@@ -12,6 +12,7 @@ Tableau de veille GTA 6 conçu pour centraliser les actualités, qualifier leur 
 - trois lots de publication éditoriale quotidiens pour les candidats éligibles ;
 - modèle canonique versionné dans `data/canonical-news.json` ;
 - projection publique statique générée dans `data/news.json` ;
+- onglet **Video News** alimenté par le flux public de la chaîne GTA 6 WATCH ;
 - validation locale et dans GitHub Actions avant publication ;
 - déploiement explicite vers GitHub Pages dans le workflow de publication ;
 - aucun secret ni clé API dans le navigateur.
@@ -72,6 +73,7 @@ npm run candidate:approve -- <candidateId>
 npm run candidate:approve -- <candidateId> --publish
 npm run candidate:reject -- <candidateId> REJECTED "raison"
 npm run build:feed
+npm run build:videos
 node scripts/validate-content.mjs --public
 npm run verify
 ```
@@ -97,6 +99,7 @@ data/sources.json                  Registre et qualification des sources
 data/canonical-news.json           Registre canonique et preuves source
 data/candidates.json               Découvertes en attente de revue
 data/news.json                     Projection publique compatible avec le frontend
+data/video-news.json               Dernières vidéos publiques de GTA 6 WATCH
 data/publication-log.json          Journal d’idempotence de publication
 data/rejected-or-held.json         Éléments rejetés ou en attente
 news.schema.json                   Contrat JSON du modèle canonique
@@ -105,6 +108,7 @@ scripts/approve-candidate.mjs      Approbation manuelle d’un candidat
 scripts/topic-matching.mjs          Rapprochement prudent des mêmes sujets
 scripts/reject-candidate.mjs       Rejet ou marquage de doublon
 scripts/build-public-feed.mjs      Génération du flux public
+scripts/build-video-news.mjs       Génération du flux Video News depuis YouTube
 .github/workflows/update-news.yml  Collecte horaire des candidats uniquement
 .github/workflows/deploy-pages.yml Publication manuelle du flux et de Pages
 ```

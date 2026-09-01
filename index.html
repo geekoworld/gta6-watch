@@ -77,6 +77,8 @@
   .topbar-controls { display:flex; align-items:center; gap:8px; }
   .theme-toggle { width:36px; height:36px; border:1px solid var(--border); border-radius:9px; color:var(--text); background:var(--bg-elev); cursor:pointer; font-size:18px; line-height:1; }
   .theme-toggle:hover { border-color:var(--cyan); }
+  .feed-section-heading { display:flex; align-items:center; gap:9px; padding:20px 22px 7px; background:var(--bg); }
+  .feed-section-heading .nav-icon { width:21px; height:21px; color:var(--pink); }
   .filterbar { padding:14px 22px; display:flex; align-items:center; gap:12px; flex-wrap:wrap; border-bottom:1px solid var(--border-soft); background:var(--bg); }
   .search-wrap { position:relative; min-width:190px; flex:1 1 280px; }
   .search-icon { position:absolute; left:12px; top:50%; transform:translateY(-50%); color:var(--text-muted); font-size:18px; pointer-events:none; }
@@ -1804,6 +1806,16 @@ const SOURCES = [{
   "monitoring": "Lien prioritaire",
   "note": "Canal officiel pour annonces et rappels. L’automatisation X nécessite une API dédiée."
 }, {
+  "id": "gta6-watch-youtube",
+  "name": "GTA 6 WATCH — YouTube",
+  "type": "YouTube",
+  "tier": "A",
+  "score": 100,
+  "url": "https://www.youtube.com/channel/UCSdn_zxiAWVXKb-F2gkCq3w/",
+  "defaultStatus": "Confirmé",
+  "monitoring": "Video feed",
+  "note": "GTA 6 WATCH video channel, displayed in the Video tab."
+}, {
   "id": "take-two-ir",
   "name": "Take-Two Investor Relations",
   "type": "Site officiel",
@@ -1973,6 +1985,13 @@ const I18N = {
     watch: "Watch",
     comingSoon: "Coming soon",
     followedSources: "Followed sources",
+    videoNews: "Video",
+    latestNews: "Latest News",
+    videoNewsIntro: "The latest videos from the GTA 6 WATCH YouTube channel, refreshed from the channel feed.",
+    latestVideos: "Latest videos",
+    openChannel: "Open channel",
+    noVideos: "No videos are available right now.",
+    short: "Short",
     database: "GTA 6 Database",
     interactiveMap: "Interactive Map",
     addInfo: "Add an item",
@@ -2092,6 +2111,13 @@ const I18N = {
     watch: "Veille",
     comingSoon: "À venir",
     followedSources: "Sources suivies",
+    videoNews: "Video",
+    latestNews: "Dernières actualités",
+    videoNewsIntro: "Les dernières vidéos de la chaîne YouTube GTA 6 WATCH, mises à jour depuis le flux de la chaîne.",
+    latestVideos: "Dernières vidéos",
+    openChannel: "Ouvrir la chaîne",
+    noVideos: "Aucune vidéo disponible pour le moment.",
+    short: "Short",
     database: "GTA 6 Database",
     interactiveMap: "Carte interactive",
     addInfo: "Ajouter une info",
@@ -2257,6 +2283,7 @@ function SidebarIcon({ name }) {
     case "analysis": shapes = [path("M4 18.5 9 13l3.5 3.5L20 8", "a"), path("M15.5 8H20v4.5", "b")]; break;
     case "rockstar": shapes = [/*#__PURE__*/React.createElement("text", { x: 2.8, y: 16.2, fill: "currentColor", fontSize: 12.5, fontWeight: 800, fontFamily: "Arial, sans-serif", key: "a" }, "R★")]; break;
     case "sources": shapes = [path("M10 13.8 8.4 15.4a3.2 3.2 0 0 1-4.5-4.5l3-3a3.2 3.2 0 0 1 4.5 0", "a"), path("m14 10.2 1.6-1.6a3.2 3.2 0 0 1 4.5 4.5l-3 3a3.2 3.2 0 0 1-4.5 0", "b"), path("m8.8 15.2 6.4-6.4", "c")]; break;
+    case "video": shapes = [rect(3, 5, 18, 14, "a"), path("m10 9 5 3-5 3V9Z", "b")]; break;
     case "database": shapes = [path("M19.5 6.5c0 2-3.4 3.5-7.5 3.5s-7.5-1.5-7.5-3.5S7.9 3 12 3s7.5 1.5 7.5 3.5Z", "a"), path("M4.5 6.5v5c0 2 3.4 3.5 7.5 3.5s7.5-1.5 7.5-3.5v-5", "b"), path("M4.5 11.5v5c0 2 3.4 3.5 7.5 3.5s7.5-1.5 7.5-3.5v-5", "c")]; break;
     case "map": shapes = [path("m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2V5Z", "a"), path("M9 3v16M15 5v16", "b"), path("M12 9.2a2.2 2.2 0 1 1 0 4.4 2.2 2.2 0 0 1 0-4.4Zm0 4.4v2.1", "c")]; break;
     case "tracked": shapes = [path("m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9L12 3Z", "a")]; break;
@@ -3100,6 +3127,64 @@ function SourcesView({
 }
 
 /* ------------------------------------------------------------------ */
+/* Video News                                                          */
+/* ------------------------------------------------------------------ */
+function VideoNewsView({
+  feed,
+  copy
+}) {
+  const videos = feed.videos || [];
+  const formatDate = value => new Intl.DateTimeFormat("en-GB", { day: "2-digit", month: "short", year: "numeric" }).format(new Date(value));
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: { display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 16, flexWrap: "wrap", marginBottom: 22 }
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: { display: "flex", alignItems: "center", gap: 9 }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: { color: "var(--pink)", fontSize: 22 }
+  }, "▶"), /*#__PURE__*/React.createElement("h2", {
+    className: "font-display",
+    style: { fontSize: 28 }
+  }, copy.videoNews.toUpperCase())), /*#__PURE__*/React.createElement("p", {
+    style: { color: "var(--text-muted)", fontSize: 13.5, maxWidth: 660, lineHeight: 1.6, marginTop: 6 }
+  }, copy.videoNewsIntro)), feed.channel?.url && /*#__PURE__*/React.createElement("a", {
+    href: feed.channel.url,
+    target: "_blank",
+    rel: "noreferrer",
+    style: { color: "#fff", textDecoration: "none", background: "linear-gradient(90deg,var(--pink),var(--purple))", borderRadius: 8, padding: "10px 13px", fontSize: 12, fontWeight: 800 }
+  }, copy.openChannel, " ↗")), /*#__PURE__*/React.createElement("div", {
+    style: { color: "var(--text-muted)", fontSize: 11, fontWeight: 800, letterSpacing: "0.08em", marginBottom: 12 }
+  }, copy.latestVideos.toUpperCase(), " · ", videos.length), videos.length === 0 ? /*#__PURE__*/React.createElement("div", {
+    className: "empty-state"
+  }, copy.noVideos) : /*#__PURE__*/React.createElement("div", {
+    style: { display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(250px,1fr))", gap: 14 }
+  }, videos.map(video => /*#__PURE__*/React.createElement("a", {
+    className: "article-card",
+    key: video.id,
+    href: video.url,
+    target: "_blank",
+    rel: "noreferrer",
+    style: { display: "block", overflow: "hidden", textDecoration: "none", color: "inherit", background: "var(--bg-card)", border: "1px solid var(--border-soft)", borderRadius: 12 }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: { position: "relative", aspectRatio: "16 / 9", background: "var(--bg-elev)" }
+  }, /*#__PURE__*/React.createElement("img", {
+    src: video.thumbnailUrl,
+    alt: "",
+    loading: "lazy",
+    style: { display: "block", width: "100%", height: "100%", objectFit: "cover" }
+  }), /*#__PURE__*/React.createElement("span", {
+    style: { position: "absolute", left: 10, bottom: 10, padding: "4px 7px", borderRadius: 6, background: "rgba(8,8,16,.86)", color: "#fff", fontSize: 10, fontWeight: 900, letterSpacing: "0.06em" }
+  }, video.isShort ? copy.short.toUpperCase() : "VIDEO")), /*#__PURE__*/React.createElement("div", {
+    style: { padding: "13px 14px 14px" }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: { fontSize: 14, fontWeight: 800, lineHeight: 1.4, minHeight: 59 }
+  }, video.title), /*#__PURE__*/React.createElement("div", {
+    style: { display: "flex", justifyContent: "space-between", gap: 10, marginTop: 10, color: "var(--text-muted)", fontSize: 11.5 }
+  }, /*#__PURE__*/React.createElement("span", null, formatDate(video.publishedAt)), /*#__PURE__*/React.createElement("span", {
+    style: { color: "var(--pink)", fontWeight: 800 }
+  }, "YouTube ↗")))))));
+}
+
+/* ------------------------------------------------------------------ */
 /* Coming soon                                                          */
 /* ------------------------------------------------------------------ */
 function ComingSoon({
@@ -3248,6 +3333,7 @@ function GTA6Watch() {
   const [language] = useState("en");
   const [theme, setTheme] = useState(() => safeStorageGet(LS_THEME) === "light" ? "light" : "dark");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [videoFeed, setVideoFeed] = useState({ channel: null, videos: [] });
   const copy = I18N[language];
 
   useEffect(() => {
@@ -3272,6 +3358,16 @@ function GTA6Watch() {
         });
         return [...refreshed, ...localById.values()];
       });
+    }).catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+  useEffect(() => {
+    if (!window.fetch || window.location.protocol === "file:") return;
+    let cancelled = false;
+    fetch("./data/video-news.json", { cache: "no-store" }).then(response => response.ok ? response.json() : Promise.reject(new Error(`HTTP ${response.status}`))).then(payload => {
+      if (!cancelled && Array.isArray(payload.videos)) setVideoFeed(payload);
     }).catch(() => {});
     return () => {
       cancelled = true;
@@ -3345,6 +3441,8 @@ function GTA6Watch() {
     textTransform: "uppercase",
     letterSpacing: "0.09em"
   };
+  const feedSectionTitle = activeCategory === "all" ? copy.latestNews : ["News", "Rumeurs", "Leaks"].includes(activeCategory) ? copy.categories[activeCategory] : null;
+  const feedSectionIcon = activeCategory === "all" ? "news" : CATEGORY_ICONS[activeCategory];
 
   return /*#__PURE__*/React.createElement("div", {
     className: "app-shell"
@@ -3396,6 +3494,10 @@ function GTA6Watch() {
     onClick: () => navigate("sources"),
     style: navBtnStyle(view === "sources")
   }, /*#__PURE__*/React.createElement(SidebarIcon, { name: "sources" }), copy.followedSources), /*#__PURE__*/React.createElement("div", {
+    className: `nav-button${view === "videos" ? " active" : ""}`,
+    onClick: () => navigate("videos"),
+    style: navBtnStyle(view === "videos")
+  }, /*#__PURE__*/React.createElement(SidebarIcon, { name: "video" }), copy.videoNews), /*#__PURE__*/React.createElement("div", {
     style: sectionLabelStyle
   }, copy.comingSoon), /*#__PURE__*/React.createElement("button", {
     className: `nav-button${view === "db" ? " active" : ""}`,
@@ -3434,7 +3536,12 @@ function GTA6Watch() {
     onClick: toggleTheme,
     "aria-label": theme === "dark" ? copy.switchLight : copy.switchDark,
     title: theme === "dark" ? copy.switchLight : copy.switchDark
-  }, theme === "dark" ? "☀" : "☾"))), view === "feed" && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
+  }, theme === "dark" ? "☀" : "☾"))), view === "feed" && /*#__PURE__*/React.createElement(React.Fragment, null, feedSectionTitle && /*#__PURE__*/React.createElement("div", {
+    className: "feed-section-heading"
+  }, /*#__PURE__*/React.createElement(SidebarIcon, { name: feedSectionIcon }), /*#__PURE__*/React.createElement("h2", {
+    className: "font-display",
+    style: { fontSize: 28 }
+  }, feedSectionTitle.toUpperCase())), /*#__PURE__*/React.createElement("div", {
     className: "filterbar"
   }, /*#__PURE__*/React.createElement("div", {
     className: "search-wrap"
@@ -3487,6 +3594,11 @@ function GTA6Watch() {
   }))))), view === "sources" && /*#__PURE__*/React.createElement("section", {
     className: "view-scroll"
   }, /*#__PURE__*/React.createElement(SourcesView, {
+    copy: copy
+  })), view === "videos" && /*#__PURE__*/React.createElement("section", {
+    className: "view-scroll"
+  }, /*#__PURE__*/React.createElement(VideoNewsView, {
+    feed: videoFeed,
     copy: copy
   })), view === "map" && /*#__PURE__*/React.createElement("section", {
     className: "view-scroll"
