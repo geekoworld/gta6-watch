@@ -25,7 +25,7 @@ if (errors.length) throw new Error(`Impossible de générer le flux: ${errors.jo
 const articles = canonical.records
   .filter((record) => record.publication.articlePublishedAt !== null)
   .map((record) => {
-    const primary = record.sources[0];
+    const primary = [...record.sources].sort((left, right) => Number(right.sourceTier || 0) - Number(left.sourceTier || 0))[0];
     return {
       id: record.newsId,
       title: record.title,

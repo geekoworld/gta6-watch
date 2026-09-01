@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
+import { findCanonicalTopicMatch, sortSourcesByReliability, sourceReliability } from "./topic-matching.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataDir = process.env.GTA6_WATCH_DATA_DIR ? path.resolve(process.env.GTA6_WATCH_DATA_DIR) : path.join(root, "data");
@@ -30,7 +31,9 @@ const evidence = {
   publishedAt: candidate.publishedAt
 };
 const matchesEvidence = (record) => record.sources.some((source) => source.sourceId === evidence.sourceId && (source.externalId === evidence.externalId || source.sourceUrlRaw === evidence.sourceUrlRaw || source.sourceUrlCanonical === evidence.sourceUrlCanonical));
-let record = candidate.canonicalNewsId ? canonicalDoc.records.find((item) => item.newsId === candidate.canonicalNewsId) : canonicalDoc.records.find(matchesEvidence);
+let record = candidate.canonicalNewsId
+  ? canonicalDoc.records.find((item) => item.newsId === candidate.canonicalNewsId)
+  : canonicalDoc.records.find(matchesEvidence) || findCanonicalTopicMatch(canonicalDoc.records, candidate);
 if (!record) {
   const stableKey = `${evidence.sourceId}|${evidence.externalId}|${evidence.sourceUrlCanonical}`;
   const newsId = `gta6-${createHash("sha256").update(stableKey).digest("hex").slice(0, 20)}`;
@@ -52,12 +55,25 @@ if (!record) {
 } else {
   const hasEvidence = record.sources.some((source) => source.sourceId === evidence.sourceId && source.externalId === evidence.externalId && source.sourceUrlRaw === evidence.sourceUrlRaw);
   if (!hasEvidence) record.sources.push(evidence);
+  const highestExistingScore = Math.max(...record.sources.filter((source) => source !== evidence).map(sourceReliability), -1);
+  if (sourceReliability(evidence) > highestExistingScore) {
+    record.title = candidate.title;
+    record.summary = candidate.summary;
+    record.status = candidate.statusSuggested;
+    record.confidence = Math.round(candidate.confidenceSuggested * 100);
+    record.category = candidate.categorySuggested;
+    record.publishedAt = candidate.publishedAt;
+  }
+  record.sources = sortSourcesByReliability(record.sources);
   record.updatedAt = now;
   if (publish && record.publication.articlePublishedAt === null) record.publication.articlePublishedAt = now;
 }
 
 candidate.reviewState = "APPROVED";
-candidate.reviewReason = publish ? "Approved and published manually." : "Approved manually; not published.";
+const merged = record.sources.length > 1;
+candidate.reviewReason = publish
+  ? `Approved and published manually${merged ? "; merged into the existing topic." : "."}`
+  : `Approved manually; not published${merged ? "; merged into the existing topic." : "."}`;
 candidate.canonicalNewsId = record.newsId;
 candidate.reviewHistory.push({ state: "APPROVED", reason: candidate.reviewReason, timestamp: now });
 await Promise.all([

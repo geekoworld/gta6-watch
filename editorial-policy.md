@@ -15,6 +15,8 @@
 3. Une preuve existante est ajoutée, jamais remplacée ou supprimée par une nouvelle collecte.
 4. Les nouveaux objets ont `publication.articlePublishedAt: null` jusqu’à une approbation éditoriale explicite.
 5. Le flux public ne contient que les objets dont `articlePublishedAt` est renseigné.
+6. Lorsqu’un candidat approuvé décrit le même fait qu’un objet canonique récent, il enrichit cet objet au lieu de créer un second article. Toutes les preuves sont conservées ; la source au score éditorial le plus élevé devient la référence publique.
+7. Le rapprochement automatique est volontairement prudent : même catégorie, même période de 21 jours, et titre identique ou forte similarité. En cas de doute, l’éditeur garde deux sujets séparés.
 
 ## Cycle de vie des candidats
 

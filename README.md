@@ -43,6 +43,8 @@ Flux surveillés
 
 Les nouveaux candidats restent privés tant qu’ils ne sont pas approuvés. Un objet canonique approuvé reste lui-même privé du flux public tant que `publication.articlePublishedAt` vaut `null`. Les articles historiques déjà publics ont été migrés une seule fois pour préserver le site existant.
 
+Lorsqu’un candidat approuvé correspond au même fait récent qu’un objet canonique, il enrichit cet objet au lieu de créer un nouvel article. Le rapprochement est prudent (même catégorie, fenêtre de 21 jours et forte similarité de titre) ; toutes les URLs et preuves sont conservées. La source au meilleur score devient la référence utilisée par le flux public.
+
 L’artefact GitHub Pages exclut `candidates.json`, le registre canonique, le journal de publication et les éléments rejetés/en attente : ils ne sont pas servis par `gta6-watch.xyz`. Le dépôt GitHub étant public, les candidats versionnés restent toutefois visibles aux personnes ayant accès au dépôt ; une confidentialité stricte exigerait un dépôt ou stockage privé, hors du périmètre statique actuel.
 
 ## Publication sur GitHub Pages
@@ -97,6 +99,7 @@ data/rejected-or-held.json         Éléments rejetés ou en attente
 news.schema.json                   Contrat JSON du modèle canonique
 scripts/validate-content.mjs       Validation de contenu
 scripts/approve-candidate.mjs      Approbation manuelle d’un candidat
+scripts/topic-matching.mjs          Rapprochement prudent des mêmes sujets
 scripts/reject-candidate.mjs       Rejet ou marquage de doublon
 scripts/build-public-feed.mjs      Génération du flux public
 .github/workflows/update-news.yml  Collecte horaire des candidats uniquement

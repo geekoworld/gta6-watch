@@ -23,12 +23,13 @@ assert.equal(collected.candidates[0].source.sourceUrlRaw, "https://example.com/t
 assert.equal(collected.candidates[0].source.sourceUrlCanonical, "https://example.com/test");
 assert.equal(collected.candidates[0].source.imageUrlRaw, "https://images.example.com/test.jpg?utm_source=fixture");
 assert.equal(collected.candidates[0].source.imageUrlCanonical, "https://images.example.com/test.jpg");
-const candidate = (id, url) => ({
+const candidate = (id, url, overrides = {}) => ({
   candidateId: id, detectedAt: now, publishedAt: now, title: "GTA 6 official test update", summary: "A controlled editorial test candidate.", statusSuggested: "CONFIRMED", confidenceSuggested: 1,
-  categorySuggested: "Rockstar", source: { sourceId: "test-source", sourceName: "Test Source", sourceTier: 100, sourceUrlRaw: url, sourceUrlCanonical: url, imageUrlRaw: "https://images.example.com/editorial.jpg", imageUrlCanonical: "https://images.example.com/editorial.jpg", externalId: id, platform: "WEB" },
+  categorySuggested: "Rockstar", source: { sourceId: "test-source", sourceName: "Test Source", sourceTier: 70, sourceUrlRaw: url, sourceUrlCanonical: url, imageUrlRaw: "https://images.example.com/editorial.jpg", imageUrlCanonical: "https://images.example.com/editorial.jpg", externalId: id, platform: "WEB" },
   contentHash: "a".repeat(64), reviewState: "PENDING", reviewReason: null, canonicalNewsId: null, reviewHistory: [{ state: "PENDING", reason: null, timestamp: now }]
+  , ...overrides, source: { sourceId: "test-source", sourceName: "Test Source", sourceTier: 70, sourceUrlRaw: url, sourceUrlCanonical: url, imageUrlRaw: "https://images.example.com/editorial.jpg", imageUrlCanonical: "https://images.example.com/editorial.jpg", externalId: id, platform: "WEB", ...(overrides.source || {}) }
 });
-const candidates = { version: 1, generatedAt: now, failures: [], candidates: [candidate("candidate-test-00000001", "https://example.com/one"), candidate("candidate-test-00000002", "https://example.com/two"), candidate("candidate-test-00000003", "https://example.com/three"), candidate("candidate-test-00000004", "https://example.com/four")] };
+const candidates = { version: 1, generatedAt: now, failures: [], candidates: [candidate("candidate-test-00000001", "https://example.com/one"), candidate("candidate-test-00000002", "https://example.com/two", { title: "GTA 6 separate release briefing" }), candidate("candidate-test-00000003", "https://example.com/three"), candidate("candidate-test-00000004", "https://example.com/four"), candidate("candidate-test-00000005", "https://example.com/five", { title: "GTA 6 official test report update", summary: "A higher-quality report on the controlled editorial test update.", source: { sourceId: "primary-source", sourceName: "Primary Source", sourceTier: 100 } })] };
 const canonical = { version: 1, records: [] };
 await Promise.all([
   fs.writeFile(path.join(dataDir, "candidates.json"), JSON.stringify(candidates)),
@@ -42,6 +43,7 @@ run("approve-candidate.mjs", ["candidate-test-00000001"]);
 run("approve-candidate.mjs", ["candidate-test-00000002", "--publish"]);
 run("reject-candidate.mjs", ["candidate-test-00000003", "DUPLICATE", "Controlled duplicate test"]);
 run("reject-candidate.mjs", ["candidate-test-00000004", "REJECTED", "Controlled rejection test"]);
+run("approve-candidate.mjs", ["candidate-test-00000005"]);
 const result = JSON.parse(await fs.readFile(path.join(dataDir, "candidates.json"), "utf8"));
 const output = JSON.parse(await fs.readFile(path.join(dataDir, "canonical-news.json"), "utf8"));
 assert.equal(result.candidates[0].reviewState, "APPROVED");
@@ -53,6 +55,11 @@ assert.equal(result.candidates[2].reviewState, "DUPLICATE");
 assert.equal(result.candidates[2].reviewHistory.length, 2);
 assert.equal(result.candidates[3].reviewState, "REJECTED");
 assert.equal(result.candidates[3].reviewHistory.length, 2);
-assert.equal(output.records[0].sources[0].sourceUrlRaw, "https://example.com/one");
+assert.equal(result.candidates[4].reviewState, "APPROVED");
+assert.equal(result.candidates[4].canonicalNewsId, output.records[0].newsId, "same topic must enrich the existing canonical record");
+assert.equal(output.records.length, 2, "same-topic sources must not create a second canonical article");
+assert.equal(output.records[0].sources.length, 2, "both source proofs must be preserved");
+assert.equal(output.records[0].sources[0].sourceId, "primary-source", "the most reliable source must become the public primary source");
+assert.ok(output.records[0].sources.some((source) => source.sourceUrlRaw === "https://example.com/one"), "the original source URL must be preserved as evidence");
 assert.equal(output.records[0].sources[0].imageUrlCanonical, "https://images.example.com/editorial.jpg");
 console.log("Candidate creation, duplicate prevention, approval, optional publication, rejection, duplicate marking, canonical creation, and source preservation passed.");
