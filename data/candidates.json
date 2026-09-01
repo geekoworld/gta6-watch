@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T21:53:49.637Z",
+  "generatedAt": "2026-09-01T01:17:51.726Z",
   "failures": [],
   "candidates": [
     {
@@ -3200,6 +3200,70 @@
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-08-31T21:53:49.637Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-901fdf2c64600798",
+      "detectedAt": "2026-09-01T01:17:51.726Z",
+      "publishedAt": "2026-09-01T00:11:53.000Z",
+      "title": "20 Real Miami Locations Behind GTA 6 Vice City Landmarks",
+      "summary": "Compare 20 GTA VI landmarks with their real Miami counterparts, including Kaseya Center, Miami Tower, E11EVEN and LoanDepot Park.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/real-miami-locations-in-gta-6-vice-city-d370",
+        "sourceUrlCanonical": "https://www.gtaboom.com/real-miami-locations-in-gta-6-vice-city-d370",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/00/68/gtavi-screenshot-places-vice-city-11.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/00/68/gtavi-screenshot-places-vice-city-11.jpg",
+        "externalId": "https://www.gtaboom.com/real-miami-locations-in-gta-6-vice-city-d370",
+        "platform": "WEB"
+      },
+      "contentHash": "2fb64e82873092cc80364b6ff10c845d57e231ab7a53bd914ceb618a9aac6b5e",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-01T01:17:51.726Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-6c424c2851bd0a7f",
+      "detectedAt": "2026-09-01T01:17:51.726Z",
+      "publishedAt": "2026-08-31T23:19:12.000Z",
+      "title": "Rockstar Just Uploaded 29 New GTA 6 Screenshots and Here They All Are",
+      "summary": "The 29 new GTA VI screenshots show robberies, police chases, Jason and Lucia together, and fresh locations across Leonida.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/rockstar-uploads-29-new-gta-6-screenshots-bda7",
+        "sourceUrlCanonical": "https://www.gtaboom.com/rockstar-uploads-29-new-gta-6-screenshots-bda7",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/cf/5c/gtavi-screenshot-people-jason-and-lucia-13.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/cf/5c/gtavi-screenshot-people-jason-and-lucia-13.jpg",
+        "externalId": "https://www.gtaboom.com/rockstar-uploads-29-new-gta-6-screenshots-bda7",
+        "platform": "WEB"
+      },
+      "contentHash": "580cec44ea59f01009315c4b32a210d6c281503c9113b35fb88c91e4284db94f",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-01T01:17:51.726Z"
         }
       ]
     }
