@@ -551,7 +551,7 @@
       "category": "News",
       "publishedAt": "2026-08-28T12:00:00.000Z",
       "collectedAt": "2026-08-29T11:01:46.069Z",
-      "updatedAt": "2026-09-01T16:13:19.222Z",
+      "updatedAt": "2026-09-01T20:42:12.099Z",
       "sources": [
         {
           "sourceId": "rockstar-youtube",
@@ -585,6 +585,50 @@
           "imageUrlCanonical": "https://www.youtube.com/v/MJOrsRRa9GM?version=3",
           "externalId": "yt:video:MJOrsRRa9GM",
           "publishedAt": "2026-08-28T01:01:30.000Z"
+        },
+        {
+          "sourceId": "rockstar-youtube",
+          "sourceName": "Rockstar Games — YouTube",
+          "sourceTier": 100,
+          "sourceUrlRaw": "https://www.youtube.com/shorts/Xzxv75FjMJk",
+          "sourceUrlCanonical": "https://www.youtube.com/shorts/Xzxv75FjMJk",
+          "imageUrlRaw": "https://www.youtube.com/v/Xzxv75FjMJk?version=3",
+          "imageUrlCanonical": "https://www.youtube.com/v/Xzxv75FjMJk?version=3",
+          "externalId": "yt:video:Xzxv75FjMJk",
+          "publishedAt": "2026-08-28T01:01:15.000Z"
+        },
+        {
+          "sourceId": "rockstar-youtube",
+          "sourceName": "Rockstar Games — YouTube",
+          "sourceTier": 100,
+          "sourceUrlRaw": "https://www.youtube.com/shorts/GVTE_MuInQg",
+          "sourceUrlCanonical": "https://www.youtube.com/shorts/GVTE_MuInQg",
+          "imageUrlRaw": "https://www.youtube.com/v/GVTE_MuInQg?version=3",
+          "imageUrlCanonical": "https://www.youtube.com/v/GVTE_MuInQg?version=3",
+          "externalId": "yt:video:GVTE_MuInQg",
+          "publishedAt": "2026-08-28T01:01:18.000Z"
+        },
+        {
+          "sourceId": "rockstar-youtube",
+          "sourceName": "Rockstar Games — YouTube",
+          "sourceTier": 100,
+          "sourceUrlRaw": "https://www.youtube.com/shorts/L-9NI3mHZVo",
+          "sourceUrlCanonical": "https://www.youtube.com/shorts/L-9NI3mHZVo",
+          "imageUrlRaw": "https://www.youtube.com/v/L-9NI3mHZVo?version=3",
+          "imageUrlCanonical": "https://www.youtube.com/v/L-9NI3mHZVo?version=3",
+          "externalId": "yt:video:L-9NI3mHZVo",
+          "publishedAt": "2026-08-28T01:01:21.000Z"
+        },
+        {
+          "sourceId": "rockstar-youtube",
+          "sourceName": "Rockstar Games — YouTube",
+          "sourceTier": 100,
+          "sourceUrlRaw": "https://www.youtube.com/shorts/mAfR_ybf5WM",
+          "sourceUrlCanonical": "https://www.youtube.com/shorts/mAfR_ybf5WM",
+          "imageUrlRaw": "https://www.youtube.com/v/mAfR_ybf5WM?version=3",
+          "imageUrlCanonical": "https://www.youtube.com/v/mAfR_ybf5WM?version=3",
+          "externalId": "yt:video:mAfR_ybf5WM",
+          "publishedAt": "2026-08-28T01:01:24.000Z"
         }
       ],
       "scores": {
@@ -607,7 +651,7 @@
       "category": "News",
       "publishedAt": "2026-08-28T12:00:00.000Z",
       "collectedAt": "2026-08-29T11:01:46.069Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T20:42:11.920Z",
       "sources": [
         {
           "sourceId": "rockstar-youtube",
@@ -619,6 +663,17 @@
           "publishedAt": "2026-08-28T12:00:00.000Z",
           "imageUrlRaw": "https://www.youtube.com/v/tJbzMqJGH4k?version=3",
           "imageUrlCanonical": "https://www.youtube.com/v/tJbzMqJGH4k?version=3"
+        },
+        {
+          "sourceId": "rockstar-youtube",
+          "sourceName": "Rockstar Games — YouTube",
+          "sourceTier": 100,
+          "sourceUrlRaw": "https://www.youtube.com/watch?v=tJbzMqJGH4k",
+          "sourceUrlCanonical": "https://www.youtube.com/watch?v=tJbzMqJGH4k",
+          "imageUrlRaw": "https://www.youtube.com/v/tJbzMqJGH4k?version=3",
+          "imageUrlCanonical": "https://www.youtube.com/v/tJbzMqJGH4k?version=3",
+          "externalId": "yt:video:tJbzMqJGH4k",
+          "publishedAt": "2026-08-28T01:00:48.000Z"
         }
       ],
       "scores": {
@@ -866,7 +921,7 @@
       "category": "News",
       "publishedAt": "2026-08-28T12:00:00.000Z",
       "collectedAt": "2026-08-29T11:01:46.378Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T20:42:11.873Z",
       "sources": [
         {
           "sourceId": "tgg",
@@ -878,6 +933,17 @@
           "publishedAt": "2026-08-28T12:00:00.000Z",
           "imageUrlRaw": "https://www.youtube.com/v/HlYJaZCurGU?version=3",
           "imageUrlCanonical": "https://www.youtube.com/v/HlYJaZCurGU?version=3"
+        },
+        {
+          "sourceId": "tgg",
+          "sourceName": "TGG",
+          "sourceTier": 75,
+          "sourceUrlRaw": "https://www.youtube.com/watch?v=HlYJaZCurGU",
+          "sourceUrlCanonical": "https://www.youtube.com/watch?v=HlYJaZCurGU",
+          "imageUrlRaw": "https://www.youtube.com/v/HlYJaZCurGU?version=3",
+          "imageUrlCanonical": "https://www.youtube.com/v/HlYJaZCurGU?version=3",
+          "externalId": "yt:video:HlYJaZCurGU",
+          "publishedAt": "2026-08-28T00:15:35.000Z"
         }
       ],
       "scores": {
@@ -900,7 +966,7 @@
       "category": "Analyses",
       "publishedAt": "2026-08-28T12:00:00.000Z",
       "collectedAt": "2026-08-29T11:01:46.378Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T20:42:11.829Z",
       "sources": [
         {
           "sourceId": "tgg",
@@ -912,6 +978,17 @@
           "publishedAt": "2026-08-28T12:00:00.000Z",
           "imageUrlRaw": "https://www.youtube.com/v/BTfzszKgRKc?version=3",
           "imageUrlCanonical": "https://www.youtube.com/v/BTfzszKgRKc?version=3"
+        },
+        {
+          "sourceId": "tgg",
+          "sourceName": "TGG",
+          "sourceTier": 75,
+          "sourceUrlRaw": "https://www.youtube.com/watch?v=BTfzszKgRKc",
+          "sourceUrlCanonical": "https://www.youtube.com/watch?v=BTfzszKgRKc",
+          "imageUrlRaw": "https://www.youtube.com/v/BTfzszKgRKc?version=3",
+          "imageUrlCanonical": "https://www.youtube.com/v/BTfzszKgRKc?version=3",
+          "externalId": "yt:video:BTfzszKgRKc",
+          "publishedAt": "2026-08-28T00:11:05.000Z"
         }
       ],
       "scores": {
@@ -1070,7 +1147,7 @@
       "category": "News",
       "publishedAt": "2026-08-27T12:00:00.000Z",
       "collectedAt": "2026-08-29T11:01:46.355Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T20:42:11.740Z",
       "sources": [
         {
           "sourceId": "gtaboom",
@@ -1082,6 +1159,17 @@
           "publishedAt": "2026-08-27T12:00:00.000Z",
           "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/5e/b3/what-the-gta-6-extended-look-showed-about-lucia-and-jason.jpg",
           "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/5e/b3/what-the-gta-6-extended-look-showed-about-lucia-and-jason.jpg"
+        },
+        {
+          "sourceId": "gtaboom",
+          "sourceName": "GTA BOOM",
+          "sourceTier": 80,
+          "sourceUrlRaw": "https://www.gtaboom.com/what-the-gta-6-extended-look-showed-about-lucia-and-jason-2b38",
+          "sourceUrlCanonical": "https://www.gtaboom.com/what-the-gta-6-extended-look-showed-about-lucia-and-jason-2b38",
+          "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/5e/b3/what-the-gta-6-extended-look-showed-about-lucia-and-jason.jpg",
+          "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/5e/b3/what-the-gta-6-extended-look-showed-about-lucia-and-jason.jpg",
+          "externalId": "https://www.gtaboom.com/what-the-gta-6-extended-look-showed-about-lucia-and-jason-2b38",
+          "publishedAt": "2026-08-27T22:44:00.000Z"
         }
       ],
       "scores": {
@@ -1104,7 +1192,7 @@
       "category": "Analyses",
       "publishedAt": "2026-08-27T12:00:00.000Z",
       "collectedAt": "2026-08-29T11:01:46.355Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T20:42:11.695Z",
       "sources": [
         {
           "sourceId": "gtaboom",
@@ -1116,6 +1204,17 @@
           "publishedAt": "2026-08-27T12:00:00.000Z",
           "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/08/e9/what-the-gta-6-extended-look-confirmed-about-how-it-plays.jpg",
           "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/08/e9/what-the-gta-6-extended-look-confirmed-about-how-it-plays.jpg"
+        },
+        {
+          "sourceId": "gtaboom",
+          "sourceName": "GTA BOOM",
+          "sourceTier": 80,
+          "sourceUrlRaw": "https://www.gtaboom.com/what-the-gta-6-extended-look-confirmed-about-how-it-plays-69ba",
+          "sourceUrlCanonical": "https://www.gtaboom.com/what-the-gta-6-extended-look-confirmed-about-how-it-plays-69ba",
+          "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/08/e9/what-the-gta-6-extended-look-confirmed-about-how-it-plays.jpg",
+          "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/08/e9/what-the-gta-6-extended-look-confirmed-about-how-it-plays.jpg",
+          "externalId": "https://www.gtaboom.com/what-the-gta-6-extended-look-confirmed-about-how-it-plays-69ba",
+          "publishedAt": "2026-08-27T22:01:00.000Z"
         }
       ],
       "scores": {
@@ -1138,7 +1237,7 @@
       "category": "News",
       "publishedAt": "2026-08-27T12:00:00.000Z",
       "collectedAt": "2026-08-29T11:01:46.355Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T20:42:11.649Z",
       "sources": [
         {
           "sourceId": "gtaboom",
@@ -1150,6 +1249,17 @@
           "publishedAt": "2026-08-27T12:00:00.000Z",
           "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/a9/8f/free-roam-activities-in-leonida-confirmed-by-the-gta-6-extended-look.jpg",
           "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/a9/8f/free-roam-activities-in-leonida-confirmed-by-the-gta-6-extended-look.jpg"
+        },
+        {
+          "sourceId": "gtaboom",
+          "sourceName": "GTA BOOM",
+          "sourceTier": 80,
+          "sourceUrlRaw": "https://www.gtaboom.com/free-roam-activities-in-leonida-confirmed-by-the-gta-6-extended-look-8ec2",
+          "sourceUrlCanonical": "https://www.gtaboom.com/free-roam-activities-in-leonida-confirmed-by-the-gta-6-extended-look-8ec2",
+          "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/a9/8f/free-roam-activities-in-leonida-confirmed-by-the-gta-6-extended-look.jpg",
+          "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/a9/8f/free-roam-activities-in-leonida-confirmed-by-the-gta-6-extended-look.jpg",
+          "externalId": "https://www.gtaboom.com/free-roam-activities-in-leonida-confirmed-by-the-gta-6-extended-look-8ec2",
+          "publishedAt": "2026-08-27T21:15:00.000Z"
         }
       ],
       "scores": {
@@ -1172,7 +1282,7 @@
       "category": "News",
       "publishedAt": "2026-08-27T12:00:00.000Z",
       "collectedAt": "2026-08-29T11:01:46.355Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T20:42:11.604Z",
       "sources": [
         {
           "sourceId": "gtaboom",
@@ -1184,6 +1294,17 @@
           "publishedAt": "2026-08-27T12:00:00.000Z",
           "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/97/5b/how-our-gta-6-extended-look-predictions-held-up.jpg",
           "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/97/5b/how-our-gta-6-extended-look-predictions-held-up.jpg"
+        },
+        {
+          "sourceId": "gtaboom",
+          "sourceName": "GTA BOOM",
+          "sourceTier": 80,
+          "sourceUrlRaw": "https://www.gtaboom.com/how-our-gta-6-extended-look-predictions-held-up-dd94",
+          "sourceUrlCanonical": "https://www.gtaboom.com/how-our-gta-6-extended-look-predictions-held-up-dd94",
+          "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/97/5b/how-our-gta-6-extended-look-predictions-held-up.jpg",
+          "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/97/5b/how-our-gta-6-extended-look-predictions-held-up.jpg",
+          "externalId": "https://www.gtaboom.com/how-our-gta-6-extended-look-predictions-held-up-dd94",
+          "publishedAt": "2026-08-27T20:06:00.000Z"
         }
       ],
       "scores": {
@@ -1376,7 +1497,7 @@
       "category": "News",
       "publishedAt": "2026-08-27T12:00:00.000Z",
       "collectedAt": "2026-08-29T11:01:46.399Z",
-      "updatedAt": "2026-08-31T21:01:29.847Z",
+      "updatedAt": "2026-09-01T20:42:11.784Z",
       "sources": [
         {
           "sourceId": "gta-vi-oclock",
@@ -1388,6 +1509,17 @@
           "publishedAt": "2026-08-27T12:00:00.000Z",
           "imageUrlRaw": "https://www.youtube.com/v/ls__BqL09QM?version=3",
           "imageUrlCanonical": "https://www.youtube.com/v/ls__BqL09QM?version=3"
+        },
+        {
+          "sourceId": "gta-vi-oclock",
+          "sourceName": "GTA VI O’Clock",
+          "sourceTier": 70,
+          "sourceUrlRaw": "https://www.youtube.com/watch?v=ls__BqL09QM",
+          "sourceUrlCanonical": "https://www.youtube.com/watch?v=ls__BqL09QM",
+          "imageUrlRaw": "https://www.youtube.com/v/ls__BqL09QM?version=3",
+          "imageUrlCanonical": "https://www.youtube.com/v/ls__BqL09QM?version=3",
+          "externalId": "yt:video:ls__BqL09QM",
+          "publishedAt": "2026-08-27T23:58:29.000Z"
         }
       ],
       "scores": {

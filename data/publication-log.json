@@ -161,6 +161,62 @@
       "channel": "website",
       "status": "published",
       "createdAt": "2026-08-29T11:01:46.378Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-rockstar-youtube-7fc0601e600a6518",
+      "newsId": "gta6-legacy-rockstar-youtube-7fc0601e600a6518",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-29T11:01:46.069Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-gtaboom-7cf780db02d0d78a",
+      "newsId": "gta6-legacy-gtaboom-7cf780db02d0d78a",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-29T11:01:46.355Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-gtaboom-9fd0dc87ef5d77dd",
+      "newsId": "gta6-legacy-gtaboom-9fd0dc87ef5d77dd",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-29T11:01:46.355Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-gtaboom-89235f8b48068d40",
+      "newsId": "gta6-legacy-gtaboom-89235f8b48068d40",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-29T11:01:46.355Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-gtaboom-dc26c8f6fdbb279a",
+      "newsId": "gta6-legacy-gtaboom-dc26c8f6fdbb279a",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-29T11:01:46.355Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-tgg-0ac8b1160ca86edb",
+      "newsId": "gta6-legacy-tgg-0ac8b1160ca86edb",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-29T11:01:46.378Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-tgg-9c7be5f79f330ea1",
+      "newsId": "gta6-legacy-tgg-9c7be5f79f330ea1",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-29T11:01:46.378Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-legacy-gta-vi-oclock-9faaefa13109c006",
+      "newsId": "gta6-legacy-gta-vi-oclock-9faaefa13109c006",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-08-29T11:01:46.399Z"
     }
   ]
 }
