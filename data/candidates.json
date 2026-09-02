@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-02T14:28:57.625Z",
+  "generatedAt": "2026-09-02T18:42:28.198Z",
   "failures": [],
   "candidates": [
     {
@@ -3784,6 +3784,70 @@
           "state": "APPROVED",
           "reason": "Approved and published by scheduled editorial policy.",
           "timestamp": "2026-09-02T16:08:41.052Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta-vi-oclock-84446b665934d075",
+      "detectedAt": "2026-09-02T18:42:28.198Z",
+      "publishedAt": "2026-09-02T17:41:16.000Z",
+      "title": "10 Ways GTA 6 Will Change Gaming FOREVER - GTA VI O'clock - Episode 139",
+      "summary": "🚨 The GTA 6 Extended Look has given us SO much to talk about! 🚨 On this week’s GTA VI O’clock, James Jarvis and Dan Dawkins dive into the biggest reveals from the Extended Look, explore just how alive GTA 6’s world is shaping up to be, and reveal when you can hear their reaction to actually seeing the game in person. 🌎 The living world of GTA 6. Just how detailed and dynamic is Rockstar’s new world? 🔟 The 10 most interesting reveals from the Extended Look! The details that will change gaming forever. 👀 When wi",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.7,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gta-vi-oclock",
+        "sourceName": "GTA VI O’Clock",
+        "sourceTier": 70,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=L9gS2vGDkzI",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=L9gS2vGDkzI",
+        "imageUrlRaw": "https://www.youtube.com/v/L9gS2vGDkzI?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/L9gS2vGDkzI?version=3",
+        "externalId": "yt:video:L9gS2vGDkzI",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "85ab4f937551d002fe96281d512c4e3baf0afd2360f8d2522ef312f3313dd995",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-02T18:42:28.198Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-ghilliemaster-1356bae70e67eb5b",
+      "detectedAt": "2026-09-02T18:42:28.198Z",
+      "publishedAt": "2026-09-02T17:00:06.000Z",
+      "title": "GTA 6 Takes Robbery Gameplay To a WHOLE NEW LEVEL!",
+      "summary": "GTA 6 is going to advance the robbery gameplay tremendously by integrating in depth, dynamic robberies into the seamless freemode experience! 🔒 Get 3 Months of the #1 rated VPN for FREE by using my referral link: https://www.expressvpn.com/ghilliemaster 📌 CONTACT ME Twitter: https://twitter.com/GhillieYT Discord: https://discord.gg/yH9GrNk Xbox Gamertag: R8 Ghillie Sources: https://www.youtube.com/@BenTheGamer300 https://www.youtube.com/@GamesWalkthroughChannel https://www.youtube.com/@TGG_ Business Inquiries: bu",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.68,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "ghilliemaster",
+        "sourceName": "GhillieMaster",
+        "sourceTier": 68,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=lbbeVxxCD88",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=lbbeVxxCD88",
+        "imageUrlRaw": "https://www.youtube.com/v/lbbeVxxCD88?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/lbbeVxxCD88?version=3",
+        "externalId": "yt:video:lbbeVxxCD88",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "898faaaa187e1ceeb38b705608e25c97ede30d66be6a565c5028df14ff512461",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-02T18:42:28.198Z"
         }
       ]
     }
