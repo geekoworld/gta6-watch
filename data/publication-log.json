@@ -245,6 +245,13 @@
       "channel": "website",
       "status": "published",
       "createdAt": "2026-09-02T16:08:41.052Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-a94664abe1ee328b268d",
+      "newsId": "gta6-a94664abe1ee328b268d",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-09-02T20:40:05.050Z"
     }
   ]
 }

@@ -4162,6 +4162,40 @@
         "xPostId": null,
         "shortsQueueId": null
       }
+    },
+    {
+      "newsId": "gta6-a94664abe1ee328b268d",
+      "title": "10 Ways GTA 6 Will Change Gaming FOREVER - GTA VI O'clock - Episode 139",
+      "summary": "🚨 The GTA 6 Extended Look has given us SO much to talk about! 🚨 On this week’s GTA VI O’clock, James Jarvis and Dan Dawkins dive into the biggest reveals from the Extended Look, explore just how alive GTA 6’s world is shaping up to be, and reveal when you can hear their reaction to actually seeing the game in person. 🌎 The living world of GTA 6. Just how detailed and dynamic is Rockstar’s new world? 🔟 The 10 most interesting reveals from the Extended Look! The details that will change gaming forever. 👀 When wi",
+      "status": "RUMOR",
+      "confidence": 70,
+      "category": "News",
+      "publishedAt": "2026-09-02T17:41:16.000Z",
+      "collectedAt": "2026-09-02T18:42:28.198Z",
+      "updatedAt": "2026-09-02T20:40:05.050Z",
+      "sources": [
+        {
+          "sourceId": "gta-vi-oclock",
+          "sourceName": "GTA VI O’Clock",
+          "sourceTier": 70,
+          "sourceUrlRaw": "https://www.youtube.com/watch?v=L9gS2vGDkzI",
+          "sourceUrlCanonical": "https://www.youtube.com/watch?v=L9gS2vGDkzI",
+          "imageUrlRaw": "https://www.youtube.com/v/L9gS2vGDkzI?version=3",
+          "imageUrlCanonical": "https://www.youtube.com/v/L9gS2vGDkzI?version=3",
+          "externalId": "yt:video:L9gS2vGDkzI",
+          "publishedAt": "2026-09-02T17:41:16.000Z"
+        }
+      ],
+      "scores": {
+        "article": 0,
+        "x": 0,
+        "shorts": 0
+      },
+      "publication": {
+        "articlePublishedAt": "2026-09-02T20:40:05.050Z",
+        "xPostId": null,
+        "shortsQueueId": null
+      }
     }
   ]
 }

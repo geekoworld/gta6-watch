@@ -3808,14 +3808,19 @@
         "platform": "YOUTUBE"
       },
       "contentHash": "85ab4f937551d002fe96281d512c4e3baf0afd2360f8d2522ef312f3313dd995",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-a94664abe1ee328b268d",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-02T18:42:28.198Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-02T20:40:05.050Z"
         }
       ]
     },
