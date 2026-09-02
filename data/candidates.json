@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-02T09:36:58.884Z",
+  "generatedAt": "2026-09-02T10:50:13.018Z",
   "failures": [],
   "candidates": [
     {
@@ -3628,14 +3628,19 @@
         "platform": "WEB"
       },
       "contentHash": "6e209a7c714a1825caf3da2f77c9717cf9c2aa0f8773727a07c42766638403c5",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-6378ec6b6bf4982c0a62",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-02T09:36:58.884Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-02T10:50:14.239Z"
         }
       ]
     },
@@ -3660,14 +3665,19 @@
         "platform": "YOUTUBE"
       },
       "contentHash": "dd1f1d9c29c24ea9cb96f0d8377320a1d4f067048d272bff22a8406b68016632",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-75ec4048503ca74b536d",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-02T09:36:58.884Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-02T10:50:14.202Z"
         }
       ]
     },
@@ -3700,6 +3710,43 @@
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-02T09:36:58.884Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-d0605aa9a5f05385",
+      "detectedAt": "2026-09-02T10:50:13.018Z",
+      "publishedAt": "2026-09-02T10:34:50.000Z",
+      "title": "Sony Says You Never Owned Your Games, Which Is The Problem",
+      "summary": "Digital GTA VI purchases are licenses, not ownership, so Sony's courtroom stance applies to the $100 Ultimate Edition too.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/sony-says-you-never-owned-your-games-which-is-the-problem-d4dc",
+        "sourceUrlCanonical": "https://www.gtaboom.com/sony-says-you-never-owned-your-games-which-is-the-problem-d4dc",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/77/20/sony-says-you-never-owned-your-games-which-is-the-problem.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/77/20/sony-says-you-never-owned-your-games-which-is-the-problem.jpg",
+        "externalId": "https://www.gtaboom.com/sony-says-you-never-owned-your-games-which-is-the-problem-d4dc",
+        "platform": "WEB"
+      },
+      "contentHash": "3f1c5b375f77efe3f9d42638e6483c3c892ad958aea94887daca223f3809ef2e",
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-cfe7fd7f1df188f3c652",
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-02T10:50:13.018Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-02T10:50:14.275Z"
         }
       ]
     }

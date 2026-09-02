@@ -217,6 +217,27 @@
       "channel": "website",
       "status": "published",
       "createdAt": "2026-08-29T11:01:46.399Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-6378ec6b6bf4982c0a62",
+      "newsId": "gta6-6378ec6b6bf4982c0a62",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-09-02T10:50:14.239Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-75ec4048503ca74b536d",
+      "newsId": "gta6-75ec4048503ca74b536d",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-09-02T10:50:14.202Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-cfe7fd7f1df188f3c652",
+      "newsId": "gta6-cfe7fd7f1df188f3c652",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-09-02T10:50:14.275Z"
     }
   ]
 }
