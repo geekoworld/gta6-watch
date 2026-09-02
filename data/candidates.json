@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-01T07:48:56.412Z",
+  "generatedAt": "2026-09-02T09:36:58.884Z",
   "failures": [],
   "candidates": [
     {
@@ -3604,6 +3604,102 @@
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-01T07:48:56.412Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-881f0ea5b3778273",
+      "detectedAt": "2026-09-02T09:36:58.884Z",
+      "publishedAt": "2026-09-02T08:37:00.000Z",
+      "title": "GTA 6 Preview Details New Lock On Aiming, Weapon Carry Limits and L3 Sprinting",
+      "summary": "GTA 6 defaults to freer aiming, limits each character to two long guns and moves sprinting from repeated button taps to L3.",
+      "statusSuggested": "THEORY",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Analyses",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/gta-6-drops-default-lock-on-limits-guns-sprint-l3-204b",
+        "sourceUrlCanonical": "https://www.gtaboom.com/gta-6-drops-default-lock-on-limits-guns-sprint-l3-204b",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/70/01/gtavi-screenshot-people-jason-and-lucia-12.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/70/01/gtavi-screenshot-people-jason-and-lucia-12.jpg",
+        "externalId": "https://www.gtaboom.com/gta-6-drops-default-lock-on-limits-guns-sprint-l3-204b",
+        "platform": "WEB"
+      },
+      "contentHash": "6e209a7c714a1825caf3da2f77c9717cf9c2aa0f8773727a07c42766638403c5",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-02T09:36:58.884Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-9b4d9e5b4c49bcf1",
+      "detectedAt": "2026-09-02T09:36:58.884Z",
+      "publishedAt": "2026-09-02T07:25:09.000Z",
+      "title": "GTA 6: Movement Controls, Combat & Weapons Are COMPLETELY Different Now | Deep Dive",
+      "summary": "Get 10% off all GamerSupps products with this link - https://gamersupps.gg/tgg Follow me on Twitter/X: https://twitter.com/TGGonYT Twitch: https://www.twitch.tv/tgg_gta Instagram: https://www.instagram.com/tee_gee_gee/ Join our Discord for help with Business Sales & Heists: https://discord.com/invite/gorillagang My Headset: https://amzn.to/3CJgcBZ My Mouse: https://amzn.to/4ibs3cf My Keyboard: https://amzn.to/3Os5fHr My Console: https://amzn.to/3Zfofhw My GPU: https://amzn.to/49noX0C Grand Theft Auto 5. GTA 5. GTA ",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=j0-T6os4Gn8",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=j0-T6os4Gn8",
+        "imageUrlRaw": "https://www.youtube.com/v/j0-T6os4Gn8?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/j0-T6os4Gn8?version=3",
+        "externalId": "yt:video:j0-T6os4Gn8",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "dd1f1d9c29c24ea9cb96f0d8377320a1d4f067048d272bff22a8406b68016632",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-02T09:36:58.884Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-the-professional-940caefe72412d35",
+      "detectedAt": "2026-09-02T09:36:58.884Z",
+      "publishedAt": "2026-09-02T02:11:10.000Z",
+      "title": "Jason Is Not A Dull And Boring Character In GTA 6- Respoding To The Hate Of Jason",
+      "summary": "Me talking about the controversy with Jason and people disliking him. 0:00 Intro 0:50 This Same Thing Happened With Arthur 1:42 Aiden Pearce Was Also Called Boring 4:45 Not Every Character Needs To Talk Alot 5:52 Jason Could Be Inspired By Vic Vance 6:38 Claude Was Not A Boring Character 7:45 Jason Interactions 9:43 Difference Between Jason And Lucia's Personality 11:53 Why Both Their Personalities Being Different Will Make The Story Better 12:55 Jason Will Have Some Optional Dialogue Options 13:26 Jason Does Have ",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.66,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "the-professional",
+        "sourceName": "TheProfessional",
+        "sourceTier": 66,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=ONg41RuDG_g",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=ONg41RuDG_g",
+        "imageUrlRaw": "https://www.youtube.com/v/ONg41RuDG_g?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/ONg41RuDG_g?version=3",
+        "externalId": "yt:video:ONg41RuDG_g",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "384f1ecd102ed1f1944061928fa38585052d646252debc5ce17e99e8e564c220",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-02T09:36:58.884Z"
         }
       ]
     }
