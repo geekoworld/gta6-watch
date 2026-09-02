@@ -3771,14 +3771,19 @@
         "platform": "WEB"
       },
       "contentHash": "14140a41da3554d356efd5f37932134187a651636bf66f2e9c045b73f98bd2d7",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-216558e086685b60508d",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-02T14:28:57.625Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-02T16:08:41.052Z"
         }
       ]
     }

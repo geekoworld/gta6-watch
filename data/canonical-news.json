@@ -4128,6 +4128,40 @@
         "xPostId": null,
         "shortsQueueId": null
       }
+    },
+    {
+      "newsId": "gta6-216558e086685b60508d",
+      "title": "Creators Detail Next-Level Random GTA 6 Events That Surprised Even the Developers",
+      "summary": "Creators previewing Grand Theft Auto VI say NPCs run independent crimes, like botched robberies, that even Rockstar staff hadn't seen before.",
+      "status": "THEORY",
+      "confidence": 80,
+      "category": "Analyses",
+      "publishedAt": "2026-09-02T13:35:48.000Z",
+      "collectedAt": "2026-09-02T14:28:57.625Z",
+      "updatedAt": "2026-09-02T16:08:41.052Z",
+      "sources": [
+        {
+          "sourceId": "gtaboom",
+          "sourceName": "GTA BOOM",
+          "sourceTier": 80,
+          "sourceUrlRaw": "https://www.gtaboom.com/creators-detail-next-level-random-gta-6-events-that-surprsied-even-the-developers-e8e9",
+          "sourceUrlCanonical": "https://www.gtaboom.com/creators-detail-next-level-random-gta-6-events-that-surprsied-even-the-developers-e8e9",
+          "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/a9/f4/creators-detail-next-level-random-gta-6-events-that-surprsied-even-the-developers.jpg",
+          "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/a9/f4/creators-detail-next-level-random-gta-6-events-that-surprsied-even-the-developers.jpg",
+          "externalId": "https://www.gtaboom.com/creators-detail-next-level-random-gta-6-events-that-surprsied-even-the-developers-e8e9",
+          "publishedAt": "2026-09-02T13:35:48.000Z"
+        }
+      ],
+      "scores": {
+        "article": 0,
+        "x": 0,
+        "shorts": 0
+      },
+      "publication": {
+        "articlePublishedAt": "2026-09-02T16:08:41.052Z",
+        "xPostId": null,
+        "shortsQueueId": null
+      }
     }
   ]
 }

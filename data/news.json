@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T10:50:14.383Z",
+  "generatedAt": "2026-09-02T16:08:41.196Z",
   "failures": [],
   "articles": [
     {
@@ -33,6 +33,22 @@
       "summary": "Digital GTA VI purchases are licenses, not ownership, so Sony's courtroom stance applies to the $100 Ultimate Edition too.",
       "favorite": false,
       "collectedAt": "2026-09-02T10:50:13.018Z"
+    },
+    {
+      "id": "gta6-216558e086685b60508d",
+      "title": "Creators Detail Next-Level Random GTA 6 Events That Surprised Even the Developers",
+      "category": "Analyses",
+      "credibility": "Probable",
+      "source": "GTA BOOM",
+      "sourceId": "gtaboom",
+      "sourceTier": "B",
+      "sourceScore": 80,
+      "url": "https://www.gtaboom.com/creators-detail-next-level-random-gta-6-events-that-surprsied-even-the-developers-e8e9",
+      "imageUrl": "https://media.gtaboom.com/variants/1920/media/images/a9/f4/creators-detail-next-level-random-gta-6-events-that-surprsied-even-the-developers.jpg",
+      "date": "2026-09-02",
+      "summary": "Creators previewing Grand Theft Auto VI say NPCs run independent crimes, like botched robberies, that even Rockstar staff hadn't seen before.",
+      "favorite": false,
+      "collectedAt": "2026-09-02T14:28:57.625Z"
     },
     {
       "id": "gta6-75ec4048503ca74b536d",
