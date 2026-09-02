@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-02T10:50:13.018Z",
+  "generatedAt": "2026-09-02T14:28:57.625Z",
   "failures": [],
   "candidates": [
     {
@@ -3747,6 +3747,38 @@
           "state": "APPROVED",
           "reason": "Approved and published by scheduled editorial policy.",
           "timestamp": "2026-09-02T10:50:14.275Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-3557c6e4df33f893",
+      "detectedAt": "2026-09-02T14:28:57.625Z",
+      "publishedAt": "2026-09-02T13:35:48.000Z",
+      "title": "Creators Detail Next-Level Random GTA 6 Events That Surprised Even the Developers",
+      "summary": "Creators previewing Grand Theft Auto VI say NPCs run independent crimes, like botched robberies, that even Rockstar staff hadn't seen before.",
+      "statusSuggested": "THEORY",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Analyses",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/creators-detail-next-level-random-gta-6-events-that-surprsied-even-the-developers-e8e9",
+        "sourceUrlCanonical": "https://www.gtaboom.com/creators-detail-next-level-random-gta-6-events-that-surprsied-even-the-developers-e8e9",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/a9/f4/creators-detail-next-level-random-gta-6-events-that-surprsied-even-the-developers.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/a9/f4/creators-detail-next-level-random-gta-6-events-that-surprsied-even-the-developers.jpg",
+        "externalId": "https://www.gtaboom.com/creators-detail-next-level-random-gta-6-events-that-surprsied-even-the-developers-e8e9",
+        "platform": "WEB"
+      },
+      "contentHash": "14140a41da3554d356efd5f37932134187a651636bf66f2e9c045b73f98bd2d7",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-02T14:28:57.625Z"
         }
       ]
     }
