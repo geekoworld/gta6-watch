@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-02T18:42:28.198Z",
+  "generatedAt": "2026-09-02T21:49:18.604Z",
   "failures": [],
   "candidates": [
     {
@@ -3853,6 +3853,102 @@
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-02T18:42:28.198Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-edf980795bf95655",
+      "detectedAt": "2026-09-02T21:49:18.604Z",
+      "publishedAt": "2026-09-02T21:46:17.000Z",
+      "title": "Rockstar Is Now Advertising GTA 6 Inside GTA Online",
+      "summary": "Players have spotted a GTA 6 pre-order tile in GTA Online's menu, turning Rockstar's decade-old live-service game into a billboard for the sequel.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/rockstar-is-now-advertising-gta-6-inside-gta-online-4f2d",
+        "sourceUrlCanonical": "https://www.gtaboom.com/rockstar-is-now-advertising-gta-6-inside-gta-online-4f2d",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/c8/2a/rockstar-is-now-advertising-gta-6-inside-gta-online.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/c8/2a/rockstar-is-now-advertising-gta-6-inside-gta-online.jpg",
+        "externalId": "https://www.gtaboom.com/rockstar-is-now-advertising-gta-6-inside-gta-online-4f2d",
+        "platform": "WEB"
+      },
+      "contentHash": "4408aacac8fcb1a41f1379b9006f6ec0fe9e02cbd653a7c81c3c04bcb8ab9bb7",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-02T21:49:18.604Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-a6400781fd995d31",
+      "detectedAt": "2026-09-02T21:49:18.604Z",
+      "publishedAt": "2026-09-02T20:55:00.000Z",
+      "title": "GTA 6 Just Topped Netflix Charts, and the Copycats Are Coming",
+      "summary": "Grand Theft Auto VI: An Extended Look drew 31.1 million Netflix views in four days, but it barely nudged Netflix's overall content lineup.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/gta-6-an-extended-look-topped-netflix-with-311-million-views-b21a",
+        "sourceUrlCanonical": "https://www.gtaboom.com/gta-6-an-extended-look-topped-netflix-with-311-million-views-b21a",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/15/f3/gta-6-an-extended-look-topped-netflix-with-311-million-views.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/15/f3/gta-6-an-extended-look-topped-netflix-with-311-million-views.jpg",
+        "externalId": "https://www.gtaboom.com/gta-6-an-extended-look-topped-netflix-with-311-million-views-b21a",
+        "platform": "WEB"
+      },
+      "contentHash": "98fd5bef5cf1c8738b8f04d6cd9524668def21fc84ec6d61745c9d38612904e7",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-02T21:49:18.604Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-7f9aa06f90ffcc4e",
+      "detectedAt": "2026-09-02T21:49:18.604Z",
+      "publishedAt": "2026-09-02T20:47:42.000Z",
+      "title": "4X MONEY, FREE CEO OFFICE, CARGO BONUSES & MORE | GTA Online Weekly Update",
+      "summary": "Get 10% off all GamerSupps products with this link - https://gamersupps.gg/tgg Follow me on Twitter/X: https://twitter.com/TGGonYT Twitch: https://www.twitch.tv/tgg_gta Instagram: https://www.instagram.com/tee_gee_gee/ Join our Discord for help with Business Sales & Heists: https://discord.com/invite/gorillagang My Headset: https://amzn.to/3CJgcBZ My Mouse: https://amzn.to/4ibs3cf My Keyboard: https://amzn.to/3Os5fHr My Console: https://amzn.to/3Zfofhw My GPU: https://amzn.to/49noX0C Grand Theft Auto 5. GTA 5. GTA ",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=i9zG44cEnW0",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=i9zG44cEnW0",
+        "imageUrlRaw": "https://www.youtube.com/v/i9zG44cEnW0?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/i9zG44cEnW0?version=3",
+        "externalId": "yt:video:i9zG44cEnW0",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "cd2463475f29100dbba28e89a6ad0ece0014c09b8a7553deb18f4d9f484ecd8d",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-02T21:49:18.604Z"
         }
       ]
     }
