@@ -135,6 +135,113 @@
     .article-card, .source-card { transition:none; }
   }
 </style>
+<style>
+  /* ------------------------------------------------------------------ */
+  /* Vice City Intelligence Desk — Phase 1 visual layer                 */
+  /* ------------------------------------------------------------------ */
+  :root, [data-theme="dark"] {
+    --bg:#030914; --bg-elev:#081222; --bg-card:rgba(9,19,35,.82); --sidebar:rgba(4,12,25,.96);
+    --border:rgba(132,163,204,.20); --border-soft:rgba(132,163,204,.12); --text:#F4F7FB; --text-muted:#9EAABD;
+    --pink:#ED187D; --cyan:#24E3D0; --purple:#A950D8; --gold:#F4B84A; --green:#24D7AC; --red:#FF6A57;
+    --shadow:0 20px 50px rgba(0,0,0,.32); --card-hover:rgba(15,31,54,.98); --focus:#65F3E3;
+  }
+  [data-theme="light"] {
+    --bg:#F3F5F8; --bg-elev:#E9EDF3; --bg-card:rgba(255,255,255,.92); --sidebar:rgba(249,250,252,.97);
+    --border:rgba(37,60,92,.20); --border-soft:rgba(37,60,92,.12); --text:#0B1728; --text-muted:#607087;
+    --pink:#C91869; --cyan:#087F78; --purple:#7742A4; --gold:#976300; --green:#087F65; --red:#C84739;
+    --shadow:0 16px 42px rgba(21,38,61,.10); --card-hover:#FFFFFF; --focus:#087F78;
+  }
+  html, body { background:var(--bg); }
+  body { background-image:radial-gradient(circle at 78% -10%,rgba(237,24,125,.13),transparent 34%),radial-gradient(circle at 34% 110%,rgba(36,227,208,.07),transparent 38%); }
+  .app-shell { background:transparent; }
+  .font-display { font-family:Impact,"Arial Narrow",Roboto Condensed,Arial,sans-serif; letter-spacing:.048em; }
+  .font-mono { letter-spacing:.025em; }
+  .sidebar { width:252px; flex-basis:252px; background:linear-gradient(180deg,var(--sidebar),color-mix(in srgb,var(--sidebar) 82%,#07172a)); border-right-color:var(--border-soft); }
+  .sidebar-accent { height:2px; flex-basis:2px; background:linear-gradient(90deg,var(--pink),#c52d9b 52%,var(--cyan)) !important; box-shadow:0 0 18px color-mix(in srgb,var(--pink) 42%,transparent); }
+  .sidebar-header { min-height:122px; padding:17px 19px 14px; align-items:flex-start; }
+  .brand-home { text-align:left; border-radius:4px; }
+  .brand-logo { height:86px; object-position:left center; filter:drop-shadow(0 6px 14px rgba(0,0,0,.36)); }
+  .sidebar-nav { padding:8px 12px 14px; }
+  .sidebar-nav::before { content:"INTELLIGENCE"; display:block; margin:5px 10px 11px; color:var(--pink); font-family:'SFMono-Regular',Consolas,monospace; font-size:9px; font-weight:800; letter-spacing:.15em; }
+  .nav-button { border:1px solid transparent !important; border-radius:7px !important; min-height:39px; padding:9px 10px !important; margin-bottom:3px !important; transition:background .16s ease,border-color .16s ease,color .16s ease,transform .16s ease; }
+  .nav-button:hover { background:rgba(102,127,165,.08) !important; border-color:var(--border-soft) !important; transform:translateX(2px); }
+  .nav-button.active { background:linear-gradient(90deg,rgba(237,24,125,.16),rgba(237,24,125,.035)) !important; border-color:rgba(237,24,125,.38) !important; box-shadow:inset 2px 0 0 var(--pink); }
+  .nav-button.active .nav-icon { filter:drop-shadow(0 0 7px color-mix(in srgb,var(--pink) 65%,transparent)); }
+  .nav-count { padding:2px 6px; border:1px solid var(--border-soft); border-radius:999px; font-size:9.5px; }
+  .sidebar-footer { padding:13px 14px 15px; background:rgba(2,8,18,.20); }
+  .secondary-action { border-radius:5px; border-color:rgba(237,24,125,.50); background:linear-gradient(90deg,rgba(237,24,125,.16),rgba(237,24,125,.045)); font-size:11px; letter-spacing:.045em; text-transform:uppercase; }
+  .quiet-action { border-radius:5px; font-family:'SFMono-Regular',Consolas,monospace; font-size:9.5px; }
+  .main-panel { position:relative; background:linear-gradient(145deg,transparent 42%,rgba(81,16,74,.08)); }
+  .topbar { min-height:62px; padding:11px 28px; background:rgba(3,9,20,.72); border-bottom-color:var(--border-soft); backdrop-filter:blur(16px); }
+  .update-meta { color:var(--text-muted); font-size:10px; letter-spacing:.05em; text-transform:uppercase; }
+  .live-dot { width:6px; height:6px; box-shadow:0 0 0 3px color-mix(in srgb,var(--cyan) 14%,transparent),0 0 12px color-mix(in srgb,var(--cyan) 72%,transparent); }
+  .theme-toggle { border-radius:5px; background:rgba(120,144,177,.08); border-color:var(--border-soft); }
+  .theme-toggle:hover { box-shadow:0 0 16px color-mix(in srgb,var(--cyan) 28%,transparent); }
+  .intelligence-masthead { position:relative; overflow:hidden; padding:30px 28px 26px; border-bottom:1px solid var(--border-soft); background:radial-gradient(circle at 79% 22%,rgba(237,24,125,.22),transparent 27%),linear-gradient(112deg,rgba(8,18,34,.94),rgba(5,13,26,.72)); }
+  .intelligence-masthead::after { content:""; position:absolute; width:380px; height:380px; right:-110px; top:-255px; border:1px solid rgba(36,227,208,.22); border-radius:50%; box-shadow:0 0 0 32px rgba(36,227,208,.025),0 0 0 65px rgba(237,24,125,.022); pointer-events:none; }
+  .masthead-eyebrow { margin:0 0 8px; color:var(--pink); font-family:'SFMono-Regular',Consolas,monospace; font-size:10px; font-weight:800; letter-spacing:.15em; }
+  .masthead-title { position:relative; z-index:1; max-width:730px; margin:0; font-size:clamp(30px,4vw,47px); line-height:.92; text-transform:uppercase; }
+  .masthead-title strong { color:var(--pink); font-weight:inherit; }
+  .masthead-meta { position:relative; z-index:1; display:flex; align-items:center; gap:9px; margin-top:15px; color:var(--text-muted); font-family:'SFMono-Regular',Consolas,monospace; font-size:10px; letter-spacing:.04em; }
+  .masthead-meta .live-dot { flex:0 0 auto; }
+  .feed-section-heading { padding:22px 28px 8px; background:transparent; }
+  .feed-section-heading .nav-icon { color:var(--pink); }
+  .feed-section-heading h2 { margin:0; font-size:24px !important; letter-spacing:.06em; }
+  .filterbar { padding:13px 28px 17px; gap:10px; border-bottom-color:var(--border-soft); background:transparent; }
+  .filterbar::before { content:"FILTER SIGNALS"; color:var(--text-muted); font-family:'SFMono-Regular',Consolas,monospace; font-size:9px; font-weight:800; letter-spacing:.12em; }
+  .search-wrap { flex-basis:310px; }
+  .filterbar input, .filterbar select { border-radius:5px !important; border-color:var(--border-soft) !important; background:rgba(8,18,34,.75) !important; color:var(--text) !important; font-size:12px !important; }
+  .review-filter { border-radius:5px; border-color:var(--border-soft); background:rgba(8,18,34,.75); font-family:'SFMono-Regular',Consolas,monospace; font-size:10px; letter-spacing:.025em; }
+  .review-filter:hover, .review-filter.active { box-shadow:0 0 14px color-mix(in srgb,var(--gold) 18%,transparent); }
+  .feed-scroll { padding:22px 28px 34px; }
+  .featured-news-card { display:grid; grid-template-columns:minmax(260px,1.18fr) minmax(260px,1fr); min-height:310px; margin:0 0 24px; overflow:hidden; border:1px solid rgba(237,24,125,.34); border-radius:9px; background:linear-gradient(115deg,rgba(14,24,44,.96),rgba(7,16,30,.96)); box-shadow:0 18px 40px rgba(0,0,0,.18),inset 0 1px 0 rgba(255,255,255,.035); cursor:pointer; transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease; }
+  .featured-news-card:hover { transform:translateY(-2px); border-color:rgba(237,24,125,.74); box-shadow:0 23px 52px rgba(0,0,0,.28),0 0 34px rgba(237,24,125,.08); }
+  .featured-news-visual { min-height:310px; position:relative; }
+  .featured-news-visual .article-visual { height:100% !important; min-height:310px; margin:0 !important; border:0 !important; border-radius:0 !important; }
+  .featured-news-body { display:flex; flex-direction:column; padding:25px 25px 22px; }
+  .signal-label { display:flex; align-items:center; gap:7px; margin-bottom:13px; color:var(--pink); font-family:'SFMono-Regular',Consolas,monospace; font-size:9px; font-weight:800; letter-spacing:.14em; }
+  .signal-label::before { content:""; width:6px; height:6px; border-radius:50%; background:var(--pink); box-shadow:0 0 10px var(--pink); }
+  .featured-news-title { margin:0 0 12px; font-size:clamp(21px,2.4vw,31px); line-height:1.05; letter-spacing:-.025em; }
+  .featured-news-summary { margin:0; color:var(--text-muted); font-size:13px; line-height:1.65; }
+  .featured-news-footer { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-top:auto; padding-top:18px; border-top:1px solid var(--border-soft); }
+  .featured-news-source { color:var(--text-muted); font-family:'SFMono-Regular',Consolas,monospace; font-size:10px; }
+  .featured-news-open { color:var(--pink); font-family:'SFMono-Regular',Consolas,monospace; font-size:10px; font-weight:800; letter-spacing:.07em; }
+  .article-grid { grid-template-columns:repeat(auto-fill,minmax(270px,1fr)); gap:14px; }
+  .article-card { border-radius:8px !important; padding:14px !important; background:linear-gradient(145deg,rgba(11,23,42,.88),rgba(7,15,29,.90)) !important; border-color:var(--border-soft) !important; box-shadow:inset 0 1px 0 rgba(255,255,255,.025); }
+  .article-card:hover { transform:translateY(-3px); border-color:rgba(237,24,125,.42) !important; background:linear-gradient(145deg,rgba(16,30,52,.98),rgba(8,18,34,.98)) !important; box-shadow:0 18px 36px rgba(0,0,0,.22),0 0 22px rgba(237,24,125,.055) !important; }
+  .article-card::after { content:""; position:absolute; left:0; right:0; bottom:0; height:1px; background:linear-gradient(90deg,transparent,var(--pink),transparent); opacity:0; transition:opacity .16s ease; }
+  .article-card:hover::after { opacity:.72; }
+  .article-card h3 { margin:0 0 10px !important; font-size:17px !important; line-height:1.22 !important; letter-spacing:-.014em; }
+  .article-card .article-visual { height:158px !important; margin:0 0 14px !important; border-radius:5px !important; }
+  .article-card p { font-size:12px !important; line-height:1.58 !important; }
+  .cred-badge { border-radius:4px !important; padding:3px 7px !important; font-family:'SFMono-Regular',Consolas,monospace; font-size:9px !important; font-weight:800 !important; letter-spacing:.035em; text-transform:uppercase; }
+  .category-pill { border-radius:4px !important; font-family:'SFMono-Regular',Consolas,monospace; font-size:9px !important; font-weight:800 !important; letter-spacing:.035em; text-transform:uppercase; }
+  .favorite-toggle { border:1px solid transparent !important; border-radius:4px !important; width:26px; height:26px; display:grid; place-items:center; transition:border-color .16s ease,background .16s ease; }
+  .favorite-toggle:hover { border-color:var(--border) !important; background:rgba(244,184,74,.08) !important; }
+  @media (max-width:720px) {
+    .sidebar { width:100%; flex-basis:64px; background:rgba(3,9,20,.98); }
+    .sidebar-header { min-height:64px; height:64px; padding:7px 14px 5px; align-items:center; }
+    .brand-logo { height:47px; }
+    .sidebar-menu { top:64px; background:rgba(3,9,20,.98); backdrop-filter:blur(16px); }
+    .sidebar-nav::before { margin-top:3px; }
+    .topbar { min-height:52px; padding:8px 14px; }
+    .intelligence-masthead { padding:24px 14px 22px; }
+    .intelligence-masthead::after { right:-190px; top:-235px; }
+    .masthead-title { font-size:31px; }
+    .feed-section-heading { padding:19px 14px 7px; }
+    .filterbar { padding:11px 14px 15px; }
+    .filterbar::before { width:100%; }
+    .feed-scroll { padding:16px 14px 28px; }
+    .featured-news-card { grid-template-columns:1fr; min-height:0; margin-bottom:18px; }
+    .featured-news-visual, .featured-news-visual .article-visual { min-height:196px; height:196px !important; }
+    .featured-news-body { padding:18px 17px 16px; }
+    .featured-news-title { font-size:24px; }
+    .article-card .article-visual { height:174px !important; }
+  }
+  @media (prefers-reduced-motion:reduce) {
+    .nav-button, .featured-news-card, .article-card, .article-card::after, .favorite-toggle { transition:none !important; }
+  }
+</style>
 </head>
 <body>
 <div id="root"><noscript><div class="boot-error">JavaScript must be enabled to use GTA 6 Watch.</div></noscript></div>
@@ -2309,6 +2416,7 @@ function CredBadge({
 }) {
   const cfg = CREDIBILITY[level] || CREDIBILITY["À vérifier"];
   return /*#__PURE__*/React.createElement("span", {
+    className: "cred-badge",
     style: {
       display: "inline-flex",
       alignItems: "center",
@@ -2328,6 +2436,7 @@ function CategoryPill({
   children
 }) {
   return /*#__PURE__*/React.createElement("span", {
+    className: "category-pill",
     style: {
       fontSize: 11,
       fontWeight: 600,
@@ -2358,6 +2467,7 @@ function ArticleVisual({
   const titleWeight = [...String(article.title || "")].reduce((total, char) => total + char.charCodeAt(0), 0) % 3;
   const rotation = ["125deg", "145deg", "110deg"][titleWeight];
   return /*#__PURE__*/React.createElement("div", {
+    className: "article-visual",
     "aria-label": imageUrl ? `Illustration for ${article.title}` : `GTA 6 Watch illustration for ${article.title}`,
     style: {
       position: "relative",
@@ -2907,6 +3017,7 @@ function ArticleCard({
     level: a.credibility,
     copy: copy
   }), /*#__PURE__*/React.createElement(CategoryPill, null, copy.categories[NEWS_CATEGORIES.has(a.category) ? "News" : a.category] || a.category)), /*#__PURE__*/React.createElement("button", {
+    className: "favorite-toggle",
     "aria-label": a.favorite ? copy.removeReview : copy.addReview,
     onClick: e => {
       e.stopPropagation();
@@ -2959,6 +3070,77 @@ function ArticleCard({
       color: "var(--pink)"
     }
   }, copy.viewSource, " ›")));
+}
+
+/* ------------------------------------------------------------------ */
+/* Phase 1 intelligence presentation                                  */
+/* ------------------------------------------------------------------ */
+function IntelligenceMasthead({ articleCount, copy }) {
+  return /*#__PURE__*/React.createElement("section", {
+    className: "intelligence-masthead",
+    "aria-label": "GTA 6 intelligence desk"
+  }, /*#__PURE__*/React.createElement("p", {
+    className: "masthead-eyebrow"
+  }, "GTA 6 WATCH · LIVE MEDIA INTELLIGENCE"), /*#__PURE__*/React.createElement("h1", {
+    className: "masthead-title font-display"
+  }, "VICE CITY ", /*#__PURE__*/React.createElement("strong", null, "INTELLIGENCE"), " DESK"), /*#__PURE__*/React.createElement("div", {
+    className: "masthead-meta"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "live-dot",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React.createElement("span", null, copy.updatedHourly), /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true"
+  }, "·"), /*#__PURE__*/React.createElement("span", null, articleCount, " ", copy.articles)));
+}
+function FeaturedNewsCard({
+  article,
+  onOpen,
+  copy,
+  language
+}) {
+  const displayed = articleText(article, language);
+  return /*#__PURE__*/React.createElement("article", {
+    className: "featured-news-card",
+    onClick: () => onOpen(article.id),
+    tabIndex: 0,
+    role: "button",
+    onKeyDown: event => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        onOpen(article.id);
+      }
+    },
+    "aria-label": displayed.title
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "featured-news-visual"
+  }, /*#__PURE__*/React.createElement(ArticleVisual, {
+    article: article,
+    variant: "hero"
+  })), /*#__PURE__*/React.createElement("div", {
+    className: "featured-news-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "signal-label"
+  }, copy.latestNews), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      gap: 7,
+      flexWrap: "wrap",
+      marginBottom: 12
+    }
+  }, /*#__PURE__*/React.createElement(CredBadge, {
+    level: article.credibility,
+    copy: copy
+  }), /*#__PURE__*/React.createElement(CategoryPill, null, copy.categories[NEWS_CATEGORIES.has(article.category) ? "News" : article.category] || article.category)), /*#__PURE__*/React.createElement("h2", {
+    className: "featured-news-title"
+  }, displayed.title), /*#__PURE__*/React.createElement("p", {
+    className: "featured-news-summary"
+  }, summaryLabel(displayed.summary, article.source, copy)), /*#__PURE__*/React.createElement("div", {
+    className: "featured-news-footer"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "featured-news-source"
+  }, article.source, " · ", article.date), /*#__PURE__*/React.createElement("span", {
+    className: "featured-news-open"
+  }, copy.viewSource, " →"))));
 }
 
 /* ------------------------------------------------------------------ */
@@ -3428,6 +3610,9 @@ function GTA6Watch() {
     return c;
   }, [articles]);
   const selected = articles.find(a => a.id === selectedId) || null;
+  const isDashboardFeed = view === "feed" && activeCategory === "all";
+  const featuredArticle = isDashboardFeed && credFilter === "all" && !favOnly && !search.trim() ? filtered[0] || null : null;
+  const feedArticles = featuredArticle ? filtered.slice(1) : filtered;
   const navBtnStyle = active => ({
     width: "100%",
     display: "flex",
@@ -3547,7 +3732,10 @@ function GTA6Watch() {
     onClick: toggleTheme,
     "aria-label": theme === "dark" ? copy.switchLight : copy.switchDark,
     title: theme === "dark" ? copy.switchLight : copy.switchDark
-  }, theme === "dark" ? "☀" : "☾"))), view === "feed" && /*#__PURE__*/React.createElement(React.Fragment, null, feedSectionTitle && /*#__PURE__*/React.createElement("div", {
+  }, theme === "dark" ? "☀" : "☾"))), view === "feed" && /*#__PURE__*/React.createElement(React.Fragment, null, isDashboardFeed && /*#__PURE__*/React.createElement(IntelligenceMasthead, {
+    articleCount: articles.length,
+    copy: copy
+  }), feedSectionTitle && /*#__PURE__*/React.createElement("div", {
     className: "feed-section-heading"
   }, /*#__PURE__*/React.createElement(SidebarIcon, { name: feedSectionIcon }), /*#__PURE__*/React.createElement("h2", {
     className: "font-display",
@@ -3593,16 +3781,21 @@ function GTA6Watch() {
     "aria-live": "polite"
   }, filtered.length === 0 ? /*#__PURE__*/React.createElement("div", {
     className: "empty-state"
-  }, copy.noFilterResults) : /*#__PURE__*/React.createElement("div", {
+  }, copy.noFilterResults) : /*#__PURE__*/React.createElement(React.Fragment, null, featuredArticle && /*#__PURE__*/React.createElement(FeaturedNewsCard, {
+    article: featuredArticle,
+    onOpen: setSelectedId,
+    copy: copy,
+    language: language
+  }), /*#__PURE__*/React.createElement("div", {
     className: "article-grid"
-  }, filtered.map(article => /*#__PURE__*/React.createElement(ArticleCard, {
+  }, feedArticles.map(article => /*#__PURE__*/React.createElement(ArticleCard, {
     key: article.id,
     a: article,
     onOpen: setSelectedId,
     onToggleFavorite: toggleFavorite,
     copy: copy,
     language: language
-  }))))), view === "sources" && /*#__PURE__*/React.createElement("section", {
+  })))))), view === "sources" && /*#__PURE__*/React.createElement("section", {
     className: "view-scroll"
   }, /*#__PURE__*/React.createElement(SourcesView, {
     copy: copy
