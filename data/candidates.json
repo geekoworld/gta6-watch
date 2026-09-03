@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-03T14:34:01.753Z",
+  "generatedAt": "2026-09-03T18:37:55.465Z",
   "failures": [],
   "candidates": [
     {
@@ -4033,6 +4033,70 @@
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-03T14:34:01.753Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-bd7a6a4279b3ebb3",
+      "detectedAt": "2026-09-03T18:37:55.465Z",
+      "publishedAt": "2026-09-03T17:27:00.000Z",
+      "title": "GTA 6 Is the Sixth Non First-Party Sony Title to Get a Custom PS5 Controller",
+      "summary": "Sony and Rockstar unveiled Black and White custom PS5 DualSense controllers for Grand Theft Auto VI, priced at $84.99, arriving November 19.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/gta-6-is-the-sixth-non-first-party-sony-title-to-get-a-custom-ps5-controller-f330",
+        "sourceUrlCanonical": "https://www.gtaboom.com/gta-6-is-the-sixth-non-first-party-sony-title-to-get-a-custom-ps5-controller-f330",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/a3/9c/gta-6-is-the-sixth-non-first-party-sony-title-to-get-a-custom-ps5-controller.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/a3/9c/gta-6-is-the-sixth-non-first-party-sony-title-to-get-a-custom-ps5-controller.jpg",
+        "externalId": "https://www.gtaboom.com/gta-6-is-the-sixth-non-first-party-sony-title-to-get-a-custom-ps5-controller-f330",
+        "platform": "WEB"
+      },
+      "contentHash": "e2526ae2f66b1a98957d3cf2017c6c67bcfba59488c7f2dfa172cb0a9c76b1f3",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-03T18:37:55.465Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-ghilliemaster-0c2f7bda734fd5c7",
+      "detectedAt": "2026-09-03T18:37:55.465Z",
+      "publishedAt": "2026-09-03T17:00:32.000Z",
+      "title": "Every NEW Gunplay Combat Detail in GTA 6 So Far! (Loadouts, Movement, and More)",
+      "summary": "Gunfights are going to be completely different in Grand Theft Auto 6. With revamped mechanics relating to recoil and weapon loadouts restricting you to only a couple of long guns and a couple of pistols. In this video I discuss all of the details relating to gunplay combat that we know about thus far! 🔒 Get 3 Months of the #1 rated VPN for FREE by using my referral link: https://www.expressvpn.com/ghilliemaster 📌 CONTACT ME Twitter: https://twitter.com/GhillieYT Discord: https://discord.gg/yH9GrNk Xbox Gamertag: ",
+      "statusSuggested": "THEORY",
+      "confidenceSuggested": 0.68,
+      "categorySuggested": "Analyses",
+      "source": {
+        "sourceId": "ghilliemaster",
+        "sourceName": "GhillieMaster",
+        "sourceTier": 68,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=3PcU_xEXVNI",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=3PcU_xEXVNI",
+        "imageUrlRaw": "https://www.youtube.com/v/3PcU_xEXVNI?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/3PcU_xEXVNI?version=3",
+        "externalId": "yt:video:3PcU_xEXVNI",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "59519cd1a49f7070b9f9940c9b51f4f36590ae72b503aa6d34f6d08dfee21a74",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-03T18:37:55.465Z"
         }
       ]
     }
