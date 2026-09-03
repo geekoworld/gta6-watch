@@ -14,7 +14,6 @@
 <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" sizes="180x180">
 <link rel="manifest" href="./site.webmanifest">
 <meta name="theme-color" content="#0A0A12" media="(prefers-color-scheme: dark)">
-<meta name="theme-color" content="#F5F1EF" media="(prefers-color-scheme: light)">
 <meta property="og:title" content="GTA 6 Watch — News, Rumors, Leaks &amp; Analysis">
 <meta property="og:description" content="Track the latest GTA 6 news, rumors, leaks, official Rockstar updates and analysis — updated hourly.">
 <meta property="og:url" content="https://gta6-watch.xyz/">
@@ -38,13 +37,6 @@
     --border:#2C2C45; --border-soft:#222238; --text:#F6F4FB; --text-muted:#A19DB8;
     --pink:#FF2E88; --cyan:#19E8D0; --purple:#9A6BFF; --gold:#FFC94A; --green:#42DDA5; --red:#FF6868;
     --shadow:0 16px 42px rgba(0,0,0,.24); --card-hover:#1B1B30; --focus:#7CEDE1;
-  }
-  [data-theme="light"] {
-    color-scheme:light;
-    --bg:#F5F1EF; --bg-elev:#EEE9E8; --bg-card:#FFFFFF; --sidebar:#FBF8F7;
-    --border:#D9D0D6; --border-soft:#E7E0E4; --text:#241E2B; --text-muted:#675E72;
-    --pink:#D81769; --cyan:#087D76; --purple:#7044C5; --gold:#8B5B00; --green:#087C58; --red:#C53A45;
-    --shadow:0 14px 36px rgba(50,35,50,.10); --card-hover:#FFF9FC; --focus:#087D76;
   }
   * { box-sizing:border-box; }
   html, body { margin:0; padding:0; background:var(--bg); color:var(--text); font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; }
@@ -85,9 +77,6 @@
   .topbar { min-height:58px; padding:10px 22px; display:flex; align-items:center; justify-content:space-between; gap:16px; border-bottom:1px solid var(--border-soft); background:var(--bg); }
   .update-meta { display:flex; align-items:center; gap:8px; color:var(--text-muted); font-size:11px; white-space:nowrap; }
   .live-dot { width:7px; height:7px; border-radius:99px; background:var(--cyan); box-shadow:0 0 0 3px color-mix(in srgb,var(--cyan) 18%,transparent); }
-  .topbar-controls { display:flex; align-items:center; gap:8px; }
-  .theme-toggle { width:36px; height:36px; border:1px solid var(--border); border-radius:9px; color:var(--text); background:var(--bg-elev); cursor:pointer; font-size:18px; line-height:1; }
-  .theme-toggle:hover { border-color:var(--cyan); }
   .feed-section-heading { display:flex; align-items:center; gap:9px; padding:20px 22px 7px; background:var(--bg); }
   .feed-section-heading .nav-icon { width:21px; height:21px; color:var(--pink); }
   .filterbar { padding:14px 22px; display:flex; align-items:center; gap:12px; flex-wrap:wrap; border-bottom:1px solid var(--border-soft); background:var(--bg); }
@@ -118,8 +107,6 @@
     .main-panel { flex:1; min-height:0; }
     .topbar { min-height:54px; padding:8px 14px; }
     .update-meta { gap:6px; font-size:9.5px; }
-    .topbar-controls { gap:6px; }
-    .theme-toggle { width:34px; height:34px; }
     .filterbar { padding:10px 14px; gap:9px; }
     .search-wrap { flex-basis:100%; }
     .filter-actions { width:100%; }
@@ -145,12 +132,6 @@
     --pink:#ED187D; --cyan:#24E3D0; --purple:#A950D8; --gold:#F4B84A; --green:#24D7AC; --red:#FF6A57;
     --shadow:0 20px 50px rgba(0,0,0,.32); --card-hover:rgba(15,31,54,.98); --focus:#65F3E3;
   }
-  [data-theme="light"] {
-    --bg:#F3F5F8; --bg-elev:#E9EDF3; --bg-card:rgba(255,255,255,.92); --sidebar:rgba(249,250,252,.97);
-    --border:rgba(37,60,92,.20); --border-soft:rgba(37,60,92,.12); --text:#0B1728; --text-muted:#607087;
-    --pink:#C91869; --cyan:#087F78; --purple:#7742A4; --gold:#976300; --green:#087F65; --red:#C84739;
-    --shadow:0 16px 42px rgba(21,38,61,.10); --card-hover:#FFFFFF; --focus:#087F78;
-  }
   html, body { background:var(--bg); }
   body { background-image:radial-gradient(circle at 78% -10%,rgba(237,24,125,.13),transparent 34%),radial-gradient(circle at 34% 110%,rgba(36,227,208,.07),transparent 38%); }
   .app-shell { background:transparent; }
@@ -175,8 +156,6 @@
   .topbar { min-height:62px; padding:11px 28px; background:rgba(3,9,20,.72); border-bottom-color:var(--border-soft); backdrop-filter:blur(16px); }
   .update-meta { color:var(--text-muted); font-size:10px; letter-spacing:.05em; text-transform:uppercase; }
   .live-dot { width:6px; height:6px; box-shadow:0 0 0 3px color-mix(in srgb,var(--cyan) 14%,transparent),0 0 12px color-mix(in srgb,var(--cyan) 72%,transparent); }
-  .theme-toggle { border-radius:5px; background:rgba(120,144,177,.08); border-color:var(--border-soft); }
-  .theme-toggle:hover { box-shadow:0 0 16px color-mix(in srgb,var(--cyan) 28%,transparent); }
   .intelligence-masthead { position:relative; overflow:hidden; padding:30px 28px 26px; border-bottom:1px solid var(--border-soft); background:radial-gradient(circle at 79% 22%,rgba(237,24,125,.22),transparent 27%),linear-gradient(112deg,rgba(8,18,34,.94),rgba(5,13,26,.72)); }
   .intelligence-masthead::after { content:""; position:absolute; width:380px; height:380px; right:-110px; top:-255px; border:1px solid rgba(36,227,208,.22); border-radius:50%; box-shadow:0 0 0 32px rgba(36,227,208,.025),0 0 0 65px rgba(237,24,125,.022); pointer-events:none; }
   .masthead-eyebrow { margin:0 0 8px; color:var(--pink); font-family:'SFMono-Regular',Consolas,monospace; font-size:10px; font-weight:800; letter-spacing:.15em; }
@@ -2307,7 +2286,6 @@ const I18N = {
 };
 const LS_ARTICLES = "gta6watch_articles_v4";
 const LS_LANGUAGE = "gta6watch_language";
-const LS_THEME = "gta6watch_theme";
 const ARTICLE_TRANSLATIONS_ENABLED = false;
 function safeStorageGet(key) {
   try {
@@ -3524,7 +3502,6 @@ function GTA6Watch() {
   const [view, setView] = useState("feed");
   const [favOnly, setFavOnly] = useState(false);
   const [language] = useState("en");
-  const [theme, setTheme] = useState(() => safeStorageGet(LS_THEME) === "light" ? "light" : "dark");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [videoFeed, setVideoFeed] = useState({ channel: null, videos: [] });
   const copy = I18N[language];
@@ -3532,8 +3509,8 @@ function GTA6Watch() {
   useEffect(() => {
     safeStorageSet(LS_LANGUAGE, "en");
     document.documentElement.lang = language;
-    document.documentElement.dataset.theme = theme;
-  }, [language, theme]);
+    document.documentElement.dataset.theme = "dark";
+  }, [language]);
 
   useEffect(() => {
     if (!window.fetch || window.location.protocol === "file:") return;
@@ -3577,11 +3554,6 @@ function GTA6Watch() {
   const addArticle = a => {
     persist([a, ...articles]);
     setShowAdd(false);
-  };
-  const toggleTheme = () => {
-    const nextTheme = theme === "dark" ? "light" : "dark";
-    setTheme(nextTheme);
-    safeStorageSet(LS_THEME, nextTheme);
   };
   const navigate = (nextView, category) => {
     setView(nextView);
@@ -3724,15 +3696,7 @@ function GTA6Watch() {
     className: "live-dot"
   }), copy.updatedHourly, /*#__PURE__*/React.createElement("span", {
     "aria-hidden": "true"
-  }, "·"), articles.length, " ", copy.articles), /*#__PURE__*/React.createElement("div", {
-    className: "topbar-controls"
-  }, /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    className: "theme-toggle",
-    onClick: toggleTheme,
-    "aria-label": theme === "dark" ? copy.switchLight : copy.switchDark,
-    title: theme === "dark" ? copy.switchLight : copy.switchDark
-  }, theme === "dark" ? "☀" : "☾"))), view === "feed" && /*#__PURE__*/React.createElement(React.Fragment, null, isDashboardFeed && /*#__PURE__*/React.createElement(IntelligenceMasthead, {
+  }, "·"), articles.length, " ", copy.articles)), view === "feed" && /*#__PURE__*/React.createElement(React.Fragment, null, isDashboardFeed && /*#__PURE__*/React.createElement(IntelligenceMasthead, {
     articleCount: articles.length,
     copy: copy
   }), feedSectionTitle && /*#__PURE__*/React.createElement("div", {
