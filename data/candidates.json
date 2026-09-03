@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-03T09:49:12.406Z",
+  "generatedAt": "2026-09-03T14:34:01.753Z",
   "failures": [],
   "candidates": [
     {
@@ -4001,6 +4001,38 @@
           "state": "APPROVED",
           "reason": "Approved and published by scheduled editorial policy.",
           "timestamp": "2026-09-03T10:50:32.837Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta6videos-ef3a37a0712f9c63",
+      "detectedAt": "2026-09-03T14:34:01.753Z",
+      "publishedAt": "2026-09-03T13:00:37.000Z",
+      "title": "GTA 6 - ALL Exclusive Gameplay Info (Sept. 2026)",
+      "summary": "This is every exclusive detail & feature not shown in the GTA 6 extended look gameplay video... --------------------------------------------------------------------------------------------- Get to know more about the game: - GTA VI File Doc = https://drive.google.com/file/d/1usHpd-r-dllDIlMj6rBWxCCLwy4SgRyM/view - GTA VI Mapping Project = https://vimap.saamexe.com/map --------------------------------------------------------------------------------------------- Leave a Rating if you enjoyed! Send a song you like to ",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.62,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gta6videos",
+        "sourceName": "GTA6Videos",
+        "sourceTier": 62,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=g-nQyNg-zLY",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=g-nQyNg-zLY",
+        "imageUrlRaw": "https://www.youtube.com/v/g-nQyNg-zLY?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/g-nQyNg-zLY?version=3",
+        "externalId": "yt:video:g-nQyNg-zLY",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "7e01953c0a9168cd893389e24d17c69f200ac5b19e6dcde0ace6087a72d23878",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-03T14:34:01.753Z"
         }
       ]
     }
