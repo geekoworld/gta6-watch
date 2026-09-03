@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-02T21:49:18.604Z",
+  "generatedAt": "2026-09-03T09:49:12.406Z",
   "failures": [],
   "candidates": [
     {
@@ -3949,6 +3949,38 @@
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-02T21:49:18.604Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-0cb1c1cd949d777f",
+      "detectedAt": "2026-09-03T09:49:12.406Z",
+      "publishedAt": "2026-09-03T06:25:44.000Z",
+      "title": "GTA 6: Gyms, Basketball, Fishing, Hunting and Everything Else | Deep Dive",
+      "summary": "Get 10% off all GamerSupps products with this link - https://gamersupps.gg/tgg Follow me on Twitter/X: https://twitter.com/TGGonYT Twitch: https://www.twitch.tv/tgg_gta Instagram: https://www.instagram.com/tee_gee_gee/ Join our Discord for help with Business Sales & Heists: https://discord.com/invite/gorillagang My Headset: https://amzn.to/3CJgcBZ My Mouse: https://amzn.to/4ibs3cf My Keyboard: https://amzn.to/3Os5fHr My Console: https://amzn.to/3Zfofhw My GPU: https://amzn.to/49noX0C Grand Theft Auto 5. GTA 5. GTA ",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=4imTpB82edE",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=4imTpB82edE",
+        "imageUrlRaw": "https://www.youtube.com/v/4imTpB82edE?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/4imTpB82edE?version=3",
+        "externalId": "yt:video:4imTpB82edE",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "0ea10d2963a6b31dbbe4f38639c13baa77ab0dd123ce4f5a07d9a10c6bdcda07",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-03T09:49:12.406Z"
         }
       ]
     }
