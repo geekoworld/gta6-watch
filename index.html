@@ -2430,8 +2430,8 @@ function ArticleVisual({
   article,
   variant = "card"
 }) {
-  const [failed, setFailed] = useState(false);
-  const imageUrl = !failed && article.imageUrl ? article.imageUrl : null;
+  const [sourceFailed, setSourceFailed] = useState(false);
+  const [fallbackFailed, setFallbackFailed] = useState(false);
   const isHero = variant === "hero";
   const visualThemes = {
     Rockstar: ["#3f1432", "#fc4b80", "#e6ab4c"],
@@ -2442,11 +2442,16 @@ function ArticleVisual({
     News: ["#192047", "#b2408a", "#69dbf0"]
   };
   const theme = visualThemes[article.category] || visualThemes.News;
-  const titleWeight = [...String(article.title || "")].reduce((total, char) => total + char.charCodeAt(0), 0) % 3;
+  const titleHash = [...String(article.title || "")].reduce((total, char) => total + char.charCodeAt(0), 0);
+  const titleWeight = titleHash % 3;
+  const fallbackVisuals = ["./assets/gta6-fallback-01.avif", "./assets/gta6-fallback-02.jpg", "./assets/gta6-fallback-03.webp", "./assets/gta6-fallback-04.png", "./assets/gta6-fallback-05.jpg", "./assets/gta6-fallback-06.jpg", "./assets/gta6-fallback-07.jpg", "./assets/gta6-fallback-08.avif", "./assets/gta6-fallback-09.jpg", "./assets/gta6-fallback-10.avif", "./assets/gta6-fallback-11.webp"];
+  const sourceImageUrl = !sourceFailed && article.imageUrl ? article.imageUrl : null;
+  const fallbackImageUrl = fallbackFailed ? null : fallbackVisuals[titleHash % fallbackVisuals.length];
+  const imageUrl = sourceImageUrl || fallbackImageUrl;
   const rotation = ["125deg", "145deg", "110deg"][titleWeight];
   return /*#__PURE__*/React.createElement("div", {
     className: "article-visual",
-    "aria-label": imageUrl ? `Illustration for ${article.title}` : `GTA 6 Watch illustration for ${article.title}`,
+    "aria-label": sourceImageUrl ? `Source illustration for ${article.title}` : `GTA 6 Watch illustration for ${article.title}`,
     style: {
       position: "relative",
       height: isHero ? 220 : 118,
@@ -2461,7 +2466,7 @@ function ArticleVisual({
     src: imageUrl,
     alt: "",
     loading: isHero ? "eager" : "lazy",
-    onError: () => setFailed(true),
+    onError: () => sourceImageUrl ? setSourceFailed(true) : setFallbackFailed(true),
     style: {
       position: "absolute",
       inset: 0,
@@ -2513,7 +2518,7 @@ function ArticleVisual({
       fontWeight: 900,
       letterSpacing: ".07em"
     }
-  }, imageUrl ? "SOURCE IMAGE" : "GTA 6 WATCH"));
+  }, sourceImageUrl ? "SOURCE IMAGE" : "GTA 6 WATCH VISUAL"));
 }
 const inputStyle = {
   width: "100%",
