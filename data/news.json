@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-09-03T10:50:32.957Z",
+  "generatedAt": "2026-09-03T20:39:03.797Z",
   "failures": [],
   "articles": [
+    {
+      "id": "gta6-00869aa67b61c19269af",
+      "title": "GTA 6 Is the Sixth Non First-Party Sony Title to Get a Custom PS5 Controller",
+      "category": "News",
+      "credibility": "Rumeur",
+      "source": "GTA BOOM",
+      "sourceId": "gtaboom",
+      "sourceTier": "B",
+      "sourceScore": 80,
+      "url": "https://www.gtaboom.com/gta-6-is-the-sixth-non-first-party-sony-title-to-get-a-custom-ps5-controller-f330",
+      "imageUrl": "https://media.gtaboom.com/variants/1920/media/images/a3/9c/gta-6-is-the-sixth-non-first-party-sony-title-to-get-a-custom-ps5-controller.jpg",
+      "date": "2026-09-03",
+      "summary": "Sony and Rockstar unveiled Black and White custom PS5 DualSense controllers for Grand Theft Auto VI, priced at $84.99, arriving November 19.",
+      "favorite": false,
+      "collectedAt": "2026-09-03T18:37:55.465Z"
+    },
     {
       "id": "gta6-1c4239afdff6301bd402",
       "title": "GTA 6: Gyms, Basketball, Fishing, Hunting and Everything Else | Deep Dive",

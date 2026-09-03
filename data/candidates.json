@@ -4057,14 +4057,19 @@
         "platform": "WEB"
       },
       "contentHash": "e2526ae2f66b1a98957d3cf2017c6c67bcfba59488c7f2dfa172cb0a9c76b1f3",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-00869aa67b61c19269af",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-03T18:37:55.465Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-03T20:39:03.691Z"
         }
       ]
     },

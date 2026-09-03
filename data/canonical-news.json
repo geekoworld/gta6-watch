@@ -4332,6 +4332,40 @@
         "xPostId": null,
         "shortsQueueId": null
       }
+    },
+    {
+      "newsId": "gta6-00869aa67b61c19269af",
+      "title": "GTA 6 Is the Sixth Non First-Party Sony Title to Get a Custom PS5 Controller",
+      "summary": "Sony and Rockstar unveiled Black and White custom PS5 DualSense controllers for Grand Theft Auto VI, priced at $84.99, arriving November 19.",
+      "status": "RUMOR",
+      "confidence": 80,
+      "category": "News",
+      "publishedAt": "2026-09-03T17:27:00.000Z",
+      "collectedAt": "2026-09-03T18:37:55.465Z",
+      "updatedAt": "2026-09-03T20:39:03.691Z",
+      "sources": [
+        {
+          "sourceId": "gtaboom",
+          "sourceName": "GTA BOOM",
+          "sourceTier": 80,
+          "sourceUrlRaw": "https://www.gtaboom.com/gta-6-is-the-sixth-non-first-party-sony-title-to-get-a-custom-ps5-controller-f330",
+          "sourceUrlCanonical": "https://www.gtaboom.com/gta-6-is-the-sixth-non-first-party-sony-title-to-get-a-custom-ps5-controller-f330",
+          "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/a3/9c/gta-6-is-the-sixth-non-first-party-sony-title-to-get-a-custom-ps5-controller.jpg",
+          "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/a3/9c/gta-6-is-the-sixth-non-first-party-sony-title-to-get-a-custom-ps5-controller.jpg",
+          "externalId": "https://www.gtaboom.com/gta-6-is-the-sixth-non-first-party-sony-title-to-get-a-custom-ps5-controller-f330",
+          "publishedAt": "2026-09-03T17:27:00.000Z"
+        }
+      ],
+      "scores": {
+        "article": 0,
+        "x": 0,
+        "shorts": 0
+      },
+      "publication": {
+        "articlePublishedAt": "2026-09-03T20:39:03.691Z",
+        "xPostId": null,
+        "shortsQueueId": null
+      }
     }
   ]
 }

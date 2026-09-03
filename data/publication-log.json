@@ -280,6 +280,13 @@
       "channel": "website",
       "status": "published",
       "createdAt": "2026-09-03T10:50:32.837Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-00869aa67b61c19269af",
+      "newsId": "gta6-00869aa67b61c19269af",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-09-03T20:39:03.691Z"
     }
   ]
 }
