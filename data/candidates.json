@@ -4126,14 +4126,19 @@
         "platform": "WEB"
       },
       "contentHash": "2b3581383aadc76aef340c57292679708bef657f8cc7880f18134115d9aa5796",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-1407834baa0ef3e8a64c",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-04T00:05:45.320Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-04T10:49:14.130Z"
         }
       ]
     },
@@ -4158,14 +4163,19 @@
         "platform": "YOUTUBE"
       },
       "contentHash": "571a7bb6e3fffb1904ca55ff86810a2720b95be65cc4fd5588f4e1583da0aa75",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-c8380b0dabbddadd3f80",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-04T09:38:39.585Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-04T10:49:14.224Z"
         }
       ]
     },
@@ -4190,14 +4200,19 @@
         "platform": "YOUTUBE"
       },
       "contentHash": "9c5d3cfc00b04af923c650345bfcc556560c5a84b0d09570ec00e8d364b2be38",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-da4959160a7aaa96a8f7",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-04T09:38:39.585Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-04T10:49:14.178Z"
         }
       ]
     }
