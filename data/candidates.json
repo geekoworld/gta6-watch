@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-04T09:38:39.585Z",
+  "generatedAt": "2026-09-04T14:21:16.360Z",
   "failures": [],
   "candidates": [
     {
@@ -4213,6 +4213,38 @@
           "state": "APPROVED",
           "reason": "Approved and published by scheduled editorial policy.",
           "timestamp": "2026-09-04T10:49:14.178Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gta6videos-2cb3806a3f398cd8",
+      "detectedAt": "2026-09-04T14:21:16.360Z",
+      "publishedAt": "2026-09-04T14:00:18.000Z",
+      "title": "BUY the GTA 6 Controller ASAP!",
+      "summary": "#gta6 #gta6trailer3 #gta6leaks #gta6leakedgameplay",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.62,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gta6videos",
+        "sourceName": "GTA6Videos",
+        "sourceTier": 62,
+        "sourceUrlRaw": "https://www.youtube.com/shorts/iu49PUwaRwY",
+        "sourceUrlCanonical": "https://www.youtube.com/shorts/iu49PUwaRwY",
+        "imageUrlRaw": "https://www.youtube.com/v/iu49PUwaRwY?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/iu49PUwaRwY?version=3",
+        "externalId": "yt:video:iu49PUwaRwY",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "bb12cad5f916d2d243e412e3b2ee35f24485658d491ff74cdcd60093c4629170",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-04T14:21:16.360Z"
         }
       ]
     }
