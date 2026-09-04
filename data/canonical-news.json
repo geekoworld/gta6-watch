@@ -4468,6 +4468,40 @@
         "xPostId": null,
         "shortsQueueId": null
       }
+    },
+    {
+      "newsId": "gta6-e206b1e58fbabc6d1d01",
+      "title": "Miami-Dade Officials Are Fighting the GTA 6 Vice City Marketing Deal",
+      "summary": "The plan to turn Miami into Vice City is facing opposition from the county's officials, including its sheriff, a commissioner, and chief judge.",
+      "status": "RUMOR",
+      "confidence": 80,
+      "category": "Rockstar",
+      "publishedAt": "2026-09-04T17:41:30.000Z",
+      "collectedAt": "2026-09-04T18:23:48.605Z",
+      "updatedAt": "2026-09-04T20:25:30.592Z",
+      "sources": [
+        {
+          "sourceId": "gtaboom",
+          "sourceName": "GTA BOOM",
+          "sourceTier": 80,
+          "sourceUrlRaw": "https://www.gtaboom.com/miami-dade-officials-are-fighting-the-gta-6-vice-city-marketing-deal-3e43",
+          "sourceUrlCanonical": "https://www.gtaboom.com/miami-dade-officials-are-fighting-the-gta-6-vice-city-marketing-deal-3e43",
+          "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/0b/79/miami-dade-officials-are-fighting-the-gta-6-vice-city-marketing-deal.jpg",
+          "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/0b/79/miami-dade-officials-are-fighting-the-gta-6-vice-city-marketing-deal.jpg",
+          "externalId": "https://www.gtaboom.com/miami-dade-officials-are-fighting-the-gta-6-vice-city-marketing-deal-3e43",
+          "publishedAt": "2026-09-04T17:41:30.000Z"
+        }
+      ],
+      "scores": {
+        "article": 0,
+        "x": 0,
+        "shorts": 0
+      },
+      "publication": {
+        "articlePublishedAt": "2026-09-04T20:25:30.592Z",
+        "xPostId": null,
+        "shortsQueueId": null
+      }
     }
   ]
 }

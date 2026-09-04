@@ -308,6 +308,13 @@
       "channel": "website",
       "status": "published",
       "createdAt": "2026-09-04T10:49:14.178Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-e206b1e58fbabc6d1d01",
+      "newsId": "gta6-e206b1e58fbabc6d1d01",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-09-04T20:25:30.592Z"
     }
   ]
 }
