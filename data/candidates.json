@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-03T18:37:55.465Z",
+  "generatedAt": "2026-09-04T00:05:45.320Z",
   "failures": [],
   "candidates": [
     {
@@ -4102,6 +4102,38 @@
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-03T18:37:55.465Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-4ee19f5626bc5374",
+      "detectedAt": "2026-09-04T00:05:45.320Z",
+      "publishedAt": "2026-09-03T22:54:27.000Z",
+      "title": "The Guy Vibe-Coding a GTA 6 Clone With AI Is Now Buying a PS5 to Play the Real One",
+      "summary": "Ziwen Xu, who tried vibe coding an AI clone of Grand Theft Auto VI, is now buying a PS5 to play Rockstar's actual game instead.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/the-guy-vibe-coding-a-gta-6-clone-with-ai-is-now-buying-a-ps5-to-play-the-real-one-9c90",
+        "sourceUrlCanonical": "https://www.gtaboom.com/the-guy-vibe-coding-a-gta-6-clone-with-ai-is-now-buying-a-ps5-to-play-the-real-one-9c90",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/31/84/the-guy-vibe-coding-a-gta-6-clone-with-ai-is-now-buying-a-ps5-to-play-the-real-one.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/31/84/the-guy-vibe-coding-a-gta-6-clone-with-ai-is-now-buying-a-ps5-to-play-the-real-one.jpg",
+        "externalId": "https://www.gtaboom.com/the-guy-vibe-coding-a-gta-6-clone-with-ai-is-now-buying-a-ps5-to-play-the-real-one-9c90",
+        "platform": "WEB"
+      },
+      "contentHash": "2b3581383aadc76aef340c57292679708bef657f8cc7880f18134115d9aa5796",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-04T00:05:45.320Z"
         }
       ]
     }
