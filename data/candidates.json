@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-04T14:21:16.360Z",
+  "generatedAt": "2026-09-04T18:23:48.605Z",
   "failures": [],
   "candidates": [
     {
@@ -4245,6 +4245,38 @@
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-04T14:21:16.360Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-6f95f052fc91e006",
+      "detectedAt": "2026-09-04T18:23:48.605Z",
+      "publishedAt": "2026-09-04T17:41:30.000Z",
+      "title": "Miami-Dade Officials Are Fighting the GTA 6 Vice City Marketing Deal",
+      "summary": "The plan to turn Miami into Vice City is facing opposition from the county's officials, including its sheriff, a commissioner, and chief judge.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/miami-dade-officials-are-fighting-the-gta-6-vice-city-marketing-deal-3e43",
+        "sourceUrlCanonical": "https://www.gtaboom.com/miami-dade-officials-are-fighting-the-gta-6-vice-city-marketing-deal-3e43",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/0b/79/miami-dade-officials-are-fighting-the-gta-6-vice-city-marketing-deal.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/0b/79/miami-dade-officials-are-fighting-the-gta-6-vice-city-marketing-deal.jpg",
+        "externalId": "https://www.gtaboom.com/miami-dade-officials-are-fighting-the-gta-6-vice-city-marketing-deal-3e43",
+        "platform": "WEB"
+      },
+      "contentHash": "e983342c8251a4cb6fa5db35af469d33b9cba81f8f257db958b685a4951025f3",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-04T18:23:48.605Z"
         }
       ]
     }
