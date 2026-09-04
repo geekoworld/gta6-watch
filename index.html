@@ -29,7 +29,7 @@
 <meta name="twitter:description" content="Track the latest GTA 6 news, rumors, leaks, official Rockstar updates and analysis — updated hourly.">
 <meta name="twitter:image" content="https://gta6-watch.xyz/assets/gta6-watch-logo.png">
 <meta name="twitter:image:alt" content="GTA 6 Watch">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"GTA 6 Watch","url":"https://gta6-watch.xyz/","inLanguage":"en","description":"Track the latest GTA 6 news, rumors, leaks, official Rockstar updates and analysis — updated hourly."},{"@type":"Organization","name":"GTA 6 Watch","url":"https://gta6-watch.xyz/","logo":"https://gta6-watch.xyz/assets/gta6-watch-logo.png","sameAs":["https://www.youtube.com/channel/UCSdn_zxiAWVXKb-F2gkCq3w/"]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"GTA 6 Watch","url":"https://gta6-watch.xyz/","inLanguage":"en","description":"Track the latest GTA 6 news, rumors, leaks, official Rockstar updates and analysis — updated hourly."},{"@type":"Organization","name":"GTA 6 Watch","url":"https://gta6-watch.xyz/","logo":"https://gta6-watch.xyz/assets/gta6-watch-logo.png","sameAs":["https://x.com/GTA_6_Watch","https://www.youtube.com/channel/UCSdn_zxiAWVXKb-F2gkCq3w/","https://www.tiktok.com/@gta.6.watch"]}]}</script>
 <style>
   :root, [data-theme="dark"] {
     color-scheme:dark;
@@ -156,6 +156,14 @@
   .topbar { min-height:62px; padding:11px 28px; background:rgba(3,9,20,.72); border-bottom-color:var(--border-soft); backdrop-filter:blur(16px); }
   .update-meta { color:var(--text-muted); font-size:10px; letter-spacing:.05em; text-transform:uppercase; }
   .live-dot { width:6px; height:6px; box-shadow:0 0 0 3px color-mix(in srgb,var(--cyan) 14%,transparent),0 0 12px color-mix(in srgb,var(--cyan) 72%,transparent); }
+  .social-links { display:flex; align-items:center; gap:7px; }
+  .topbar-actions { display:flex; align-items:center; gap:14px; }
+  .ecosystem-link { height:31px; display:inline-flex; align-items:center; gap:7px; padding:0 10px; border:1px solid rgba(237,24,125,.48); border-radius:5px; color:#F4F7FB; background:linear-gradient(90deg,rgba(237,24,125,.17),rgba(237,24,125,.045)); font-family:'SFMono-Regular',Consolas,monospace; font-size:9px; font-weight:800; letter-spacing:.075em; text-decoration:none; transition:border-color .16s ease,background .16s ease,box-shadow .16s ease,transform .16s ease; }
+  .ecosystem-link::before { content:""; width:5px; height:5px; border-radius:50%; background:var(--pink); box-shadow:0 0 9px var(--pink); }
+  .ecosystem-link:hover { border-color:var(--pink); background:rgba(237,24,125,.24); box-shadow:0 0 18px rgba(237,24,125,.18); transform:translateY(-1px); }
+  .social-link { width:31px; height:31px; display:grid; place-items:center; border:1px solid var(--border-soft); border-radius:5px; color:var(--text-muted); background:rgba(120,144,177,.06); transition:color .16s ease,border-color .16s ease,background .16s ease,transform .16s ease; }
+  .social-link:hover { color:var(--text); border-color:rgba(237,24,125,.58); background:rgba(237,24,125,.12); transform:translateY(-1px); }
+  .social-icon { width:15px; height:15px; fill:currentColor; }
   .intelligence-masthead { position:relative; overflow:hidden; padding:30px 28px 26px; border-bottom:1px solid var(--border-soft); background:radial-gradient(circle at 79% 22%,rgba(237,24,125,.22),transparent 27%),linear-gradient(112deg,rgba(8,18,34,.94),rgba(5,13,26,.72)); }
   .intelligence-masthead::after { content:""; position:absolute; width:380px; height:380px; right:-110px; top:-255px; border:1px solid rgba(36,227,208,.22); border-radius:50%; box-shadow:0 0 0 32px rgba(36,227,208,.025),0 0 0 65px rgba(237,24,125,.022); pointer-events:none; }
   .masthead-eyebrow { margin:0 0 8px; color:var(--pink); font-family:'SFMono-Regular',Consolas,monospace; font-size:10px; font-weight:800; letter-spacing:.15em; }
@@ -216,6 +224,10 @@
     .featured-news-body { padding:18px 17px 16px; }
     .featured-news-title { font-size:24px; }
     .article-card .article-visual { height:174px !important; }
+    .social-links { gap:5px; }
+    .topbar-actions { gap:10px; }
+    .ecosystem-link { height:29px; padding:0 8px; font-size:8px; }
+    .social-link { width:29px; height:29px; }
   }
   @media (prefers-reduced-motion:reduce) {
     .nav-button, .featured-news-card, .article-card, .article-card::after, .favorite-toggle { transition:none !important; }
@@ -2388,6 +2400,16 @@ function SidebarIcon({ name }) {
   }
   return /*#__PURE__*/React.createElement("svg", { className: "nav-icon", viewBox: "0 0 24 24", "aria-hidden": "true", focusable: "false" }, shapes);
 }
+function SocialIcon({ name }) {
+  let path;
+  switch (name) {
+    case "x": path = "M18.9 2.8h3.7l-8.1 9.3 9.5 9.1h-7.4l-5.8-5.5-4.8 5.5H2.3l8.7-10L2 2.8h7.6l5.2 5 4.1-5ZM17.6 19.2h2L8.5 4.7H6.4l11.2 14.5Z"; break;
+    case "youtube": path = "M21.6 7.2a2.9 2.9 0 0 0-2-2C17.8 4.7 12 4.7 12 4.7s-5.8 0-7.6.5a2.9 2.9 0 0 0-2 2A30.3 30.3 0 0 0 2 12a30.3 30.3 0 0 0 .4 4.8 2.9 2.9 0 0 0 2 2c1.8.5 7.6.5 7.6.5s5.8 0 7.6-.5a2.9 2.9 0 0 0 2-2A30.3 30.3 0 0 0 22 12a30.3 30.3 0 0 0-.4-4.8ZM10.1 15.1V8.9l5.4 3.1-5.4 3.1Z"; break;
+    case "tiktok": path = "M16.8 2.4c.4 2.7 1.9 4.4 4.5 4.6v3.2c-1.7.1-3.2-.4-4.5-1.2v6.4c0 5.7-6.2 7.5-9.1 4.1-1.9-2.2-1.2-6.1 1.5-7.4.7-.3 1.4-.5 2.1-.5v3.4c-1.7-.5-3 1-2.2 2.6.5 1 1.8 1.3 2.7.7.7-.4.9-1.2.9-2.2V2.4h3.1Z"; break;
+    default: path = "";
+  }
+  return /*#__PURE__*/React.createElement("svg", { className: "social-icon", viewBox: "0 0 24 24", "aria-hidden": "true", focusable: "false" }, /*#__PURE__*/React.createElement("path", { d: path }));
+}
 function CredBadge({
   level,
   copy
@@ -3701,7 +3723,40 @@ function GTA6Watch() {
     className: "live-dot"
   }), copy.updatedHourly, /*#__PURE__*/React.createElement("span", {
     "aria-hidden": "true"
-  }, "·"), articles.length, " ", copy.articles)), view === "feed" && /*#__PURE__*/React.createElement(React.Fragment, null, isDashboardFeed && /*#__PURE__*/React.createElement(IntelligenceMasthead, {
+  }, "·"), articles.length, " ", copy.articles), /*#__PURE__*/React.createElement("div", {
+    className: "topbar-actions"
+  }, /*#__PURE__*/React.createElement("nav", {
+    className: "social-links",
+    "aria-label": "GTA 6 Watch social channels"
+  }, /*#__PURE__*/React.createElement("a", {
+    className: "social-link",
+    href: "https://x.com/GTA_6_Watch",
+    target: "_blank",
+    rel: "noreferrer",
+    "aria-label": "Follow GTA 6 Watch on X",
+    title: "X / Twitter"
+  }, /*#__PURE__*/React.createElement(SocialIcon, { name: "x" })), /*#__PURE__*/React.createElement("a", {
+    className: "social-link",
+    href: "https://www.youtube.com/channel/UCSdn_zxiAWVXKb-F2gkCq3w/",
+    target: "_blank",
+    rel: "noreferrer",
+    "aria-label": "Watch GTA 6 Watch on YouTube",
+    title: "YouTube"
+  }, /*#__PURE__*/React.createElement(SocialIcon, { name: "youtube" })), /*#__PURE__*/React.createElement("a", {
+    className: "social-link",
+    href: "https://www.tiktok.com/@gta.6.watch",
+    target: "_blank",
+    rel: "noreferrer",
+    "aria-label": "Follow GTA 6 Watch on TikTok",
+    title: "TikTok"
+  }, /*#__PURE__*/React.createElement(SocialIcon, { name: "tiktok" }))), /*#__PURE__*/React.createElement("a", {
+    className: "ecosystem-link",
+    href: "https://www.vicebroker.xyz",
+    target: "_blank",
+    rel: "noreferrer",
+    "aria-label": "Visit Vice Broker, the GTA 6 Watch ecosystem project",
+    title: "Vice Broker · Ecosystem project"
+  }, "VICE BROKER ↗"))), view === "feed" && /*#__PURE__*/React.createElement(React.Fragment, null, isDashboardFeed && /*#__PURE__*/React.createElement(IntelligenceMasthead, {
     articleCount: articles.length,
     copy: copy
   }), feedSectionTitle && /*#__PURE__*/React.createElement("div", {
