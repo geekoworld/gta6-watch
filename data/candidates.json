@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-04T18:23:48.605Z",
+  "generatedAt": "2026-09-05T00:05:12.421Z",
   "failures": [],
   "candidates": [
     {
@@ -4282,6 +4282,70 @@
           "state": "APPROVED",
           "reason": "Approved and published by scheduled editorial policy.",
           "timestamp": "2026-09-04T20:25:30.592Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-48020f27399a7523",
+      "detectedAt": "2026-09-05T00:05:12.421Z",
+      "publishedAt": "2026-09-04T22:51:05.000Z",
+      "title": "Miami Wants Rockstar to Pay $202,000 a Banner to Brand Downtown for GTA 6",
+      "summary": "A Miami ordinance would let Rockstar rent six downtown banners at $202,000 each, up to $1.2 million, funding a park project.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/miami-wants-rockstar-to-pay-202000-a-banner-to-brand-downtown-for-gta-6-68ce",
+        "sourceUrlCanonical": "https://www.gtaboom.com/miami-wants-rockstar-to-pay-202000-a-banner-to-brand-downtown-for-gta-6-68ce",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/d4/62/miami-wants-rockstar-to-pay-202000-a-banner-to-brand-downtown-for-gta-6.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/d4/62/miami-wants-rockstar-to-pay-202000-a-banner-to-brand-downtown-for-gta-6.jpg",
+        "externalId": "https://www.gtaboom.com/miami-wants-rockstar-to-pay-202000-a-banner-to-brand-downtown-for-gta-6-68ce",
+        "platform": "WEB"
+      },
+      "contentHash": "c6b648f3de4d9e2ff4d7daf7a155f48de73f9a6e28124af4a3e5781f666dd65e",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-05T00:05:12.421Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-89e4d3df54e48b16",
+      "detectedAt": "2026-09-05T00:05:12.421Z",
+      "publishedAt": "2026-09-04T22:03:33.000Z",
+      "title": "Content Creators Say GTA 6 Preview Builds Do Not Have a First-Person Mode",
+      "summary": "Grand Theft Auto VI preview builds shown to creators lack a full first person mode, with Rob Nelson calling it not implemented \"for now.\"",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/content-creators-say-gta-6-preview-builds-do-not-have-a-first-person-mode-4930",
+        "sourceUrlCanonical": "https://www.gtaboom.com/content-creators-say-gta-6-preview-builds-do-not-have-a-first-person-mode-4930",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/70/c9/content-creators-say-gta-6-preview-builds-do-not-have-a-first-person-mode.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/70/c9/content-creators-say-gta-6-preview-builds-do-not-have-a-first-person-mode.jpg",
+        "externalId": "https://www.gtaboom.com/content-creators-say-gta-6-preview-builds-do-not-have-a-first-person-mode-4930",
+        "platform": "WEB"
+      },
+      "contentHash": "ab97d6fdbd8a3ec5d4387568b807d4dad5a61ec334952ce0de5074cd56b2c06e",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-05T00:05:12.421Z"
         }
       ]
     }
