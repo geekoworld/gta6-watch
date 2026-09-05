@@ -2315,50 +2315,88 @@ function safeStorageSet(key, value) {
     return false;
   }
 }
-function summaryLabel(summary, source, copy) {
-  if (/^Nouvelle publication détectée depuis .+\. Ouvrir la source pour vérifier les détails\.$/.test(String(summary || ""))) {
-    return copy.newPublicationFallback.replace("{source}", source || copy.sourceMissing);
-  }
-  return summary;
+function plainSourceSummary(summary) {
+  let text = String(summary || "")
+    .replace(/<[^>]*>/g, " ")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;|&apos;/gi, "'")
+    .trim();
+  if (!text || /^Nouvelle publication détectée depuis .+\. Ouvrir la source pour vérifier les détails\.$/i.test(text)) return "";
+
+  // Creator descriptions often append a block of URLs, affiliate links and chapter markers.
+  // Keep the reported item, but never present that housekeeping as editorial copy.
+  const promoStart = text.search(/\b(?:follow\s+(?:me|us)|subscribe|join\s+(?:my|our)|get\s+\d+%|business\s+(?:sales|enquiries)|twitch\s*:|instagram\s*:|discord\s*:|twitter\s*(?:\/|and)?\s*x\s*:|my\s+(?:headset|mouse|keyboard|console|gpu)|support\s+(?:the\s+)?channel)\b/i);
+  if (promoStart > 0) text = text.slice(0, promoStart);
+  const chapters = [...text.matchAll(/\b\d{1,2}:\d{2}\s*[-–—:]/g)];
+  if (chapters.length >= 3) text = text.slice(0, chapters[0].index);
+  text = text
+    .replace(/https?:\/\/[^\s|]+/gi, " ")
+    .replace(/\b\d{1,2}:\d{2}\s*[-–—:]\s*/g, " ")
+    .replace(/[|•]+/g, ". ")
+    .replace(/\s+/g, " ")
+    .replace(/\s+([,.!?;:])/g, "$1")
+    .trim();
+  if (!text || /^(?:new\s+)?(?:video|publication|item)\s*$/i.test(text)) return "";
+  return text;
+}
+function trimEditorialText(text, maxLength) {
+  if (text.length <= maxLength) return text;
+  const clipped = text.slice(0, maxLength + 1);
+  const sentenceEnd = Math.max(clipped.lastIndexOf(". "), clipped.lastIndexOf("! "), clipped.lastIndexOf("? "));
+  if (sentenceEnd >= Math.floor(maxLength * 0.55)) return clipped.slice(0, sentenceEnd + 1).trim();
+  const wordEnd = clipped.lastIndexOf(" ");
+  return `${clipped.slice(0, wordEnd > 0 ? wordEnd : maxLength).trim()}…`;
+}
+function sourceSummary(summary, maxLength = 420) {
+  const cleaned = plainSourceSummary(summary);
+  return {
+    usable: Boolean(cleaned && cleaned.length >= 24),
+    text: cleaned ? trimEditorialText(cleaned, maxLength) : ""
+  };
+}
+function summaryLabel(summary, source, copy, title = "") {
+  const sourceText = source || copy.sourceMissing;
+  const result = sourceSummary(summary, 240);
+  if (result.usable) return result.text;
+  const isFrench = String(copy.newPublicationFallback || "").startsWith("Nouvelle");
+  return isFrench ? `${sourceText} a publié « ${title || "une nouvelle actualité GTA 6"} ». La source originale reste la référence pour le contexte complet.` : `${sourceText} has published “${title || "a new GTA 6 item"}.” The original source is the reference for full context.`;
 }
 function editorialBrief(article, displayed, language) {
   const source = article.source || "the source";
   const isFrench = language === "fr";
-  const ledes = isFrench ? {
-    "Confirmé": `Cette mise à jour provient de ${source}. Les éléments ci-dessous reflètent ce que la source a publié directement.`,
-    "Rumeur": `${source} relaie une information autour de GTA 6. Elle reste non confirmée et doit être lue comme une rumeur.`,
-    "Leak": `Cette publication évoque du contenu présumé non publié. Chaque détail doit être traité avec prudence en attendant une confirmation officielle.`,
-    "Probable": `${source} a repéré un nouveau développement autour de GTA 6. C’est un élément de contexte utile, mais pas une confirmation officielle.`,
-    "À vérifier": `${source} a publié une nouvelle information à suivre. Elle demande encore à être vérifiée avant d’être considérée comme établie.`
-  } : {
-    "Confirmé": `This update comes from ${source}. The details below reflect what the source has published directly.`,
-    "Rumeur": `${source} is reporting a GTA 6 claim. It remains unconfirmed and should be read as a rumor.`,
-    "Leak": `This report concerns alleged unreleased material. Treat every detail with caution until it is officially addressed.`,
-    "Probable": `${source} has highlighted a new GTA 6 development. It is useful context, but not an official confirmation.`,
-    "À vérifier": `${source} has published a new item worth tracking. It still needs verification before it can be treated as established.`
-  };
+  const report = sourceSummary(displayed.summary);
+  const fallback = summaryLabel(displayed.summary, source, I18N[language] || I18N.en, displayed.title);
+  const firstFact = report.text.split(/(?<=[.!?])\s+/)[0] || report.text;
+  const lede = report.usable ? (isFrench ? `Selon ${source}, ${firstFact}` : `According to ${source}, ${firstFact}`) : fallback;
   const category = article.category || "News";
-  const why = isFrench ? {
-    Rockstar: "Les annonces, bandes-annonces et informations de sortie officielles sont les éléments clés à surveiller ici.",
-    Rumeurs: "Il faut attendre une source primaire ou une corroboration indépendante avant de présenter cette information comme un fait.",
-    Leaks: "Cette information ne doit pas être présentée comme confirmée ; elle sert uniquement de piste à vérifier.",
-    Guides: "La valeur pratique de ce guide dépend du contenu source et pourra évoluer avec de nouvelles informations officielles.",
-    Analyses: "Il s’agit d’une lecture des éléments disponibles, et non d’un nouveau fait confirmé.",
-    News: "La source originale reste le meilleur endroit pour lire le contexte complet et suivre les éventuelles mises à jour."
+  const readingGuide = isFrench ? {
+    "Confirmé": "Publication directe de la source citée. Le libellé exact et les éventuelles mises à jour sont à consulter sur l’original.",
+    "Rumeur": "Information rapportée, pas une confirmation. Une source primaire ou des éléments indépendants restent nécessaires pour l’établir.",
+    "Leak": "Contenu présumé non publié : il reste non confirmé tant qu’une source primaire ne l’a pas abordé.",
+    "Probable": "Signal crédible, mais pas une annonce officielle. Les détails doivent être lus comme rapportés, non établis.",
+    "À vérifier": "Sujet suivi, mais le contexte disponible ne permet pas encore de le présenter comme un fait établi."
   } : {
-    Rockstar: "Official announcements, trailers, and release information are the key details to watch here.",
-    Rumeurs: "Look for a primary source or independent corroboration before treating this claim as established.",
-    Leaks: "This should not be presented as confirmed; it is a lead for further verification only.",
-    Guides: "The practical value of this guide depends on the source material and may evolve with new official information.",
-    Analyses: "This is an interpretation of available material, not a newly confirmed fact.",
-    News: "The original source remains the best place for full context and any follow-up."
+    "Confirmé": "A direct update from the cited source. Refer to the original item for exact wording and any follow-up.",
+    "Rumeur": "A reported claim, not a confirmation. A primary source or independent evidence is still needed to establish it.",
+    "Leak": "Alleged unreleased material. It remains unconfirmed unless a primary source addresses it.",
+    "Probable": "A credible signal, but not an official announcement. Treat the details as reported rather than settled.",
+    "À vérifier": "An item being tracked, but the available context is not yet strong enough to treat it as established."
+  };
+  const categoryGuide = isFrench ? {
+    Guides: "Guide ou conseil pratique : consulte la source pour les étapes complètes et les éventuelles mises à jour.",
+    Analyses: "Il s’agit d’une lecture des éléments disponibles, pas d’un nouveau fait confirmé."
+  } : {
+    Guides: "A practical guide: consult the source for full steps and any updates.",
+    Analyses: "An interpretation of available material, not a newly confirmed fact."
   };
   return {
-    lede: ledes[article.credibility] || ledes["À vérifier"],
-    story: summaryLabel(displayed.summary, source, I18N[language] || I18N.en),
-    whyItMatters: why[category] || why.News,
-    storyLabel: isFrench ? "L’ESSENTIEL" : "THE STORY",
-    whyLabel: isFrench ? "POURQUOI C’EST IMPORTANT" : "WHY IT MATTERS"
+    lede,
+    story: report.usable ? report.text : fallback,
+    whyItMatters: categoryGuide[category] || readingGuide[article.credibility] || readingGuide["À vérifier"],
+    storyLabel: isFrench ? "CE QUE DIT LA SOURCE" : "SOURCE REPORT",
+    whyLabel: isFrench ? "COMMENT LIRE CETTE INFO" : "HOW TO READ THIS"
   };
 }
 function articleText(article, language) {
@@ -3056,7 +3094,7 @@ function ArticleCard({
       WebkitBoxOrient: "vertical",
       overflow: "hidden"
     }
-  }, summaryLabel(displayed.summary, a.source, copy)), /*#__PURE__*/React.createElement("div", {
+  }, summaryLabel(displayed.summary, a.source, copy, displayed.title)), /*#__PURE__*/React.createElement("div", {
     style: {
       display: "flex",
       alignItems: "center",
@@ -3139,7 +3177,7 @@ function FeaturedNewsCard({
     className: "featured-news-title"
   }, displayed.title), /*#__PURE__*/React.createElement("p", {
     className: "featured-news-summary"
-  }, summaryLabel(displayed.summary, article.source, copy)), /*#__PURE__*/React.createElement("div", {
+  }, summaryLabel(displayed.summary, article.source, copy, displayed.title)), /*#__PURE__*/React.createElement("div", {
     className: "featured-news-footer"
   }, /*#__PURE__*/React.createElement("span", {
     className: "featured-news-source"
