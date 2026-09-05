@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-05T00:05:12.421Z",
+  "generatedAt": "2026-09-05T09:04:21.743Z",
   "failures": [],
   "candidates": [
     {
@@ -4346,6 +4346,102 @@
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-05T00:05:12.421Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-gtaboom-9ffd774cbaa6fb0f",
+      "detectedAt": "2026-09-05T09:04:21.743Z",
+      "publishedAt": "2026-09-04T21:01:00.000Z",
+      "title": "How Classic GTA Development Compares to the GTA 6 Era, According to Obbe Vermeij",
+      "summary": "Obbe Vermeij says making classic Grand Theft Auto games felt like a regular job, with small teams, few meetings, and heavy bug fixing before launch.",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.8,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "gtaboom",
+        "sourceName": "GTA BOOM",
+        "sourceTier": 80,
+        "sourceUrlRaw": "https://www.gtaboom.com/obbe-vermeij-describes-building-the-classic-gtas-as-far-more-ordinary-than-youd-think-2df8",
+        "sourceUrlCanonical": "https://www.gtaboom.com/obbe-vermeij-describes-building-the-classic-gtas-as-far-more-ordinary-than-youd-think-2df8",
+        "imageUrlRaw": "https://media.gtaboom.com/variants/1920/media/images/42/25/obbe-vermeij-describes-building-the-classic-gtas-as-far-more-ordinary-than-youd-think.jpg",
+        "imageUrlCanonical": "https://media.gtaboom.com/variants/1920/media/images/42/25/obbe-vermeij-describes-building-the-classic-gtas-as-far-more-ordinary-than-youd-think.jpg",
+        "externalId": "https://www.gtaboom.com/obbe-vermeij-describes-building-the-classic-gtas-as-far-more-ordinary-than-youd-think-2df8",
+        "platform": "WEB"
+      },
+      "contentHash": "f273aabd1cf6176a3156c4ed6be9030a7dc11cacd3d70fad843f9207dd43c8b5",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-05T09:04:21.743Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-tgg-c1286a68dd2aa4c5",
+      "detectedAt": "2026-09-05T09:04:21.743Z",
+      "publishedAt": "2026-09-05T07:00:24.000Z",
+      "title": "GTA 6 Online Might Be Years Away - Let's Talk About It",
+      "summary": "Forbes article: https://www.forbes.com/sites/paultassi/2026/08/29/why-rockstar-has-said-nothing-about-gta-6-online-so-far/ 0:00 – Rockstar's NoPixel Announcement 2:04 – Why the Timing Is Strange 2:24 – The Forbes Article 3:54 – Paul's Three Reasons 5:25 – Where I Disagree 7:07 – 1-2 Years? My Take 8:18 – GTA 6 Online Is a Full Game Now 9:09 – Why the Christmas Timing Doesn't Work 9:46 – My Prediction 10:47 – The PC Release Rumour 11:36 – Valentina and the Crossover 12:23 – My Dream Scenario Follow me on Twitter/X: ",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.75,
+      "categorySuggested": "News",
+      "source": {
+        "sourceId": "tgg",
+        "sourceName": "TGG",
+        "sourceTier": 75,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=ZYQpS2tkI3g",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=ZYQpS2tkI3g",
+        "imageUrlRaw": "https://www.youtube.com/v/ZYQpS2tkI3g?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/ZYQpS2tkI3g?version=3",
+        "externalId": "yt:video:ZYQpS2tkI3g",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "96c29044537013c73b265c447fcf79f68fe4212c202310fc26f74c0fcf5605a8",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-05T09:04:21.743Z"
+        }
+      ]
+    },
+    {
+      "candidateId": "candidate-the-professional-44aba914e7dd2406",
+      "detectedAt": "2026-09-05T09:04:21.743Z",
+      "publishedAt": "2026-09-05T00:26:57.000Z",
+      "title": "Is GTA 6 Online Really Going To Take A Year To Release? My Thoughts",
+      "summary": "Me talking about my thoughts regarding GTA 6 Online and whether it will really take a year to release. Tweet:https://x.com/charlieINTEL/status/2093344767572648153 Article:https://www.forbes.com/sites/paultassi/2026/08/29/why-rockstar-has-said-nothing-about-gta-6-online-so-far/ 0:00 Intro 0:55 GTA 6 Will Have An Online 2:20 GTA 6 Online Will Have Microtransactions 4:33 When I Think GTA 6 Online WIll Come Out 6:55 GTA Online's Original Trailer 8:45 GTA 6 Will Have Marketing Before GTA 6 Comes Out 9:50 Continuing The ",
+      "statusSuggested": "RUMOR",
+      "confidenceSuggested": 0.66,
+      "categorySuggested": "Rockstar",
+      "source": {
+        "sourceId": "the-professional",
+        "sourceName": "TheProfessional",
+        "sourceTier": 66,
+        "sourceUrlRaw": "https://www.youtube.com/watch?v=GFAhchm9mJE",
+        "sourceUrlCanonical": "https://www.youtube.com/watch?v=GFAhchm9mJE",
+        "imageUrlRaw": "https://www.youtube.com/v/GFAhchm9mJE?version=3",
+        "imageUrlCanonical": "https://www.youtube.com/v/GFAhchm9mJE?version=3",
+        "externalId": "yt:video:GFAhchm9mJE",
+        "platform": "YOUTUBE"
+      },
+      "contentHash": "b5a945b3d0909995e1e8a0d690e1d640895012d274a94cf06c2b42271006ad55",
+      "reviewState": "PENDING",
+      "reviewReason": null,
+      "canonicalNewsId": null,
+      "reviewHistory": [
+        {
+          "state": "PENDING",
+          "reason": null,
+          "timestamp": "2026-09-05T09:04:21.743Z"
         }
       ]
     }
