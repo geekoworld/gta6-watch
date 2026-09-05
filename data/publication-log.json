@@ -315,6 +315,34 @@
       "channel": "website",
       "status": "published",
       "createdAt": "2026-09-04T20:25:30.592Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-1c05f643671917605216",
+      "newsId": "gta6-1c05f643671917605216",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-09-05T10:07:32.080Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-ccae3025318f715a04e9",
+      "newsId": "gta6-ccae3025318f715a04e9",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-09-05T10:07:32.031Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-2bd4bedfa47eda565dd2",
+      "newsId": "gta6-2bd4bedfa47eda565dd2",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-09-05T10:07:31.984Z"
+    },
+    {
+      "idempotencyKey": "article:gta6-820bf1d87da5dfa92a8e",
+      "newsId": "gta6-820bf1d87da5dfa92a8e",
+      "channel": "website",
+      "status": "published",
+      "createdAt": "2026-09-05T10:07:32.131Z"
     }
   ]
 }

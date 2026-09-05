@@ -4306,14 +4306,19 @@
         "platform": "WEB"
       },
       "contentHash": "c6b648f3de4d9e2ff4d7daf7a155f48de73f9a6e28124af4a3e5781f666dd65e",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-1c05f643671917605216",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-05T00:05:12.421Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-05T10:07:32.080Z"
         }
       ]
     },
@@ -4338,14 +4343,19 @@
         "platform": "WEB"
       },
       "contentHash": "ab97d6fdbd8a3ec5d4387568b807d4dad5a61ec334952ce0de5074cd56b2c06e",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-ccae3025318f715a04e9",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-05T00:05:12.421Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-05T10:07:32.031Z"
         }
       ]
     },
@@ -4370,14 +4380,19 @@
         "platform": "WEB"
       },
       "contentHash": "f273aabd1cf6176a3156c4ed6be9030a7dc11cacd3d70fad843f9207dd43c8b5",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-2bd4bedfa47eda565dd2",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-05T09:04:21.743Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-05T10:07:31.984Z"
         }
       ]
     },
@@ -4402,14 +4417,19 @@
         "platform": "YOUTUBE"
       },
       "contentHash": "96c29044537013c73b265c447fcf79f68fe4212c202310fc26f74c0fcf5605a8",
-      "reviewState": "PENDING",
-      "reviewReason": null,
-      "canonicalNewsId": null,
+      "reviewState": "APPROVED",
+      "reviewReason": "Approved and published by scheduled editorial policy.",
+      "canonicalNewsId": "gta6-820bf1d87da5dfa92a8e",
       "reviewHistory": [
         {
           "state": "PENDING",
           "reason": null,
           "timestamp": "2026-09-05T09:04:21.743Z"
+        },
+        {
+          "state": "APPROVED",
+          "reason": "Approved and published by scheduled editorial policy.",
+          "timestamp": "2026-09-05T10:07:32.131Z"
         }
       ]
     },
